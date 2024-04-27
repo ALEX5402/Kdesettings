@@ -9,7 +9,7 @@
   <licence></licence>
   <version>v0.2.6</version>
   <rating>50</rating>
-  <downloads>1486</downloads>
+  <downloads>1512</downloads>
   <installedfile>/home/alex/.local/share/aurorae/themes/CatppuccinMocha-Modern/*</installedfile>
   <id>2135229</id>
   <releasedate>2024-03-05</releasedate>
@@ -21,6 +21,29 @@ Catppuccin is a community-driven pastel theme that aims to be a middle ground be
   <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/68/35/48/2135229/mocha-modern-aurorae.png</previewBig>
   <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDk2NzE3MTUiLCJvIjoiMSIsInMiOiJlMjAyZjNhYjBiMTg2ZDg5YzQyMGQ0NmExNWEwODlhY2U2MmNiM2MzMzZlMDMzY2E1NGU1OGFmNjI5OGYzYTI5MTUxY2EwMzcwODdhYjA1M2NlODY5NDU5OTkyOGM0NzI2NzQwMjIzZTgzZjg4NGRkZGNhMTYyNjQ4Mzk1ZmRjYiIsInQiOjE3MTQxNjc1MjgsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.t9VRM98agdnzQXSjan8CvI7w7BymRr-mQXR1A41x_W4/CatppuccinMocha-Modern.tar.gz</payload>
   <tags>linux,kde,mit-license,plasma,pastel,original-product,theme,unix,catppuccin</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="717">
+  <name>Vivid-Dark-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2133854</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>2971</downloads>
+  <installedfile>/home/alex/.local/share/aurorae/themes/Vivid-Dark-Aurorae-6/*</installedfile>
+  <id>2133854</id>
+  <releasedate>2024-03-26</releasedate>
+  <summary>Dark Rounded  Window Decorations (Aurorae Theme) for Plasma 6&lt;br />
+______________________________________________________________________&lt;br />
+&lt;br />
+ BLUR Dark Rounded  Window Decorations (Aurorae Theme)  &lt;span style="color: #008b8b;"> &lt;strong>Vivid-Blur-Dark-Aurorae-6&lt;/strong> &lt;/span>, which...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2133854/2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2133854/2.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTExNDIyMzkiLCJvIjoiMSIsInMiOiI5YmM1NWE5YmU4OGI2OTMzNWZjN2RmZGM3YzBkMjRmMmFjMTgwNDdhYzBjOGI2YzdmMzdjZjA4MjgwZThhYTFlN2YyZGI0Y2UyOWUwMjdhMTM2OWMyNGI4OGM5OTUzYzkxMDNlYTBhNGMzMTgzNmNhZDUyNjQ5MTJhYjZlNWVhYiIsInQiOjE3MTQyNTcyOTUsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.v9XiSwEkqQa4Wb15LBTAjdOEvOYabIAsdPlSyIK6ZTg/Vivid-Dark-Aurorae-6.tar.gz</payload>
+  <tags>gplv3,linux,kde,original-product,plasma,theme,unix</tags>
   <status>installed</status>
  </stuff>
 </hotnewstuffregistry>
