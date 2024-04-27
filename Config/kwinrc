@@ -1,0 +1,40 @@
+[Desktops]
+Id_1=04c5ef71-1156-44b6-9ee6-2857c6a4ffec
+Id_2=42021456-3ddd-4dd7-8051-15d3ba8e6b09
+Id_3=963e48e9-223e-4b86-bd1d-8de16dcc0557
+Id_4=2c93f7e1-36bd-4bac-b795-fdd9d5e31408
+Id_5=db823e53-f8f1-4ca3-9a0f-f1d2d016eeb0
+Id_6=a16297fb-8a1c-4a0e-b166-25398095bde3
+Name_5=New Desktop
+Name_6=New Desktop
+Number=6
+Rows=2
+
+[MouseBindings]
+CommandAll1=Activate, raise and move
+
+[Tiling]
+padding=4
+
+[Tiling][1f82cf41-2fa9-5b02-b0c9-494778b36db1]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a43ad847-422f-56b6-99b4-42b13602bcc9]
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"width":0.6}]}
+
+[Wayland]
+InputMethod[$e]=/usr/share/applications/com.github.maliit.keyboard.desktop
+
+[Windows]
+AutoRaiseInterval=100
+DelayFocusInterval=100
+FocusPolicy=FocusFollowsMouse
+FocusStealingPreventionLevel=3
+
+[Xwayland]
+Scale=1
+
+[org.kde.kdecoration2]
+ButtonsOnRight=IAX
+library=org.kde.breeze
+theme=Breeze

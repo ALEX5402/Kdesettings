@@ -1,0 +1,15 @@
+[Applications][firefox]
+Seen=true
+
+[Applications][io.github.tdesktop_x64.TDesktop]
+Seen=true
+
+[Applications][vesktop]
+Seen=true
+
+[DoNotDisturb]
+Until=2024,4,27,22,6,0.337
+
+[Notifications]
+LowPriorityHistory=true
+PopupPosition=TopRight

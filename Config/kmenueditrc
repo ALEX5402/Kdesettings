@@ -1,0 +1,5 @@
+[General]
+SplitterSizes=290,395
+
+[MainWindow]
+ToolBarsMovable=Disabled

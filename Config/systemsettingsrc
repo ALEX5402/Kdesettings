@@ -1,0 +1,13 @@
+[FileDialogSize]
+1920x1080 screen: Height=808
+1920x1080 screen: Width=1216
+
+[KFileDialog Settings]
+detailViewIconSize=128
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=true

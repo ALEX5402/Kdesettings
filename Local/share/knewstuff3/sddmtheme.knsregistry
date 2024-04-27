@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="101">
+  <name>Utterly Sweet</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/1909598</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>25682</downloads>
+  <installedfile>/tmp/Utterly-Sweet-SDDM.tar.xz</installedfile>
+  <id>1909598</id>
+  <releasedate>2024-03-22</releasedate>
+  <summary>Utterly Sweet SDDM them.&lt;br />
+&lt;br />
+To install this theme, open System Settings in Plasma and go to "Startup and Shutdown &amp;gt; Login Screen (SDDM)" and click the "Get New SDDM Themes..." button in the lower right corner. In the new window that appeared, search for "Utterly Sweet" and install it.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/1909598/preview.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/1909598/preview.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2ODU4NDk4NTkiLCJvIjoiMSIsInMiOiI4ZWIxNjhlODgzMDk5NTQwOTI0YTY1NGM0ODgyMTcxYjFiYTIzNzg3ZTEwZWU3ZDRlOGNkMmZlOTQ3NDE1NjllNzljMTA0ZDllZjg4ODIyNjNjNmU4NjE0NWMxYjVhNmRhNDVkOWMwN2Y1ZmQyNWYyNTMzODczMjM1MmE5NmQ4YSIsInQiOjE3MTQxNjgxNjgsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.0zfRqPg-as1dJMKMhiF7WimMwfIUbevnVBsXNOFcr3k/Utterly-Sweet-SDDM.tar.xz</payload>
+  <tags>unix,gplv2-later,efi,linux</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

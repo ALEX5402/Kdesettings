@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="132">
+  <name>BeautySolar</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>sajjad606</author>
+  <homepage>https://store.kde.org/p/2037657</homepage>
+  <licence></licence>
+  <version>1.4</version>
+  <rating>90</rating>
+  <downloads>32428</downloads>
+  <installedfile>/home/alex/.local/share/icons/BeautySolar/*</installedfile>
+  <id>2037657</id>
+  <releasedate>2024-04-19</releasedate>
+  <summary>BeautySolar is Based on &lt;a href="https://www.pling.com/p/1425426" target="_blank" rel="nofollow">BeautyLine Icons&lt;/a> icons, Designed to have Solar look and comprehensive coverage.&lt;br />
+Most of Icons are Based on BeautyLine Icon set but with Glyph and Solar Design (Not OutLine). &lt;br />
+Much Much More additional icons are added to BeautySolar Icon pack that is not included in BeautyLine, so BeautySolar is much more complete icon set than BeautyLine, and populat DE's like KDE, XFCE, Deepin, Cinnamon, Budgie, Gnome is almost completely supported.&lt;br />
+&lt;br />
+BeautySolar icon set includes most of mimetypes, actions, apps, places, categories and devices icons, and more will be added.&lt;br />
+Most of Famous DE's are considered in designing stage and All of popular linux desktops are mostly supported. but Feel free to remind me any forgotten Icons. &lt;br />
+next things would be:&lt;br />
+ - adding New App Icons and Completing the set as much as possible&lt;br />
+Almost Done :&lt;br />
+- most of action icons&lt;br />
+- much more apps covered&lt;br />
+ Also I know there is a problem in some icons but I'll redesign them in every release.&lt;br />
+&lt;br />
+** By the way, I'm not a professional icon designer (as you can see!) and I just try to design and overhaul as good as I can to add something to the Great &amp;amp; Lovely Linux Community. **&lt;br />
+&lt;br />
+I will try to complete the icon set as much as possible.&lt;br />
+your comments and ideas are Welcome &amp;amp; will be covered and implemented even sooner, so any comment and idea is most welcome.&lt;br />
+&lt;br />
+Just enjoy it :)&lt;br />
+&lt;br />
+&lt;br />
+In Case you want to buy me coffee :-)&lt;br />
+Paypal &amp;amp; Credit Card Donation: &lt;a href="https://reymit.ir/sajjad606" target="_blank" rel="nofollow">Donate&lt;/a>&lt;br />
+Donation with PerfectMoney : USD = U25253552 , EUR =E26653647&lt;br />
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/21/57/75/2037657/screenshot-20230519-201805.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/21/57/75/2037657/screenshot-20230519-201805.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2OTQyNTY1MTMiLCJvIjoiMSIsInMiOiJhZTg4ODEzMmFhZmVlYTQ3ODhjYTg5ZjM1MDAyYzdiM2YzMTE1NWY1MDY5Njk0NDA3NzQ1OGFhODllZmQwM2Y2MTdhNmE3MjFlNGRkNDkyYmViMGRjOGYwZTllNmFhYmIwZDBlZTMwZjVjYmI4ZDVhZDgyNjAzYWFmOTNiN2IwMCIsInQiOjE3MTQxNjgxMTcsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.se96lDMg6UIKWK-1e-R_UYyuOv_4VfLianJL0Q2gav4/BeautySolar-20230909103306.tar.gz</payload>
+  <tags>unix,solarized,icon-theme,iconset,modernlook,linux,gplv3,fluent,original-product,kde,gnome,xfce,lxde,cinnamon,mate,lxqt,deepin,elementary,budgie</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

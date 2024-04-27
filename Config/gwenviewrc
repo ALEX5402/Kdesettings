@@ -1,0 +1,8 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[SideBar]
+InformationSplitterSizes=0,0

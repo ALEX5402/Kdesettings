@@ -1,0 +1,167 @@
+[Document 0]
+URL=file:///home/alex/Kdesettings/install.sh
+
+[Document 1]
+URL=file:///home/alex/.local/bin/server.sh
+
+[Kate Plugins]
+cmaketoolsplugin=false
+compilerexplorer=false
+eslintplugin=false
+externaltoolsplugin=true
+formatplugin=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=false
+katefiletreeplugin=true
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=true
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+keyboardmacrosplugin=false
+ktexteditorpreviewplugin=false
+latexcompletionplugin=false
+lspclientplugin=true
+openlinkplugin=false
+rainbowparens=false
+tabswitcherplugin=true
+textfilterplugin=true
+
+[MainWindow0]
+Active ViewSpace=0
+Kate-MDI-H-Splitter=0,992,0
+Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
+Kate-MDI-Sidebar-0-LastSize=200
+Kate-MDI-Sidebar-0-SectSizes=0
+Kate-MDI-Sidebar-0-Splitter=676
+Kate-MDI-Sidebar-1-Bar-0-TvList=
+Kate-MDI-Sidebar-1-LastSize=200
+Kate-MDI-Sidebar-1-SectSizes=0
+Kate-MDI-Sidebar-1-Splitter=676
+Kate-MDI-Sidebar-2-Bar-0-TvList=
+Kate-MDI-Sidebar-2-LastSize=200
+Kate-MDI-Sidebar-2-SectSizes=0
+Kate-MDI-Sidebar-2-Splitter=992
+Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
+Kate-MDI-Sidebar-3-LastSize=200
+Kate-MDI-Sidebar-3-SectSizes=0
+Kate-MDI-Sidebar-3-Splitter=754
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-diagnostics-Position=3
+Kate-MDI-ToolView-diagnostics-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-diagnostics-Visible=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
+Kate-MDI-ToolView-kate_plugin_katesearch-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-kateproject-Position=0
+Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateprojectgit-Position=0
+Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectgit-Visible=false
+Kate-MDI-ToolView-kateprojectinfo-Position=3
+Kate-MDI-ToolView-kateprojectinfo-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectinfo-Visible=false
+Kate-MDI-ToolView-lspclient_symbol_outline-Position=0
+Kate-MDI-ToolView-lspclient_symbol_outline-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-output-Visible=false
+Kate-MDI-V-Splitter=0,674,0
+ToolBarsMovable=Disabled
+
+[MainWindow0 Settings]
+ToolBarsMovable=Disabled
+WindowState=8
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=1
+Sizes=992
+
+[MainWindow0-ViewSpace 0]
+Active View=file:///home/alex/.local/bin/server.sh
+Count=2
+Documents=file:///home/alex/Kdesettings/install.sh,file:///home/alex/.local/bin/server.sh
+View 0=file:///home/alex/Kdesettings/install.sh
+View 1=file:///home/alex/.local/bin/server.sh
+
+[MainWindow0-ViewSpace 0 file:///home/alex/.local/bin/server.sh]
+CursorColumn=52
+CursorLine=1
+
+[MainWindow0-ViewSpace 0 file:///home/alex/Kdesettings/install.sh]
+CursorColumn=10
+CursorLine=2
+ViMarks=a,22,17
+
+[Open Documents]
+Count=2
+
+[Open MainWindows]
+Count=1
+
+[Plugin:kateprojectplugin:]
+projects=
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=
+Search=
+SearchAsYouTypeAllProjects=true
+SearchAsYouTypeCurrentFile=true
+SearchAsYouTypeFolder=true
+SearchAsYouTypeOpenFiles=true
+SearchAsYouTypeProject=true
+SearchDiskFiles=
+SearchDiskFiless=
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=/usr/share/applications/vesktop.desktop
+File10[$e]=$HOME/.local/bin/server.sh
+File2[$e]=/media/Workspace2/packages.txt
+File3[$e]=$HOME/config/fish/fish_variables
+File4[$e]=$HOME/config/fish/config.fish
+File5[$e]=$HOME/Downloads/xxx.kksrc
+File6[$e]=$HOME/Kdesettings/Local/share/alex
+File7[$e]=$HOME/Kdesettings/Local/share/krunnerstaterc
+File8[$e]=$HOME/Kdesettings/install2.sh
+File9[$e]=$HOME/Kdesettings/install.sh
+Name1[$e]=vesktop.desktop
+Name10[$e]=server.sh
+Name2[$e]=packages.txt
+Name3[$e]=fish_variables
+Name4[$e]=config.fish
+Name5[$e]=xxx.kksrc
+Name6[$e]=alex
+Name7[$e]=krunnerstaterc
+Name8[$e]=install2.sh
+Name9[$e]=install.sh

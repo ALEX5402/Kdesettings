@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="706">
+  <name>Toggle Overview Widget for Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/2132554</homepage>
+  <licence></licence>
+  <version>1.3</version>
+  <rating>54</rating>
+  <downloads>5980</downloads>
+  <installedfile>/home/alex/.local/share/plasma/plasmoids/com.himdek.kde.plasma.overview/</installedfile>
+  <id>2132554</id>
+  <releasedate>2024-03-22</releasedate>
+  <summary>Just a simple widget that opens the Overview on click. You can now put a button to open the Overview in panels and desktop. This can easily replace any Application Launcher as it has a powerful Krunner search box.&lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/2008499/" target="_blank" rel="nofollow">Click here&lt;/a> to get it for Plasma 5&lt;br />
+&lt;br />
+Overview effect in present in Plasma 5.24 and later and needs to be enabled in System Settings &amp;gt; Workspace &amp;gt; Desktop Behaviour &amp;gt; Desktop Effects &amp;gt; Overview&lt;br />
+&lt;br />
+It shows a virtual desktop switcher with previews and previews of every window open in the current desktop. It also has a Krunner search box.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/2132554/screenshot-20230326-174011.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/2132554/screenshot-20230326-174011.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTEwOTgyNDciLCJvIjoiMSIsInMiOiI4ZjQ1YThkODZiOGQxZWY4YTlkYjNkNTE5M2Q1M2M2OTk4ZjNmMWM0MzU1MGVhOTBiMWY1NjhkOTI5MGQwOTcwMDljNzI2YTljZmFjODdjMmNjNWI5ZGM2MjY5NjkwN2Y5MTBhMGUyOWEwODU1NzNhNmI0YzdkZDM2MDc0YWI2MiIsInQiOjE3MTQxNjgxNjEsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.joYE6wIiDIkBHSqbDlCh6gySy7kyCeI3BZ5WPfnqm5c/overview.plasmoid</payload>
+  <tags>appmenu,launcher,linux,kde,krunner,fullscreen,extension,gplv3,unix,plasma,original-product,overview</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="706">
+  <name>Netspeed Widget</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>HessiJames</author>
+  <homepage>https://store.kde.org/p/2136505</homepage>
+  <licence></licence>
+  <version>3.1</version>
+  <rating>64</rating>
+  <downloads>6889</downloads>
+  <installedfile>/home/alex/.local/share/plasma/plasmoids/org.kde.netspeedWidget/</installedfile>
+  <id>2136505</id>
+  <releasedate>2024-03-10</releasedate>
+  <summary>Plasma 6 widget that displays the currently used network bandwidth.&lt;br />
+&lt;br />
+The appearance can be customized in the configuration dialog and a user defined application (eg. nethogs) can be launched when the applet is clicked.&lt;br />
+&lt;br />
+Required dependencies:&lt;br />
+&lt;br />
+ - awk&lt;br />
+&lt;br />
+Optional dependencies:&lt;br />
+&lt;br />
+- plasma-addons (may be called plasma5-addons, kdeplasma-addons or similar - used to launch a user defined application when the applet is clicked)</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/03/18/67/2136505/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/03/18/67/2136505/logo.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTAxMDM3NDAiLCJvIjoiMSIsInMiOiI0ZDg3YjIwMDZlMzQ0OTM3YWFjYjAwZDYxZjlhMjgyMTQ0MzZkNjZiZWNlY2M5NTAyOTNmOGVjMjFhNzZlYWRmYmU0N2MyMzEzM2I5NGFhMjFmOGM2OThhYTBlOGRjODdkYzgyYzk3OWVjMGYzZjllMmMwNGNkMWNkYTgwMDQ3YiIsInQiOjE3MTQxNjgxNjQsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.wwXDATU_HEZkavpwUG4vSCpuxn7evnb7Das0B_1rAs0/netspeed-widget-3.1.plasmoid</payload>
+  <tags>monitor,linux,kde,network,plasma,original-product,unix,gplv2-later,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="709">
+  <name>Simple Application Launcher for Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/2115883</homepage>
+  <licence></licence>
+  <version>2.5</version>
+  <rating>61</rating>
+  <downloads>17013</downloads>
+  <installedfile>/home/alex/.local/share/plasma/plasmoids/org.kde.plasma.simplekickoff/</installedfile>
+  <id>2115883</id>
+  <releasedate>2024-03-22</releasedate>
+  <summary>This is a simplified fork of Kickoff which is KDE Plasma 6 Desktop's default Application launcher. The design is minimalized without compromising on power and important features.&lt;br />
+&lt;br />
+For Plasma 5 variant, &lt;a href="https://www.pling.com/p/1819888/" target="_blank" rel="nofollow">click here&lt;/a>&lt;br />
+&lt;br />
+Powerful Plasma Search&lt;br />
+The search bar uses Plasma Search, which is the same search provider used in the default Kickoff, Krunner and the Overview effect which supports powerful plugins.&lt;br />
+&lt;br />
+NOTE: This is based off from Kickoff which can be found in /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/, on every Linux system that has KDE Plasma installed.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/2115883/nordic-round-grid-1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/2115883/nordic-round-grid-1.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDk4OTQ0MDEiLCJvIjoiMSIsInMiOiJiYTdhOTU4ZGNlZWU4MTYxYWY5MjFiZDIyOGFlYTU0ODA5NzBmZDYxZGQxNzBiZmY5NTA4ZTE0OTE2MGNhZThjMWY1Mzc3ZTVkNjQ5OGUyYTk0OTY0NWYxZWRjNmQyYzdhZDE2MzYwMTQ3MTU1MGFjNGI2MGQyMTMwZDMzYWI5ZSIsInQiOjE3MTQxNjgxMjcsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.ktL0iSxmQCzAeHhwbV3YH8zRZc3Z31vwyx1MUwIGQKU/Simple-Kickoff.plasmoid</payload>
+  <tags>appmenu,plasma,linux,kde,launcher,start,startmenu,unix,extension,efi,gplv2-later</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

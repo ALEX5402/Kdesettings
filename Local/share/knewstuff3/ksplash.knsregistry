@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="716">
+  <name>Kuro the cat</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>a2-n</author>
+  <homepage>https://store.kde.org/p/2135195</homepage>
+  <licence></licence>
+  <version>1.0.1</version>
+  <rating>58</rating>
+  <downloads>4316</downloads>
+  <installedfile>/home/alex/.local/share/plasma/look-and-feel/a2n.kuro/</installedfile>
+  <id>2135195</id>
+  <releasedate>2024-03-11</releasedate>
+  <summary># Description&lt;br />
+Wake up your pc with Kuro the cat&lt;br />
+&lt;br />
+# History&lt;br />
+My own code for replacing kuro that it seems to be abandoned.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/60/86/47/2135195/cat.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/60/86/47/2135195/cat.gif</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTAxNDcwNjQiLCJvIjoiMSIsInMiOiI1OTk5Mjc5NGY5NGQ1MTEwZDY0ZDc2MmY0MzBlZTYzMzdhYWE4ZDZiOGMwZjRiZDI0ODU3M2Q2NGU1NTkwYjZjZWY2YjlhNmE4NTE4ZTcwY2MyZTY5YzQxODkwMzRhOTdhMzlmNTMzNzk2NTYxYjBmNzJhMDY4Y2M3ZmFlZWM0YyIsInQiOjE3MTQxNjY1MTEsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.dobrLLyv49-waB6TMj-vQ6LY3KZ_aic7yYVcxjYXKMs/a2n.kuro.1.0.1.tar.gz</payload>
+  <tags>gplv3,splashscreen,theme,unix,cat,linux,kde,kde-plasma,kdeplasma,kdesplash,original-product,plasma</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

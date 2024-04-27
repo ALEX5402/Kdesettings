@@ -1,0 +1,215 @@
+#!/bin/bash
+
+# Function to upload a file
+upload_file() {
+    local filename="$1"
+    local filetype="$2"
+    local filesize=$(stat -c%s "$filename")
+    if [[ "$filesize" -gt 500000000 ]]; then
+        echo "Skipping file $filename: File size exceeds 500 MB." >> "$log_file"
+        return
+    fi
+    local filelink=$(curl -sf -F "file=@$filename" 0x0.st)
+    if [[ -z "$filelink" ]]; then
+        echo "Failed to upload file $filename. Skipping." >> "$log_file"
+        return
+    fi
+    # Check if filelink contains "http" and change it to "https" if necessary
+    if [[ $filelink == *"http"* ]]; then
+        filelink="${filelink/http:/https:}"
+    fi
+    echo "{filename:\"${filename##*/}\",filetype:\"$filetype\",filelink:\"$filelink\"}"
+}
+
+remove_files() {
+    find . -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' \) -delete
+    echo "ALL JSON and TXT files removed from current directory."
+}
+
+upload_singlefile() {
+    local filename="$1"
+    local filetype="$2"
+    local filesize=$(stat -c%s "$filename")
+    if [[ "$filesize" -gt 500000000 ]]; then
+        echo "Skipping file $filename: File size exceeds 500 MB." >> "$log_file"
+        return
+    fi
+    local filelink=$(curl -sf -F "file=@$filename" 0x0.st)
+    if [[ -z "$filelink" ]]; then
+        echo "Failed to upload file $filename. Skipping." >> "$log_file"
+        return
+    fi
+    # Check if filelink contains "http" and change it to "https" if necessary
+    if [[ $filelink == *"http"* ]]; then
+        filelink="${filelink/http:/https:}"
+    fi
+    echo -e "\e[32m$filelink\e[0m"  # Echo link in green
+    echo "{filename:\"${filename##*/}\",filetype:\"$filetype\",filelink:\"$filelink\"}"
+}
+# Function to process files of specified types
+process_files() {
+    local filetypes=("$@")
+    local output_file="$timestamp-links.json"
+    local log_file="upload-logs$timestamp.txt"
+    touch "$output_file" "$log_file"
+    echo "[" >> "$output_file"
+
+    for filetype in "${filetypes[@]}"; do
+        # Get a list of all files of the specified type in the current directory
+        files=$(find . -maxdepth 1 -type f -name "*.$filetype")
+        if [[ -z "$files" ]]; then
+            echo "No files found with $filetype extension. Skipping."
+            echo "No files found with $filetype extension. Skipping." >> "$log_file"
+            continue
+        fi
+
+        first=true
+        # Loop through each file
+        for file in $files; do
+            # Upload the file and generate JSON data
+            json_data=$(upload_file "$file" "$filetype")
+            # Append JSON data to the output file
+            if [[ -n "$json_data" ]]; then
+                if $first; then
+                    first=false
+                else
+                    echo "," >> "$output_file"
+                fi
+                echo "$json_data" >> "$output_file"
+            fi
+        done
+    done
+
+    echo "]" >> "$output_file"
+}
+
+# Function to process all types of files
+process_all_files() {
+    local output_file="$timestamp-links.json"
+    local log_file="upload-logs$timestamp.txt"
+    touch "$output_file" "$log_file"
+    echo "[" >> "$output_file"
+
+    # Get a list of all files in the current directory
+    files=$(find . -maxdepth 1 -type f)
+    first=true
+
+    # Loop through each file
+    for file in $files; do
+        # Determine the file type
+        filetype=$(file --mime-type -b "$file" | awk -F'/' '{print $2}')
+        # Upload the file and generate JSON data
+        json_data=$(upload_file "$file" "$filetype")
+        # Append JSON data to the output file
+        if [[ -n "$json_data" ]]; then
+            if $first; then
+                first=false
+            else
+                echo "," >> "$output_file"
+            fi
+            echo "$json_data" >> "$output_file"
+        fi
+    done
+
+    echo "]" >> "$output_file"
+}
+# Function 2 to process all types of files
+process_all_files2() {
+    # Get a list of all files in the current directory
+    files=$(find . -maxdepth 1 -type f)
+    first=true
+    # Loop through each file
+    for file in $files; do
+        # Determine the file type
+        filetype=$(file --mime-type -b "$file" | awk -F'/' '{print $2}')
+         upload_singlefile "$file" "$filetype"
+    done
+}
+show_usage() {
+    RED='\033[1;31m'
+    GREEN='\033[1;32m'
+    YELLOW='\033[1;33m'
+    CYAN='\033[1;36m'
+    NC='\033[0m' # No Color
+    echo -e "Usage: ${GREEN}$0${NC} [options]"
+    echo -e "Options:"
+    echo -e "  ${YELLOW}upload <filepath>${NC}                   Upload a single file"
+    echo -e "  ${CYAN}-j <filetype1> [<filetype2> ...]${NC}      Upload multiple file types with JSON data"
+    echo -e "  ${CYAN}-f <filetype1> [<filetype2> ...]${NC}      Upload multiple file types without JSON data"
+    echo -e "  ${CYAN}-f all${NC}                                Upload all files from the current directory without JSON data"
+    echo -e "  ${CYAN}-j all${NC}                                Upload all files from the current directory with JSON data"
+    echo -e "  ${RED}-d${NC}                                     Delete all .json and .txt files from the current directory"
+    echo -e "  ${GREEN}-u${NC}                                   To update the script from github"
+    echo -e "  Example: ${GREEN}$0 -f jpg png${NC}               Upload all JPG and PNG files from the current directory without JSON data"
+    echo -e "  ${GREEN}$0 -j all${NC}                            Upload all files from the current directory with JSON data"
+
+}
+
+updatescript(){
+curl -LSs "https://raw.githubusercontent.com/ALEX5402/Q-shere/main/setup.sh" | bash -
+}
+
+process_files2() {
+    local filetypes=("$@")
+    for filetype in "${filetypes[@]}"; do
+        # Get a list of all files of the specified type in the current directory
+        files=$(find . -maxdepth 1 -type f -name "*.$filetype")
+        if [[ -z "$files" ]]; then
+            echo "No files found with $filetype extension. Skipping."
+            echo "No files found with $filetype extension. Skipping." >> "$log_file"
+            continue
+        fi
+        first=true
+        # Loop through each file
+        for file in $files; do
+            # Upload the file
+           upload_singlefile "$file" "$filetype"
+        done
+    done
+    echo "$output_file"
+}
+
+# Main script
+if [[ $# -eq 0 ]]; then
+    echo -e "${YELLOW}For help, use:${NC} ${GREEN}upload -h${NC}"
+    exit 1
+fi
+
+timestamp=$(date +"%Y%m%d%H%M%S")
+
+if [[ $1 == "-j" ]]; then
+    if [[ "$#" -eq 1 ]]; then
+        echo "Usage: $0 -f <filetype1> [<filetype2> ...]"
+        exit 1
+    fi
+    if [[ $2 == "all" ]]; then
+        process_all_files
+    else
+        filetypes=("${@:2}")
+        process_files "${filetypes[@]}"
+    fi
+elif [[ $1 == "-f" ]]; then
+    if [[ "$#" -eq 1 ]]; then
+        echo "Usage: $0 -f <filetype1> [<filetype2> ...]"
+        exit 1
+    fi
+    if [[ $2 == "all" ]]; then
+        process_all_files2
+    else
+        filetypes=("${@:2}")
+        process_files2 "${filetypes[@]}"
+    fi
+elif [[ $1 == "-u"  ]]; then
+updatescript
+elif [[ $1 == "-h"  ]]; then
+ show_usage
+elif [[ $1 == "-d"  ]]; then
+    remove_files
+elif [[ -f $1 ]]; then
+    filename="$1"
+    upload_singlefile "$filename" "${filename##*.}"
+   else
+    echo "Invalid option. Usage: $0 <filepath> | -f <filetype> | -f all | -d (to delete all .json and all .txt files from current dir) "
+    exit 1
+fi
+
