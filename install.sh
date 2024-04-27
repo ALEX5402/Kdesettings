@@ -6,6 +6,8 @@ git pull origin main
 localdir="$HOME/.local"
 configdir="$HOME/.config"
 fontsdir="$HOME/.fonts"
+themedir="$HOME/.themes"
+icondir="$HOME/.icons"
 
 create_dir_if_not_exist() {
     local dir="$1"
@@ -24,11 +26,14 @@ create_dir_if_not_exist() {
 create_dir_if_not_exist "$localdir"
 create_dir_if_not_exist "$configdir"
 create_dir_if_not_exist "$fontsdir"
+create_dir_if_not_exist "$icondir"
+create_dir_if_not_exist "$themedir"
 
 cp -r -l -f "$PWD/Local/"* "$localdir" && echo "Local files successfully linked to repo"
 cp -r -l -f "$PWD/Config/"* "$configdir" && echo "Config files successfully linked to repo"
 cp -r -l -f "$PWD/Fonts/"* "$fontsdir" && echo "Fonts files successfully linked to repo"
-
+cp -r -l -f "$PWD/Themes/"* "$themedir" && echo "Theme files successfully linked to repo"
+cp -r -l -f "$PWD/Icons/"* "$icondir" && echo "Icons files successfully linked to repo"
 
 prompt_yes_no() {
     while true; do
@@ -48,4 +53,9 @@ clone_git_repo() {
 
 if prompt_yes_no "Do you want to get the my wallpaers ?"; then
    clone_git_repo
+fi
+
+
+if prompt_yes_no "Do you want to apply my grub theme ?"; then
+   sudo bash Grub-theme/install.sh
 fi
