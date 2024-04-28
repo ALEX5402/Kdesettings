@@ -1,8 +1,8 @@
 {
     "settings": {
         "notifyAboutUpdates": true,
-        "autoUpdate": false,
-        "autoUpdateNotification": true,
+        "autoUpdate": true,
+        "autoUpdateNotification": false,
         "useQuickCss": true,
         "themeLinks": [],
         "enabledThemes": [],
@@ -329,7 +329,8 @@
             },
             "PinDMs": {
                 "enabled": true,
-                "dmSectioncollapsed": false
+                "dmSectioncollapsed": false,
+                "pinOrder": 0
             },
             "PlainFolderIcon": {
                 "enabled": false
@@ -403,14 +404,11 @@
             "ShowMeYourName": {
                 "enabled": false
             },
-            "ShowTimeouts": {
-                "enabled": false
-            },
             "SilentMessageToggle": {
                 "enabled": false
             },
             "SilentTyping": {
-                "enabled": true,
+                "enabled": false,
                 "isEnabled": true,
                 "showIcon": false
             },
@@ -475,7 +473,7 @@
                 "enabled": false
             },
             "VencordToolbox": {
-                "enabled": false
+                "enabled": true
             },
             "ViewIcons": {
                 "enabled": false
@@ -494,7 +492,7 @@
                 "addBack": true
             },
             "WebKeybinds": {
-                "enabled": true
+                "enabled": false
             },
             "WhoReacted": {
                 "enabled": false
@@ -503,6 +501,21 @@
                 "enabled": false
             },
             "XSOverlay": {
+                "enabled": false
+            },
+            "ShowHiddenThings": {
+                "enabled": false
+            },
+            "BetterSessions": {
+                "enabled": false
+            },
+            "ImplicitRelationships": {
+                "enabled": false
+            },
+            "StreamerModeOnStream": {
+                "enabled": false
+            },
+            "UnlockedAvatarZoom": {
                 "enabled": false
             }
         },
@@ -516,7 +529,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1712506444800
+            "settingsSyncVersion": 1714292522860
         }
     },
     "quickCss": ""
