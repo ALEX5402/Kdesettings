@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=Development;
+Comment[en_US]=Extend your GitHub workflow beyond your browser with GitHub Desktop
+Comment=Extend your GitHub workflow beyond your browser with GitHub Desktop
+Comment[es]=Trabaja con GitHub desde tu escritorio.
+Comment[eu]=GitHub-ekin lan egin zure ordenagailutik.
+Exec=/usr/bin/github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland %U
+GenericName[en_US]=
+GenericName=
+Icon=github-desktop
+MimeType=
+Name[en_US]=GitHub Desktop
+Name=GitHub Desktop
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
