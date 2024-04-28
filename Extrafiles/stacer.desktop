@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Stacer
-Exec=/usr/share/applications/stacer.sh
-Comment=Linux System Optimizer and Monitoring
-Icon=stacer
-Type=Application
-Terminal=false
-Encoding=UTF-8
-Categories=Utility;
