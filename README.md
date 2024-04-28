@@ -1,5 +1,9 @@
 # Kdesettings
  My kde settings on kde 6 with all config files
+# Installetion
+- clone this repo
+- `cd Kdesettings`
+- `./install.sh`
 
 # Requred dependencies need to be installed
 - nwg-look                                                ( gtk configuration tool )
