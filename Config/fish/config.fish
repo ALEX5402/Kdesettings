@@ -122,7 +122,18 @@ function cleanup
     end
 end
 
-## Useful aliases
+#clone my repo with my token
+function alexclone
+    if test (count $argv) -eq 0
+        echo "Please provide your repository name"
+        return 1
+    end
+
+    set repo_url "https://alex5402:$gtoken@github.com/alex5402/$argv[1]"
+    git clone $repo_url
+end
+
+
 
 # Replace ls with eza
 alias ls 'eza -al --color=always --group-directories-first --icons' # preferred listing
@@ -136,7 +147,6 @@ alias cat 'bat --style header --style snip --style changes --style header'
 if not test -x /usr/bin/yay; and test -x /usr/bin/paru
     alias yay 'paru'
 end
-
 
 
 # Common use
