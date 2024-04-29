@@ -321,7 +321,9 @@ end
 
 
 # Replace ls with eza
-alias ls 'eza --color=always --group-directories-first --icons' # preferred listing
+alias ls 'eza --tree --level=1 --color=always --group-directories-first --icons' # preferred listing
+alias lsr 'eza --color=always --git --group-directories-first --icons' # normal listing
+alias lss 'eza --tree --level=2 --color=always --group-directories-first --icons' # preferred listing
 alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
 alias ll 'eza -l --color=always --group-directories-first --icons'  # long format
 alias lt 'eza -aT --color=always --group-directories-first --icons' # tree listing
