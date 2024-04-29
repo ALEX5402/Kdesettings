@@ -48,11 +48,11 @@ clone_git_repo() {
     echo "wallpapers downloaded"
 }
 
-if prompt_yes_no "Do you want to get the my wallpaers ?"; then
+if prompt_yes_no "Do you want to the my wallpaers ?"; then
    clone_git_repo
 fi
 
 
-if prompt_yes_no "Do you want to apply my grub theme ?"; then
+if prompt_yes_no "Do you want to apply grub theme ?"; then
    sudo bash Grub-theme/install.sh
 fi
