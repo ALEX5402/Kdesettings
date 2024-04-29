@@ -13,7 +13,7 @@
       <i c="35" l="1714339417007" />
     </e>
     <e n="CloseProject">
-      <i c="13" l="1714360402741" />
+      <i c="15" l="1714378893527" />
     </e>
     <e n="CommentByBlockComment">
       <i c="1" l="1714249685242" />
@@ -105,6 +105,9 @@
     <e n="Kotlin.NewScript">
       <i c="1" l="1714148602582" />
     </e>
+    <e n="MakeTypeSelectionGroup">
+      <i c="1" l="1714377279347" />
+    </e>
     <e n="NewDir">
       <i c="1" l="1714334943336" />
     </e>
@@ -169,7 +172,7 @@
       <i c="1" l="1714226794443" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="9" l="1714355505320" />
+      <i c="13" l="1714378874159" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="1" l="1714311837020" />

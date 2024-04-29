@@ -154,7 +154,7 @@
   "keyToString": {
     "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
     "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
-    "BuildView.Splitter.Proportion": "0.25827456",
+    "BuildView.Splitter.Proportion": "0.30133754",
     "FindSplitterProportion": "1.0",
     "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
     "MarketplacePluginsSearchHistory": "discord\ndis",
@@ -170,6 +170,7 @@
     "android.sdk.path": "/home/alex/Android/Sdk",
     "appcds.runOnSecondStart": "AI-232.10300.40.2321.11668458-25a8308f7ee73b3c85636086a197a0382b89bf2bf97367753bd05e3728b8ff2c",
     "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "AI-232.10300.40.2321.11668458",
     "com.developerphil.adbidea.previousversion": "1.6.14",
@@ -189,7 +190,7 @@
     "newly.installed.api.level": "34",
     "previousColorScheme": "_@user_High contrast",
     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
-    "studio.activity.count": "1",
+    "studio.activity.count": "5",
     "tasks.pass.word.conversion.enforced": "true",
     "updater.configure.tools.details.checkbox.selected": "true"
   },
