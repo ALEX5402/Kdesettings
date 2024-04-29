@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#pre cchek the repo is updated
-git pull origin main
-
 localdir="$HOME/.local"
 configdir="$HOME/.config"
 fontsdir="$HOME/.fonts"
