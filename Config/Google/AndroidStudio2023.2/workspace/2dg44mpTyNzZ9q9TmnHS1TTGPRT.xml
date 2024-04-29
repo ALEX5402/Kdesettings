@@ -1,0 +1,2017 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/BlackBoxCore.java" />
+              <entry key="line" value="71" />
+            </attributes>
+            <option name="description" value="private final List&lt;AppLifecycleCallback&gt; mAppLifecycleCallbacks = new ArrayList&lt;&gt;();" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file:///media/Workspace/GitHub/blackboxtest/app/src/main/java/com/vspace/view/main/BlackBoxLoader.kt" />
+              <entry key="line" value="49" />
+            </attributes>
+            <option name="description" value="override fun beforeCreateApplication(packageName: String?, processName: String?, context: Context?, userId: Int) {" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="NewBlackbox-3.0" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DockManager">
+    <window id="2" withNorthPanel="true" withToolWindowPane="true">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file current-in-tab="false">
+              <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app/configuration/ClientConfiguration.java">
+                <provider selected="true" editor-type-id="android-source-code">
+                  <state>
+                    <editor-state relative-caret-position="682">
+                      <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+                    </editor-state>
+                    <multi-preview-state selected="">
+                      <representations>
+                        <list />
+                      </representations>
+                    </multi-preview-state>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file current-in-tab="false">
+              <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/ActivityManagerCommonProxy.java">
+                <provider selected="true" editor-type-id="android-source-code">
+                  <state>
+                    <editor-state relative-caret-position="324">
+                      <caret line="15" selection-start-line="15" selection-end-line="15" />
+                    </editor-state>
+                    <multi-preview-state selected="">
+                      <representations>
+                        <list />
+                      </representations>
+                    </multi-preview-state>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file current-in-tab="false">
+              <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app/configuration/ClintConfig.kt">
+                <provider selected="true" editor-type-id="android-source-code">
+                  <state selected-layout="SHOW_EDITOR">
+                    <editor-state relative-caret-position="348">
+                      <caret line="8" column="29" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
+                    </editor-state>
+                    <multi-preview-state selected="Compose">
+                      <representations>
+                        <list>
+                          <representation name="Compose">
+                            <settings>
+                              <setting name="previewLayout" value="List" />
+                              <setting name="selectedGroup" value="" />
+                            </settings>
+                          </representation>
+                        </list>
+                      </representations>
+                    </multi-preview-state>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file>
+              <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/BlackBoxCore.java">
+                <provider selected="true" editor-type-id="android-source-code">
+                  <state>
+                    <editor-state relative-caret-position="112">
+                      <caret line="227" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="227" />
+                    </editor-state>
+                    <multi-preview-state selected="">
+                      <representations>
+                        <list />
+                      </representations>
+                    </multi-preview-state>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file current-in-tab="false">
+              <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/GmsCore.java">
+                <provider selected="true" editor-type-id="android-source-code">
+                  <state>
+                    <editor-state relative-caret-position="110">
+                      <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+                    </editor-state>
+                    <multi-preview-state selected="">
+                      <representations>
+                        <list />
+                      </representations>
+                    </multi-preview-state>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/vcore.kt">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state>
+                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="List" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/app/src/main/java/com/vspace/app/App.kt">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state>
+              <editor-state relative-caret-position="837">
+                <caret line="23" selection-start-line="23" selection-end-line="23" />
+              </editor-state>
+              <multi-preview-state selected="">
+                <representations>
+                  <list />
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/graphics/Compatibility.java">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state>
+              <editor-state relative-caret-position="110">
+                <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              </editor-state>
+              <multi-preview-state selected="">
+                <representations>
+                  <list />
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/os/mount/IMountService.java">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state>
+              <editor-state relative-caret-position="110">
+                <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              </editor-state>
+              <multi-preview-state selected="">
+                <representations>
+                  <list />
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/permission/IPermissionManager.java">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state>
+              <editor-state relative-caret-position="154">
+                <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              </editor-state>
+              <multi-preview-state selected="">
+                <representations>
+                  <list />
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/IPermissionManagerProxy.java">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state>
+              <editor-state relative-caret-position="736">
+                <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+              </editor-state>
+              <multi-preview-state selected="">
+                <representations>
+                  <list />
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/providers/Settings.java">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state>
+              <editor-state relative-caret-position="-66">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              </editor-state>
+              <multi-preview-state selected="">
+                <representations>
+                  <list />
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/app/IAppOpsService.java">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state>
+              <editor-state relative-caret-position="110">
+                <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+              </editor-state>
+              <multi-preview-state selected="">
+                <representations>
+                  <list />
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="37" lastUsed="1714339111125" />
+    </fileType>
+    <fileType name="Kotlin">
+      <summary usageCount="35" lastUsed="1714337098806" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="1" lastUsed="1714334620753" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mClientConfiguration</find>
+      <find>isHideRoot</find>
+      <find>over</find>
+      <find>isBlackProcess</find>
+      <find>processtype</find>
+      <find>installpa</find>
+      <find>mAppLifecycleCallbacks</find>
+      <find>addAppLifecycleCallback</find>
+      <find>requestInstallPackage</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="/media/Workspace/GitHub/blackboxtest/app/src/main/java/com/vspace/view/main/BlackBoxLoader.kt" />
+      <option value="/media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/bcore.kt" />
+      <option value="/media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/BlackBoxCore.java" />
+      <option value="/media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/ActivityManagerCommonProxy.java" />
+      <option value="/media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app/configuration/ClintConfig.kt" />
+      <option value="/media/Workspace/GitHub/blackboxtest/app/src/main/java/com/vspace/app/App.kt" />
+      <option value="/media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/vcore.kt" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="37" lastUsage="1714339111125" />
+    </language>
+    <language id="XML">
+      <summary usageCount="1" lastUsage="1714334620753" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="35" lastUsage="1714337098806" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res (generated)" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res (generated)" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res (generated)" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="gradleResValues" type="c431d0b8:AndroidResGroupNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android/app}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android/content}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android/content}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android/content/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/android/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/accounts}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app/admin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app/job}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app/servertransaction}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/app/usage}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/bluetooth}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/content}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/content}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/content/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/content}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/content/res}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/ddm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/graphics}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/hardware}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/hardware}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/hardware/display}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/hardware}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/hardware/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/location}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/location/provider}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/media}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/media}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/media/session}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/net}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/net}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/net/wifi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/os}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/os/mount}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/os}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/os/storage}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/permission}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/providers}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/role}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/security/net/config}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/service/persistentdata}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/telephony}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/util}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/view}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/view}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/view/accessibility}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/app}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/appwidget}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/content}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/infra}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/net}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/telephony}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/dalvik/system}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/libcore/io}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/oem}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/oem}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/oem/flyme}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/oem}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/oem/vivo}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app/configuration}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app/dispatcher}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/env}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/accounts}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/am}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/notification}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/pm}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/pm/installer}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/system/user}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity/am}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity/device}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/entity/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/delegate}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/frameworks}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/hook}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/provider}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/base}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/context}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/context}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/context/providers}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/libcore}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/jnihook}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/proxy}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/proxy}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/proxy/record}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/utils}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/utils}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/utils/compat}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="kotlin+java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/utils}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/utils/provider}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/accounts}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/app}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/app/job}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/content}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/content}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/content/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/database}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/net}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/net}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/net/wifi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/android/internal/widget}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/accounts}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/am}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/device}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/notification}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/com/vcore/core/system/user}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="cpp" type="569ca2fa:AndroidJniFolderNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="cpp" type="569ca2fa:AndroidJniFolderNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/cpp/Hook}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="cpp" type="569ca2fa:AndroidJniFolderNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/cpp/JniHook}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/accounts}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/app}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/app/IActivityManager}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/app/job}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/content}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/content}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/content/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/database}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/net}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/net}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/net/wifi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/android/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/android/internal/widget}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/accounts}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/am}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/device}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/notification}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/os}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/core/system/user}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity/am}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity/device}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity/location}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com}" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/aidl/com/vcore/entity/pm}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Bcore" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="xml" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="NewBlackbox-3.0" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info id="Build Variants" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Resources Explorer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.21829447" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" />
+      <window_info anchor="bottom" id="Logcat" order="5" />
+      <window_info anchor="bottom" id="App Quality Insights" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Layout Inspector" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Services" order="13" />
+      <window_info anchor="bottom" id="App Inspection" order="14" />
+      <window_info anchor="right" id="Device Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Device Manager 2" order="1" />
+      <window_info anchor="right" id="App Links Assistant" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Notifications" order="4" weight="0.2504019" />
+      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
+      <unified_weights left="0.21829447" right="0.2504019" />
+    </layout>
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Resources Explorer" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Problems" order="2" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="Build" order="5" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.25" />
+      <window_info anchor="right" id="Device Manager" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device Manager 2" order="3" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="4" weight="0.25" />
+      <window_info anchor="right" id="StudioBot" order="5" weight="0.25" />
+    </layoutV2>
+    <layout-to-restore>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info id="Build Variants" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Resources Explorer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.36148345" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" />
+      <window_info anchor="bottom" id="Logcat" order="5" />
+      <window_info anchor="bottom" id="App Quality Insights" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Layout Inspector" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Services" order="13" />
+      <window_info anchor="bottom" id="App Inspection" order="14" />
+      <window_info anchor="right" id="Device Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Device Manager 2" order="1" />
+      <window_info anchor="right" id="App Links Assistant" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Notifications" order="4" weight="0.2504019" />
+      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
+      <unified_weights left="0.36148345" right="0.2504019" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Project</value>
+      <value>Notifications</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="422" y="259" width="428" height="564" key="#com.intellij.ide.util.MemberChooser" timestamp="1714334271633">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="422" y="259" width="428" height="564" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1714334271633" />
+    <state x="848" y="447" width="419" height="133" key="ProcessPopupWindow" timestamp="1714292961781">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="848" y="447" width="419" height="133" key="ProcessPopupWindow/0.0.1920.1080@0.0.1920.1080" timestamp="1714292961781" />
+    <state x="555" y="144" key="SettingsEditor" timestamp="1714311845600">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="144" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1714311845600" />
+    <state x="1040" y="0" width="882" height="1082" key="dock-window-1" timestamp="1714326317802">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1040" y="0" width="882" height="1082" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1714326317802" />
+    <state x="1101" y="179" width="780" height="833" key="dock-window-2" timestamp="1714339992825">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1101" y="179" width="780" height="833" key="dock-window-2/0.0.1920.1080@0.0.1920.1080" timestamp="1714339992825" />
+    <state x="1103" y="247" key="run.anything.popup" timestamp="1714339225354">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="247" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1714339225354" />
+    <state x="732" y="305" key="search.everywhere.popup" timestamp="1714167595587">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="732" y="305" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1714167595587" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/IOCore.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="710">
+            <caret line="147" column="39" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="39" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app/configuration/ClientConfiguration.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="682">
+            <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/app/configuration/ClintConfig.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="348">
+            <caret line="8" column="29" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="29" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="List" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/app/src/main/java/com/vspace/app/AppManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="616">
+            <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/app/src/main/java/com/vspace/view/main/BlackBoxLoader.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="604">
+            <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/vcore.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state />
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="List" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/bluetooth/IBluetoothManager.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="110">
+            <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/graphics/Compatibility.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="110">
+            <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/os/mount/IMountService.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="110">
+            <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/permission/IPermissionManager.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="154">
+            <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/IPermissionManagerProxy.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="736">
+            <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/android/providers/Settings.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="-66">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/black/com/android/internal/app/IAppOpsService.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="110">
+            <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/fake/service/ActivityManagerCommonProxy.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="324">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/BlackBoxCore.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="112">
+            <caret line="227" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="227" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.22/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.22-sources.jar!/kotlin/TypeAliases.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="374">
+            <caret line="20" column="97" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="97" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/core/GmsCore.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="110">
+            <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/utils/ShellUtils.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="243">
+            <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/build/generated/aidl_source_output_dir/debug/out/android/accounts/IAccountAuthenticator.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="154">
+            <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/app/src/main/java/com/vspace/app/App.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="837">
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
+          </editor-state>
+          <multi-preview-state selected="">
+            <representations>
+              <list />
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/Workspace/GitHub/blackboxtest/Bcore/src/main/java/com/vcore/vcore.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state>
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="List" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
