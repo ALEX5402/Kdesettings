@@ -34,9 +34,25 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="/media/Workspace/workflow/HostCraft">
+          <value>
+            <RecentProjectMetaInfo frameTitle="HostCraft – .gitignore [Host_Craft]" projectWorkspaceId="2fMtat6CzjovswWkYyrUoW8mpS5">
+              <option name="activationTimestamp" value="1714425226147" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-232.10300.40.2321.11668458" />
+              <option name="buildTimestamp" value="1712185445495" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="179" y="117" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1714419029811" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/workflow/AndroidIDE" />
+    <option name="lastOpenedProject" value="/media/Workspace/workflow/HostCraft" />
     <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
   </component>
 </application>

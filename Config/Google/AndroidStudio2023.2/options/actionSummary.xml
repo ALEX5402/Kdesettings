@@ -12,8 +12,11 @@
     <e n="$Undo">
       <i c="35" l="1714339417007" />
     </e>
+    <e n="Android.SyncProject">
+      <i c="7" l="1714418961083" />
+    </e>
     <e n="CloseProject">
-      <i c="15" l="1714378893527" />
+      <i c="24" l="1714425229344" />
     </e>
     <e n="CommentByBlockComment">
       <i c="1" l="1714249685242" />
@@ -25,28 +28,28 @@
       <i c="3" l="1714339648012" />
     </e>
     <e n="EditorBackSpace">
-      <i c="569" l="1714339813573" />
+      <i c="585" l="1714419392466" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="1" l="1714233764231" />
     </e>
     <e n="EditorChooseLookupItemReplace">
-      <i c="200" l="1714339810567" />
+      <i c="203" l="1714419347103" />
     </e>
     <e n="EditorCopy">
       <i c="17" l="1714339547878" />
     </e>
     <e n="EditorDeleteToWordStart">
-      <i c="123" l="1714339802293" />
+      <i c="124" l="1714419365481" />
     </e>
     <e n="EditorDown">
-      <i c="311" l="1714339807173" />
+      <i c="312" l="1714419348513" />
     </e>
     <e n="EditorDuplicate">
       <i c="5" l="1714325141339" />
     </e>
     <e n="EditorEnter">
-      <i c="249" l="1714339780091" />
+      <i c="253" l="1714419345512" />
     </e>
     <e n="EditorEscape">
       <i c="3" l="1714339510844" />
@@ -61,16 +64,16 @@
       <i c="1" l="1714235863727" />
     </e>
     <e n="EditorPaste">
-      <i c="21" l="1714339573039" />
+      <i c="22" l="1714417951342" />
     </e>
     <e n="EditorPreviousWord">
       <i c="8" l="1714339466322" />
     </e>
     <e n="EditorRight">
-      <i c="128" l="1714339805085" />
+      <i c="129" l="1714419348314" />
     </e>
     <e n="EditorSplitLine">
-      <i c="1" l="1714335854963" />
+      <i c="2" l="1714419342018" />
     </e>
     <e n="EditorTab">
       <i c="1" l="1714336042398" />
@@ -82,10 +85,19 @@
       <i c="6" l="1714336959356" />
     </e>
     <e n="EditorUp">
-      <i c="114" l="1714339807813" />
+      <i c="115" l="1714419349969" />
     </e>
     <e n="ExpandAll">
       <i c="1" l="1714335613572" />
+    </e>
+    <e n="ExternalSystem.GroupModules">
+      <i c="1" l="1714418635920" />
+    </e>
+    <e n="ExternalSystem.ShowSettings">
+      <i c="3" l="1714419085769" />
+    </e>
+    <e n="ExternalSystem.ShowSettingsGroup">
+      <i c="3" l="1714419085196" />
     </e>
     <e n="Find">
       <i c="12" l="1714339520973" />
@@ -121,13 +133,13 @@
       <i c="2" l="1714339224836" />
     </e>
     <e n="SaveAll">
-      <i c="31" l="1714339586696" />
+      <i c="37" l="1714419394922" />
     </e>
     <e n="SearchEverywhere">
       <i c="1" l="1714167595116" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="5" l="1714311822214" />
+      <i c="6" l="1714418695543" />
     </e>
     <e n="ShowIntentionActions">
       <i c="24" l="1714339403302" />
@@ -141,14 +153,23 @@
     <e n="ToggleLineBreakpoint">
       <i c="1" l="1714335492161" />
     </e>
+    <e n="Vcs.Push">
+      <i c="1" l="1714420643349" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1714417914319" />
+    </e>
     <e n="WelcomeScreen.CreateNewProject">
       <i c="1" l="1714148573486" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="1" l="1714355268292" />
     </e>
+    <e n="WelcomeScreen.OpenSelected">
+      <i c="1" l="1714418869435" />
+    </e>
     <e n="WelcomeScreen.RemoveSelected">
-      <i c="1" l="1714167497399" />
+      <i c="4" l="1714418927716" />
     </e>
     <e n="WelcomeScreen.RevealIn">
       <i c="1" l="1714312567075" />
@@ -168,11 +189,14 @@
     <e n="com.intellij.ide.actions.SettingsEntryPointAction$1">
       <i c="2" l="1714167597485" />
     </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1714418463393" />
+    </e>
     <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
-      <i c="1" l="1714226794443" />
+      <i c="2" l="1714417912224" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="13" l="1714378874159" />
+      <i c="15" l="1714419114208" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="1" l="1714311837020" />
@@ -180,8 +204,14 @@
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
       <i c="3" l="1714167569400" />
     </e>
+    <e n="com.intellij.terminal.actions.TerminalActionWrapper">
+      <i c="1" l="1714419430239" />
+    </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
-      <i c="8" l="1714355290651" />
+      <i c="14" l="1714420657274" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="2" l="1714418633746" />
     </e>
     <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
       <i c="1" l="1714335497851" />

@@ -318,7 +318,16 @@ function alexclone
     git clone $repo_url
 end
 
+#to play youtube with ytfzf
+alias play 'ytfzf -T kitty -t' # play
+alias play-v 'ytfzf -T kitty -t'
+alias play-l 'ytfzf -T kitty -L'
+alias play-s 'ytfzf -T kitty -m'
+alias yt-search 'ytfzf -T kitty -cO'
 
+
+#playgif
+alias play-gif 'chafa'
 
 # Replace ls with eza
 alias ls 'eza --tree --level=1 --color=always --group-directories-first --icons' # preferred listing
@@ -335,6 +344,8 @@ alias cat 'bat --style header --style snip --style changes --style header'
 if not test -x /usr/bin/yay; and test -x /usr/bin/paru
     alias yay 'paru'
 end
+
+## setup icat
 
 alias icat="kitten icat"
 
