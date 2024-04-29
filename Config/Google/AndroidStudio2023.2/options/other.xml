@@ -1,9 +1,9 @@
 <application>
-  <component name="FileEditorProviderManager"><![CDATA[{
-  "selectedProviders": {
-    "text-editor,android-manifest": "text-editor"
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;text-editor,android-manifest&quot;: &quot;text-editor&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleJvmSupportMatrix">
     <option name="compatibility">
       <list>
@@ -154,8 +154,9 @@
   "keyToString": {
     "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
     "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
+    "BuildView.Splitter.Proportion": "0.25827456",
     "FindSplitterProportion": "1.0",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "0",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
     "MarketplacePluginsSearchHistory": "discord\ndis",
     "MemberChooser.copyJavadoc": "false",
     "MemberChooser.showClasses": "true",
@@ -173,7 +174,7 @@
     "bundled.plugins.list.saved.version": "AI-232.10300.40.2321.11668458",
     "com.developerphil.adbidea.previousversion": "1.6.14",
     "experimental.ui.used.version": "232.10300.40.2321.11668458",
-    "file.gist.reindex.count": "27",
+    "file.gist.reindex.count": "176",
     "fileTypeChangedCounter": "1",
     "fontSizeToResetConsole": "13.0",
     "fontSizeToResetEditor": "13.0",
@@ -183,15 +184,19 @@
     "input.method.disabler.muted": "true",
     "installed.kotlin.plugin.version": "232-1.9.0-release-358-AS10300.40.2321.11668458",
     "kotlin.lastUpdateCheck": "1714325075582",
+    "last_opened_file_path": "/home/alex/workflow/AndroidIDE",
     "migrated.non.roamable.values.from.general.settings": "true",
     "newly.installed.api.level": "34",
     "previousColorScheme": "_@user_High contrast",
     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
-    "studio.activity.count": "156",
+    "studio.activity.count": "1",
     "tasks.pass.word.conversion.enforced": "true",
     "updater.configure.tools.details.checkbox.selected": "true"
   },
   "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/alex/workflow/AndroidIDE"
+    ],
     "fileTypeDetectors": [
       "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
       "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",

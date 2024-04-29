@@ -18,9 +18,25 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/workflow/AndroidIDE">
+          <value>
+            <RecentProjectMetaInfo frameTitle="AndroidIDE – settings.gradle.kts (AndroidIDE)" projectWorkspaceId="2fkqAlPpfoLScFLSnOh3SNaC9Z2">
+              <option name="activationTimestamp" value="1714360399871" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-232.10300.40.2321.11668458" />
+              <option name="buildTimestamp" value="1712185481274" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="218" y="30" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1714355282141" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Workspace/GitHub/blackboxtest" />
+    <option name="lastOpenedProject" value="$USER_HOME$/workflow/AndroidIDE" />
     <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
   </component>
 </application>

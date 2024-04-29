@@ -149,6 +149,8 @@ if not test -x /usr/bin/yay; and test -x /usr/bin/paru
 end
 
 
+alias icat="kitten icat"
+
 # Common use
 alias code 'code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
 alias code-oss 'code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
