@@ -327,6 +327,7 @@ alias lss 'eza --tree --level=2 --color=always --group-directories-first --icons
 alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
 alias ll 'eza -l --color=always --group-directories-first --icons'  # long format
 alias lt 'eza -aT --color=always --group-directories-first --icons' # tree listing
+alias tree 'eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l. 'eza -ald --color=always --group-directories-first --icons .*' # show only dotfiles
 
 # Replace some more things with better alternatives
