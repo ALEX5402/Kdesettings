@@ -7,8 +7,8 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][25]
 ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
-ItemGeometries-1920x1080=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
-ItemGeometriesHorizontal=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometries-1920x1080=Applet-64:16,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-65:16,240,80,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometriesHorizontal=Applet-64:16,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-65:16,240,80,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -112,8 +112,8 @@ localPath=/home/alex/.local/share/plasma_icons/android-studio.desktop
 url=file:///usr/share/applications/android-studio.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=864
+DialogWidth=1178
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
@@ -123,14 +123,13 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/wallpapers/Catppuccin-Mocha/cat_lofi_cafe.jpg
-PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/cat_lofi_cafe.jpg
+Image=/home/alex/wallpapers/Catppuccin-Mocha/967707-blonde-hat-long-hair-angel-wings-nature.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
 Image=file:///home/alex/wallpapers/Catppuccin-Mocha/719179.png
 SlideInterval=20
-SlidePaths=/home/alex/wallpapers/Catppuccin-Mocha/
+SlidePaths=
 
 [Containments][26]
 activityId=
@@ -145,8 +144,15 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][26][Applets][29][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][26][Applets][29][Configuration][General]
-launchers=preferred://browser
+fill=false
+groupingAppIdBlacklist=kitty.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
+launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][26][Applets][30]
 immutability=1
@@ -272,7 +278,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][32][Applets][47][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][32][Applets][48]
 immutability=1

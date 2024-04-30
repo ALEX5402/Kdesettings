@@ -1,6 +1,13 @@
+[1]
+Description=Application settings for jetbrains-studio
+clientmachine=localhost
+types=66494
+wmclass=jetbrains-studio
+wmclassmatch=1
+
 [General]
 count=1
-rules=aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b
+rules=1
 
 [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
 Description=Application settings for jetbrains-studio

@@ -1,32 +1,3 @@
-[General]
-Days Meta Infos=30
-Save Meta Infos=true
-Show Full Path in Title=false
-Show Menu Bar=true
-Show Status Bar=true
-Show Tab Bar=true
-Show Url Nav Bar=true
-
-[KTextEditor Renderer]
-Animate Bracket Matching=false
-Auto Color Theme Selection=true
-Color Theme=Breeze Dark
-Line Height Multiplier=1
-Show Indentation Lines=false
-Show Whole Bracket Expression=false
-Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
-Word Wrap Marker=false
-
 [MainWindow]
-1920x1080 screen: Height=785
-1920x1080 screen: Width=1038
-
-[filetree]
-editShade=74,55,117
-listMode=false
-shadingEnabled=true
-showCloseButton=false
-showFullPathOnRoots=false
-showToolbar=true
-sortRole=0
-viewShade=81,49,95
+1920x1080 screen: Height=875
+1920x1080 screen: Width=1098

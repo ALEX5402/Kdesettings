@@ -27,10 +27,11 @@ create_dir_if_not_exist "$icondir"
 create_dir_if_not_exist "$themedir"
 
 cp -r -l -f "$PWD/Local/"* "$localdir" && echo "Local files successfully linked to repo"
-cp -r -l -f "$PWD/Config/"* "$configdir" && echo "Config files successfully linked to repo"
+cp -r -l -f "$PWD/Config/"* "$configdir" && echo "applications Config files successfully linked to repo"
 cp -r -l -f "$PWD/Fonts/"* "$fontsdir" && echo "Fonts files successfully linked to repo"
 cp -r -l -f "$PWD/Themes/"* "$themedir" && echo "Theme files successfully linked to repo"
 cp -r -l -f "$PWD/Icons/"* "$icondir" && echo "Icons files successfully linked to repo"
+ln -f -s "$PWD/Kdeconfigs/"* "$configdir" && echo "Kde Config files successfully linked to repo"
 
 prompt_yes_no() {
     while true; do

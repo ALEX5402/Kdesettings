@@ -9,7 +9,7 @@ ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwAAAACAQAAAQAA
 Number of Actions=0
 
 [PlasmaTransientsConfig]
-PreloadWeight=18
+PreloadWeight[$d]
 
 [PlasmaViews][Panel 2]
 floating=1
@@ -25,12 +25,12 @@ panelVisibility=1
 
 [PlasmaViews][Panel 26][Defaults]
 maxLength=1920
-minLength=674
+minLength=450
 thickness=40
 
 [PlasmaViews][Panel 26][Horizontal1920]
 maxLength=1920
-minLength=674
+minLength=450
 
 [PlasmaViews][Panel 62]
 alignment=1
