@@ -17,7 +17,7 @@ load_thumbnail_viewer=1
 search_again=1
 scripting_video_count=30
 search_result_type=all
-search_sort_by=view_count
+# search_sort_by=view_count
 
 
 # Scrapers=youtube-playlist
