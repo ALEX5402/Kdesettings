@@ -4,5 +4,9 @@ LastUsedVersion=210800
 [MainWindow]
 ToolBarsMovable=Disabled
 
+[Recent Files]
+File1[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
+Name1[$e]=240331_01h16m45s_screenshot.png
+
 [SideBar]
-InformationSplitterSizes=0,0
+InformationSplitterSizes=211,244
