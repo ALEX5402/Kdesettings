@@ -33,5 +33,5 @@ while IFS= read -r file; do
     commit_message+="$(git diff --color=always "$file" | sed 's/^/    /')"
 done <<< "$modified_files"
 git add .
-git commit -m "$(date) and $modified_files" -m "$commit_message" -s
+git commit -m "$(date) and update file $modified_files" -m "$commit_message" -s
 git push -f
