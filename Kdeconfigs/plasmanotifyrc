@@ -8,6 +8,7 @@ Seen=true
 Seen=true
 
 [DoNotDisturb]
+NotificationSoundsMuted=true
 Until=2024,4,27,22,6,0.337
 
 [Notifications]
