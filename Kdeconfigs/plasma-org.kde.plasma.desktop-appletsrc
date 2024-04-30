@@ -112,8 +112,8 @@ localPath=/home/alex/.local/share/plasma_icons/android-studio.desktop
 url=file:///usr/share/applications/android-studio.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=864
-DialogWidth=1178
+DialogHeight=540
+DialogWidth=720
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
