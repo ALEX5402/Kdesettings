@@ -35,6 +35,7 @@ FocusStealingPreventionLevel=3
 Scale=1
 
 [org.kde.kdecoration2]
-ButtonsOnRight=IAX
+ButtonsOnLeft=XAI
+ButtonsOnRight=SM
 library=org.kde.breeze
 theme=Breeze

@@ -5,6 +5,11 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
+[Containments][2][Applets][3][Configuration]
+PreloadWeight=100
+popupHeight=510
+popupWidth=647
+
 [Containments][25]
 ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
 ItemGeometries-1920x1080=Applet-64:16,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-65:16,240,80,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
@@ -150,7 +155,7 @@ DialogWidth=720
 
 [Containments][26][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=kitty.desktop,org.kde.dolphin.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,kitty.desktop
 groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
