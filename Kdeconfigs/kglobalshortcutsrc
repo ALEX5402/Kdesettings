@@ -21,9 +21,9 @@ _k_friendly_name=Touchpad
 _k_friendly_name=Audio Volume
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
 decrease_volume=Volume Down,Volume Down,Decrease Volume
-decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
+decrease_volume_small=Meta+F8\tShift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
-increase_volume=Volume Up,Volume Up,Increase Volume
+increase_volume=Meta+F9\tVolume Up,Volume Up,Increase Volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Increase Volume by 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+M,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
@@ -208,10 +208,10 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
-Decrease Screen Brightness Small=Shift+Monitor Brightness Down,Shift+Monitor Brightness Down,Decrease Screen Brightness by 1%
+Decrease Screen Brightness Small=Shift+Monitor Brightness Down\tMeta+F10,Shift+Monitor Brightness Down,Decrease Screen Brightness by 1%
 Hibernate=Hibernate,Hibernate,Hibernate
 Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Increase Keyboard Brightness
-Increase Screen Brightness=Monitor Brightness Up\tMeta+F10,Monitor Brightness Up,Increase Screen Brightness
+Increase Screen Brightness=Meta+F12\tMonitor Brightness Up,Monitor Brightness Up,Increase Screen Brightness
 Increase Screen Brightness Small=Shift+Monitor Brightness Up,Shift+Monitor Brightness Up,Increase Screen Brightness by 1%
 PowerDown=Power Down,Power Down,Power Down
 PowerOff=Power Off,Power Off,Power Off
@@ -269,6 +269,12 @@ _launch=Meta+C
 [services][org.kde.krunner.desktop]
 _launch=Meta+A\tAlt+Space\tSearch\tAlt+F2
 
+[services][org.kde.kscreen.desktop]
+ShowOSD=Display
+
 [services][org.kde.spectacle.desktop]
 RectangularRegionScreenShot=Meta+Shift+S\tMeta+Shift+Print
 _launch=Print
+
+[services][pavucontrol.desktop]
+_launch=Meta+P

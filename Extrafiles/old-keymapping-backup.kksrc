@@ -8,11 +8,11 @@ Switch to Next Keyboard Layout=Meta+Alt+K
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Next Tab=Ctrl+PgDown; Ctrl+]
 Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
-Back=Alt+Left; Back
+Back=Back; Alt+Left
 BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
@@ -22,7 +22,7 @@ ConfigureNotifications=
 ConfigureToolbars=
 Copy=Ctrl+Ins; Ctrl+C
 CreateFolder=Ctrl+Shift+N
-Cut=Ctrl+X; Shift+Del
+Cut=Shift+Del; Ctrl+X
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -57,7 +57,7 @@ Open=Ctrl+O
 OpenContextMenu=Menu; Shift+F10
 OpenMainMenu=F10
 OpenRecent=
-Paste=Shift+Ins; Ctrl+V
+Paste=Ctrl+V; Shift+Ins
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -76,7 +76,7 @@ RotateUp=Up
 Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Ctrl+H; Alt+.
+ShowHideHiddenFiles=Alt+.; Ctrl+H
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -109,7 +109,7 @@ Toggle Screen Reader On and Off=Meta+Alt+S
 [kcm_touchpad][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
-Toggle Touchpad=Meta+Ctrl+Zenkaku Hankaku; Touchpad Toggle
+Toggle Touchpad=Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku
 
 [kitty.desktop][Global Shortcuts]
 _launch=Meta+T
@@ -117,9 +117,9 @@ _launch=Meta+T
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down
-decrease_volume_small=Shift+Volume Down
+decrease_volume_small=Meta+F8; Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
-increase_volume=Volume Up
+increase_volume=Volume Up; Meta+F9
 increase_volume_small=Shift+Volume Up
 mic_mute=Microphone Mute; Meta+M; Meta+Volume Mute
 mute=Volume Mute
@@ -145,7 +145,7 @@ ExposeClass=Ctrl+F7
 ExposeClassCurrentDesktop=
 Grid View=Meta+G
 Increase Opacity=
-Kill Window=Alt+F4; Meta+Ctrl+Esc
+Kill Window=Meta+Ctrl+Esc; Alt+F4
 Move Tablet to Next Output=
 MoveMouseToCenter=Meta+F6
 MoveMouseToFocus=Meta+F5
@@ -165,7 +165,7 @@ Switch Window Down=Meta+Alt+Down
 Switch Window Left=Meta+Alt+Left
 Switch Window Right=Meta+Alt+Right
 Switch Window Up=Meta+Alt+Up
-Switch to Desktop 1=Ctrl+F1; Meta+1
+Switch to Desktop 1=Meta+1; Ctrl+F1
 Switch to Desktop 10=
 Switch to Desktop 11=
 Switch to Desktop 12=
@@ -218,7 +218,7 @@ Window Fullscreen=Meta+F11
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
-Window Maximize=Meta+W; Meta+PgUp
+Window Maximize=Meta+PgUp; Meta+W
 Window Maximize Horizontal=
 Window Maximize Vertical=
 Window Minimize=Meta+PgDown
@@ -285,7 +285,7 @@ Window to Screen 5=
 Window to Screen 6=
 Window to Screen 7=
 view_actual_size=
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
@@ -313,37 +313,37 @@ NewWindow=
 _launch=Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
-RunClipboard=Alt+Shift+F2; Meta+R
-_launch=Search; Alt+F2; Meta+A; Alt+Space
+RunClipboard=Alt+Shift+F2
+_launch=Alt+Space; Search; Alt+F2; Meta+A
 
 [org.kde.kscreen.desktop][Global Shortcuts]
-ShowOSD=Meta+P; Display
+ShowOSD=Display
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=Meta+.; Meta+Ctrl+Alt+Shift+Space
+_launch=Meta+Ctrl+Alt+Shift+Space; Meta+.
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
 CurrentMonitorScreenShot=
 FullScreenScreenShot=Shift+Print
 OpenWithoutScreenshot=
-RecordRegion=Meta+Shift+R
+RecordRegion=Meta+Shift+R; Meta+R
 RecordScreen=Meta+Alt+R
 RecordWindow=Meta+Ctrl+R
-RectangularRegionScreenShot=Meta+Shift+Print; Meta+Shift+S
+RectangularRegionScreenShot=Meta+Shift+S; Meta+Shift+Print
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
 _launch=Print
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
 Decrease Screen Brightness=Monitor Brightness Down
-Decrease Screen Brightness Small=Shift+Monitor Brightness Down
+Decrease Screen Brightness Small=Shift+Monitor Brightness Down; Meta+F10
 Hibernate=Hibernate
 Increase Keyboard Brightness=Keyboard Brightness Up
-Increase Screen Brightness=Monitor Brightness Up
+Increase Screen Brightness=Monitor Brightness Up; Meta+F12
 Increase Screen Brightness Small=Shift+Monitor Brightness Up
 PowerDown=Power Down
 PowerOff=Power Off
@@ -351,6 +351,9 @@ Sleep=Sleep
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
 powerProfile=Battery; Meta+B
+
+[pavucontrol.desktop][Global Shortcuts]
+_launch=Meta+P
 
 [plasmashell][Global Shortcuts]
 activate task manager entry 1=
@@ -379,7 +382,7 @@ show-on-mouse-pos=Meta+V
 stop current activity=
 switch to next activity=
 switch to previous activity=
-toggle do not disturb=Meta+F12
+toggle do not disturb=
 
 [systemsettings.desktop][Global Shortcuts]
 _launch=Tools
