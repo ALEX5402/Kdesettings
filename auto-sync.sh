@@ -36,5 +36,5 @@ done <<< "$modified_files"
 echo "$commit_message and $modified_files " > changes.md
 
 git add .
-git commit -m "Update Configs : $(date) Time : $(date +%T)"
-git push
+git commit -m "Update Configs : $(date)" -m "Time : $(date +%T)" -s
+git push -f
