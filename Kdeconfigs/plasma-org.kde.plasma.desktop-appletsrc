@@ -135,8 +135,7 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/wallpapers/Catppuccin-Mocha/1313942.png
-PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/1313942.png
+Image=/home/alex/wallpapers/Catppuccin-Mocha/424363.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -164,7 +163,7 @@ DialogWidth=720
 [Containments][26][Applets][29][Configuration][General]
 fill=false
 groupingAppIdBlacklist=org.kde.dolphin.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:kitty.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][26][Applets][30]

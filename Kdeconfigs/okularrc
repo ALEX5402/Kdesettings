@@ -7,3 +7,7 @@ ShowSidebar=true
 
 [MainWindow]
 ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Kotlin_ebook.pdf
+Name1[$e]=Kotlin_ebook.pdf

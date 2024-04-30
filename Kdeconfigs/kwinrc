@@ -22,9 +22,6 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][a43ad847-422f-56b6-99b4-42b13602bcc9]
 tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"width":0.6}]}
 
-[Wayland]
-InputMethod[$e]=/usr/share/applications/com.github.maliit.keyboard.desktop
-
 [Windows]
 AutoRaiseInterval=100
 DelayFocusInterval=100
