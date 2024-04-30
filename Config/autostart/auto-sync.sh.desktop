@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[en_US]=auto push settings to github
+Comment=auto push settings to github
+Exec='~/Kdesettings/auto-sync.sh'
+GenericName[en_US]=auto push settings to github
+GenericName=auto push settings to github
+Icon=update
+MimeType=
+Name[en_US]=auto-sync.sh
+Name=auto-sync.sh
+Path=~/Kdesettings
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-AutostartScript=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
