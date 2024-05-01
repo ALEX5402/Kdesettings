@@ -1,6 +1,34 @@
 [ActionsWidget]
 ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAAkgAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
+[Applets][66]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Applets][66][Configuration]
+PreloadWeight=42
+UserBackgroundHints=ShadowBackground
+configMigrated=true
+
+[Applets][66][Configuration][Appearance]
+showPressureInTooltip=true
+showTemperatureInBadge=true
+showTemperatureInCompactMode=true
+
+[Applets][66][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Applets][66][Configuration][Units]
+pressureUnit=5022
+speedUnit=9001
+temperatureUnit=6001
+visibilityUnit=2007
+
+[Applets][66][Configuration][WeatherStation]
+source=wettercom|weather|Kolkata, State of West Bengal, IN|IN0WB0002;Kolkata
+updateInterval=200
+
 [ConfigDialog]
 1920x1080 screen: Height=550
 1920x1080 screen: Width=772

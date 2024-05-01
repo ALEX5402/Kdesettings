@@ -163,6 +163,7 @@
     "MemberChooser.showClasses": "true",
     "MultipleBuildsView.Splitter.Proportion": "0.1520387",
     "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
     "SAVED_ANDROID_NPW_ASKED_LANGUAGE": "true",
     "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
@@ -195,7 +196,7 @@
     "newly.installed.api.level": "34",
     "previousColorScheme": "_@user_High contrast",
     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
-    "studio.activity.count": "0",
+    "studio.activity.count": "1",
     "tasks.pass.word.conversion.enforced": "true",
     "updater.configure.tools.details.checkbox.selected": "true"
   },
