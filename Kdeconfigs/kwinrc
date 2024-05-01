@@ -36,5 +36,5 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=XAI
 ButtonsOnRight=SM
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__CatppuccinMocha-Modern
+library=org.kde.breeze
+theme=Breeze
