@@ -81,8 +81,8 @@ wmclass=firefox
 wmclassmatch=1
 
 [General]
-count=5
-rules=1,2,3,4,51e3bfac-a197-4c64-b616-9f179c9568ab
+count=6
+rules=1,2,3,4,f54253ba-9265-4814-9926-50b31f45025d,51e3bfac-a197-4c64-b616-9f179c9568ab
 
 [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
 Description=Application settings for jetbrains-studio
@@ -99,4 +99,14 @@ opacityinactive=88
 opacityinactiverule=2
 types=1
 wmclass=io.github.tdesktop_x64.TDesktop
+wmclassmatch=1
+
+[f54253ba-9265-4814-9926-50b31f45025d]
+Description=Dolphin
+opacityactive=95
+opacityactiverule=2
+opacityinactive=93
+opacityinactiverule=2
+types=1
+wmclass=org.kde.dolphin
 wmclassmatch=1

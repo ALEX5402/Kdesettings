@@ -2,5 +2,5 @@
 Days=7
 LimitReachedAction=0
 Percent=10
-UseSizeLimit=true
+UseSizeLimit=false
 UseTimeLimit=true
