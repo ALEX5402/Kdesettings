@@ -163,7 +163,8 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/wallpapers/Catppuccin-Mocha/424363.jpg
+Image=/home/alex/wallpapers/Catppuccin-Mocha/vaxerski_noBG.png
+PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/vaxerski_noBG.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
