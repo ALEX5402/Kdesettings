@@ -5,14 +5,18 @@ LastUsedVersion=210800
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
-File2[$e]=$HOME/Kdesettings/wallpapers/Cyberpunk-Edge/lucy_rebecca.jpg
-File3[$e]=$HOME/Pictures/Screenshots/sssss.png
-File4[$e]=$HOME/Pictures/Screenshots/Screenshot_20240430_080430.png
-Name1[$e]=240331_01h16m45s_screenshot.png
-Name2[$e]=lucy_rebecca.jpg
-Name3[$e]=sssss.png
-Name4[$e]=Screenshot_20240430_080430.png
+File1[$e]=$HOME/Kdesettings/wallpapers/Cyberpunk-Edge/lucy_rebecca.jpg
+File2[$e]=$HOME/Pictures/Screenshots/Screenshot_20240430_080430.png
+File3[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
+File4[$e]=$HOME/Pictures/Screenshots/240318_21h23m29s_screenshot.png
+File5[$e]=$HOME/Pictures/Screenshots/sssss.png
+File6[$e]=$HOME/Pictures/Screenshots/240331_16h30m30s_screenshot.png
+Name1[$e]=lucy_rebecca.jpg
+Name2[$e]=Screenshot_20240430_080430.png
+Name3[$e]=240331_01h16m45s_screenshot.png
+Name4[$e]=240318_21h23m29s_screenshot.png
+Name5[$e]=sssss.png
+Name6[$e]=240331_16h30m30s_screenshot.png
 
 [SideBar]
 InformationSplitterSizes=211,244
