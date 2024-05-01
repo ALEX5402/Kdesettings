@@ -235,8 +235,20 @@ plugin=org.kde.plasma.pager
 DialogHeight=540
 DialogWidth=720
 
+[Containments][26][Applets][72]
+immutability=1
+plugin=org.kde.plasma.kickoff
+
+[Containments][26][Applets][72][Configuration]
+PreloadWeight=100
+popupHeight=510
+popupWidth=651
+
+[Containments][26][Applets][72][Configuration][General]
+favoritesPortedToKAstats=true
+
 [Containments][26][General]
-AppletOrder=29;30;31;44;58
+AppletOrder=72;29;30;31;44;58
 
 [Containments][32]
 activityId=
@@ -348,7 +360,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][32][Applets][57][Configuration]
-PreloadWeight=17
+PreloadWeight=14
 
 [Containments][32][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
