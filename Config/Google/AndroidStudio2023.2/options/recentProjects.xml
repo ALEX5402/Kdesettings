@@ -2,22 +2,6 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/Workspace/GitHub/blackboxtest">
-          <value>
-            <RecentProjectMetaInfo frameTitle="NewBlackbox-3.0 – vcore.kt [NewBlackbox-3.0.Bcore.main]" projectWorkspaceId="2dg44mpTyNzZ9q9TmnHS1TTGPRT">
-              <option name="activationTimestamp" value="1714339990641" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="AI-232.10300.40.2321.11668458" />
-              <option name="buildTimestamp" value="1712185443348" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="4" />
-              </option>
-              <frame x="-1" y="0" width="1182" height="1082" />
-              <option name="productionCode" value="AI" />
-              <option name="projectOpenTimestamp" value="1714325016554" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/workflow/AndroidIDE">
           <value>
             <RecentProjectMetaInfo frameTitle="AndroidIDE – ~/workflow/AndroidIDE/settings.gradle.kts" projectWorkspaceId="2fkqAlPpfoLScFLSnOh3SNaC9Z2">
@@ -34,25 +18,37 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="/media/Workspace/workflow/HostCraft">
+        <entry key="$USER_HOME$/Workspace/GitHub/blackboxtest">
           <value>
-            <RecentProjectMetaInfo frameTitle="Host Craft – .gitignore [Host_Craft]" projectWorkspaceId="2fMtat6CzjovswWkYyrUoW8mpS5">
-              <option name="activationTimestamp" value="1714528407535" />
+            <RecentProjectMetaInfo frameTitle="NewBlackbox-3.0 – vcore.kt [NewBlackbox-3.0.Bcore.main]" projectWorkspaceId="2dg44mpTyNzZ9q9TmnHS1TTGPRT">
+              <option name="activationTimestamp" value="1714529379339" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="AI-232.10300.40.2321.11668458" />
-              <option name="buildTimestamp" value="1712185462634" />
+              <option name="buildTimestamp" value="1712185480152" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="4" />
               </option>
-              <frame x="228" y="38" width="1470" height="950" />
+              <frame x="215" y="102" width="1102" height="858" extendedState="6" />
               <option name="productionCode" value="AI" />
-              <option name="projectOpenTimestamp" value="1714527942567" />
+              <option name="projectOpenTimestamp" value="1714529372212" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/My projects/Hostcraft">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2fqaUYapJTzXQm946oAqOBLGAtZ">
+              <option name="activationTimestamp" value="1714531152656" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-232.10300.40.2321.11668458" />
+              <option name="buildTimestamp" value="1712185493473" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1714531077359" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="/media/Workspace/workflow/HostCraft" />
+    <option name="lastOpenedProject" value="$USER_HOME$/My projects/Hostcraft" />
     <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
   </component>
 </application>

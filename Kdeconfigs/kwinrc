@@ -23,7 +23,6 @@ CommandAll1=Activate, raise and move
 [Plugins]
 blurEnabled=true
 contrastEnabled=false
-translucencyEnabled=true
 
 [Tiling]
 padding=4

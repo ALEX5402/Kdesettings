@@ -147,6 +147,7 @@
     </option>
   </component>
   <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="13.0" />
     <option name="presentationModeIdeScale" value="1.75" />
     <option name="overrideLafFontsWasMigrated" value="true" />
   </component>
@@ -157,7 +158,7 @@
     "BuildView.Splitter.Proportion": "0.2034726",
     "FindSplitterProportion": "1.0",
     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
     "MarketplacePluginsSearchHistory": "/tag:\"User Interface\"\ntheme\nqt\nq\ndiscord",
     "MemberChooser.copyJavadoc": "false",
     "MemberChooser.showClasses": "true",
@@ -165,6 +166,7 @@
     "NextRunPlatformUpdateBuild": "AI-233.14808.21.2331.11709847",
     "NextRunPlatformUpdateVersion": "Jellyfish | 2023.3.1",
     "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
     "SAVED_ANDROID_NPW_ASKED_LANGUAGE": "true",
     "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
@@ -180,6 +182,7 @@
     "bundled.plugins.list.saved.version": "AI-232.10300.40.2321.11668458",
     "com.developerphil.adbidea.previousversion": "1.6.14",
     "defaultJdkConfigured": "true",
+    "experimental.ui.switch": "true",
     "experimental.ui.used.version": "232.10300.40.2321.11668458",
     "file.gist.reindex.count": "177",
     "fileTypeChangedCounter": "1",
@@ -195,9 +198,9 @@
     "last_opened_file_path": "/home/alex/workflow/AndroidIDE",
     "migrated.non.roamable.values.from.general.settings": "true",
     "newly.installed.api.level": "34",
-    "previousColorScheme": "_@user_One Dark Vivid",
+    "previousColorScheme": "_@user_High contrast",
     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
-    "studio.activity.count": "4",
+    "studio.activity.count": "15",
     "tasks.pass.word.conversion.enforced": "true",
     "updater.configure.tools.details.checkbox.selected": "true"
   },

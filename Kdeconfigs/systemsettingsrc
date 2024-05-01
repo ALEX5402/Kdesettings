@@ -3,7 +3,7 @@
 1920x1080 screen: Width=1216
 
 [KFileDialog Settings]
-detailViewIconSize=68
+detailViewIconSize=128
 
 [MainWindow]
 MenuBar=Disabled

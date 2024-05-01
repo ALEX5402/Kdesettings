@@ -38,7 +38,7 @@ Tabbar Tab Limit=0
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
-Color Theme=Breeze Dark
+Color Theme=Catppuccin Mocha
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false

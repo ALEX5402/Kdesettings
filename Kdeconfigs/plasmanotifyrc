@@ -8,7 +8,8 @@ Seen=true
 Seen=true
 
 [DoNotDisturb]
-Until=2024,4,27,22,6,0.337
+NotificationSoundsMuted=true
+Until=2025,5,1,8,13,58.569
 
 [Notifications]
 LowPriorityHistory=true
