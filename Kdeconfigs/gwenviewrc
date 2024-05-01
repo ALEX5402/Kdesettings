@@ -6,7 +6,9 @@ ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
+File2[$e]=$HOME/Kdesettings/wallpapers/Cyberpunk-Edge/lucy_rebecca.jpg
 Name1[$e]=240331_01h16m45s_screenshot.png
+Name2[$e]=lucy_rebecca.jpg
 
 [SideBar]
 InformationSplitterSizes=211,244
