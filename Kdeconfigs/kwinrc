@@ -14,8 +14,14 @@ Rows=2
 BlurStrength=3
 NoiseStrength=0
 
+[Effect-overview]
+BorderActivate=9
+
 [Effect-translucency]
 MoveResize=90
+
+[Effect-windowview]
+BorderActivateAll=7
 
 [MouseBindings]
 CommandAll1=Activate, raise and move

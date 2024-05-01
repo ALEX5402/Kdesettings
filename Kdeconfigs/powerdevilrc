@@ -1,6 +1,6 @@
 [AC][Display]
+DimDisplayWhenIdle=false
 DisplayBrightness=65
-UseProfileSpecificDisplayBrightness=true
 
 [AC][Performance]
 PowerProfile=performance

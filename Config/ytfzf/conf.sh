@@ -8,7 +8,8 @@
 #      esac
 # }
 
-video_pref="bestvideo[height<=?1080]+bestaudio/best"
+# video_pref="bestvideo[height<=?1080]+bestaudio/best"
+video_pref="medium[height<=?144]+bestaudio/mediam"
 show_thumbnails=1
 # skip_thumb_download=1
 async_thumbnails=1

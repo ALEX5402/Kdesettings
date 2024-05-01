@@ -320,9 +320,8 @@ end
 
 #to play youtube with ytfzf
 alias play 'ytfzf -T kitty -t' # play
-alias play-v 'ytfzf -T kitty -t'
 alias play-l 'ytfzf -T kitty -L'
-alias play-s 'ytfzf -T kitty -m'
+alias play-m 'ytfzf -T kitty -m'
 alias yt-search 'ytfzf -T kitty -cO'
 alias haru-play 'ytfzf -T kitty -u haruna -t' # dadad
 
