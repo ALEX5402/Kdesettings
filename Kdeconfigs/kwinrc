@@ -35,9 +35,12 @@ blurEnabled=true
 contrastEnabled=false
 
 [Tiling]
-padding=5
+padding=4
 
 [Tiling][1f82cf41-2fa9-5b02-b0c9-494778b36db1]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7fb8c463-c102-5440-8fb7-5253b26b5d9c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][a43ad847-422f-56b6-99b4-42b13602bcc9]
