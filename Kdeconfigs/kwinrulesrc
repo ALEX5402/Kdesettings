@@ -12,8 +12,6 @@ wmclassmatch=1
 
 [29d03a9f-bd34-46eb-bb10-095af4dabc27]
 Description=window rule settings for kitty
-noborder=true
-noborderrule=3
 size=730,646
 sizerule=3
 wmclass=kitty
@@ -34,21 +32,31 @@ wmclassmatch=1
 
 [6337464e-4da8-4257-81bc-019dbb280b94]
 Description=firefox
-opacityactive=83
+opacityactive=88
 opacityactiverule=2
-opacityinactive=83
+opacityinactive=88
 opacityinactiverule=2
 types=1
 wmclass=firefox
 wmclassmatch=1
 
 [General]
-count=3
-rules=29d03a9f-bd34-46eb-bb10-095af4dabc27,1,6337464e-4da8-4257-81bc-019dbb280b94
+count=4
+rules=29d03a9f-bd34-46eb-bb10-095af4dabc27,1,6337464e-4da8-4257-81bc-019dbb280b94,c9f4483e-24cb-45c4-ac9d-c025fc30120a
 
 [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
 Description=Application settings for jetbrains-studio
 clientmachine=localhost
 types=66494
 wmclass=jetbrains-studio
+wmclassmatch=1
+
+[c9f4483e-24cb-45c4-ac9d-c025fc30120a]
+Description=telegram
+opacityactive=88
+opacityactiverule=2
+opacityinactive=88
+opacityinactiverule=2
+types=1
+wmclass=io.github.tdesktop_x64.TDesktop
 wmclassmatch=1
