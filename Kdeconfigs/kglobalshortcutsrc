@@ -254,6 +254,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][android-studio.desktop]
 _launch=Meta+Z
 
+[services][code.desktop]
+_launch=Meta+X
+
 [services][com.obsproject.Studio.desktop]
 _launch=Meta+S
 
@@ -264,13 +267,16 @@ new-window=Meta+F
 _launch=Meta+T
 
 [services][org.kde.kate.desktop]
-_launch=Meta+C
+_launch=Meta+K
 
 [services][org.kde.krunner.desktop]
 _launch=Meta+A\tAlt+Space\tSearch\tAlt+F2
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display
+
+[services][org.kde.kwrite.desktop]
+_launch=Meta+C
 
 [services][org.kde.spectacle.desktop]
 RectangularRegionScreenShot=Meta+Shift+S\tMeta+Shift+Print

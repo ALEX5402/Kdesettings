@@ -1,6 +1,7 @@
 [Added Associations]
 application/x-matroska=mpv.desktop;
 application/x-shellscript=org.kde.kate.desktop;
+text/html=org.kde.kwrite.desktop;
 video/3gp=mpv.desktop;
 video/3gpp=mpv.desktop;
 video/3gpp2=mpv.desktop;
@@ -38,6 +39,7 @@ x-scheme-handler/youtubemusic=YouTube Music.desktop;
 [Default Applications]
 application/x-matroska=mpv.desktop;
 application/x-shellscript=org.kde.kate.desktop;
+text/html=org.kde.kwrite.desktop;
 video/3gp=mpv.desktop;
 video/3gpp=mpv.desktop;
 video/3gpp2=mpv.desktop;

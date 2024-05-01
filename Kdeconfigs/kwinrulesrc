@@ -48,6 +48,15 @@ types=1
 wmclass=io.github.tdesktop_x64.TDesktop
 wmclassmatch=1
 
+[51e3bfac-a197-4c64-b616-9f179c9568ab]
+Description=vesktop
+opacityactive=88
+opacityactiverule=2
+opacityinactive=88
+opacityinactiverule=2
+wmclass=vesktop
+wmclassmatch=1
+
 [5cc7d6c0-8a4b-4297-9d03-16d1a6445386]
 Description=Application settings for jetbrains-studio
 clientmachine=localhost
@@ -72,8 +81,8 @@ wmclass=firefox
 wmclassmatch=1
 
 [General]
-count=4
-rules=1,2,3,4
+count=5
+rules=1,2,3,4,51e3bfac-a197-4c64-b616-9f179c9568ab
 
 [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
 Description=Application settings for jetbrains-studio

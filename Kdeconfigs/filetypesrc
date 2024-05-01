@@ -1,6 +1,7 @@
 [EmbedSettings]
 embed-application/x-matroska=false
 embed-application/x-shellscript=false
+embed-text/html=false
 embed-video/3gp=false
 embed-video/3gpp=false
 embed-video/3gpp2=false
