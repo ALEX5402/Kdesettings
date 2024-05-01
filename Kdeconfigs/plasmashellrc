@@ -6,7 +6,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Applets][66][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 UserBackgroundHints=ShadowBackground
 configMigrated=true
 

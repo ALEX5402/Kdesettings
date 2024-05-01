@@ -131,7 +131,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][25][Applets][66][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 UserBackgroundHints=ShadowBackground
 configMigrated=true
 
@@ -324,7 +324,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][32][Applets][42][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -347,7 +346,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][32][Applets][47][Configuration]
-PreloadWeight=30
+PreloadWeight=32
 
 [Containments][32][Applets][48]
 immutability=1
@@ -364,7 +363,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][32][Applets][57][Configuration]
-PreloadWeight=63
+PreloadWeight=30
 
 [Containments][32][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard

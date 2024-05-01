@@ -234,22 +234,22 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 3=none,none,Activate Application Launcher Widget
-clear-history=none,,Clear Clipboard History
+clear-history=none,none,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
-cycleNextAction=none,,Next History Item
-cyclePrevAction=none,,Previous History Item
+cycleNextAction=none,none,Next History Item
+cyclePrevAction=none,none,Previous History Item
 manage activities=none,Meta+Q,Show Activity Switcher
 next activity=none,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
-show-barcode=none,,Show Barcode…
+show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
-toggle do not disturb=none,,Toggle do not disturb
+toggle do not disturb=none,none,Toggle do not disturb
 
 [services][android-studio.desktop]
 _launch=Meta+Z
@@ -270,7 +270,7 @@ _launch=Meta+T
 _launch=Meta+K
 
 [services][org.kde.krunner.desktop]
-_launch=Meta+A\tAlt+Space\tSearch\tAlt+F2
+_launch=Alt+F2\tMeta+A\tSearch
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display
@@ -279,6 +279,7 @@ ShowOSD=Display
 _launch=Meta+C
 
 [services][org.kde.spectacle.desktop]
+RecordRegion=Meta+Shift+R
 RectangularRegionScreenShot=Meta+Shift+S\tMeta+Shift+Print
 _launch=Print
 
