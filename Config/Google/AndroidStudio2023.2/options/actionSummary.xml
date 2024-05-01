@@ -16,7 +16,7 @@
       <i c="7" l="1714418961083" />
     </e>
     <e n="CloseProject">
-      <i c="25" l="1714464419596" />
+      <i c="26" l="1714528410016" />
     </e>
     <e n="CommentByBlockComment">
       <i c="1" l="1714249685242" />
@@ -139,7 +139,7 @@
       <i c="1" l="1714167595116" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="6" l="1714418695543" />
+      <i c="8" l="1714528323551" />
     </e>
     <e n="ShowIntentionActions">
       <i c="24" l="1714339403302" />
@@ -187,7 +187,7 @@
       <i c="1" l="1714167599814" />
     </e>
     <e n="com.intellij.ide.actions.SettingsEntryPointAction$1">
-      <i c="2" l="1714167597485" />
+      <i c="3" l="1714528324918" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
       <i c="2" l="1714418463393" />

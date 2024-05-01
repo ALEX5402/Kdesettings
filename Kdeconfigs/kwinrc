@@ -10,8 +10,20 @@ Name_6=New Desktop
 Number=6
 Rows=2
 
+[Effect-blur]
+BlurStrength=3
+NoiseStrength=0
+
+[Effect-translucency]
+MoveResize=90
+
 [MouseBindings]
 CommandAll1=Activate, raise and move
+
+[Plugins]
+blurEnabled=true
+contrastEnabled=false
+translucencyEnabled=true
 
 [Tiling]
 padding=4
