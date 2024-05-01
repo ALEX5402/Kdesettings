@@ -138,8 +138,7 @@ History Items[$e]=file:///media/Workspace2,file:///media/Workspace,file:$HOME/wa
 
 [General]
 AccentColor=221,0,0
-ColorScheme=CatppuccinMochaRed
-ColorSchemeHash=374b4774d102eb9b5cd79deb555d3ba5723e74b9
+ColorSchemeHash=656e398971b22276207859b495d3493f023589eb
 LastUsedCustomAccentColor=221,0,0
 TerminalApplication=kitty
 TerminalService=kitty.desktop

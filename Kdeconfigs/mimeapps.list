@@ -33,6 +33,7 @@ video/x-ogm=mpv.desktop;
 video/x-ogm+ogg=mpv.desktop;
 video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
+x-scheme-handler/youtubemusic=YouTube Music.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;

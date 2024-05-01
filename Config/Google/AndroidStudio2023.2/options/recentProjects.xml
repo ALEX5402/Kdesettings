@@ -36,11 +36,15 @@
         </entry>
         <entry key="$USER_HOME$/My projects/Hostcraft">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2fqaUYapJTzXQm946oAqOBLGAtZ">
-              <option name="activationTimestamp" value="1714532787594" />
+            <RecentProjectMetaInfo frameTitle="Host Craft" projectWorkspaceId="2fqaUYapJTzXQm946oAqOBLGAtZ">
+              <option name="activationTimestamp" value="1714533277864" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="AI-232.10300.40.2321.11668458" />
               <option name="buildTimestamp" value="1712185493473" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="1" y="0" width="1215" height="1080" />
               <option name="productionCode" value="AI" />
               <option name="projectOpenTimestamp" value="1714531077359" />
             </RecentProjectMetaInfo>

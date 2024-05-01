@@ -25,13 +25,13 @@ blurEnabled=true
 contrastEnabled=false
 
 [Tiling]
-padding=4
+padding=5
 
 [Tiling][1f82cf41-2fa9-5b02-b0c9-494778b36db1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][a43ad847-422f-56b6-99b4-42b13602bcc9]
-tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"width":0.6}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5157407407407403,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]},{"height":0.23425925925925972,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]},{"height":0.25,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]}],"width":0.5494791666666667},{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"horizontal","tiles":[{"width":0.21432291666666625},{"width":0.23619791666666645}]},{"height":0.5,"layoutDirection":"horizontal","tiles":[{"width":0.21432291666666625},{"width":0.23619791666666645}]}],"width":0.4505208333333327}]}
 
 [Windows]
 AutoRaiseInterval=100

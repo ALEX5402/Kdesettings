@@ -182,7 +182,6 @@
     "bundled.plugins.list.saved.version": "AI-232.10300.40.2321.11668458",
     "com.developerphil.adbidea.previousversion": "1.6.14",
     "defaultJdkConfigured": "true",
-    "experimental.ui.switch": "true",
     "experimental.ui.used.version": "232.10300.40.2321.11668458",
     "file.gist.reindex.count": "177",
     "fileTypeChangedCounter": "1",
@@ -200,7 +199,7 @@
     "newly.installed.api.level": "34",
     "previousColorScheme": "_@user_High contrast",
     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
-    "studio.activity.count": "15",
+    "studio.activity.count": "2",
     "tasks.pass.word.conversion.enforced": "true",
     "updater.configure.tools.details.checkbox.selected": "true"
   },
