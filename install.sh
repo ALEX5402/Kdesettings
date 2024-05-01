@@ -32,6 +32,7 @@ cp -r -l -f "$PWD/Fonts/"* "$fontsdir" && echo "Fonts files successfully linked 
 cp -r -l -f "$PWD/Themes/"* "$themedir" && echo "Theme files successfully linked to repo"
 cp -r -l -f "$PWD/Icons/"* "$icondir" && echo "Icons files successfully linked to repo"
 ln -f -s "$PWD/Kdeconfigs/"* "$configdir" && echo "Kde Config files successfully linked to repo"
+ln -f -s "$PWD/.bashrc" "$HOME" && echo "bashrc files successfully linked to repo"
 
 prompt_yes_no() {
     while true; do

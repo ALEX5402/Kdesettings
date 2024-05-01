@@ -47,7 +47,7 @@ Word Wrap Marker=false
 
 [KTextEditor::Search]
 Replace History=2023.3.1.18
-Search History=2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+Search History=_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
 
 [Konsole]
 AutoSyncronize=true
@@ -58,8 +58,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=817
-1920x1080 screen: Width=1050
+1920x1080 screen: Height=866
+1920x1080 screen: Width=1016
 
 [filetree]
 editShade=74,55,117
