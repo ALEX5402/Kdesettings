@@ -5,9 +5,13 @@ Id_3=963e48e9-223e-4b86-bd1d-8de16dcc0557
 Id_4=2c93f7e1-36bd-4bac-b795-fdd9d5e31408
 Id_5=db823e53-f8f1-4ca3-9a0f-f1d2d016eeb0
 Id_6=a16297fb-8a1c-4a0e-b166-25398095bde3
+Id_7=3f95fc21-2e10-4a04-a313-31c52df17171
+Id_8=3806f859-5a79-40af-acb4-936d28cfa294
 Name_5=New Desktop
 Name_6=New Desktop
-Number=6
+Name_7=New Desktop
+Name_8=New Desktop
+Number=8
 Rows=2
 
 [Effect-blur]
