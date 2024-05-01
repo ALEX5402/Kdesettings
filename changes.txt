@@ -1,0 +1,3639 @@
+diff --git a/auto-sync.sh b/auto-sync.sh
+index f8df8816..60be9692 100755
+--- a/auto-sync.sh
++++ b/auto-sync.sh
+@@ -2,7 +2,7 @@
+ 
+ #set the backup date
+ date > time.txt
+-git diff . > changes.md  
++git diff . > changes.txt
+ git add .
+ git commit -m "Update Configs : $(date)" -m "Time : $(date +%T)" -s
+ git push -f
+diff --git a/changes.md b/changes.md
+deleted file mode 100644
+index d6d5fc37..00000000
+--- a/changes.md
++++ /dev/null
+@@ -1,3613 +0,0 @@
+-diff --git a/.bashrc b/.bashrc
+-index a339cf27..251909d8 100644
+---- a/.bashrc
+-+++ b/.bashrc
+-@@ -1,6 +1,21 @@
+- #
+- # ~/.bashrc
+- #
+-+#for btop
+-+export LANG=en_US.UTF-8
+-+export LC_ALL=en_US.UTF-8
+-+
+-+# Add ~/.local/bin to PATH
+-+if [ -d "$HOME/.local/bin" ] && [[ ":$PATH:" != *":$HOME/.local/bin:"* ]]; then
+-+    PATH="$HOME/.local/bin:$PATH"
+-+fi
+-+
+-+# Add ~/.cargo/bin to PATH
+-+if [ -d "$HOME/.cargo/bin" ] && [[ ":$PATH:" != *":$HOME/.cargo/bin:"* ]]; then
+-+    PATH="$HOME/.cargo/bin:$PATH"
+-+fi
+-+
+-+
+- export TERMINAL=kitty
+- export QT_TERMINAL=kitty
+- export GTK_IM_MODULE=kitty
+-@@ -10,6 +25,94 @@ export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+- export QT_AUTO_SCREEN_SCALE_FACTOR=1
+- export MOZ_ENABLE_WAYLAND=1
+- 
+-+# Play YouTube videos with ytfzf
+-+alias play='ytfzf -T kitty -t'           # play
+-+alias play-l='ytfzf -T kitty -L'
+-+alias play-m='ytfzf -T kitty -m --audio-only'
+-+alias yt-search='ytfzf -T kitty -cO'
+-+alias haru-play='ytfzf -T kitty -u haruna -t'  # dadad
+-+
+-+# Play gifs with chafa
+-+alias play-gif='chafa'
+-+
+-+# Replace ls with eza
+-+alias ls='eza --tree --level=1 --color=always --group-directories-first --icons'  # preferred listing
+-+alias lsr='eza --color=always --git --group-directories-first --icons'            # normal listing
+-+alias lss='eza --tree --level=2 --color=always --group-directories-first --icons' # preferred listing
+-+alias la='eza -a --color=always --group-directories-first --icons'                 # all files and dirs
+-+alias ll='eza -l --color=always --group-directories-first --icons'                 # long format
+-+alias lt='eza -aT --color=always --group-directories-first --icons'                # tree listing
+-+alias tree='eza -aT --color=always --group-directories-first --icons'              # tree listing
+-+alias l.='eza -ald --color=always --group-directories-first --icons .*'            # show only dotfiles
+-+
+-+# Replace some more commands with better alternatives
+-+alias cat='bat --style header --style snip --style changes --style header'
+-+if [ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ]; then
+-+    alias yay='paru'
+-+fi
+-+
+-+# Set up icat
+-+alias icat='kitten icat'
+-+
+-+# Commonly used commands
+-+alias code='code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
+-+alias code-oss='code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
+-+alias vesktop='vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
+-+alias discord='discord --enable-features=UseOzonePlatform --ozone-platform=wayland'
+-+alias youtube-music='youtube-music --enable-features=UseOzonePlatform --ozone-platform=wayland'
+-+alias github='github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
+-+alias github-desktop='github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
+-+alias install='paru -S'
+-+alias remove='paru -R'
+-+alias update='sudo pacman -Syu'
+-+alias studio='QT_QPA_PLATFORM=xcb android-studio'
+-+alias vim='nvim'
+-+alias print-fingerprint-jar='keytool -printcert -jarfile'
+-+alias wayshere='sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/media/0/Documents'
+-+alias waystart='bash ~/waydroid.sh'
+-+alias fish='source ~/.config/fish/config.fish'
+-+alias warpc='warp-cli connect'
+-+alias warpd='warp-cli disconnect'
+-+alias '..'='cd ..'
+-+alias '...'='cd ../..'
+-+alias '....'='cd ../../..'
+-+alias '.....'='cd ../../../..'
+-+alias '......'='cd ../../../../..'
+-+alias big='expac -H M "%m\t%n" | sort -h | nl'     # Sort installed packages according to size in MB (expac must be installed)
+-+alias dir='dir --color=auto'
+-+alias fixpacman='sudo rm /var/lib/pacman/db.lck'
+-+alias gitpkg='pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
+-+alias grep='ugrep --color=auto'
+-+alias egrep='ugrep -E --color=auto'
+-+alias fgrep='ugrep -F --color=auto'
+-+alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+-+alias hw='hwinfo --short'                          # Hardware Info
+-+alias ip='ip -color'
+-+alias psmem='ps auxf | sort -nr -k 4'
+-+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+-+alias rmpkg='sudo pacman -Rdd'
+-+alias tarnow='tar -acf '
+-+alias untar='tar -zxvf '
+-+alias vdir='vdir --color=auto'
+-+alias wget='wget -c '
+-+alias staccer='QT_QPA_PLATFORM=xcb stacer'
+-+alias remove-force='sudo pacman -Rnsdd'
+-+
+-+# Get fastest mirrors
+-+alias mirror-update='sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist'
+-+alias mirror-age='sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist'
+-+alias mirror-delay='sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist'
+-+alias mirrors-score='sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist'
+-+
+-+alias please='sudo'
+-+alias helpme='echo "To print basic information about a command use tldr <command>"'
+-+alias pacdiff='sudo -H DIFFPROG=meld pacdiff'
+-+
+-+# Get error messages from journalctl
+-+alias jctl='journalctl -p 3 -xb'
+-+
+-+# Recently installed packages
+-+alias rip='expac --timefmt="%Y-%m-%d %T" "%l\t%n %v" | sort | tail -200 | nl'
+- 
+- # If not running interactively, don't do anything
+- [[ $- != *i* ]] && return
+-@@ -24,6 +127,3 @@ export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git
+- export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+- export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
+- 
+--alias ls='ls --color=auto'
+--alias grep='grep --color=auto'
+--PS1='[\u@\h \W]\$ '
+-diff --git a/Config/fish/config.fish b/Config/fish/config.fish
+-index 2938127a..32f37c91 100644
+---- a/Config/fish/config.fish
+-+++ b/Config/fish/config.fish
+-@@ -58,11 +58,6 @@ if status --is-interactive
+- end
+- 
+- 
+--
+--## Advanced command-not-found hook
+--#source /usr/share/doc/find-the-command/ftc.fish
+--
+--
+- ## Functions
+- # Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
+- function __history_previous_command
+-diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+-index fa557867..5751dc13 100644
+---- a/Kdeconfigs/katerc
+-+++ b/Kdeconfigs/katerc
+-@@ -46,8 +46,8 @@ Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
+- Word Wrap Marker=false
+- 
+- [KTextEditor::Search]
+--Replace History=2023.3.1.18
+--Search History=_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+-+Replace History==',alias=,2023.3.1.18
+-+Search History=\s',alias ,_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+- 
+- [Konsole]
+- AutoSyncronize=true
+-@@ -59,7 +59,7 @@ SetEditor=false
+- 
+- [MainWindow]
+- 1920x1080 screen: Height=785
+--1920x1080 screen: Width=1038
+-+1920x1080 screen: Width=954
+- 
+- [filetree]
+- editShade=74,55,117
+-diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-index 8ebd7120..4cd60444 100644
+---- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-@@ -347,7 +347,7 @@ immutability=1
+- plugin=org.kde.plasma.brightness
+- 
+- [Containments][32][Applets][47][Configuration]
+--PreloadWeight=0
+-+PreloadWeight=30
+- 
+- [Containments][32][Applets][48]
+- immutability=1
+-@@ -364,7 +364,7 @@ immutability=1
+- plugin=org.kde.plasma.mediacontroller
+- 
+- [Containments][32][Applets][57][Configuration]
+--PreloadWeight=56
+-+PreloadWeight=63
+- 
+- [Containments][32][General]
+- extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+-diff --git a/changes.md b/changes.md
+-index d58abab0..21aafbc4 100644
+---- a/changes.md
+-+++ b/changes.md
+-@@ -1,3411 +0,0 @@
+--diff --git a/Kdeconfigs/kwinrc b/Kdeconfigs/kwinrc
+--index 2ddc36e6..cf183916 100644
+----- a/Kdeconfigs/kwinrc
+--+++ b/Kdeconfigs/kwinrc
+--@@ -5,9 +5,13 @@ Id_3=963e48e9-223e-4b86-bd1d-8de16dcc0557
+-- Id_4=2c93f7e1-36bd-4bac-b795-fdd9d5e31408
+-- Id_5=db823e53-f8f1-4ca3-9a0f-f1d2d016eeb0
+-- Id_6=a16297fb-8a1c-4a0e-b166-25398095bde3
+--+Id_7=3f95fc21-2e10-4a04-a313-31c52df17171
+--+Id_8=3806f859-5a79-40af-acb4-936d28cfa294
+-- Name_5=New Desktop
+-- Name_6=New Desktop
+---Number=6
+--+Name_7=New Desktop
+--+Name_8=New Desktop
+--+Number=8
+-- Rows=2
+-- 
+-- [Effect-blur]
+--diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--index 52a6e743..8ebd7120 100644
+----- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--@@ -364,7 +364,7 @@ immutability=1
+-- plugin=org.kde.plasma.mediacontroller
+-- 
+-- [Containments][32][Applets][57][Configuration]
+---PreloadWeight=46
+--+PreloadWeight=56
+-- 
+-- [Containments][32][General]
+-- extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+--diff --git a/changes.md b/changes.md
+--index c0f65e1f..e69de29b 100644
+----- a/changes.md
+--+++ b/changes.md
+--@@ -1,3367 +0,0 @@
+---diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+---index c54e01e0..fa557867 100644
+------ a/Kdeconfigs/katerc
+---+++ b/Kdeconfigs/katerc
+---@@ -58,8 +58,8 @@ RunPrefix=
+--- SetEditor=false
+--- 
+--- [MainWindow]
+----1920x1080 screen: Height=866
+----1920x1080 screen: Width=1016
+---+1920x1080 screen: Height=785
+---+1920x1080 screen: Width=1038
+--- 
+--- [filetree]
+--- editShade=74,55,117
+---diff --git a/changes.md b/changes.md
+---index bdcdcb21..e69de29b 100644
+------ a/changes.md
+---+++ b/changes.md
+---@@ -1,3340 +0,0 @@
+----diff --git a/Config/fish/config.fish b/Config/fish/config.fish
+----index e9f77517..2938127a 100644
+------- a/Config/fish/config.fish
+----+++ b/Config/fish/config.fish
+----@@ -37,191 +37,6 @@ if test -d ~/.local/bin
+----     end
+---- end
+---- 
+-----### key-bindings.fish ###
+-----#     ____      ____
+-----#    / __/___  / __/
+-----#   / /_/_  / / /_
+-----#  / __/ / /_/ __/
+-----# /_/   /___/_/ key-bindings.fish
+-----#
+-----# - $FZF_TMUX_OPTS
+-----# - $FZF_CTRL_T_COMMAND
+-----# - $FZF_CTRL_T_OPTS
+-----# - $FZF_CTRL_R_OPTS
+-----# - $FZF_ALT_C_COMMAND
+-----# - $FZF_ALT_C_OPTS
+-----
+-----status is-interactive; or exit 0
+-----
+-----
+-----# Key bindings
+-----# ------------
+-----function fzf_key_bindings
+-----
+-----  # Store current token in $dir as root for the 'find' command
+-----  function fzf-file-widget -d "List files and folders"
+-----    set -l commandline (__fzf_parse_commandline)
+-----    set -l dir $commandline[1]
+-----    set -l fzf_query $commandline[2]
+-----    set -l prefix $commandline[3]
+-----
+-----    test -n "$FZF_TMUX_HEIGHT"; or set FZF_TMUX_HEIGHT 40%
+-----    begin
+-----      set -lx FZF_DEFAULT_OPTS "--height $FZF_TMUX_HEIGHT --reverse --walker=file,dir,follow,hidden --scheme=path --bind=ctrl-z:ignore $FZF_DEFAULT_OPTS $FZF_CTRL_T_OPTS"
+-----      set -lx FZF_DEFAULT_COMMAND "$FZF_CTRL_T_COMMAND"
+-----      eval (__fzfcmd)' -m --query "'$fzf_query'"' | while read -l r; set result $result $r; end
+-----    end
+-----    if [ -z "$result" ]
+-----      commandline -f repaint
+-----      return
+-----    else
+-----      # Remove last token from commandline.
+-----      commandline -t ""
+-----    end
+-----    for i in $result
+-----      commandline -it -- $prefix
+-----      commandline -it -- (string escape $i)
+-----      commandline -it -- ' '
+-----    end
+-----    commandline -f repaint
+-----  end
+-----
+-----  function fzf-history-widget -d "Show command history"
+-----    test -n "$FZF_TMUX_HEIGHT"; or set FZF_TMUX_HEIGHT 40%
+-----    begin
+-----      set -lx FZF_DEFAULT_OPTS "--height $FZF_TMUX_HEIGHT $FZF_DEFAULT_OPTS --scheme=history --bind=ctrl-r:toggle-sort,ctrl-z:ignore $FZF_CTRL_R_OPTS +m"
+-----
+-----      set -l FISH_MAJOR (echo $version | cut -f1 -d.)
+-----      set -l FISH_MINOR (echo $version | cut -f2 -d.)
+-----
+-----      # history's -z flag is needed for multi-line support.
+-----      # history's -z flag was added in fish 2.4.0, so don't use it for versions
+-----      # before 2.4.0.
+-----      if [ "$FISH_MAJOR" -gt 2 -o \( "$FISH_MAJOR" -eq 2 -a "$FISH_MINOR" -ge 4 \) ];
+-----        history -z | eval (__fzfcmd) --read0 --print0 -q '(commandline)' | read -lz result
+-----        and commandline -- $result
+-----      else
+-----        history | eval (__fzfcmd) -q '(commandline)' | read -l result
+-----        and commandline -- $result
+-----      end
+-----    end
+-----    commandline -f repaint
+-----  end
+-----
+-----  function fzf-cd-widget -d "Change directory"
+-----    set -l commandline (__fzf_parse_commandline)
+-----    set -l dir $commandline[1]
+-----    set -l fzf_query $commandline[2]
+-----    set -l prefix $commandline[3]
+-----
+-----    test -n "$FZF_TMUX_HEIGHT"; or set FZF_TMUX_HEIGHT 40%
+-----    begin
+-----      set -lx FZF_DEFAULT_OPTS "--height $FZF_TMUX_HEIGHT --reverse --walker=dir,follow,hidden --scheme=path --bind=ctrl-z:ignore $FZF_DEFAULT_OPTS $FZF_ALT_C_OPTS"
+-----      set -lx FZF_DEFAULT_COMMAND "$FZF_ALT_C_COMMAND"
+-----      eval (__fzfcmd)' +m --query "'$fzf_query'"' | read -l result
+-----
+-----      if [ -n "$result" ]
+-----        cd -- $result
+-----
+-----        # Remove last token from commandline.
+-----        commandline -t ""
+-----        commandline -it -- $prefix
+-----      end
+-----    end
+-----
+-----    commandline -f repaint
+-----  end
+-----
+-----  function __fzfcmd
+-----    test -n "$FZF_TMUX"; or set FZF_TMUX 0
+-----    test -n "$FZF_TMUX_HEIGHT"; or set FZF_TMUX_HEIGHT 40%
+-----    if [ -n "$FZF_TMUX_OPTS" ]
+-----      echo "fzf-tmux $FZF_TMUX_OPTS -- "
+-----    else if [ $FZF_TMUX -eq 1 ]
+-----      echo "fzf-tmux -d$FZF_TMUX_HEIGHT -- "
+-----    else
+-----      echo "fzf"
+-----    end
+-----  end
+-----
+-----  bind \cr fzf-history-widget
+-----  if not set -q FZF_CTRL_T_COMMAND; or test -n "$FZF_CTRL_T_COMMAND"
+-----    bind \ct fzf-file-widget
+-----  end
+-----  if not set -q FZF_ALT_C_COMMAND; or test -n "$FZF_ALT_C_COMMAND"
+-----    bind \ec fzf-cd-widget
+-----  end
+-----
+-----  if bind -M insert > /dev/null 2>&1
+-----    bind -M insert \cr fzf-history-widget
+-----    if not set -q FZF_CTRL_T_COMMAND; or test -n "$FZF_CTRL_T_COMMAND"
+-----      bind -M insert \ct fzf-file-widget
+-----    end
+-----    if not set -q FZF_ALT_C_COMMAND; or test -n "$FZF_ALT_C_COMMAND"
+-----      bind -M insert \ec fzf-cd-widget
+-----    end
+-----  end
+-----
+-----  function __fzf_parse_commandline -d 'Parse the current command line token and return split of existing filepath, fzf query, and optional -option= prefix'
+-----    set -l commandline (commandline -t)
+-----
+-----    # strip -option= from token if present
+-----    set -l prefix (string match -r -- '^-[^\s=]+=' $commandline)
+-----    set commandline (string replace -- "$prefix" '' $commandline)
+-----
+-----    # eval is used to do shell expansion on paths
+-----    eval set commandline $commandline
+-----
+-----    if [ -z $commandline ]
+-----      # Default to current directory with no --query
+-----      set dir '.'
+-----      set fzf_query ''
+-----    else
+-----      set dir (__fzf_get_dir $commandline)
+-----
+-----      if [ "$dir" = "." -a (string sub -l 1 -- $commandline) != '.' ]
+-----        # if $dir is "." but commandline is not a relative path, this means no file path found
+-----        set fzf_query $commandline
+-----      else
+-----        # Also remove trailing slash after dir, to "split" input properly
+-----        set fzf_query (string replace -r "^$dir/?" -- '' "$commandline")
+-----      end
+-----    end
+-----
+-----    echo $dir
+-----    echo $fzf_query
+-----    echo $prefix
+-----  end
+-----
+-----  function __fzf_get_dir -d 'Find the longest existing filepath from input string'
+-----    set dir $argv
+-----
+-----    # Strip all trailing slashes. Ignore if $dir is root dir (/)
+-----    if [ (string length -- $dir) -gt 1 ]
+-----      set dir (string replace -r '/*$' -- '' $dir)
+-----    end
+-----
+-----    # Iteratively check if dir exists and strip tail end of path
+-----    while [ ! -d "$dir" ]
+-----      # If path is absolute, this can keep going until ends up at /
+-----      # If path is relative, this can keep going until entire input is consumed, dirname returns "."
+-----      set dir (dirname -- "$dir")
+-----    end
+-----
+-----    echo $dir
+-----  end
+-----
+-----end
+-----### end: key-bindings.fish ###
+-----fzf_key_bindings
+-----
+-----export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
+-----export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+-----export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+-----export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+-----export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
+-----
+-----
+---- # Add ~/.cargo/bin to PATH
+---- if test -d ~/.cargo/bin
+----     if not contains -- ~/.cargo/bin $PATH
+----@@ -321,7 +136,7 @@ end
+---- #to play youtube with ytfzf
+---- alias play 'ytfzf -T kitty -t' # play
+---- alias play-l 'ytfzf -T kitty -L'
+-----alias play-m 'ytfzf -T kitty -m'
+----+alias play-m 'ytfzf -T kitty -m --audio-only'
+---- alias yt-search 'ytfzf -T kitty -cO'
+---- alias haru-play 'ytfzf -T kitty -u haruna -t' # dadad
+---- 
+----@@ -674,3 +489,25 @@ function clone -d "Clone the current fish session into a new kitty window"
+---- end
+---- 
+---- 
+----+# ### key-bindings.fish ###
+----+# #     ____      ____
+----+# #    / __/___  / __/
+----+# #   / /_/_  / / /_
+----+# #  / __/ / /_/ __/
+----+# # /_/   /___/_/ key-bindings.fish
+----+# # from https://github.com/PatrickF1/fzf.fish?tab=readme-ov-file
+----+set fzf_preview_dir_cmd eza --all --color=always
+----+# width=20 so delta decorations don't wrap around small fzf preview pane
+----+set fzf_diff_highlighter delta --paging=never --width=20
+----+# Or, if using DFS
+----+set fzf_diff_highlighter diff-so-fancy
+----+set fzf_fd_opts --hidden --max-depth 5
+----+
+----+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .gradle"
+----+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+----+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+----+export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+----+export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
+----+
+----+
+----+
+----diff --git a/Kdeconfigs/QtProject.conf b/Kdeconfigs/QtProject.conf
+----index 89ab2e4d..2b5a4c82 100644
+------- a/Kdeconfigs/QtProject.conf
+----+++ b/Kdeconfigs/QtProject.conf
+----@@ -1,6 +1,6 @@
+---- [FileDialog]
+---- history=@Invalid()
+-----lastVisited=file:///home/alex/
+----+lastVisited=file:///home/alex/OBS
+---- qtVersion=6.7.0
+---- shortcuts=file:, file:///home/alex
+---- sidebarWidth=95
+----diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+----index a172a877..c54e01e0 100644
+------- a/Kdeconfigs/katerc
+----+++ b/Kdeconfigs/katerc
+----@@ -47,7 +47,7 @@ Word Wrap Marker=false
+---- 
+---- [KTextEditor::Search]
+---- Replace History=2023.3.1.18
+-----Search History=2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+----+Search History=_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+---- 
+---- [Konsole]
+---- AutoSyncronize=true
+----@@ -58,8 +58,8 @@ RunPrefix=
+---- SetEditor=false
+---- 
+---- [MainWindow]
+-----1920x1080 screen: Height=817
+-----1920x1080 screen: Width=1050
+----+1920x1080 screen: Height=866
+----+1920x1080 screen: Width=1016
+---- 
+---- [filetree]
+---- editShade=74,55,117
+----diff --git a/Kdeconfigs/kdeglobals b/Kdeconfigs/kdeglobals
+----index 4a7ba10f..ea87f71e 100644
+------- a/Kdeconfigs/kdeglobals
+----+++ b/Kdeconfigs/kdeglobals
+----@@ -171,7 +171,7 @@ Show hidden files=false
+---- Sort by=Name
+---- Sort directories first=true
+---- Sort hidden files last=false
+-----Sort reversed=false
+----+Sort reversed=true
+---- Speedbar Width=150
+---- View Style=DetailTree
+---- 
+----diff --git a/Kdeconfigs/kglobalshortcutsrc b/Kdeconfigs/kglobalshortcutsrc
+----index f6afd7e5..90aebc09 100644
+------- a/Kdeconfigs/kglobalshortcutsrc
+----+++ b/Kdeconfigs/kglobalshortcutsrc
+----@@ -234,17 +234,17 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
+---- activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
+---- activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
+---- activate widget 3=none,none,Activate Application Launcher Widget
+-----clear-history=none,none,Clear Clipboard History
+----+clear-history=none,,Clear Clipboard History
+---- clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
+---- cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
+-----cycleNextAction=none,none,Next History Item
+-----cyclePrevAction=none,none,Previous History Item
+----+cycleNextAction=none,,Next History Item
+----+cyclePrevAction=none,,Previous History Item
+---- manage activities=none,Meta+Q,Show Activity Switcher
+---- next activity=none,none,Walk through activities
+---- previous activity=none,none,Walk through activities (Reverse)
+---- repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
+---- show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
+-----show-barcode=none,none,Show Barcode…
+----+show-barcode=none,,Show Barcode…
+---- show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
+---- stop current activity=none,Meta+S,Stop Current Activity
+---- switch to next activity=none,,Switch to Next Activity
+----diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----index de20c2b1..52a6e743 100644
+------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----@@ -202,7 +202,7 @@ DialogWidth=720
+---- 
+---- [Containments][26][Applets][29][Configuration][General]
+---- fill=false
+-----groupingAppIdBlacklist=kitty.desktop,org.kde.dolphin.desktop
+----+groupingAppIdBlacklist=org.kde.dolphin.desktop,kitty.desktop
+---- groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
+---- launchers=preferred://browser,applications:org.kde.haruna.desktop
+---- 
+----@@ -244,6 +244,10 @@ PreloadWeight=100
+---- popupHeight=510
+---- popupWidth=651
+---- 
+----+[Containments][26][Applets][72][Configuration][ConfigDialog]
+----+DialogHeight=540
+----+DialogWidth=720
+----+
+---- [Containments][26][Applets][72][Configuration][General]
+---- favoritesPortedToKAstats=true
+---- 
+----@@ -360,7 +364,7 @@ immutability=1
+---- plugin=org.kde.plasma.mediacontroller
+---- 
+---- [Containments][32][Applets][57][Configuration]
+-----PreloadWeight=14
+----+PreloadWeight=46
+---- 
+---- [Containments][32][General]
+---- extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+----diff --git a/Kdeconfigs/plasmanotifyrc b/Kdeconfigs/plasmanotifyrc
+----index cdc67095..8ef71387 100644
+------- a/Kdeconfigs/plasmanotifyrc
+----+++ b/Kdeconfigs/plasmanotifyrc
+----@@ -9,7 +9,7 @@ Seen=true
+---- 
+---- [DoNotDisturb]
+---- NotificationSoundsMuted=true
+-----Until=2024,5,1,16,34,0.419
+----+Until=2024,5,2,0,33,0.663
+---- 
+---- [Notifications]
+---- LowPriorityHistory=true
+----diff --git a/changes.md b/changes.md
+----index 9270de0a..efea6a2e 100644
+------- a/changes.md
+----+++ b/changes.md
+----@@ -1,2964 +0,0 @@
+-----diff --git a/Kdeconfigs/gtkrc b/Kdeconfigs/gtkrc
+-----index 2e23dcf2..536949ae 100644
+-------- a/Kdeconfigs/gtkrc
+-----+++ b/Kdeconfigs/gtkrc
+-----@@ -1,2 +1,2 @@
+------# created by KDE Plasma, Wed May 1 19:17:57 2024
+-----+# created by KDE Plasma, Wed May 1 20:16:44 2024
+----- #
+-----diff --git a/Kdeconfigs/gtkrc-2.0 b/Kdeconfigs/gtkrc-2.0
+-----index 2693e9f1..6d71d1a5 100644
+-------- a/Kdeconfigs/gtkrc-2.0
+-----+++ b/Kdeconfigs/gtkrc-2.0
+-----@@ -1,4 +1,4 @@
+------# created by KDE Plasma, Wed May 1 19:17:57 2024
+-----+# created by KDE Plasma, Wed May 1 20:16:44 2024
+----- #
+----- 
+----- gtk-alternative-button-order = 1
+-----diff --git a/Kdeconfigs/kglobalshortcutsrc b/Kdeconfigs/kglobalshortcutsrc
+-----index 5824f0b0..3b102e64 100644
+-------- a/Kdeconfigs/kglobalshortcutsrc
+-----+++ b/Kdeconfigs/kglobalshortcutsrc
+-----@@ -214,7 +214,7 @@ Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Incre
+----- Increase Screen Brightness=Meta+F12\tMonitor Brightness Up,Monitor Brightness Up,Increase Screen Brightness
+----- Increase Screen Brightness Small=Shift+Monitor Brightness Up,Shift+Monitor Brightness Up,Increase Screen Brightness by 1%
+----- PowerDown=Power Down,Power Down,Power Down
+------PowerOff=Power Off,Power Off,Power Off
+-----+PowerOff=Meta+Backspace\tPower Off,Power Off,Power Off
+----- Sleep=Sleep,Sleep,Suspend
+----- Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
+----- Turn Off Screen=none,none,Turn Off Screen
+-----@@ -249,7 +249,7 @@ show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
+----- stop current activity=none,Meta+S,Stop Current Activity
+----- switch to next activity=none,,Switch to Next Activity
+----- switch to previous activity=none,,Switch to Previous Activity
+------toggle do not disturb=none,,Toggle do not disturb
+-----+toggle do not disturb=none,none,Toggle do not disturb
+----- 
+----- [services][android-studio.desktop]
+----- _launch=Meta+Z
+-----diff --git a/Kdeconfigs/kwinrulesrc b/Kdeconfigs/kwinrulesrc
+-----index 79b4e231..43fe507a 100644
+-------- a/Kdeconfigs/kwinrulesrc
+-----+++ b/Kdeconfigs/kwinrulesrc
+-----@@ -48,6 +48,16 @@ types=1
+----- wmclass=io.github.tdesktop_x64.TDesktop
+----- wmclassmatch=1
+----- 
+-----+[5]
+-----+Description=Dolphin
+-----+opacityactive=95
+-----+opacityactiverule=2
+-----+opacityinactive=93
+-----+opacityinactiverule=2
+-----+types=1
+-----+wmclass=org.kde.dolphin
+-----+wmclassmatch=1
+-----+
+----- [51e3bfac-a197-4c64-b616-9f179c9568ab]
+----- Description=vesktop
+----- opacityactive=88
+-----@@ -70,6 +80,15 @@ types=1
+----- wmclass=jetbrains-studio
+----- wmclassmatch=1
+----- 
+-----+[6]
+-----+Description=vesktop
+-----+opacityactive=88
+-----+opacityactiverule=2
+-----+opacityinactive=88
+-----+opacityinactiverule=2
+-----+wmclass=vesktop
+-----+wmclassmatch=1
+-----+
+----- [6337464e-4da8-4257-81bc-019dbb280b94]
+----- Description=firefox
+----- opacityactive=88
+-----@@ -82,7 +101,7 @@ wmclassmatch=1
+----- 
+----- [General]
+----- count=6
+------rules=1,2,3,4,f54253ba-9265-4814-9926-50b31f45025d,51e3bfac-a197-4c64-b616-9f179c9568ab
+-----+rules=1,2,3,4,5,6
+----- 
+----- [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
+----- Description=Application settings for jetbrains-studio
+-----diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-----index e745f7e6..de20c2b1 100644
+-------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-----+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-----@@ -131,7 +131,7 @@ immutability=1
+----- plugin=org.kde.plasma.weather
+----- 
+----- [Containments][25][Applets][66][Configuration]
+------PreloadWeight=10
+-----+PreloadWeight=2
+----- UserBackgroundHints=ShadowBackground
+----- configMigrated=true
+----- 
+-----diff --git a/Kdeconfigs/plasmashellrc b/Kdeconfigs/plasmashellrc
+-----index 36d8e5f8..c1310567 100644
+-------- a/Kdeconfigs/plasmashellrc
+-----+++ b/Kdeconfigs/plasmashellrc
+-----@@ -6,7 +6,7 @@ immutability=1
+----- plugin=org.kde.plasma.weather
+----- 
+----- [Applets][66][Configuration]
+------PreloadWeight=10
+-----+PreloadWeight=2
+----- UserBackgroundHints=ShadowBackground
+----- configMigrated=true
+----- 
+-----@@ -36,9 +36,6 @@ updateInterval=200
+----- [General]
+----- Number of Actions=0
+----- 
+------[PlasmaTransientsConfig]
+------PreloadWeight=84
+------
+----- [PlasmaViews][Panel 2]
+----- floating=1
+----- 
+-----diff --git a/changes.md b/changes.md
+-----index 17593db7..e69de29b 100644
+-------- a/changes.md
+-----+++ b/changes.md
+-----@@ -1,2830 +0,0 @@
+------diff --git a/Kdeconfigs/gtkrc b/Kdeconfigs/gtkrc
+------index 08688c22..2e23dcf2 100644
+--------- a/Kdeconfigs/gtkrc
+------+++ b/Kdeconfigs/gtkrc
+------@@ -1,2 +1,2 @@
+-------# created by KDE Plasma, Wed May 1 08:48:23 2024
+------+# created by KDE Plasma, Wed May 1 19:17:57 2024
+------ #
+------diff --git a/Kdeconfigs/gtkrc-2.0 b/Kdeconfigs/gtkrc-2.0
+------index e04f0f67..2693e9f1 100644
+--------- a/Kdeconfigs/gtkrc-2.0
+------+++ b/Kdeconfigs/gtkrc-2.0
+------@@ -1,4 +1,4 @@
+-------# created by KDE Plasma, Wed May 1 08:48:23 2024
+------+# created by KDE Plasma, Wed May 1 19:17:57 2024
+------ #
+------ 
+------ gtk-alternative-button-order = 1
+------diff --git a/Kdeconfigs/kglobalshortcutsrc b/Kdeconfigs/kglobalshortcutsrc
+------index cb0a3aee..6e2e6ee3 100644
+--------- a/Kdeconfigs/kglobalshortcutsrc
+------+++ b/Kdeconfigs/kglobalshortcutsrc
+------@@ -234,22 +234,22 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
+------ activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
+------ activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
+------ activate widget 3=none,none,Activate Application Launcher Widget
+-------clear-history=none,,Clear Clipboard History
+------+clear-history=none,none,Clear Clipboard History
+------ clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
+------ cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
+-------cycleNextAction=none,,Next History Item
+-------cyclePrevAction=none,,Previous History Item
+------+cycleNextAction=none,none,Next History Item
+------+cyclePrevAction=none,none,Previous History Item
+------ manage activities=none,Meta+Q,Show Activity Switcher
+------ next activity=none,none,Walk through activities
+------ previous activity=none,none,Walk through activities (Reverse)
+------ repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
+------ show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
+-------show-barcode=none,,Show Barcode…
+------+show-barcode=none,none,Show Barcode…
+------ show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
+------ stop current activity=none,Meta+S,Stop Current Activity
+------ switch to next activity=none,,Switch to Next Activity
+------ switch to previous activity=none,,Switch to Previous Activity
+-------toggle do not disturb=none,,Toggle do not disturb
+------+toggle do not disturb=none,none,Toggle do not disturb
+------ 
+------ [services][android-studio.desktop]
+------ _launch=Meta+Z
+------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+------index d5288bf1..e745f7e6 100644
+--------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+------@@ -235,8 +235,20 @@ plugin=org.kde.plasma.pager
+------ DialogHeight=540
+------ DialogWidth=720
+------ 
+------+[Containments][26][Applets][72]
+------+immutability=1
+------+plugin=org.kde.plasma.kickoff
+------+
+------+[Containments][26][Applets][72][Configuration]
+------+PreloadWeight=100
+------+popupHeight=510
+------+popupWidth=651
+------+
+------+[Containments][26][Applets][72][Configuration][General]
+------+favoritesPortedToKAstats=true
+------+
+------ [Containments][26][General]
+-------AppletOrder=29;30;31;44;58
+------+AppletOrder=72;29;30;31;44;58
+------ 
+------ [Containments][32]
+------ activityId=
+------@@ -348,7 +360,7 @@ immutability=1
+------ plugin=org.kde.plasma.mediacontroller
+------ 
+------ [Containments][32][Applets][57][Configuration]
+-------PreloadWeight=17
+------+PreloadWeight=14
+------ 
+------ [Containments][32][General]
+------ extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+------diff --git a/Kdeconfigs/plasmashellrc b/Kdeconfigs/plasmashellrc
+------index 68b4dea7..36d8e5f8 100644
+--------- a/Kdeconfigs/plasmashellrc
+------+++ b/Kdeconfigs/plasmashellrc
+------@@ -36,6 +36,9 @@ updateInterval=200
+------ [General]
+------ Number of Actions=0
+------ 
+------+[PlasmaTransientsConfig]
+------+PreloadWeight=84
+------+
+------ [PlasmaViews][Panel 2]
+------ floating=1
+------ 
+------diff --git a/changes.md b/changes.md
+------index ce3ac1dc..e69de29b 100644
+--------- a/changes.md
+------+++ b/changes.md
+------@@ -1,2719 +0,0 @@
+-------diff --git a/Kdeconfigs/gwenviewrc b/Kdeconfigs/gwenviewrc
+-------index a82cf3d6..1154a051 100644
+---------- a/Kdeconfigs/gwenviewrc
+-------+++ b/Kdeconfigs/gwenviewrc
+-------@@ -5,14 +5,18 @@ LastUsedVersion=210800
+------- ToolBarsMovable=Disabled
+------- 
+------- [Recent Files]
+--------File1[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
+--------File2[$e]=$HOME/Kdesettings/wallpapers/Cyberpunk-Edge/lucy_rebecca.jpg
+--------File3[$e]=$HOME/Pictures/Screenshots/sssss.png
+--------File4[$e]=$HOME/Pictures/Screenshots/Screenshot_20240430_080430.png
+--------Name1[$e]=240331_01h16m45s_screenshot.png
+--------Name2[$e]=lucy_rebecca.jpg
+--------Name3[$e]=sssss.png
+--------Name4[$e]=Screenshot_20240430_080430.png
+-------+File1[$e]=$HOME/Kdesettings/wallpapers/Cyberpunk-Edge/lucy_rebecca.jpg
+-------+File2[$e]=$HOME/Pictures/Screenshots/Screenshot_20240430_080430.png
+-------+File3[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
+-------+File4[$e]=$HOME/Pictures/Screenshots/240318_21h23m29s_screenshot.png
+-------+File5[$e]=$HOME/Pictures/Screenshots/sssss.png
+-------+File6[$e]=$HOME/Pictures/Screenshots/240331_16h30m30s_screenshot.png
+-------+Name1[$e]=lucy_rebecca.jpg
+-------+Name2[$e]=Screenshot_20240430_080430.png
+-------+Name3[$e]=240331_01h16m45s_screenshot.png
+-------+Name4[$e]=240318_21h23m29s_screenshot.png
+-------+Name5[$e]=sssss.png
+-------+Name6[$e]=240331_16h30m30s_screenshot.png
+------- 
+------- [SideBar]
+------- InformationSplitterSizes=211,244
+-------diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+-------index 14169ad1..a172a877 100644
+---------- a/Kdeconfigs/katerc
+-------+++ b/Kdeconfigs/katerc
+-------@@ -46,7 +46,8 @@ Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
+------- Word Wrap Marker=false
+------- 
+------- [KTextEditor::Search]
+--------Search History=QT_QPA_PLATFORM=xeb,video_player,player
+-------+Replace History=2023.3.1.18
+-------+Search History=2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+------- 
+------- [Konsole]
+------- AutoSyncronize=true
+-------@@ -57,8 +58,8 @@ RunPrefix=
+------- SetEditor=false
+------- 
+------- [MainWindow]
+--------1920x1080 screen: Height=733
+--------1920x1080 screen: Width=846
+-------+1920x1080 screen: Height=817
+-------+1920x1080 screen: Width=1050
+------- 
+------- [filetree]
+------- editShade=74,55,117
+-------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------index 1c1ba2ca..d5288bf1 100644
+---------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------@@ -348,7 +348,7 @@ immutability=1
+------- plugin=org.kde.plasma.mediacontroller
+------- 
+------- [Containments][32][Applets][57][Configuration]
+--------PreloadWeight=12
+-------+PreloadWeight=17
+------- 
+------- [Containments][32][General]
+------- extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+-------diff --git a/Kdeconfigs/plasmanotifyrc b/Kdeconfigs/plasmanotifyrc
+-------index 95281e67..cdc67095 100644
+---------- a/Kdeconfigs/plasmanotifyrc
+-------+++ b/Kdeconfigs/plasmanotifyrc
+-------@@ -7,6 +7,10 @@ Seen=true
+------- [Applications][vesktop]
+------- Seen=true
+------- 
+-------+[DoNotDisturb]
+-------+NotificationSoundsMuted=true
+-------+Until=2024,5,1,16,34,0.419
+-------+
+------- [Notifications]
+------- LowPriorityHistory=true
+------- PopupPosition=TopRight
+-------diff --git a/changes.md b/changes.md
+-------index 90c070d7..e69de29b 100644
+---------- a/changes.md
+-------+++ b/changes.md
+-------@@ -1,2623 +0,0 @@
+--------diff --git a/Config/fish/config.fish b/Config/fish/config.fish
+--------index 30b75e91..e9f77517 100644
+----------- a/Config/fish/config.fish
+--------+++ b/Config/fish/config.fish
+--------@@ -320,9 +320,8 @@ end
+-------- 
+-------- #to play youtube with ytfzf
+-------- alias play 'ytfzf -T kitty -t' # play
+---------alias play-v 'ytfzf -T kitty -t'
+-------- alias play-l 'ytfzf -T kitty -L'
+---------alias play-s 'ytfzf -T kitty -m'
+--------+alias play-m 'ytfzf -T kitty -m'
+-------- alias yt-search 'ytfzf -T kitty -cO'
+-------- alias haru-play 'ytfzf -T kitty -u haruna -t' # dadad
+-------- 
+--------diff --git a/Config/ytfzf/conf.sh b/Config/ytfzf/conf.sh
+--------index f46f1668..70fea5ec 100755
+----------- a/Config/ytfzf/conf.sh
+--------+++ b/Config/ytfzf/conf.sh
+--------@@ -8,7 +8,8 @@
+-------- #      esac
+-------- # }
+-------- 
+---------video_pref="bestvideo[height<=?1080]+bestaudio/best"
+--------+# video_pref="bestvideo[height<=?1080]+bestaudio/best"
+--------+video_pref="medium[height<=?144]+bestaudio/mediam"
+-------- show_thumbnails=1
+-------- # skip_thumb_download=1
+-------- async_thumbnails=1
+--------diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+--------index 57220e2d..14169ad1 100644
+----------- a/Kdeconfigs/katerc
+--------+++ b/Kdeconfigs/katerc
+--------@@ -57,8 +57,8 @@ RunPrefix=
+-------- SetEditor=false
+-------- 
+-------- [MainWindow]
+---------1920x1080 screen: Height=729
+---------1920x1080 screen: Width=848
+--------+1920x1080 screen: Height=733
+--------+1920x1080 screen: Width=846
+-------- 
+-------- [filetree]
+-------- editShade=74,55,117
+--------diff --git a/Kdeconfigs/kwinrc b/Kdeconfigs/kwinrc
+--------index b9d18905..2ddc36e6 100644
+----------- a/Kdeconfigs/kwinrc
+--------+++ b/Kdeconfigs/kwinrc
+--------@@ -14,9 +14,15 @@ Rows=2
+-------- BlurStrength=3
+-------- NoiseStrength=0
+-------- 
+--------+[Effect-overview]
+--------+BorderActivate=9
+--------+
+-------- [Effect-translucency]
+-------- MoveResize=90
+-------- 
+--------+[Effect-windowview]
+--------+BorderActivateAll=7
+--------+
+-------- [MouseBindings]
+-------- CommandAll1=Activate, raise and move
+-------- 
+--------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--------index 8670f4e5..1c1ba2ca 100644
+----------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--------@@ -12,8 +12,8 @@ popupWidth=647
+-------- 
+-------- [Containments][25]
+-------- ItemGeometries-0x0=Applet-69:16,320,80,80,0;Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+---------ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-69:0,240,80,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+---------ItemGeometriesHorizontal=Applet-69:16,320,80,80,0;Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+--------+ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-66:1616,96,288,352,0;Applet-49:1712,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+--------+ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-66:1616,96,288,352,0;Applet-49:1712,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+-------- activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
+-------- formfactor=0
+-------- immutability=1
+--------@@ -223,7 +223,7 @@ immutability=1
+-------- plugin=org.kde.plasma.digitalclock
+-------- 
+-------- [Containments][26][Applets][44][Configuration]
+---------PreloadWeight=70
+--------+PreloadWeight=75
+-------- popupHeight=450
+-------- popupWidth=560
+-------- 
+--------@@ -348,7 +348,7 @@ immutability=1
+-------- plugin=org.kde.plasma.mediacontroller
+-------- 
+-------- [Containments][32][Applets][57][Configuration]
+---------PreloadWeight=0
+--------+PreloadWeight=12
+-------- 
+-------- [Containments][32][General]
+-------- extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+--------diff --git a/Kdeconfigs/plasma.emojierrc b/Kdeconfigs/plasma.emojierrc
+--------index 7d7739f9..1a49d84f 100644
+----------- a/Kdeconfigs/plasma.emojierrc
+--------+++ b/Kdeconfigs/plasma.emojierrc
+--------@@ -1,6 +1,6 @@
+-------- [Emojier]
+---------recent=🙂
+---------recentDescriptions=slightly smiling face
+--------+recent=♦️,🙂
+--------+recentDescriptions=diamond suit,slightly smiling face
+-------- 
+-------- [Window]
+-------- 1920x1080 screen: Height=519
+--------diff --git a/Kdeconfigs/plasmanotifyrc b/Kdeconfigs/plasmanotifyrc
+--------index ad00716c..95281e67 100644
+----------- a/Kdeconfigs/plasmanotifyrc
+--------+++ b/Kdeconfigs/plasmanotifyrc
+--------@@ -7,10 +7,6 @@ Seen=true
+-------- [Applications][vesktop]
+-------- Seen=true
+-------- 
+---------[DoNotDisturb]
+---------NotificationSoundsMuted=true
+---------Until=2024,5,1,14,23,0.902
+---------
+-------- [Notifications]
+-------- LowPriorityHistory=true
+-------- PopupPosition=TopRight
+--------diff --git a/Kdeconfigs/powerdevilrc b/Kdeconfigs/powerdevilrc
+--------index eb943dd6..f4f94653 100644
+----------- a/Kdeconfigs/powerdevilrc
+--------+++ b/Kdeconfigs/powerdevilrc
+--------@@ -1,6 +1,6 @@
+-------- [AC][Display]
+--------+DimDisplayWhenIdle=false
+-------- DisplayBrightness=65
+---------UseProfileSpecificDisplayBrightness=true
+-------- 
+-------- [AC][Performance]
+-------- PowerProfile=performance
+--------diff --git a/changes.md b/changes.md
+--------index 6195c3e0..ef09f66b 100644
+----------- a/changes.md
+--------+++ b/changes.md
+--------@@ -1,2474 +0,0 @@
+---------diff --git a/Kdeconfigs/gwenviewrc b/Kdeconfigs/gwenviewrc
+---------index e59429db..a82cf3d6 100644
+------------ a/Kdeconfigs/gwenviewrc
+---------+++ b/Kdeconfigs/gwenviewrc
+---------@@ -7,8 +7,12 @@ ToolBarsMovable=Disabled
+--------- [Recent Files]
+--------- File1[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
+--------- File2[$e]=$HOME/Kdesettings/wallpapers/Cyberpunk-Edge/lucy_rebecca.jpg
+---------+File3[$e]=$HOME/Pictures/Screenshots/sssss.png
+---------+File4[$e]=$HOME/Pictures/Screenshots/Screenshot_20240430_080430.png
+--------- Name1[$e]=240331_01h16m45s_screenshot.png
+--------- Name2[$e]=lucy_rebecca.jpg
+---------+Name3[$e]=sssss.png
+---------+Name4[$e]=Screenshot_20240430_080430.png
+--------- 
+--------- [SideBar]
+--------- InformationSplitterSizes=211,244
+---------diff --git a/Kdeconfigs/ktrashrc b/Kdeconfigs/ktrashrc
+---------index 9581c8f8..7faedde9 100644
+------------ a/Kdeconfigs/ktrashrc
+---------+++ b/Kdeconfigs/ktrashrc
+---------@@ -2,5 +2,5 @@
+--------- Days=7
+--------- LimitReachedAction=0
+--------- Percent=10
+----------UseSizeLimit=true
+---------+UseSizeLimit=false
+--------- UseTimeLimit=true
+---------diff --git a/Kdeconfigs/kwinrulesrc b/Kdeconfigs/kwinrulesrc
+---------index c3ca8017..79b4e231 100644
+------------ a/Kdeconfigs/kwinrulesrc
+---------+++ b/Kdeconfigs/kwinrulesrc
+---------@@ -81,8 +81,8 @@ wmclass=firefox
+--------- wmclassmatch=1
+--------- 
+--------- [General]
+----------count=5
+----------rules=1,2,3,4,51e3bfac-a197-4c64-b616-9f179c9568ab
+---------+count=6
+---------+rules=1,2,3,4,f54253ba-9265-4814-9926-50b31f45025d,51e3bfac-a197-4c64-b616-9f179c9568ab
+--------- 
+--------- [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
+--------- Description=Application settings for jetbrains-studio
+---------@@ -100,3 +100,13 @@ opacityinactiverule=2
+--------- types=1
+--------- wmclass=io.github.tdesktop_x64.TDesktop
+--------- wmclassmatch=1
+---------+
+---------+[f54253ba-9265-4814-9926-50b31f45025d]
+---------+Description=Dolphin
+---------+opacityactive=95
+---------+opacityactiverule=2
+---------+opacityinactive=93
+---------+opacityinactiverule=2
+---------+types=1
+---------+wmclass=org.kde.dolphin
+---------+wmclassmatch=1
+---------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+---------index b2f2aebe..8670f4e5 100644
+------------ a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+---------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+---------@@ -115,6 +115,9 @@ totalSensors=["cpu/all/averageTemperature"]
+--------- immutability=1
+--------- plugin=org.kde.plasma.trash
+--------- 
+---------+[Containments][25][Applets][64][Configuration]
+---------+PreloadWeight=55
+---------+
+--------- [Containments][25][Applets][65]
+--------- immutability=1
+--------- plugin=org.kde.plasma.icon
+---------@@ -164,15 +167,15 @@ DialogHeight=540
+--------- DialogWidth=720
+--------- 
+--------- [Containments][25][General]
+----------ToolBoxButtonState=top
+---------+ToolBoxButtonState=topcenter
+--------- ToolBoxButtonX=499
+--------- iconSize=1
+----------positions={"1920x1080":["4"\\,"20"\\,"desktop:/io.github.tdesktop_x64.TDesktop.desktop"\\,"3"\\,"0"]}
+---------+positions={"1920x1080":[]}
+--------- sortMode=-1
+--------- 
+--------- [Containments][25][Wallpaper][org.kde.image][General]
+----------Image=/home/alex/wallpapers/Catppuccin-Mocha/vaxerski_noBG.png
+----------PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/vaxerski_noBG.png
+---------+Image=/home/alex/wallpapers/Catppuccin-Mocha/1345016.png
+---------+PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/1345016.png
+--------- SlidePaths=/usr/share/wallpapers/
+--------- 
+--------- [Containments][25][Wallpaper][org.kde.slideshow][General]
+---------diff --git a/changes.md b/changes.md
+---------index 28acb380..e69de29b 100644
+------------ a/changes.md
+---------+++ b/changes.md
+---------@@ -1,2371 +0,0 @@
+----------diff --git a/Config/fish/config.fish b/Config/fish/config.fish
+----------index 061f2d70..30b75e91 100644
+------------- a/Config/fish/config.fish
+----------+++ b/Config/fish/config.fish
+----------@@ -220,7 +220,7 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+---------- export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+---------- export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+---------- export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
+-----------export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+----------+
+---------- 
+---------- # Add ~/.cargo/bin to PATH
+---------- if test -d ~/.cargo/bin
+----------diff --git a/Kdeconfigs/QtProject.conf b/Kdeconfigs/QtProject.conf
+----------index 513bbcd8..89ab2e4d 100644
+------------- a/Kdeconfigs/QtProject.conf
+----------+++ b/Kdeconfigs/QtProject.conf
+----------@@ -1,7 +1,7 @@
+---------- [FileDialog]
+-----------history=file:///home/alex
+-----------lastVisited=file:///home/alex
+-----------qtVersion=5.15.13
+----------+history=@Invalid()
+----------+lastVisited=file:///home/alex/
+----------+qtVersion=6.7.0
+---------- shortcuts=file:, file:///home/alex
+---------- sidebarWidth=95
+---------- treeViewHeader="@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1\xd1\0\0\0\x4\x1\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\x4\0\0\0\xf5\0\0\0\x1\0\0\0\0\0\0\0\x39\0\0\0\x1\0\0\0\0\0\0\0=\0\0\0\x1\0\0\0\0\0\0\0\x66\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\xff\xff\xff\xff)"
+----------diff --git a/Kdeconfigs/dolphinrc b/Kdeconfigs/dolphinrc
+----------index 37e9ac16..6a327bcd 100644
+------------- a/Kdeconfigs/dolphinrc
+----------+++ b/Kdeconfigs/dolphinrc
+----------@@ -3,7 +3,7 @@ Version=202
+---------- ViewPropsTimestamp=2024,4,30,7,46,43.254
+---------- 
+---------- [IconsMode]
+-----------PreviewSize=32
+----------+PreviewSize=48
+---------- 
+---------- [KFileDialog Settings]
+---------- Places Icons Auto-resize=false
+----------diff --git a/Kdeconfigs/filetypesrc b/Kdeconfigs/filetypesrc
+----------index 9b9be63b..9f910e86 100644
+------------- a/Kdeconfigs/filetypesrc
+----------+++ b/Kdeconfigs/filetypesrc
+----------@@ -1,6 +1,7 @@
+---------- [EmbedSettings]
+---------- embed-application/x-matroska=false
+---------- embed-application/x-shellscript=false
+----------+embed-text/html=false
+---------- embed-video/3gp=false
+---------- embed-video/3gpp=false
+---------- embed-video/3gpp2=false
+----------diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+----------index 0fd12a6f..57220e2d 100644
+------------- a/Kdeconfigs/katerc
+----------+++ b/Kdeconfigs/katerc
+----------@@ -57,8 +57,8 @@ RunPrefix=
+---------- SetEditor=false
+---------- 
+---------- [MainWindow]
+-----------1920x1080 screen: Height=785
+-----------1920x1080 screen: Width=1038
+----------+1920x1080 screen: Height=729
+----------+1920x1080 screen: Width=848
+---------- 
+---------- [filetree]
+---------- editShade=74,55,117
+----------diff --git a/Kdeconfigs/kglobalshortcutsrc b/Kdeconfigs/kglobalshortcutsrc
+----------index 18d53f9b..cb0a3aee 100644
+------------- a/Kdeconfigs/kglobalshortcutsrc
+----------+++ b/Kdeconfigs/kglobalshortcutsrc
+----------@@ -254,6 +254,9 @@ toggle do not disturb=none,,Toggle do not disturb
+---------- [services][android-studio.desktop]
+---------- _launch=Meta+Z
+---------- 
+----------+[services][code.desktop]
+----------+_launch=Meta+X
+----------+
+---------- [services][com.obsproject.Studio.desktop]
+---------- _launch=Meta+S
+---------- 
+----------@@ -264,7 +267,7 @@ new-window=Meta+F
+---------- _launch=Meta+T
+---------- 
+---------- [services][org.kde.kate.desktop]
+-----------_launch=Meta+C
+----------+_launch=Meta+K
+---------- 
+---------- [services][org.kde.krunner.desktop]
+---------- _launch=Meta+A\tAlt+Space\tSearch\tAlt+F2
+----------@@ -272,6 +275,9 @@ _launch=Meta+A\tAlt+Space\tSearch\tAlt+F2
+---------- [services][org.kde.kscreen.desktop]
+---------- ShowOSD=Display
+---------- 
+----------+[services][org.kde.kwrite.desktop]
+----------+_launch=Meta+C
+----------+
+---------- [services][org.kde.spectacle.desktop]
+---------- RectangularRegionScreenShot=Meta+Shift+S\tMeta+Shift+Print
+---------- _launch=Print
+----------diff --git a/Kdeconfigs/kwinrulesrc b/Kdeconfigs/kwinrulesrc
+----------index ca8c0dec..c3ca8017 100644
+------------- a/Kdeconfigs/kwinrulesrc
+----------+++ b/Kdeconfigs/kwinrulesrc
+----------@@ -48,6 +48,15 @@ types=1
+---------- wmclass=io.github.tdesktop_x64.TDesktop
+---------- wmclassmatch=1
+---------- 
+----------+[51e3bfac-a197-4c64-b616-9f179c9568ab]
+----------+Description=vesktop
+----------+opacityactive=88
+----------+opacityactiverule=2
+----------+opacityinactive=88
+----------+opacityinactiverule=2
+----------+wmclass=vesktop
+----------+wmclassmatch=1
+----------+
+---------- [5cc7d6c0-8a4b-4297-9d03-16d1a6445386]
+---------- Description=Application settings for jetbrains-studio
+---------- clientmachine=localhost
+----------@@ -72,8 +81,8 @@ wmclass=firefox
+---------- wmclassmatch=1
+---------- 
+---------- [General]
+-----------count=4
+-----------rules=1,2,3,4
+----------+count=5
+----------+rules=1,2,3,4,51e3bfac-a197-4c64-b616-9f179c9568ab
+---------- 
+---------- [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
+---------- Description=Application settings for jetbrains-studio
+----------diff --git a/Kdeconfigs/mimeapps.list b/Kdeconfigs/mimeapps.list
+----------index 0e7f5b31..22b758db 100644
+------------- a/Kdeconfigs/mimeapps.list
+----------+++ b/Kdeconfigs/mimeapps.list
+----------@@ -1,6 +1,7 @@
+---------- [Added Associations]
+---------- application/x-matroska=mpv.desktop;
+---------- application/x-shellscript=org.kde.kate.desktop;
+----------+text/html=org.kde.kwrite.desktop;
+---------- video/3gp=mpv.desktop;
+---------- video/3gpp=mpv.desktop;
+---------- video/3gpp2=mpv.desktop;
+----------@@ -38,6 +39,7 @@ x-scheme-handler/youtubemusic=YouTube Music.desktop;
+---------- [Default Applications]
+---------- application/x-matroska=mpv.desktop;
+---------- application/x-shellscript=org.kde.kate.desktop;
+----------+text/html=org.kde.kwrite.desktop;
+---------- video/3gp=mpv.desktop;
+---------- video/3gpp=mpv.desktop;
+---------- video/3gpp2=mpv.desktop;
+----------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----------index d687b37c..b2f2aebe 100644
+------------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----------@@ -11,9 +11,9 @@ popupHeight=510
+---------- popupWidth=647
+---------- 
+---------- [Containments][25]
+-----------ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+-----------ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-69:0.0324633,240.007,64,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+-----------ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-69:0.0324633,240.007,64,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+----------+ItemGeometries-0x0=Applet-69:16,320,80,80,0;Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+----------+ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-69:0,240,80,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+----------+ItemGeometriesHorizontal=Applet-69:16,320,80,80,0;Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+---------- activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
+---------- formfactor=0
+---------- immutability=1
+----------diff --git a/Kdeconfigs/plasmanotifyrc b/Kdeconfigs/plasmanotifyrc
+----------index 3c446eb5..ad00716c 100644
+------------- a/Kdeconfigs/plasmanotifyrc
+----------+++ b/Kdeconfigs/plasmanotifyrc
+----------@@ -9,7 +9,7 @@ Seen=true
+---------- 
+---------- [DoNotDisturb]
+---------- NotificationSoundsMuted=true
+-----------Until=2025,5,1,8,13,58.569
+----------+Until=2024,5,1,14,23,0.902
+---------- 
+---------- [Notifications]
+---------- LowPriorityHistory=true
+----------diff --git a/changes.md b/changes.md
+----------index 7a6c721b..ccb15774 100644
+------------- a/changes.md
+----------+++ b/changes.md
+----------@@ -1,2177 +0,0 @@
+-----------diff --git a/Kdeconfigs/QtProject.conf b/Kdeconfigs/QtProject.conf
+-----------index 38f9e3d6..513bbcd8 100644
+-------------- a/Kdeconfigs/QtProject.conf
+-----------+++ b/Kdeconfigs/QtProject.conf
+-----------@@ -1,5 +1,8 @@
+----------- [FileDialog]
+------------history=@Invalid()
+------------lastVisited=file:///home/alex/
+------------qtVersion=6.7.0
+-----------+history=file:///home/alex
+-----------+lastVisited=file:///home/alex
+-----------+qtVersion=5.15.13
+-----------+shortcuts=file:, file:///home/alex
+-----------+sidebarWidth=95
+-----------+treeViewHeader="@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1\xd1\0\0\0\x4\x1\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\x4\0\0\0\xf5\0\0\0\x1\0\0\0\0\0\0\0\x39\0\0\0\x1\0\0\0\0\0\0\0=\0\0\0\x1\0\0\0\0\0\0\0\x66\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\xff\xff\xff\xff)"
+----------- viewMode=Detail
+-----------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-----------index f6774db8..d687b37c 100644
+-------------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-----------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-----------@@ -12,8 +12,8 @@ popupWidth=647
+----------- 
+----------- [Containments][25]
+----------- ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+------------ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+------------ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+-----------+ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-69:0.0324633,240.007,64,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+-----------+ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-69:0.0324633,240.007,64,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+----------- activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
+----------- formfactor=0
+----------- immutability=1
+-----------@@ -151,6 +151,14 @@ visibilityUnit=2007
+----------- source=wettercom|weather|Kolkata, State of West Bengal, IN|IN0WB0002;Kolkata
+----------- updateInterval=200
+----------- 
+-----------+[Containments][25][Applets][69]
+-----------+immutability=1
+-----------+plugin=org.kde.plasma.icon
+-----------+
+-----------+[Containments][25][Applets][69][Configuration]
+-----------+localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.desktop
+-----------+url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
+-----------+
+----------- [Containments][25][ConfigDialog]
+----------- DialogHeight=540
+----------- DialogWidth=720
+-----------@@ -371,4 +379,4 @@ favoritesPortedToKAstats=true
+----------- 
+----------- [ScreenMapping]
+----------- itemsOnDisabledScreens=
+------------screenMapping=desktop:/io.github.tdesktop_x64.TDesktop.desktop,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+-----------+screenMapping=
+-----------diff --git a/changes.md b/changes.md
+-----------index 36a572c3..e69de29b 100644
+-------------- a/changes.md
+-----------+++ b/changes.md
+-----------@@ -1,2113 +0,0 @@
+------------diff --git a/Kdeconfigs/kglobalshortcutsrc b/Kdeconfigs/kglobalshortcutsrc
+------------index e88f5feb..18d53f9b 100644
+--------------- a/Kdeconfigs/kglobalshortcutsrc
+------------+++ b/Kdeconfigs/kglobalshortcutsrc
+------------@@ -234,17 +234,17 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
+------------ activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
+------------ activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
+------------ activate widget 3=none,none,Activate Application Launcher Widget
+-------------clear-history=none,none,Clear Clipboard History
+------------+clear-history=none,,Clear Clipboard History
+------------ clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
+------------ cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
+-------------cycleNextAction=none,none,Next History Item
+-------------cyclePrevAction=none,none,Previous History Item
+------------+cycleNextAction=none,,Next History Item
+------------+cyclePrevAction=none,,Previous History Item
+------------ manage activities=none,Meta+Q,Show Activity Switcher
+------------ next activity=none,none,Walk through activities
+------------ previous activity=none,none,Walk through activities (Reverse)
+------------ repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
+------------ show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
+-------------show-barcode=none,none,Show Barcode…
+------------+show-barcode=none,,Show Barcode…
+------------ show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
+------------ stop current activity=none,Meta+S,Stop Current Activity
+------------ switch to next activity=none,,Switch to Next Activity
+------------diff --git a/Kdeconfigs/kwinrc b/Kdeconfigs/kwinrc
+------------index e033ec6f..b9d18905 100644
+--------------- a/Kdeconfigs/kwinrc
+------------+++ b/Kdeconfigs/kwinrc
+------------@@ -31,7 +31,7 @@ padding=5
+------------ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+------------ 
+------------ [Tiling][a43ad847-422f-56b6-99b4-42b13602bcc9]
+-------------tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5157407407407403,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]},{"height":0.23425925925925972,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]},{"height":0.25,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]}],"width":0.5494791666666667},{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"horizontal","tiles":[{"width":0.21432291666666625},{"width":0.23619791666666645}]},{"height":0.5,"layoutDirection":"horizontal","tiles":[{"width":0.21432291666666625},{"width":0.23619791666666645}]}],"width":0.4505208333333327}]}
+------------+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.05,"y":0.05}]},{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.05,"y":0.55}]}],"width":0.25},{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"horizontal","tiles":[{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.3,"y":0.05}],"width":0.25},{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.19999999999999996,"x":0.55,"y":0.05}],"width":0.25}]},{"height":0.5,"layoutDirection":"horizontal","tiles":[{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.3,"y":0.55}],"width":0.25},{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.19999999999999996,"x":0.55,"y":0.55}],"width":0.25}]}],"width":0.5},{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.19999999999999996,"x":0.8,"y":0.05}]},{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.19999999999999996,"x":0.8,"y":0.55}]}],"width":0.25}]}
+------------ 
+------------ [Windows]
+------------ AutoRaiseInterval=100
+------------diff --git a/changes.md b/changes.md
+------------index 9298c7e8..e69de29b 100644
+--------------- a/changes.md
+------------+++ b/changes.md
+------------@@ -1,2062 +0,0 @@
+-------------diff --git a/Config/Google/AndroidStudio2023.2/options/actionSummary.xml b/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+-------------index c27ea8c0..0cbbc0d1 100644
+---------------- a/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+-------------+++ b/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+-------------@@ -16,7 +16,7 @@
+-------------       <i c="8" l="1714529425420" />
+-------------     </e>
+-------------     <e n="CloseProject">
+--------------      <i c="32" l="1714530843192" />
+-------------+      <i c="33" l="1714533294647" />
+-------------     </e>
+-------------     <e n="CommentByBlockComment">
+-------------       <i c="1" l="1714249685242" />
+-------------@@ -217,7 +217,7 @@
+-------------       <i c="27" l="1714530807836" />
+-------------     </e>
+-------------     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+--------------      <i c="16" l="1714530842160" />
+-------------+      <i c="17" l="1714533291752" />
+-------------     </e>
+-------------     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+-------------       <i c="2" l="1714529978855" />
+-------------diff --git a/Config/Google/AndroidStudio2023.2/options/other.xml b/Config/Google/AndroidStudio2023.2/options/other.xml
+-------------index ae065ff2..39582502 100644
+---------------- a/Config/Google/AndroidStudio2023.2/options/other.xml
+-------------+++ b/Config/Google/AndroidStudio2023.2/options/other.xml
+-------------@@ -182,7 +182,6 @@
+-------------     "bundled.plugins.list.saved.version": "AI-232.10300.40.2321.11668458",
+-------------     "com.developerphil.adbidea.previousversion": "1.6.14",
+-------------     "defaultJdkConfigured": "true",
+--------------    "experimental.ui.switch": "true",
+-------------     "experimental.ui.used.version": "232.10300.40.2321.11668458",
+-------------     "file.gist.reindex.count": "177",
+-------------     "fileTypeChangedCounter": "1",
+-------------@@ -200,7 +199,7 @@
+-------------     "newly.installed.api.level": "34",
+-------------     "previousColorScheme": "_@user_High contrast",
+-------------     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
+--------------    "studio.activity.count": "15",
+-------------+    "studio.activity.count": "2",
+-------------     "tasks.pass.word.conversion.enforced": "true",
+-------------     "updater.configure.tools.details.checkbox.selected": "true"
+-------------   },
+-------------diff --git a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+-------------index 4a13084a..6eb0ffce 100644
+---------------- a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+-------------+++ b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+-------------@@ -36,11 +36,15 @@
+-------------         </entry>
+-------------         <entry key="$USER_HOME$/My projects/Hostcraft">
+-------------           <value>
+--------------            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2fqaUYapJTzXQm946oAqOBLGAtZ">
+--------------              <option name="activationTimestamp" value="1714532787594" />
+-------------+            <RecentProjectMetaInfo frameTitle="Host Craft" projectWorkspaceId="2fqaUYapJTzXQm946oAqOBLGAtZ">
+-------------+              <option name="activationTimestamp" value="1714533277864" />
+-------------               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+-------------               <option name="build" value="AI-232.10300.40.2321.11668458" />
+-------------               <option name="buildTimestamp" value="1712185493473" />
+-------------+              <option name="colorInfo">
+-------------+                <RecentProjectColorInfo associatedIndex="2" />
+-------------+              </option>
+-------------+              <frame x="1" y="0" width="1215" height="1080" />
+-------------               <option name="productionCode" value="AI" />
+-------------               <option name="projectOpenTimestamp" value="1714531077359" />
+-------------             </RecentProjectMetaInfo>
+-------------diff --git a/Config/Google/AndroidStudio2023.2/options/window.state.xml b/Config/Google/AndroidStudio2023.2/options/window.state.xml
+-------------index 8fc3a42e..a5d5046f 100644
+---------------- a/Config/Google/AndroidStudio2023.2/options/window.state.xml
+-------------+++ b/Config/Google/AndroidStudio2023.2/options/window.state.xml
+-------------@@ -3,7 +3,7 @@
+-------------     <location key="WELCOME_SCREEN.0.0.1920.1080" x="982" y="300" />
+-------------   </component>
+-------------   <component name="WindowManager">
+--------------    <frame x="353" y="185" width="1153" height="775" extendedState="6" />
+-------------+    <frame x="1" y="0" width="1215" height="1080" />
+-------------   </component>
+-------------   <component name="WindowStateApplicationService">
+-------------     <state x="741" y="233" width="429" height="486" key="FileChooserDialogImpl" timestamp="1714355278857">
+-------------@@ -14,10 +14,10 @@
+-------------       <screen x="0" y="0" width="1920" height="1080" />
+-------------     </state>
+-------------     <state width="810" height="102" key="ShowUsagesActions.dimensionServiceKey/0.0.1920.1080" timestamp="1714338467912" />
+--------------    <state x="955" y="443" width="800" height="650" key="WELCOME_SCREEN" timestamp="1714530843437">
+-------------+    <state x="955" y="443" width="800" height="650" key="WELCOME_SCREEN" timestamp="1714533295175">
+-------------       <screen x="0" y="0" width="1920" height="1080" />
+-------------     </state>
+--------------    <state x="955" y="443" width="800" height="650" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1714530843437" />
+-------------+    <state x="955" y="443" width="800" height="650" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1714533295175" />
+-------------     <state x="545" y="220" width="800" height="650" key="com.android.tools.idea.devicemanagerv2.DeviceManagerWelcomeScreenFrame" timestamp="1714226986649">
+-------------       <screen x="0" y="0" width="1920" height="1080" />
+-------------     </state>
+-------------diff --git a/Kdeconfigs/gtkrc b/Kdeconfigs/gtkrc
+-------------index c7c69f8a..08688c22 100644
+---------------- a/Kdeconfigs/gtkrc
+-------------+++ b/Kdeconfigs/gtkrc
+-------------@@ -1,2 +1,2 @@
+--------------# created by KDE Plasma, Wed May 1 07:18:23 2024
+-------------+# created by KDE Plasma, Wed May 1 08:48:23 2024
+------------- #
+-------------diff --git a/Kdeconfigs/gtkrc-2.0 b/Kdeconfigs/gtkrc-2.0
+-------------index 40cf3d39..e04f0f67 100644
+---------------- a/Kdeconfigs/gtkrc-2.0
+-------------+++ b/Kdeconfigs/gtkrc-2.0
+-------------@@ -1,4 +1,4 @@
+--------------# created by KDE Plasma, Wed May 1 07:18:23 2024
+-------------+# created by KDE Plasma, Wed May 1 08:48:23 2024
+------------- #
+------------- 
+------------- gtk-alternative-button-order = 1
+-------------diff --git a/Kdeconfigs/kdeglobals b/Kdeconfigs/kdeglobals
+-------------index ec7868af..4a7ba10f 100644
+---------------- a/Kdeconfigs/kdeglobals
+-------------+++ b/Kdeconfigs/kdeglobals
+-------------@@ -138,8 +138,7 @@ History Items[$e]=file:///media/Workspace2,file:///media/Workspace,file:$HOME/wa
+------------- 
+------------- [General]
+------------- AccentColor=221,0,0
+--------------ColorScheme=CatppuccinMochaRed
+--------------ColorSchemeHash=374b4774d102eb9b5cd79deb555d3ba5723e74b9
+-------------+ColorSchemeHash=656e398971b22276207859b495d3493f023589eb
+------------- LastUsedCustomAccentColor=221,0,0
+------------- TerminalApplication=kitty
+------------- TerminalService=kitty.desktop
+-------------diff --git a/Kdeconfigs/kglobalshortcutsrc b/Kdeconfigs/kglobalshortcutsrc
+-------------index 18d53f9b..e88f5feb 100644
+---------------- a/Kdeconfigs/kglobalshortcutsrc
+-------------+++ b/Kdeconfigs/kglobalshortcutsrc
+-------------@@ -234,17 +234,17 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
+------------- activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
+------------- activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
+------------- activate widget 3=none,none,Activate Application Launcher Widget
+--------------clear-history=none,,Clear Clipboard History
+-------------+clear-history=none,none,Clear Clipboard History
+------------- clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
+------------- cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
+--------------cycleNextAction=none,,Next History Item
+--------------cyclePrevAction=none,,Previous History Item
+-------------+cycleNextAction=none,none,Next History Item
+-------------+cyclePrevAction=none,none,Previous History Item
+------------- manage activities=none,Meta+Q,Show Activity Switcher
+------------- next activity=none,none,Walk through activities
+------------- previous activity=none,none,Walk through activities (Reverse)
+------------- repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
+------------- show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
+--------------show-barcode=none,,Show Barcode…
+-------------+show-barcode=none,none,Show Barcode…
+------------- show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
+------------- stop current activity=none,Meta+S,Stop Current Activity
+------------- switch to next activity=none,,Switch to Next Activity
+-------------diff --git a/Kdeconfigs/kwinrc b/Kdeconfigs/kwinrc
+-------------index 63e735dc..e033ec6f 100644
+---------------- a/Kdeconfigs/kwinrc
+-------------+++ b/Kdeconfigs/kwinrc
+-------------@@ -25,13 +25,13 @@ blurEnabled=true
+------------- contrastEnabled=false
+------------- 
+------------- [Tiling]
+--------------padding=4
+-------------+padding=5
+------------- 
+------------- [Tiling][1f82cf41-2fa9-5b02-b0c9-494778b36db1]
+------------- tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+------------- 
+------------- [Tiling][a43ad847-422f-56b6-99b4-42b13602bcc9]
+--------------tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"width":0.6}]}
+-------------+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5157407407407403,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]},{"height":0.23425925925925972,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]},{"height":0.25,"layoutDirection":"horizontal","tiles":[{"width":0.2638020833333332},{"width":0.2856770833333335}]}],"width":0.5494791666666667},{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"horizontal","tiles":[{"width":0.21432291666666625},{"width":0.23619791666666645}]},{"height":0.5,"layoutDirection":"horizontal","tiles":[{"width":0.21432291666666625},{"width":0.23619791666666645}]}],"width":0.4505208333333327}]}
+------------- 
+------------- [Windows]
+------------- AutoRaiseInterval=100
+-------------diff --git a/Kdeconfigs/kwinrulesrc b/Kdeconfigs/kwinrulesrc
+-------------index bcce8627..ca8c0dec 100644
+---------------- a/Kdeconfigs/kwinrulesrc
+-------------+++ b/Kdeconfigs/kwinrulesrc
+-------------@@ -1,4 +1,15 @@
+------------- [1]
+-------------+Description=window rule settings for kitty
+-------------+clientmachine=localhost
+-------------+noborder=true
+-------------+opacityactive=95
+-------------+opacityinactive=95
+-------------+size=730,646
+-------------+sizerule=3
+-------------+wmclass=kitty
+-------------+wmclassmatch=1
+-------------+
+-------------+[2]
+------------- Description=Application settings for jetbrains-studio
+------------- clientmachine=localhost
+------------- noborder=true
+-------------@@ -17,6 +28,26 @@ sizerule=3
+------------- wmclass=kitty
+------------- wmclassmatch=1
+------------- 
+-------------+[3]
+-------------+Description=firefox
+-------------+opacityactive=88
+-------------+opacityactiverule=2
+-------------+opacityinactive=88
+-------------+opacityinactiverule=2
+-------------+types=1
+-------------+wmclass=firefox
+-------------+wmclassmatch=1
+-------------+
+-------------+[4]
+-------------+Description=telegram
+-------------+opacityactive=88
+-------------+opacityactiverule=2
+-------------+opacityinactive=88
+-------------+opacityinactiverule=2
+-------------+types=1
+-------------+wmclass=io.github.tdesktop_x64.TDesktop
+-------------+wmclassmatch=1
+-------------+
+------------- [5cc7d6c0-8a4b-4297-9d03-16d1a6445386]
+------------- Description=Application settings for jetbrains-studio
+------------- clientmachine=localhost
+-------------@@ -42,7 +73,7 @@ wmclassmatch=1
+------------- 
+------------- [General]
+------------- count=4
+--------------rules=29d03a9f-bd34-46eb-bb10-095af4dabc27,1,6337464e-4da8-4257-81bc-019dbb280b94,c9f4483e-24cb-45c4-ac9d-c025fc30120a
+-------------+rules=1,2,3,4
+------------- 
+------------- [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
+------------- Description=Application settings for jetbrains-studio
+-------------diff --git a/Kdeconfigs/mimeapps.list b/Kdeconfigs/mimeapps.list
+-------------index a60e0da8..0e7f5b31 100644
+---------------- a/Kdeconfigs/mimeapps.list
+-------------+++ b/Kdeconfigs/mimeapps.list
+-------------@@ -33,6 +33,7 @@ video/x-ogm=mpv.desktop;
+------------- video/x-ogm+ogg=mpv.desktop;
+------------- video/x-theora=mpv.desktop;
+------------- video/x-theora+ogg=mpv.desktop;
+-------------+x-scheme-handler/youtubemusic=YouTube Music.desktop;
+------------- 
+------------- [Default Applications]
+------------- application/x-matroska=mpv.desktop;
+-------------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------------index ee5f6ec2..f6774db8 100644
+---------------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------------@@ -128,7 +128,7 @@ immutability=1
+------------- plugin=org.kde.plasma.weather
+------------- 
+------------- [Containments][25][Applets][66][Configuration]
+--------------PreloadWeight=18
+-------------+PreloadWeight=10
+------------- UserBackgroundHints=ShadowBackground
+------------- configMigrated=true
+------------- 
+-------------@@ -156,10 +156,10 @@ DialogHeight=540
+------------- DialogWidth=720
+------------- 
+------------- [Containments][25][General]
+--------------ToolBoxButtonState=topcenter
+-------------+ToolBoxButtonState=top
+------------- ToolBoxButtonX=499
+------------- iconSize=1
+--------------positions={"1920x1080":[]}
+-------------+positions={"1920x1080":["4"\\,"20"\\,"desktop:/io.github.tdesktop_x64.TDesktop.desktop"\\,"3"\\,"0"]}
+------------- sortMode=-1
+------------- 
+------------- [Containments][25][Wallpaper][org.kde.image][General]
+-------------@@ -371,4 +371,4 @@ favoritesPortedToKAstats=true
+------------- 
+------------- [ScreenMapping]
+------------- itemsOnDisabledScreens=
+--------------screenMapping=
+-------------+screenMapping=desktop:/io.github.tdesktop_x64.TDesktop.desktop,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+-------------diff --git a/Kdeconfigs/plasmashellrc b/Kdeconfigs/plasmashellrc
+-------------index d863aa8e..68b4dea7 100644
+---------------- a/Kdeconfigs/plasmashellrc
+-------------+++ b/Kdeconfigs/plasmashellrc
+-------------@@ -6,7 +6,7 @@ immutability=1
+------------- plugin=org.kde.plasma.weather
+------------- 
+------------- [Applets][66][Configuration]
+--------------PreloadWeight=18
+-------------+PreloadWeight=10
+------------- UserBackgroundHints=ShadowBackground
+------------- configMigrated=true
+------------- 
+-------------@@ -36,9 +36,6 @@ updateInterval=200
+------------- [General]
+------------- Number of Actions=0
+------------- 
+--------------[PlasmaTransientsConfig]
+--------------PreloadWeight=18
+--------------
+------------- [PlasmaViews][Panel 2]
+------------- floating=1
+------------- 
+-------------diff --git a/changes.md b/changes.md
+-------------index 484a5c6b..d5f60cc2 100644
+---------------- a/changes.md
+-------------+++ b/changes.md
+-------------@@ -1,1758 +0,0 @@
+--------------diff --git a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+--------------index 449c2752..4a13084a 100644
+----------------- a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+--------------+++ b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+--------------@@ -37,7 +37,7 @@
+--------------         <entry key="$USER_HOME$/My projects/Hostcraft">
+--------------           <value>
+--------------             <RecentProjectMetaInfo opened="true" projectWorkspaceId="2fqaUYapJTzXQm946oAqOBLGAtZ">
+---------------              <option name="activationTimestamp" value="1714531152656" />
+--------------+              <option name="activationTimestamp" value="1714532787594" />
+--------------               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+--------------               <option name="build" value="AI-232.10300.40.2321.11668458" />
+--------------               <option name="buildTimestamp" value="1712185493473" />
+--------------diff --git a/Kdeconfigs/kglobalshortcutsrc b/Kdeconfigs/kglobalshortcutsrc
+--------------index 48193c94..18d53f9b 100644
+----------------- a/Kdeconfigs/kglobalshortcutsrc
+--------------+++ b/Kdeconfigs/kglobalshortcutsrc
+--------------@@ -43,7 +43,7 @@ Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Dema
+-------------- Cycle Overview=none,none,Cycle through Overview and Grid View
+-------------- Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
+-------------- Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
+---------------Edit Tiles=none,Meta+T,Toggle Tiles Editor
+--------------+Edit Tiles=Meta+`,Meta+T,Toggle Tiles Editor
+-------------- Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
+-------------- ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+-------------- ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
+--------------@@ -148,7 +148,7 @@ Window Quick Tile Bottom=Meta+Down,Meta+Down,Quick Tile Window to the Bottom
+-------------- Window Quick Tile Bottom Left=none,,Quick Tile Window to the Bottom Left
+-------------- Window Quick Tile Bottom Right=none,,Quick Tile Window to the Bottom Right
+-------------- Window Quick Tile Left=Meta+Left,Meta+Left,Quick Tile Window to the Left
+---------------Window Quick Tile Right=none,Meta+Right,Quick Tile Window to the Right
+--------------+Window Quick Tile Right=Meta+Right,Meta+Right,Quick Tile Window to the Right
+-------------- Window Quick Tile Top=Meta+Up,Meta+Up,Quick Tile Window to the Top
+-------------- Window Quick Tile Top Left=none,,Quick Tile Window to the Top Left
+-------------- Window Quick Tile Top Right=none,,Quick Tile Window to the Top Right
+--------------diff --git a/Kdeconfigs/kwinrulesrc b/Kdeconfigs/kwinrulesrc
+--------------index ad7ab6f0..bcce8627 100644
+----------------- a/Kdeconfigs/kwinrulesrc
+--------------+++ b/Kdeconfigs/kwinrulesrc
+--------------@@ -12,8 +12,6 @@ wmclassmatch=1
+-------------- 
+-------------- [29d03a9f-bd34-46eb-bb10-095af4dabc27]
+-------------- Description=window rule settings for kitty
+---------------noborder=true
+---------------noborderrule=3
+-------------- size=730,646
+-------------- sizerule=3
+-------------- wmclass=kitty
+--------------@@ -34,17 +32,17 @@ wmclassmatch=1
+-------------- 
+-------------- [6337464e-4da8-4257-81bc-019dbb280b94]
+-------------- Description=firefox
+---------------opacityactive=83
+--------------+opacityactive=88
+-------------- opacityactiverule=2
+---------------opacityinactive=83
+--------------+opacityinactive=88
+-------------- opacityinactiverule=2
+-------------- types=1
+-------------- wmclass=firefox
+-------------- wmclassmatch=1
+-------------- 
+-------------- [General]
+---------------count=3
+---------------rules=29d03a9f-bd34-46eb-bb10-095af4dabc27,1,6337464e-4da8-4257-81bc-019dbb280b94
+--------------+count=4
+--------------+rules=29d03a9f-bd34-46eb-bb10-095af4dabc27,1,6337464e-4da8-4257-81bc-019dbb280b94,c9f4483e-24cb-45c4-ac9d-c025fc30120a
+-------------- 
+-------------- [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
+-------------- Description=Application settings for jetbrains-studio
+--------------@@ -52,3 +50,13 @@ clientmachine=localhost
+-------------- types=66494
+-------------- wmclass=jetbrains-studio
+-------------- wmclassmatch=1
+--------------+
+--------------+[c9f4483e-24cb-45c4-ac9d-c025fc30120a]
+--------------+Description=telegram
+--------------+opacityactive=88
+--------------+opacityactiverule=2
+--------------+opacityinactive=88
+--------------+opacityinactiverule=2
+--------------+types=1
+--------------+wmclass=io.github.tdesktop_x64.TDesktop
+--------------+wmclassmatch=1
+--------------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--------------index 9a3029b9..ee5f6ec2 100644
+----------------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--------------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+--------------@@ -337,7 +337,7 @@ immutability=1
+-------------- plugin=org.kde.plasma.mediacontroller
+-------------- 
+-------------- [Containments][32][Applets][57][Configuration]
+---------------PreloadWeight=2
+--------------+PreloadWeight=0
+-------------- 
+-------------- [Containments][32][General]
+-------------- extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+--------------diff --git a/Kdeconfigs/plasmashellrc b/Kdeconfigs/plasmashellrc
+--------------index 621edaac..d863aa8e 100644
+----------------- a/Kdeconfigs/plasmashellrc
+--------------+++ b/Kdeconfigs/plasmashellrc
+--------------@@ -36,6 +36,9 @@ updateInterval=200
+-------------- [General]
+-------------- Number of Actions=0
+-------------- 
+--------------+[PlasmaTransientsConfig]
+--------------+PreloadWeight=18
+--------------+
+-------------- [PlasmaViews][Panel 2]
+-------------- floating=1
+-------------- 
+--------------diff --git a/changes.md b/changes.md
+--------------index 1cfcbe31..f5912d89 100644
+----------------- a/changes.md
+--------------+++ b/changes.md
+--------------@@ -1,1635 +0,0 @@
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/actionSummary.xml b/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+---------------index b952bccc..c27ea8c0 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+---------------@@ -10,13 +10,13 @@
+---------------       <i c="5" l="1714336272575" />
+---------------     </e>
+---------------     <e n="$Undo">
+----------------      <i c="35" l="1714339417007" />
+---------------+      <i c="37" l="1714530804393" />
+---------------     </e>
+---------------     <e n="Android.SyncProject">
+----------------      <i c="7" l="1714418961083" />
+---------------+      <i c="8" l="1714529425420" />
+---------------     </e>
+---------------     <e n="CloseProject">
+----------------      <i c="26" l="1714528410016" />
+---------------+      <i c="32" l="1714530843192" />
+---------------     </e>
+---------------     <e n="CommentByBlockComment">
+---------------       <i c="1" l="1714249685242" />
+---------------@@ -28,7 +28,7 @@
+---------------       <i c="3" l="1714339648012" />
+---------------     </e>
+---------------     <e n="EditorBackSpace">
+----------------      <i c="585" l="1714419392466" />
+---------------+      <i c="593" l="1714530772223" />
+---------------     </e>
+---------------     <e n="EditorChooseLookupItem">
+---------------       <i c="1" l="1714233764231" />
+---------------@@ -43,19 +43,19 @@
+---------------       <i c="124" l="1714419365481" />
+---------------     </e>
+---------------     <e n="EditorDown">
+----------------      <i c="312" l="1714419348513" />
+---------------+      <i c="315" l="1714530761519" />
+---------------     </e>
+---------------     <e n="EditorDuplicate">
+---------------       <i c="5" l="1714325141339" />
+---------------     </e>
+---------------     <e n="EditorEnter">
+----------------      <i c="253" l="1714419345512" />
+---------------+      <i c="259" l="1714530663969" />
+---------------     </e>
+---------------     <e n="EditorEscape">
+---------------       <i c="3" l="1714339510844" />
+---------------     </e>
+---------------     <e n="EditorLeft">
+----------------      <i c="34" l="1714339466002" />
+---------------+      <i c="43" l="1714530782832" />
+---------------     </e>
+---------------     <e n="EditorNextWord">
+---------------       <i c="8" l="1714339750418" />
+---------------@@ -70,7 +70,7 @@
+---------------       <i c="8" l="1714339466322" />
+---------------     </e>
+---------------     <e n="EditorRight">
+----------------      <i c="129" l="1714419348314" />
+---------------+      <i c="137" l="1714530781879" />
+---------------     </e>
+---------------     <e n="EditorSplitLine">
+---------------       <i c="2" l="1714419342018" />
+---------------@@ -78,6 +78,9 @@
+---------------     <e n="EditorTab">
+---------------       <i c="1" l="1714336042398" />
+---------------     </e>
+---------------+    <e n="EditorTabsEntryPoint">
+---------------+      <i c="2" l="1714529328802" />
+---------------+    </e>
+---------------     <e n="EditorToggleColumnMode">
+---------------       <i c="4" l="1714249717335" />
+---------------     </e>
+---------------@@ -85,7 +88,7 @@
+---------------       <i c="6" l="1714336959356" />
+---------------     </e>
+---------------     <e n="EditorUp">
+----------------      <i c="115" l="1714419349969" />
+---------------+      <i c="117" l="1714530762008" />
+---------------     </e>
+---------------     <e n="ExpandAll">
+---------------       <i c="1" l="1714335613572" />
+---------------@@ -100,7 +103,7 @@
+---------------       <i c="3" l="1714419085196" />
+---------------     </e>
+---------------     <e n="Find">
+----------------      <i c="12" l="1714339520973" />
+---------------+      <i c="13" l="1714530719840" />
+---------------     </e>
+---------------     <e n="GoogleLogin.LoginService">
+---------------       <i c="1" l="1714295826209" />
+---------------@@ -130,31 +133,31 @@
+---------------       <i c="1" l="1714336207242" />
+---------------     </e>
+---------------     <e n="RunAnything">
+----------------      <i c="2" l="1714339224836" />
+---------------+      <i c="3" l="1714530775032" />
+---------------     </e>
+---------------     <e n="SaveAll">
+----------------      <i c="37" l="1714419394922" />
+---------------+      <i c="43" l="1714530805537" />
+---------------     </e>
+---------------     <e n="SearchEverywhere">
+---------------       <i c="1" l="1714167595116" />
+---------------     </e>
+---------------     <e n="SettingsEntryPoint">
+----------------      <i c="8" l="1714528323551" />
+---------------+      <i c="11" l="1714530037501" />
+---------------     </e>
+---------------     <e n="ShowIntentionActions">
+---------------       <i c="24" l="1714339403302" />
+---------------     </e>
+---------------     <e n="ShowSettings">
+----------------      <i c="5" l="1714311823962" />
+---------------+      <i c="8" l="1714530014299" />
+---------------     </e>
+---------------     <e n="ToggleBookmark">
+----------------      <i c="4" l="1714311820304" />
+---------------+      <i c="7" l="1714530071427" />
+---------------     </e>
+---------------     <e n="ToggleLineBreakpoint">
+---------------       <i c="1" l="1714335492161" />
+---------------     </e>
+---------------     <e n="Vcs.Push">
+----------------      <i c="1" l="1714420643349" />
+---------------+      <i c="4" l="1714530791056" />
+---------------     </e>
+---------------     <e n="Vcs.VcsClone">
+---------------       <i c="1" l="1714417914319" />
+---------------@@ -169,10 +172,10 @@
+---------------       <i c="1" l="1714418869435" />
+---------------     </e>
+---------------     <e n="WelcomeScreen.RemoveSelected">
+----------------      <i c="4" l="1714418927716" />
+---------------+      <i c="5" l="1714530928471" />
+---------------     </e>
+---------------     <e n="WelcomeScreen.RevealIn">
+----------------      <i c="2" l="1714461206724" />
+---------------+      <i c="3" l="1714530845576" />
+---------------     </e>
+---------------     <e n="WelcomeScreen.RunAndroidSdkManager">
+---------------       <i c="4" l="1714142599803" />
+---------------@@ -180,14 +183,20 @@
+---------------     <e n="WelcomeScreen.RunDeviceManager2">
+---------------       <i c="3" l="1714226795669" />
+---------------     </e>
+---------------+    <e n="com.android.tools.idea.gradle.project.upgrade.ProjectUpgradeNotification$1">
+---------------+      <i c="1" l="1714531156305" />
+---------------+    </e>
+---------------     <e n="com.intellij.find.editorHeaderActions.PrevOccurrenceAction">
+---------------       <i c="3" l="1714339330161" />
+---------------     </e>
+---------------     <e n="com.intellij.ide.actions.QuickChangeLookAndFeel$LafChangeAction">
+----------------      <i c="1" l="1714167599814" />
+---------------+      <i c="3" l="1714530042479" />
+---------------     </e>
+---------------     <e n="com.intellij.ide.actions.SettingsEntryPointAction$1">
+----------------      <i c="3" l="1714528324918" />
+---------------+      <i c="6" l="1714530039063" />
+---------------+    </e>
+---------------+    <e n="com.intellij.ide.plugins.newui.SelectionBasedPluginModelAction$UninstallAction">
+---------------+      <i c="1" l="1714529360550" />
+---------------     </e>
+---------------     <e n="com.intellij.notification.NotificationAction$Simple">
+---------------       <i c="2" l="1714418463393" />
+---------------@@ -196,19 +205,31 @@
+---------------       <i c="2" l="1714417912224" />
+---------------     </e>
+---------------     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+----------------      <i c="15" l="1714419114208" />
+---------------+      <i c="19" l="1714531163891" />
+---------------     </e>
+---------------     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+---------------       <i c="1" l="1714311837020" />
+---------------     </e>
+---------------+    <e n="com.intellij.openapi.vcs.changes.ui.ChangesBrowserBase$MyShowDiffAction">
+---------------+      <i c="1" l="1714530750162" />
+---------------+    </e>
+---------------+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+---------------+      <i c="27" l="1714530807836" />
+---------------+    </e>
+---------------     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+----------------      <i c="3" l="1714167569400" />
+---------------+      <i c="16" l="1714530842160" />
+---------------+    </e>
+---------------+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+---------------+      <i c="2" l="1714529978855" />
+---------------     </e>
+---------------     <e n="com.intellij.terminal.actions.TerminalActionWrapper">
+---------------       <i c="1" l="1714419430239" />
+---------------     </e>
+---------------+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+---------------+      <i c="2" l="1714529292936" />
+---------------+    </e>
+---------------     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+----------------      <i c="14" l="1714420657274" />
+---------------+      <i c="18" l="1714531160947" />
+---------------     </e>
+---------------     <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+---------------       <i c="2" l="1714418633746" />
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml b/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml
+---------------index cd4b32ba..3a88e4c2 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml
+---------------@@ -1,5 +1,5 @@
+--------------- <application>
+---------------   <component name="EditorColorsManagerImpl">
+----------------    <global_color_scheme name="One Dark Vivid" />
+---------------+    <global_color_scheme name="High contrast" />
+---------------   </component>
+--------------- </application>
+---------------\ No newline at end of file
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/editor.xml b/Config/Google/AndroidStudio2023.2/options/editor.xml
+---------------index bcab9dad..3e477877 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/editor.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/editor.xml
+---------------@@ -11,4 +11,8 @@
+---------------   <component name="EditorSettings">
+---------------     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+---------------   </component>
+---------------+  <component name="TodoConfiguration">
+---------------+    <pattern pattern="\btodo\b.*" />
+---------------+    <pattern pattern="\bfixme\b.*" />
+---------------+  </component>
+--------------- </application>
+---------------\ No newline at end of file
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/features.usage.statistics.xml b/Config/Google/AndroidStudio2023.2/options/features.usage.statistics.xml
+---------------index fc39f6f6..f6d36e5c 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/features.usage.statistics.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/features.usage.statistics.xml
+---------------@@ -24,7 +24,7 @@
+---------------     <feature id="editing.copy.line" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------     <feature id="navigation.find.in.files" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------     <feature id="editing.completion.finishByExclamation" count="0" last-shown="0" last-used="0" shown-count="0" />
+----------------    <feature id="ui.hide.tool.window" count="14" last-shown="0" last-used="1714420657276" shown-count="0" />
+---------------+    <feature id="ui.hide.tool.window" count="18" last-shown="0" last-used="1714531160950" shown-count="0" />
+---------------     <feature id="navigation.find.replace.in.files.toggle" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------     <feature id="move.element.left.right" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------     <feature id="jar.diff" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------@@ -39,7 +39,7 @@
+---------------     <feature id="editing.duplicate" count="5" last-shown="0" last-used="1714325141348" shown-count="0" />
+---------------     <feature id="editing.copy.reference" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------     <feature id="codeassists.highlight.throws" count="0" last-shown="0" last-used="0" shown-count="0" />
+----------------    <feature id="navigation.find" count="12" last-shown="0" last-used="1714339520973" shown-count="0" />
+---------------+    <feature id="navigation.find" count="13" last-shown="0" last-used="1714530719872" shown-count="0" />
+---------------     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------     <feature id="editing.completion.basic" count="1" last-shown="0" last-used="1714233764291" shown-count="0" />
+---------------     <feature id="editing.completion.postfix" count="0" last-shown="0" last-used="0" shown-count="0" />
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/ide.general.xml b/Config/Google/AndroidStudio2023.2/options/ide.general.xml
+---------------index 6ea1d04d..3a965b33 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/ide.general.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/ide.general.xml
+---------------@@ -3,7 +3,7 @@
+---------------     <option name="showTipsOnStartup" value="true" />
+---------------   </component>
+---------------   <component name="Registry">
+----------------    <entry key="ide.experimental.ui" value="false" />
+---------------+    <entry key="ide.experimental.ui" value="true" />
+---------------     <entry key="ide.experimental.ui.inter.font" value="false" />
+---------------     <entry key="debugger.new.tool.window.layout" value="false" />
+---------------     <entry key="idea.plugins.compatible.build" value="" />
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/laf.xml b/Config/Google/AndroidStudio2023.2/options/laf.xml
+---------------index e7ab880a..9cae7f80 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/laf.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/laf.xml
+---------------@@ -1,5 +1,5 @@
+--------------- <application>
+---------------   <component name="LafManager" autodetect="false">
+----------------    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="4b6007f7-b596-4ee2-96f9-968d3d3eb392" />
+---------------+    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="JetBrainsHighContrastTheme" />
+---------------   </component>
+--------------- </application>
+---------------\ No newline at end of file
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/other.xml b/Config/Google/AndroidStudio2023.2/options/other.xml
+---------------index bd7b8953..ae065ff2 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/other.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/other.xml
+---------------@@ -147,6 +147,7 @@
+---------------     </option>
+---------------   </component>
+---------------   <component name="NotRoamableUiSettings">
+---------------+    <option name="fontSize" value="13.0" />
+---------------     <option name="presentationModeIdeScale" value="1.75" />
+---------------     <option name="overrideLafFontsWasMigrated" value="true" />
+---------------   </component>
+---------------@@ -157,7 +158,7 @@
+---------------     "BuildView.Splitter.Proportion": "0.2034726",
+---------------     "FindSplitterProportion": "1.0",
+---------------     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
+----------------    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+---------------+    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
+---------------     "MarketplacePluginsSearchHistory": "/tag:\"User Interface\"\ntheme\nqt\nq\ndiscord",
+---------------     "MemberChooser.copyJavadoc": "false",
+---------------     "MemberChooser.showClasses": "true",
+---------------@@ -165,6 +166,7 @@
+---------------     "NextRunPlatformUpdateBuild": "AI-233.14808.21.2331.11709847",
+---------------     "NextRunPlatformUpdateVersion": "Jellyfish | 2023.3.1",
+---------------     "NonModalCommitCustomization.IsApplied": "true",
+---------------+    "PluginConfigurable.selectionTab": "1",
+---------------     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+---------------     "SAVED_ANDROID_NPW_ASKED_LANGUAGE": "true",
+---------------     "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+---------------@@ -180,6 +182,7 @@
+---------------     "bundled.plugins.list.saved.version": "AI-232.10300.40.2321.11668458",
+---------------     "com.developerphil.adbidea.previousversion": "1.6.14",
+---------------     "defaultJdkConfigured": "true",
+---------------+    "experimental.ui.switch": "true",
+---------------     "experimental.ui.used.version": "232.10300.40.2321.11668458",
+---------------     "file.gist.reindex.count": "177",
+---------------     "fileTypeChangedCounter": "1",
+---------------@@ -195,9 +198,9 @@
+---------------     "last_opened_file_path": "/home/alex/workflow/AndroidIDE",
+---------------     "migrated.non.roamable.values.from.general.settings": "true",
+---------------     "newly.installed.api.level": "34",
+----------------    "previousColorScheme": "_@user_One Dark Vivid",
+---------------+    "previousColorScheme": "_@user_High contrast",
+---------------     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
+----------------    "studio.activity.count": "4",
+---------------+    "studio.activity.count": "15",
+---------------     "tasks.pass.word.conversion.enforced": "true",
+---------------     "updater.configure.tools.details.checkbox.selected": "true"
+---------------   },
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/project.default.xml b/Config/Google/AndroidStudio2023.2/options/project.default.xml
+---------------index d316c30f..b42527a4 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/project.default.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/project.default.xml
+---------------@@ -3,7 +3,7 @@
+---------------     <defaultProject>
+---------------       <component name="PropertiesComponent"><![CDATA[{
+---------------   "keyToString": {
+----------------    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+---------------+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+---------------   }
+--------------- }]]></component>
+---------------       <component name="WindowStateProjectService">
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+---------------index f3860195..449c2752 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+---------------@@ -2,22 +2,6 @@
+---------------   <component name="RecentProjectsManager">
+---------------     <option name="additionalInfo">
+---------------       <map>
+----------------        <entry key="$USER_HOME$/Workspace/GitHub/blackboxtest">
+----------------          <value>
+----------------            <RecentProjectMetaInfo frameTitle="NewBlackbox-3.0 – vcore.kt [NewBlackbox-3.0.Bcore.main]" projectWorkspaceId="2dg44mpTyNzZ9q9TmnHS1TTGPRT">
+----------------              <option name="activationTimestamp" value="1714339990641" />
+----------------              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+----------------              <option name="build" value="AI-232.10300.40.2321.11668458" />
+----------------              <option name="buildTimestamp" value="1712185443348" />
+----------------              <option name="colorInfo">
+----------------                <RecentProjectColorInfo associatedIndex="4" />
+----------------              </option>
+----------------              <frame x="-1" y="0" width="1182" height="1082" />
+----------------              <option name="productionCode" value="AI" />
+----------------              <option name="projectOpenTimestamp" value="1714325016554" />
+----------------            </RecentProjectMetaInfo>
+----------------          </value>
+----------------        </entry>
+---------------         <entry key="$USER_HOME$/workflow/AndroidIDE">
+---------------           <value>
+---------------             <RecentProjectMetaInfo frameTitle="AndroidIDE – ~/workflow/AndroidIDE/settings.gradle.kts" projectWorkspaceId="2fkqAlPpfoLScFLSnOh3SNaC9Z2">
+---------------@@ -34,25 +18,37 @@
+---------------             </RecentProjectMetaInfo>
+---------------           </value>
+---------------         </entry>
+----------------        <entry key="/media/Workspace/workflow/HostCraft">
+---------------+        <entry key="$USER_HOME$/Workspace/GitHub/blackboxtest">
+---------------           <value>
+----------------            <RecentProjectMetaInfo frameTitle="Host Craft – .gitignore [Host_Craft]" projectWorkspaceId="2fMtat6CzjovswWkYyrUoW8mpS5">
+----------------              <option name="activationTimestamp" value="1714528407535" />
+---------------+            <RecentProjectMetaInfo frameTitle="NewBlackbox-3.0 – vcore.kt [NewBlackbox-3.0.Bcore.main]" projectWorkspaceId="2dg44mpTyNzZ9q9TmnHS1TTGPRT">
+---------------+              <option name="activationTimestamp" value="1714529379339" />
+---------------               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+---------------               <option name="build" value="AI-232.10300.40.2321.11668458" />
+----------------              <option name="buildTimestamp" value="1712185462634" />
+---------------+              <option name="buildTimestamp" value="1712185480152" />
+---------------               <option name="colorInfo">
+---------------                 <RecentProjectColorInfo associatedIndex="4" />
+---------------               </option>
+----------------              <frame x="228" y="38" width="1470" height="950" />
+---------------+              <frame x="215" y="102" width="1102" height="858" extendedState="6" />
+---------------+              <option name="productionCode" value="AI" />
+---------------+              <option name="projectOpenTimestamp" value="1714529372212" />
+---------------+            </RecentProjectMetaInfo>
+---------------+          </value>
+---------------+        </entry>
+---------------+        <entry key="$USER_HOME$/My projects/Hostcraft">
+---------------+          <value>
+---------------+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2fqaUYapJTzXQm946oAqOBLGAtZ">
+---------------+              <option name="activationTimestamp" value="1714531152656" />
+---------------+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+---------------+              <option name="build" value="AI-232.10300.40.2321.11668458" />
+---------------+              <option name="buildTimestamp" value="1712185493473" />
+---------------               <option name="productionCode" value="AI" />
+----------------              <option name="projectOpenTimestamp" value="1714527942567" />
+---------------+              <option name="projectOpenTimestamp" value="1714531077359" />
+---------------             </RecentProjectMetaInfo>
+---------------           </value>
+---------------         </entry>
+---------------       </map>
+---------------     </option>
+----------------    <option name="lastOpenedProject" value="/media/Workspace/workflow/HostCraft" />
+---------------+    <option name="lastOpenedProject" value="$USER_HOME$/My projects/Hostcraft" />
+---------------     <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
+---------------   </component>
+--------------- </application>
+---------------\ No newline at end of file
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/trusted-paths.xml b/Config/Google/AndroidStudio2023.2/options/trusted-paths.xml
+---------------index 8ab04145..91ca25f6 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/trusted-paths.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/trusted-paths.xml
+---------------@@ -3,6 +3,7 @@
+---------------     <option name="TRUSTED_PROJECT_PATHS">
+---------------       <map>
+---------------         <entry key="$USER_HOME$/AndroidStudioProjects/MyApplication" value="true" />
+---------------+        <entry key="$USER_HOME$/My projects/Hostcraft" value="true" />
+---------------         <entry key="$USER_HOME$/Workspace/GitHub/blackboxtest" value="true" />
+---------------         <entry key="$USER_HOME$/Workspace/workflow/HostCraft" value="true" />
+---------------         <entry key="$USER_HOME$/workflow/AndroidIDE" value="true" />
+---------------@@ -21,6 +22,7 @@
+---------------         <option value="$USER_HOME$/Workspace/workflow" />
+---------------         <option value="$USER_HOME$/workflow" />
+---------------         <option value="/media/Workspace/workflow" />
+---------------+        <option value="$USER_HOME$/My projects" />
+---------------       </list>
+---------------     </option>
+---------------   </component>
+---------------diff --git a/Config/Google/AndroidStudio2023.2/options/window.state.xml b/Config/Google/AndroidStudio2023.2/options/window.state.xml
+---------------index b7bed4d4..8fc3a42e 100644
+------------------ a/Config/Google/AndroidStudio2023.2/options/window.state.xml
+---------------+++ b/Config/Google/AndroidStudio2023.2/options/window.state.xml
+---------------@@ -3,7 +3,7 @@
+---------------     <location key="WELCOME_SCREEN.0.0.1920.1080" x="982" y="300" />
+---------------   </component>
+---------------   <component name="WindowManager">
+----------------    <frame x="228" y="38" width="1470" height="950" />
+---------------+    <frame x="353" y="185" width="1153" height="775" extendedState="6" />
+---------------   </component>
+---------------   <component name="WindowStateApplicationService">
+---------------     <state x="741" y="233" width="429" height="486" key="FileChooserDialogImpl" timestamp="1714355278857">
+---------------@@ -14,10 +14,10 @@
+---------------       <screen x="0" y="0" width="1920" height="1080" />
+---------------     </state>
+---------------     <state width="810" height="102" key="ShowUsagesActions.dimensionServiceKey/0.0.1920.1080" timestamp="1714338467912" />
+----------------    <state x="959" y="480" width="937" height="723" key="WELCOME_SCREEN" timestamp="1714528426819">
+---------------+    <state x="955" y="443" width="800" height="650" key="WELCOME_SCREEN" timestamp="1714530843437">
+---------------       <screen x="0" y="0" width="1920" height="1080" />
+---------------     </state>
+----------------    <state x="959" y="480" width="937" height="723" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1714528426819" />
+---------------+    <state x="955" y="443" width="800" height="650" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1714530843437" />
+---------------     <state x="545" y="220" width="800" height="650" key="com.android.tools.idea.devicemanagerv2.DeviceManagerWelcomeScreenFrame" timestamp="1714226986649">
+---------------       <screen x="0" y="0" width="1920" height="1080" />
+---------------     </state>
+---------------diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+---------------index 528e1d3f..0fd12a6f 100644
+------------------ a/Kdeconfigs/katerc
+---------------+++ b/Kdeconfigs/katerc
+---------------@@ -38,7 +38,7 @@ Tabbar Tab Limit=0
+--------------- [KTextEditor Renderer]
+--------------- Animate Bracket Matching=false
+--------------- Auto Color Theme Selection=true
+----------------Color Theme=Breeze Dark
+---------------+Color Theme=Catppuccin Mocha
+--------------- Line Height Multiplier=1
+--------------- Show Indentation Lines=false
+--------------- Show Whole Bracket Expression=false
+---------------diff --git a/Kdeconfigs/kwinrc b/Kdeconfigs/kwinrc
+---------------index ee2121b4..63e735dc 100644
+------------------ a/Kdeconfigs/kwinrc
+---------------+++ b/Kdeconfigs/kwinrc
+---------------@@ -23,7 +23,6 @@ CommandAll1=Activate, raise and move
+--------------- [Plugins]
+--------------- blurEnabled=true
+--------------- contrastEnabled=false
+----------------translucencyEnabled=true
+--------------- 
+--------------- [Tiling]
+--------------- padding=4
+---------------diff --git a/Kdeconfigs/kwinrulesrc b/Kdeconfigs/kwinrulesrc
+---------------index 4cab51a2..ad7ab6f0 100644
+------------------ a/Kdeconfigs/kwinrulesrc
+---------------+++ b/Kdeconfigs/kwinrulesrc
+---------------@@ -1,3 +1,51 @@
+---------------+[1]
+---------------+Description=Application settings for jetbrains-studio
+---------------+clientmachine=localhost
+---------------+noborder=true
+---------------+noborderrule=3
+---------------+opacityactive=95
+---------------+opacityactiverule=2
+---------------+opacityinactive=95
+---------------+opacityinactiverule=2
+---------------+wmclass=jetbrains-studio
+---------------+wmclassmatch=1
+---------------+
+---------------+[29d03a9f-bd34-46eb-bb10-095af4dabc27]
+---------------+Description=window rule settings for kitty
+---------------+noborder=true
+---------------+noborderrule=3
+---------------+size=730,646
+---------------+sizerule=3
+---------------+wmclass=kitty
+---------------+wmclassmatch=1
+---------------+
+---------------+[5cc7d6c0-8a4b-4297-9d03-16d1a6445386]
+---------------+Description=Application settings for jetbrains-studio
+---------------+clientmachine=localhost
+---------------+noborder=true
+---------------+noborderrule=5
+---------------+opacityactive=95
+---------------+opacityactiverule=2
+---------------+opacityinactive=94
+---------------+opacityinactiverule=2
+---------------+types=1
+---------------+wmclass=jetbrains-studio
+---------------+wmclassmatch=1
+---------------+
+---------------+[6337464e-4da8-4257-81bc-019dbb280b94]
+---------------+Description=firefox
+---------------+opacityactive=83
+---------------+opacityactiverule=2
+---------------+opacityinactive=83
+---------------+opacityinactiverule=2
+---------------+types=1
+---------------+wmclass=firefox
+---------------+wmclassmatch=1
+---------------+
+---------------+[General]
+---------------+count=3
+---------------+rules=29d03a9f-bd34-46eb-bb10-095af4dabc27,1,6337464e-4da8-4257-81bc-019dbb280b94
+---------------+
+--------------- [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
+--------------- Description=Application settings for jetbrains-studio
+--------------- clientmachine=localhost
+---------------diff --git a/Kdeconfigs/plasmanotifyrc b/Kdeconfigs/plasmanotifyrc
+---------------index 2852588c..3c446eb5 100644
+------------------ a/Kdeconfigs/plasmanotifyrc
+---------------+++ b/Kdeconfigs/plasmanotifyrc
+---------------@@ -8,7 +8,8 @@ Seen=true
+--------------- Seen=true
+--------------- 
+--------------- [DoNotDisturb]
+----------------Until=2024,4,27,22,6,0.337
+---------------+NotificationSoundsMuted=true
+---------------+Until=2025,5,1,8,13,58.569
+--------------- 
+--------------- [Notifications]
+--------------- LowPriorityHistory=true
+---------------diff --git a/Kdeconfigs/systemsettingsrc b/Kdeconfigs/systemsettingsrc
+---------------index e859a5ff..a9366488 100644
+------------------ a/Kdeconfigs/systemsettingsrc
+---------------+++ b/Kdeconfigs/systemsettingsrc
+---------------@@ -3,7 +3,7 @@
+--------------- 1920x1080 screen: Width=1216
+--------------- 
+--------------- [KFileDialog Settings]
+----------------detailViewIconSize=68
+---------------+detailViewIconSize=128
+--------------- 
+--------------- [MainWindow]
+--------------- MenuBar=Disabled
+---------------diff --git a/changes.md b/changes.md
+---------------index f43ebe77..aebe7fa9 100644
+------------------ a/changes.md
+---------------+++ b/changes.md
+---------------@@ -1,1062 +0,0 @@
+----------------diff --git a/Config/Google/AndroidStudio2023.2/options/actionSummary.xml b/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+----------------index 7e641441..b952bccc 100644
+------------------- a/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+----------------+++ b/Config/Google/AndroidStudio2023.2/options/actionSummary.xml
+----------------@@ -16,7 +16,7 @@
+----------------       <i c="7" l="1714418961083" />
+----------------     </e>
+----------------     <e n="CloseProject">
+-----------------      <i c="25" l="1714464419596" />
+----------------+      <i c="26" l="1714528410016" />
+----------------     </e>
+----------------     <e n="CommentByBlockComment">
+----------------       <i c="1" l="1714249685242" />
+----------------@@ -139,7 +139,7 @@
+----------------       <i c="1" l="1714167595116" />
+----------------     </e>
+----------------     <e n="SettingsEntryPoint">
+-----------------      <i c="6" l="1714418695543" />
+----------------+      <i c="8" l="1714528323551" />
+----------------     </e>
+----------------     <e n="ShowIntentionActions">
+----------------       <i c="24" l="1714339403302" />
+----------------@@ -187,7 +187,7 @@
+----------------       <i c="1" l="1714167599814" />
+----------------     </e>
+----------------     <e n="com.intellij.ide.actions.SettingsEntryPointAction$1">
+-----------------      <i c="2" l="1714167597485" />
+----------------+      <i c="3" l="1714528324918" />
+----------------     </e>
+----------------     <e n="com.intellij.notification.NotificationAction$Simple">
+----------------       <i c="2" l="1714418463393" />
+----------------diff --git a/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml b/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml
+----------------index 3a88e4c2..cd4b32ba 100644
+------------------- a/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml
+----------------+++ b/Config/Google/AndroidStudio2023.2/options/colors.scheme.xml
+----------------@@ -1,5 +1,5 @@
+---------------- <application>
+----------------   <component name="EditorColorsManagerImpl">
+-----------------    <global_color_scheme name="High contrast" />
+----------------+    <global_color_scheme name="One Dark Vivid" />
+----------------   </component>
+---------------- </application>
+----------------\ No newline at end of file
+----------------diff --git a/Config/Google/AndroidStudio2023.2/options/laf.xml b/Config/Google/AndroidStudio2023.2/options/laf.xml
+----------------index 9cae7f80..e7ab880a 100644
+------------------- a/Config/Google/AndroidStudio2023.2/options/laf.xml
+----------------+++ b/Config/Google/AndroidStudio2023.2/options/laf.xml
+----------------@@ -1,5 +1,5 @@
+---------------- <application>
+----------------   <component name="LafManager" autodetect="false">
+-----------------    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="JetBrainsHighContrastTheme" />
+----------------+    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="4b6007f7-b596-4ee2-96f9-968d3d3eb392" />
+----------------   </component>
+---------------- </application>
+----------------\ No newline at end of file
+----------------diff --git a/Config/Google/AndroidStudio2023.2/options/other.xml b/Config/Google/AndroidStudio2023.2/options/other.xml
+----------------index 1e7b9951..bd7b8953 100644
+------------------- a/Config/Google/AndroidStudio2023.2/options/other.xml
+----------------+++ b/Config/Google/AndroidStudio2023.2/options/other.xml
+----------------@@ -158,12 +158,13 @@
+----------------     "FindSplitterProportion": "1.0",
+----------------     "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
+----------------     "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+-----------------    "MarketplacePluginsSearchHistory": "discord\ndis",
+----------------+    "MarketplacePluginsSearchHistory": "/tag:\"User Interface\"\ntheme\nqt\nq\ndiscord",
+----------------     "MemberChooser.copyJavadoc": "false",
+----------------     "MemberChooser.showClasses": "true",
+----------------     "MultipleBuildsView.Splitter.Proportion": "0.1520387",
+----------------+    "NextRunPlatformUpdateBuild": "AI-233.14808.21.2331.11709847",
+----------------+    "NextRunPlatformUpdateVersion": "Jellyfish | 2023.3.1",
+----------------     "NonModalCommitCustomization.IsApplied": "true",
+-----------------    "PluginConfigurable.selectionTab": "1",
+----------------     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+----------------     "SAVED_ANDROID_NPW_ASKED_LANGUAGE": "true",
+----------------     "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+----------------@@ -194,9 +195,9 @@
+----------------     "last_opened_file_path": "/home/alex/workflow/AndroidIDE",
+----------------     "migrated.non.roamable.values.from.general.settings": "true",
+----------------     "newly.installed.api.level": "34",
+-----------------    "previousColorScheme": "_@user_High contrast",
+----------------+    "previousColorScheme": "_@user_One Dark Vivid",
+----------------     "registry.to.advanced.settings.migration.build": "AI-232.10300.40.2321.11668458",
+-----------------    "studio.activity.count": "1",
+----------------+    "studio.activity.count": "4",
+----------------     "tasks.pass.word.conversion.enforced": "true",
+----------------     "updater.configure.tools.details.checkbox.selected": "true"
+----------------   },
+----------------diff --git a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+----------------index 68e0dd11..f3860195 100644
+------------------- a/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+----------------+++ b/Config/Google/AndroidStudio2023.2/options/recentProjects.xml
+----------------@@ -36,17 +36,17 @@
+----------------         </entry>
+----------------         <entry key="/media/Workspace/workflow/HostCraft">
+----------------           <value>
+-----------------            <RecentProjectMetaInfo frameTitle="Host Craft – .gitignore" projectWorkspaceId="2fMtat6CzjovswWkYyrUoW8mpS5">
+-----------------              <option name="activationTimestamp" value="1714464415369" />
+----------------+            <RecentProjectMetaInfo frameTitle="Host Craft – .gitignore [Host_Craft]" projectWorkspaceId="2fMtat6CzjovswWkYyrUoW8mpS5">
+----------------+              <option name="activationTimestamp" value="1714528407535" />
+----------------               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+----------------               <option name="build" value="AI-232.10300.40.2321.11668458" />
+-----------------              <option name="buildTimestamp" value="1712185454501" />
+----------------+              <option name="buildTimestamp" value="1712185462634" />
+----------------               <option name="colorInfo">
+----------------                 <RecentProjectColorInfo associatedIndex="4" />
+----------------               </option>
+-----------------              <frame x="0" y="0" width="1920" height="1080" extendedState="6" />
+----------------+              <frame x="228" y="38" width="1470" height="950" />
+----------------               <option name="productionCode" value="AI" />
+-----------------              <option name="projectOpenTimestamp" value="1714464397426" />
+----------------+              <option name="projectOpenTimestamp" value="1714527942567" />
+----------------             </RecentProjectMetaInfo>
+----------------           </value>
+----------------         </entry>
+----------------diff --git a/Config/Google/AndroidStudio2023.2/options/updates.xml b/Config/Google/AndroidStudio2023.2/options/updates.xml
+----------------index 019dcafb..202ee272 100644
+------------------- a/Config/Google/AndroidStudio2023.2/options/updates.xml
+----------------+++ b/Config/Google/AndroidStudio2023.2/options/updates.xml
+----------------@@ -1,7 +1,7 @@
+---------------- <application>
+----------------   <component name="UpdatesConfigurable">
+----------------     <option name="LAST_BUILD_CHECKED" value="AI-232.10300.40.2321.11668458" />
+-----------------    <option name="LAST_TIME_CHECKED" value="1714413610528" />
+----------------+    <option name="LAST_TIME_CHECKED" value="1714527926967" />
+----------------     <option name="OBSOLETE_CUSTOM_REPOSITORIES_CLEAN_NEEDED" value="false" />
+----------------     <option name="THIRD_PARTY_PLUGINS_ALLOWED" value="true" />
+----------------   </component>
+----------------diff --git a/Config/Google/AndroidStudio2023.2/options/window.state.xml b/Config/Google/AndroidStudio2023.2/options/window.state.xml
+----------------index fdf84d48..b7bed4d4 100644
+------------------- a/Config/Google/AndroidStudio2023.2/options/window.state.xml
+----------------+++ b/Config/Google/AndroidStudio2023.2/options/window.state.xml
+----------------@@ -3,7 +3,7 @@
+----------------     <location key="WELCOME_SCREEN.0.0.1920.1080" x="982" y="300" />
+----------------   </component>
+----------------   <component name="WindowManager">
+-----------------    <frame x="0" y="0" width="1920" height="1080" extendedState="6" />
+----------------+    <frame x="228" y="38" width="1470" height="950" />
+----------------   </component>
+----------------   <component name="WindowStateApplicationService">
+----------------     <state x="741" y="233" width="429" height="486" key="FileChooserDialogImpl" timestamp="1714355278857">
+----------------@@ -14,10 +14,10 @@
+----------------       <screen x="0" y="0" width="1920" height="1080" />
+----------------     </state>
+----------------     <state width="810" height="102" key="ShowUsagesActions.dimensionServiceKey/0.0.1920.1080" timestamp="1714338467912" />
+-----------------    <state x="959" y="480" width="937" height="723" key="WELCOME_SCREEN" timestamp="1714464421795">
+----------------+    <state x="959" y="480" width="937" height="723" key="WELCOME_SCREEN" timestamp="1714528426819">
+----------------       <screen x="0" y="0" width="1920" height="1080" />
+----------------     </state>
+-----------------    <state x="959" y="480" width="937" height="723" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1714464421795" />
+----------------+    <state x="959" y="480" width="937" height="723" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1714528426819" />
+----------------     <state x="545" y="220" width="800" height="650" key="com.android.tools.idea.devicemanagerv2.DeviceManagerWelcomeScreenFrame" timestamp="1714226986649">
+----------------       <screen x="0" y="0" width="1920" height="1080" />
+----------------     </state>
+----------------diff --git a/Kdeconfigs/kwinrc b/Kdeconfigs/kwinrc
+----------------index b5016a91..ee2121b4 100644
+------------------- a/Kdeconfigs/kwinrc
+----------------+++ b/Kdeconfigs/kwinrc
+----------------@@ -10,9 +10,21 @@ Name_6=New Desktop
+---------------- Number=6
+---------------- Rows=2
+---------------- 
+----------------+[Effect-blur]
+----------------+BlurStrength=3
+----------------+NoiseStrength=0
+----------------+
+----------------+[Effect-translucency]
+----------------+MoveResize=90
+----------------+
+---------------- [MouseBindings]
+---------------- CommandAll1=Activate, raise and move
+---------------- 
+----------------+[Plugins]
+----------------+blurEnabled=true
+----------------+contrastEnabled=false
+----------------+translucencyEnabled=true
+----------------+
+---------------- [Tiling]
+---------------- padding=4
+---------------- 
+----------------diff --git a/Kdeconfigs/kwinrulesrc b/Kdeconfigs/kwinrulesrc
+----------------index 7945513b..4cab51a2 100644
+------------------- a/Kdeconfigs/kwinrulesrc
+----------------+++ b/Kdeconfigs/kwinrulesrc
+----------------@@ -1,14 +1,3 @@
+-----------------[1]
+-----------------Description=Application settings for jetbrains-studio
+-----------------clientmachine=localhost
+-----------------types=66494
+-----------------wmclass=jetbrains-studio
+-----------------wmclassmatch=1
+-----------------
+-----------------[General]
+-----------------count=1
+-----------------rules=1
+-----------------
+---------------- [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
+---------------- Description=Application settings for jetbrains-studio
+---------------- clientmachine=localhost
+----------------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----------------index eba2e943..9a3029b9 100644
+------------------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----------------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+----------------@@ -12,8 +12,8 @@ popupWidth=647
+---------------- 
+---------------- [Containments][25]
+---------------- ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+-----------------ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-49:1712,16,176,80,0;Applet-65:0,128,80,80,0;Applet-66:1616,96.1075,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+-----------------ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-49:1712,16,176,80,0;Applet-65:0,128,80,80,0;Applet-66:1616,96.1075,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+----------------+ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+----------------+ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+---------------- activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
+---------------- formfactor=0
+---------------- immutability=1
+----------------@@ -343,6 +343,22 @@ PreloadWeight=2
+---------------- extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+---------------- knownItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+---------------- 
+----------------+[Containments][67]
+----------------+activityId=
+----------------+formfactor=2
+----------------+immutability=1
+----------------+lastScreen=0
+----------------+location=3
+----------------+plugin=org.kde.panel
+----------------+wallpaperplugin=org.kde.image
+----------------+
+----------------+[Containments][67][Applets][68]
+----------------+immutability=1
+----------------+plugin=org.kde.plasma.appmenu
+----------------+
+----------------+[Containments][67][General]
+----------------+AppletOrder=68
+----------------+
+---------------- [Containments25Appletsts][59][Configuration][General]
+---------------- alphaSort=true
+---------------- compactMode=true
+----------------diff --git a/Kdeconfigs/plasmashellrc b/Kdeconfigs/plasmashellrc
+----------------index a0c13743..621edaac 100644
+------------------- a/Kdeconfigs/plasmashellrc
+----------------+++ b/Kdeconfigs/plasmashellrc
+----------------@@ -66,5 +66,14 @@ panelVisibility=1
+---------------- [PlasmaViews][Panel 62][Defaults]
+---------------- thickness=27
+---------------- 
+----------------+[PlasmaViews][Panel 67]
+----------------+alignment=132
+----------------+floating=0
+----------------+panelLengthMode=1
+----------------+panelVisibility=1
+----------------+
+----------------+[PlasmaViews][Panel 67][Defaults]
+----------------+thickness=20
+----------------+
+---------------- [Updates]
+---------------- performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/migrate_font_weights.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_showseconds_setting.js
+----------------diff --git a/changes.md b/changes.md
+----------------index 30c57924..f3d14dae 100644
+------------------- a/changes.md
+----------------+++ b/changes.md
+----------------@@ -1,795 +0,0 @@
+-----------------diff --git a/Config/gtk-3.0/colors.css b/Config/gtk-3.0/colors.css
+-----------------index a468447c..768d3d57 100644
+-------------------- a/Config/gtk-3.0/colors.css
+-----------------+++ b/Config/gtk-3.0/colors.css
+-----------------@@ -1,84 +1,84 @@
+------------------@define-color borders_breeze #474b57;
+------------------@define-color content_view_bg_breeze #161925;
+------------------@define-color error_color_backdrop_breeze #e52e58;
+------------------@define-color error_color_breeze #ed254e;
+------------------@define-color error_color_insensitive_backdrop_breeze #5d1c31;
+------------------@define-color error_color_insensitive_breeze #5d1c31;
+------------------@define-color insensitive_base_color_breeze #151823;
+------------------@define-color insensitive_base_fg_color_breeze #545863;
+------------------@define-color insensitive_bg_color_breeze #171a26;
+------------------@define-color insensitive_borders_breeze #262a36;
+------------------@define-color insensitive_fg_color_breeze #555965;
+------------------@define-color insensitive_selected_bg_color_breeze #171a26;
+------------------@define-color insensitive_selected_fg_color_breeze #555965;
+------------------@define-color insensitive_unfocused_bg_color_breeze #171a26;
+------------------@define-color insensitive_unfocused_fg_color_breeze #555965;
+------------------@define-color insensitive_unfocused_selected_bg_color_breeze #171a26;
+------------------@define-color insensitive_unfocused_selected_fg_color_breeze #555965;
+-----------------+@define-color borders_breeze #454859;
+-----------------+@define-color content_view_bg_breeze #1e1e2e;
+-----------------+@define-color error_color_backdrop_breeze #876790;
+-----------------+@define-color error_color_breeze #f38ba8;
+-----------------+@define-color error_color_insensitive_backdrop_breeze #b36a83;
+-----------------+@define-color error_color_insensitive_breeze #b36a83;
+-----------------+@define-color insensitive_base_color_breeze #1e1e2e;
+-----------------+@define-color insensitive_base_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_borders_breeze #393b4c;
+-----------------+@define-color insensitive_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_selected_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_selected_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_unfocused_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_unfocused_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_unfocused_selected_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_unfocused_selected_fg_color_breeze #999fb9;
+----------------- @define-color link_color_breeze #dd0000;
+------------------@define-color link_visited_color_breeze #7cb7ff;
+------------------@define-color success_color_backdrop_breeze #75f1a6;
+------------------@define-color success_color_breeze #71f79f;
+------------------@define-color success_color_insensitive_backdrop_breeze #33624c;
+------------------@define-color success_color_insensitive_breeze #33624c;
+------------------@define-color theme_base_color_breeze #161925;
+------------------@define-color theme_bg_color_breeze #181b28;
+------------------@define-color theme_button_background_backdrop_breeze #202434;
+------------------@define-color theme_button_background_backdrop_insensitive_breeze #1d2031;
+------------------@define-color theme_button_background_insensitive_breeze #1d2031;
+------------------@define-color theme_button_background_normal_breeze #1e2233;
+------------------@define-color theme_button_decoration_focus_backdrop_breeze #d90e14;
+------------------@define-color theme_button_decoration_focus_backdrop_insensitive_breeze #5c1520;
+-----------------+@define-color link_visited_color_breeze #cba6f7;
+-----------------+@define-color success_color_backdrop_breeze #728396;
+-----------------+@define-color success_color_breeze #a6e3a1;
+-----------------+@define-color success_color_insensitive_backdrop_breeze #7da87f;
+-----------------+@define-color success_color_insensitive_breeze #7da87f;
+-----------------+@define-color theme_base_color_breeze #1e1e2e;
+-----------------+@define-color theme_bg_color_breeze #181825;
+-----------------+@define-color theme_button_background_backdrop_breeze #202031;
+-----------------+@define-color theme_button_background_backdrop_insensitive_breeze #2b2c3d;
+-----------------+@define-color theme_button_background_insensitive_breeze #2b2c3d;
+-----------------+@define-color theme_button_background_normal_breeze #313244;
+-----------------+@define-color theme_button_decoration_focus_backdrop_breeze #893551;
+-----------------+@define-color theme_button_decoration_focus_backdrop_insensitive_breeze #a4090e;
+----------------- @define-color theme_button_decoration_focus_breeze #dd0000;
+------------------@define-color theme_button_decoration_focus_insensitive_breeze #5c1520;
+------------------@define-color theme_button_decoration_hover_backdrop_breeze #d90e14;
+------------------@define-color theme_button_decoration_hover_backdrop_insensitive_breeze #5c1520;
+-----------------+@define-color theme_button_decoration_focus_insensitive_breeze #a4090e;
+-----------------+@define-color theme_button_decoration_hover_backdrop_breeze #893551;
+-----------------+@define-color theme_button_decoration_hover_backdrop_insensitive_breeze #a4090e;
+----------------- @define-color theme_button_decoration_hover_breeze #dd0000;
+------------------@define-color theme_button_decoration_hover_insensitive_breeze #5c1520;
+------------------@define-color theme_button_foreground_active_backdrop_breeze #fbfafa;
+------------------@define-color theme_button_foreground_active_backdrop_insensitive_breeze #555965;
+-----------------+@define-color theme_button_decoration_hover_insensitive_breeze #a4090e;
+-----------------+@define-color theme_button_foreground_active_backdrop_breeze #808194;
+-----------------+@define-color theme_button_foreground_active_backdrop_insensitive_breeze #999fb9;
+----------------- @define-color theme_button_foreground_active_breeze #ffffff;
+------------------@define-color theme_button_foreground_active_insensitive_breeze #555965;
+------------------@define-color theme_button_foreground_backdrop_breeze #c2c4c9;
+------------------@define-color theme_button_foreground_backdrop_insensitive_breeze #545765;
+------------------@define-color theme_button_foreground_insensitive_breeze #545765;
+------------------@define-color theme_button_foreground_normal_breeze #c3c7d1;
+------------------@define-color theme_fg_color_breeze #d3dae3;
+------------------@define-color theme_header_background_backdrop_breeze #1a1d2a;
+------------------@define-color theme_header_background_breeze #181b28;
+------------------@define-color theme_header_background_light_breeze #181b28;
+------------------@define-color theme_header_foreground_backdrop_breeze #d4d5d8;
+------------------@define-color theme_header_foreground_breeze #d3dae3;
+------------------@define-color theme_header_foreground_insensitive_backdrop_breeze #d4d5d8;
+------------------@define-color theme_header_foreground_insensitive_breeze #d4d5d8;
+-----------------+@define-color theme_button_foreground_active_insensitive_breeze #999fb9;
+-----------------+@define-color theme_button_foreground_backdrop_breeze #808194;
+-----------------+@define-color theme_button_foreground_backdrop_insensitive_breeze #999fb9;
+-----------------+@define-color theme_button_foreground_insensitive_breeze #999fb9;
+-----------------+@define-color theme_button_foreground_normal_breeze #cdd6f4;
+-----------------+@define-color theme_fg_color_breeze #cdd6f4;
+-----------------+@define-color theme_header_background_backdrop_breeze #1e1e2e;
+-----------------+@define-color theme_header_background_breeze #181825;
+-----------------+@define-color theme_header_background_light_breeze #181825;
+-----------------+@define-color theme_header_foreground_backdrop_breeze #808194;
+-----------------+@define-color theme_header_foreground_breeze #cdd6f4;
+-----------------+@define-color theme_header_foreground_insensitive_backdrop_breeze #808194;
+-----------------+@define-color theme_header_foreground_insensitive_breeze #808194;
+----------------- @define-color theme_hovering_selected_bg_color_breeze #dd0000;
+------------------@define-color theme_selected_bg_color_breeze #a1070b;
+-----------------+@define-color theme_selected_bg_color_breeze #a3080d;
+----------------- @define-color theme_selected_fg_color_breeze #ffffff;
+------------------@define-color theme_text_color_breeze #d3dae3;
+------------------@define-color theme_titlebar_background_backdrop_breeze #2f343f;
+------------------@define-color theme_titlebar_background_breeze #a1080b;
+------------------@define-color theme_titlebar_background_light_breeze #181b28;
+------------------@define-color theme_titlebar_foreground_backdrop_breeze #666a73;
+------------------@define-color theme_titlebar_foreground_breeze #ffffff;
+------------------@define-color theme_titlebar_foreground_insensitive_backdrop_breeze #666a73;
+------------------@define-color theme_titlebar_foreground_insensitive_breeze #666a73;
+------------------@define-color theme_unfocused_base_color_breeze #181b27;
+------------------@define-color theme_unfocused_bg_color_breeze #1a1d2a;
+------------------@define-color theme_unfocused_fg_color_breeze #d4d5d8;
+------------------@define-color theme_unfocused_selected_bg_color_alt_breeze #a00a0d;
+------------------@define-color theme_unfocused_selected_bg_color_breeze #a00a0d;
+------------------@define-color theme_unfocused_selected_fg_color_breeze #fbfafa;
+------------------@define-color theme_unfocused_text_color_breeze #d4d5d8;
+------------------@define-color theme_unfocused_view_bg_color_breeze #151823;
+------------------@define-color theme_unfocused_view_text_color_breeze #545863;
+-----------------+@define-color theme_text_color_breeze #cdd6f4;
+-----------------+@define-color theme_titlebar_background_backdrop_breeze #1e1e2e;
+-----------------+@define-color theme_titlebar_background_breeze #181825;
+-----------------+@define-color theme_titlebar_background_light_breeze #181825;
+-----------------+@define-color theme_titlebar_foreground_backdrop_breeze #808194;
+-----------------+@define-color theme_titlebar_foreground_breeze #cdd6f4;
+-----------------+@define-color theme_titlebar_foreground_insensitive_backdrop_breeze #808194;
+-----------------+@define-color theme_titlebar_foreground_insensitive_breeze #808194;
+-----------------+@define-color theme_unfocused_base_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_bg_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_fg_color_breeze #808194;
+-----------------+@define-color theme_unfocused_selected_bg_color_alt_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_selected_bg_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_selected_fg_color_breeze #808194;
+-----------------+@define-color theme_unfocused_text_color_breeze #808194;
+-----------------+@define-color theme_unfocused_view_bg_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_view_text_color_breeze #999fb9;
+----------------- @define-color theme_view_active_decoration_color_breeze #dd0000;
+----------------- @define-color theme_view_hover_decoration_color_breeze #dd0000;
+------------------@define-color tooltip_background_breeze #353945;
+------------------@define-color tooltip_border_breeze #5d616d;
+------------------@define-color tooltip_text_breeze #d3dae3;
+------------------@define-color unfocused_borders_breeze #494b55;
+------------------@define-color unfocused_insensitive_borders_breeze #262a36;
+------------------@define-color warning_color_backdrop_breeze #f56e11;
+------------------@define-color warning_color_breeze #ff6a00;
+------------------@define-color warning_color_insensitive_backdrop_breeze #633317;
+------------------@define-color warning_color_insensitive_breeze #633317;
+-----------------+@define-color tooltip_background_breeze #1e1e2e;
+-----------------+@define-color tooltip_border_breeze #4a4c60;
+-----------------+@define-color tooltip_text_breeze #cdd6f4;
+-----------------+@define-color unfocused_borders_breeze #363747;
+-----------------+@define-color unfocused_insensitive_borders_breeze #393b4c;
+-----------------+@define-color warning_color_backdrop_breeze #87848f;
+-----------------+@define-color warning_color_breeze #f9e2af;
+-----------------+@define-color warning_color_insensitive_backdrop_breeze #b7a788;
+-----------------+@define-color warning_color_insensitive_breeze #b7a788;
+-----------------diff --git a/Config/gtk-4.0/colors.css b/Config/gtk-4.0/colors.css
+-----------------index a468447c..768d3d57 100644
+-------------------- a/Config/gtk-4.0/colors.css
+-----------------+++ b/Config/gtk-4.0/colors.css
+-----------------@@ -1,84 +1,84 @@
+------------------@define-color borders_breeze #474b57;
+------------------@define-color content_view_bg_breeze #161925;
+------------------@define-color error_color_backdrop_breeze #e52e58;
+------------------@define-color error_color_breeze #ed254e;
+------------------@define-color error_color_insensitive_backdrop_breeze #5d1c31;
+------------------@define-color error_color_insensitive_breeze #5d1c31;
+------------------@define-color insensitive_base_color_breeze #151823;
+------------------@define-color insensitive_base_fg_color_breeze #545863;
+------------------@define-color insensitive_bg_color_breeze #171a26;
+------------------@define-color insensitive_borders_breeze #262a36;
+------------------@define-color insensitive_fg_color_breeze #555965;
+------------------@define-color insensitive_selected_bg_color_breeze #171a26;
+------------------@define-color insensitive_selected_fg_color_breeze #555965;
+------------------@define-color insensitive_unfocused_bg_color_breeze #171a26;
+------------------@define-color insensitive_unfocused_fg_color_breeze #555965;
+------------------@define-color insensitive_unfocused_selected_bg_color_breeze #171a26;
+------------------@define-color insensitive_unfocused_selected_fg_color_breeze #555965;
+-----------------+@define-color borders_breeze #454859;
+-----------------+@define-color content_view_bg_breeze #1e1e2e;
+-----------------+@define-color error_color_backdrop_breeze #876790;
+-----------------+@define-color error_color_breeze #f38ba8;
+-----------------+@define-color error_color_insensitive_backdrop_breeze #b36a83;
+-----------------+@define-color error_color_insensitive_breeze #b36a83;
+-----------------+@define-color insensitive_base_color_breeze #1e1e2e;
+-----------------+@define-color insensitive_base_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_borders_breeze #393b4c;
+-----------------+@define-color insensitive_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_selected_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_selected_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_unfocused_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_unfocused_fg_color_breeze #999fb9;
+-----------------+@define-color insensitive_unfocused_selected_bg_color_breeze #1a1a28;
+-----------------+@define-color insensitive_unfocused_selected_fg_color_breeze #999fb9;
+----------------- @define-color link_color_breeze #dd0000;
+------------------@define-color link_visited_color_breeze #7cb7ff;
+------------------@define-color success_color_backdrop_breeze #75f1a6;
+------------------@define-color success_color_breeze #71f79f;
+------------------@define-color success_color_insensitive_backdrop_breeze #33624c;
+------------------@define-color success_color_insensitive_breeze #33624c;
+------------------@define-color theme_base_color_breeze #161925;
+------------------@define-color theme_bg_color_breeze #181b28;
+------------------@define-color theme_button_background_backdrop_breeze #202434;
+------------------@define-color theme_button_background_backdrop_insensitive_breeze #1d2031;
+------------------@define-color theme_button_background_insensitive_breeze #1d2031;
+------------------@define-color theme_button_background_normal_breeze #1e2233;
+------------------@define-color theme_button_decoration_focus_backdrop_breeze #d90e14;
+------------------@define-color theme_button_decoration_focus_backdrop_insensitive_breeze #5c1520;
+-----------------+@define-color link_visited_color_breeze #cba6f7;
+-----------------+@define-color success_color_backdrop_breeze #728396;
+-----------------+@define-color success_color_breeze #a6e3a1;
+-----------------+@define-color success_color_insensitive_backdrop_breeze #7da87f;
+-----------------+@define-color success_color_insensitive_breeze #7da87f;
+-----------------+@define-color theme_base_color_breeze #1e1e2e;
+-----------------+@define-color theme_bg_color_breeze #181825;
+-----------------+@define-color theme_button_background_backdrop_breeze #202031;
+-----------------+@define-color theme_button_background_backdrop_insensitive_breeze #2b2c3d;
+-----------------+@define-color theme_button_background_insensitive_breeze #2b2c3d;
+-----------------+@define-color theme_button_background_normal_breeze #313244;
+-----------------+@define-color theme_button_decoration_focus_backdrop_breeze #893551;
+-----------------+@define-color theme_button_decoration_focus_backdrop_insensitive_breeze #a4090e;
+----------------- @define-color theme_button_decoration_focus_breeze #dd0000;
+------------------@define-color theme_button_decoration_focus_insensitive_breeze #5c1520;
+------------------@define-color theme_button_decoration_hover_backdrop_breeze #d90e14;
+------------------@define-color theme_button_decoration_hover_backdrop_insensitive_breeze #5c1520;
+-----------------+@define-color theme_button_decoration_focus_insensitive_breeze #a4090e;
+-----------------+@define-color theme_button_decoration_hover_backdrop_breeze #893551;
+-----------------+@define-color theme_button_decoration_hover_backdrop_insensitive_breeze #a4090e;
+----------------- @define-color theme_button_decoration_hover_breeze #dd0000;
+------------------@define-color theme_button_decoration_hover_insensitive_breeze #5c1520;
+------------------@define-color theme_button_foreground_active_backdrop_breeze #fbfafa;
+------------------@define-color theme_button_foreground_active_backdrop_insensitive_breeze #555965;
+-----------------+@define-color theme_button_decoration_hover_insensitive_breeze #a4090e;
+-----------------+@define-color theme_button_foreground_active_backdrop_breeze #808194;
+-----------------+@define-color theme_button_foreground_active_backdrop_insensitive_breeze #999fb9;
+----------------- @define-color theme_button_foreground_active_breeze #ffffff;
+------------------@define-color theme_button_foreground_active_insensitive_breeze #555965;
+------------------@define-color theme_button_foreground_backdrop_breeze #c2c4c9;
+------------------@define-color theme_button_foreground_backdrop_insensitive_breeze #545765;
+------------------@define-color theme_button_foreground_insensitive_breeze #545765;
+------------------@define-color theme_button_foreground_normal_breeze #c3c7d1;
+------------------@define-color theme_fg_color_breeze #d3dae3;
+------------------@define-color theme_header_background_backdrop_breeze #1a1d2a;
+------------------@define-color theme_header_background_breeze #181b28;
+------------------@define-color theme_header_background_light_breeze #181b28;
+------------------@define-color theme_header_foreground_backdrop_breeze #d4d5d8;
+------------------@define-color theme_header_foreground_breeze #d3dae3;
+------------------@define-color theme_header_foreground_insensitive_backdrop_breeze #d4d5d8;
+------------------@define-color theme_header_foreground_insensitive_breeze #d4d5d8;
+-----------------+@define-color theme_button_foreground_active_insensitive_breeze #999fb9;
+-----------------+@define-color theme_button_foreground_backdrop_breeze #808194;
+-----------------+@define-color theme_button_foreground_backdrop_insensitive_breeze #999fb9;
+-----------------+@define-color theme_button_foreground_insensitive_breeze #999fb9;
+-----------------+@define-color theme_button_foreground_normal_breeze #cdd6f4;
+-----------------+@define-color theme_fg_color_breeze #cdd6f4;
+-----------------+@define-color theme_header_background_backdrop_breeze #1e1e2e;
+-----------------+@define-color theme_header_background_breeze #181825;
+-----------------+@define-color theme_header_background_light_breeze #181825;
+-----------------+@define-color theme_header_foreground_backdrop_breeze #808194;
+-----------------+@define-color theme_header_foreground_breeze #cdd6f4;
+-----------------+@define-color theme_header_foreground_insensitive_backdrop_breeze #808194;
+-----------------+@define-color theme_header_foreground_insensitive_breeze #808194;
+----------------- @define-color theme_hovering_selected_bg_color_breeze #dd0000;
+------------------@define-color theme_selected_bg_color_breeze #a1070b;
+-----------------+@define-color theme_selected_bg_color_breeze #a3080d;
+----------------- @define-color theme_selected_fg_color_breeze #ffffff;
+------------------@define-color theme_text_color_breeze #d3dae3;
+------------------@define-color theme_titlebar_background_backdrop_breeze #2f343f;
+------------------@define-color theme_titlebar_background_breeze #a1080b;
+------------------@define-color theme_titlebar_background_light_breeze #181b28;
+------------------@define-color theme_titlebar_foreground_backdrop_breeze #666a73;
+------------------@define-color theme_titlebar_foreground_breeze #ffffff;
+------------------@define-color theme_titlebar_foreground_insensitive_backdrop_breeze #666a73;
+------------------@define-color theme_titlebar_foreground_insensitive_breeze #666a73;
+------------------@define-color theme_unfocused_base_color_breeze #181b27;
+------------------@define-color theme_unfocused_bg_color_breeze #1a1d2a;
+------------------@define-color theme_unfocused_fg_color_breeze #d4d5d8;
+------------------@define-color theme_unfocused_selected_bg_color_alt_breeze #a00a0d;
+------------------@define-color theme_unfocused_selected_bg_color_breeze #a00a0d;
+------------------@define-color theme_unfocused_selected_fg_color_breeze #fbfafa;
+------------------@define-color theme_unfocused_text_color_breeze #d4d5d8;
+------------------@define-color theme_unfocused_view_bg_color_breeze #151823;
+------------------@define-color theme_unfocused_view_text_color_breeze #545863;
+-----------------+@define-color theme_text_color_breeze #cdd6f4;
+-----------------+@define-color theme_titlebar_background_backdrop_breeze #1e1e2e;
+-----------------+@define-color theme_titlebar_background_breeze #181825;
+-----------------+@define-color theme_titlebar_background_light_breeze #181825;
+-----------------+@define-color theme_titlebar_foreground_backdrop_breeze #808194;
+-----------------+@define-color theme_titlebar_foreground_breeze #cdd6f4;
+-----------------+@define-color theme_titlebar_foreground_insensitive_backdrop_breeze #808194;
+-----------------+@define-color theme_titlebar_foreground_insensitive_breeze #808194;
+-----------------+@define-color theme_unfocused_base_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_bg_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_fg_color_breeze #808194;
+-----------------+@define-color theme_unfocused_selected_bg_color_alt_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_selected_bg_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_selected_fg_color_breeze #808194;
+-----------------+@define-color theme_unfocused_text_color_breeze #808194;
+-----------------+@define-color theme_unfocused_view_bg_color_breeze #1e1e2e;
+-----------------+@define-color theme_unfocused_view_text_color_breeze #999fb9;
+----------------- @define-color theme_view_active_decoration_color_breeze #dd0000;
+----------------- @define-color theme_view_hover_decoration_color_breeze #dd0000;
+------------------@define-color tooltip_background_breeze #353945;
+------------------@define-color tooltip_border_breeze #5d616d;
+------------------@define-color tooltip_text_breeze #d3dae3;
+------------------@define-color unfocused_borders_breeze #494b55;
+------------------@define-color unfocused_insensitive_borders_breeze #262a36;
+------------------@define-color warning_color_backdrop_breeze #f56e11;
+------------------@define-color warning_color_breeze #ff6a00;
+------------------@define-color warning_color_insensitive_backdrop_breeze #633317;
+------------------@define-color warning_color_insensitive_breeze #633317;
+-----------------+@define-color tooltip_background_breeze #1e1e2e;
+-----------------+@define-color tooltip_border_breeze #4a4c60;
+-----------------+@define-color tooltip_text_breeze #cdd6f4;
+-----------------+@define-color unfocused_borders_breeze #363747;
+-----------------+@define-color unfocused_insensitive_borders_breeze #393b4c;
+-----------------+@define-color warning_color_backdrop_breeze #87848f;
+-----------------+@define-color warning_color_breeze #f9e2af;
+-----------------+@define-color warning_color_insensitive_backdrop_breeze #b7a788;
+-----------------+@define-color warning_color_insensitive_breeze #b7a788;
+-----------------diff --git a/Kdeconfigs/Trolltech.conf b/Kdeconfigs/Trolltech.conf
+-----------------index 1cb441f9..6e39c206 100644
+-------------------- a/Kdeconfigs/Trolltech.conf
+-----------------+++ b/Kdeconfigs/Trolltech.conf
+-----------------@@ -1,17 +1,17 @@
+----------------- [qt]
+----------------- GUIEffects=none
+----------------- KDE\contrast=7
+------------------KWinPalette\activeBackground=#a1080b
+------------------KWinPalette\activeBlend=#2f343f
+------------------KWinPalette\activeForeground=#ffffff
+------------------KWinPalette\activeTitleBtnBg=#181b28
+------------------KWinPalette\frame=#181b28
+------------------KWinPalette\inactiveBackground=#2f343f
+------------------KWinPalette\inactiveBlend=#2f343f
+------------------KWinPalette\inactiveForeground=#666a73
+------------------KWinPalette\inactiveFrame=#1a1d2a
+------------------KWinPalette\inactiveTitleBtnBg=#1a1d2a
+------------------Palette\active=#d3dae3, #1e2233, #39405e, #2c3149, #0c0d13, #151722, #d3dae3, #ffffff, #c3c7d1, #161925, #181b28, #090a0e, #a1070b, #ffffff, #dd0000, #7cb7ff, #1f2333, #000000, #353945, #d3dae3, #666a73, #a1070b
+------------------Palette\disabled=#555965, #1d2031, #383f5d, #2b3148, #0b0d13, #141621, #545863, #ffffff, #545765, #151823, #171a26, #08090e, #171a26, #555965, #570f17, #374d6c, #1e2131, #000000, #353945, #d3dae3, #30333d, #171a26
+------------------Palette\inactive=#d4d5d8, #202434, #3a415d, #2e3349, #0d0e14, #171924, #d4d5d8, #ffffff, #c2c4c9, #181b27, #1a1d2a, #090a0f, #a00a0d, #fbfafa, #d90c10, #97b2dd, #212534, #000000, #353945, #d3dae3, #656a76, #a00a0d
+-----------------+KWinPalette\activeBackground=#1e1e2e
+-----------------+KWinPalette\activeBlend=#cdd6f4
+-----------------+KWinPalette\activeForeground=#cdd6f4
+-----------------+KWinPalette\activeTitleBtnBg=#181825
+-----------------+KWinPalette\frame=#181825
+-----------------+KWinPalette\inactiveBackground=#11111b
+-----------------+KWinPalette\inactiveBlend=#a6adc8
+-----------------+KWinPalette\inactiveForeground=#a6adc8
+-----------------+KWinPalette\inactiveFrame=#1e1e2e
+-----------------+KWinPalette\inactiveTitleBtnBg=#1e1e2e
+-----------------+Palette\active=#cdd6f4, #313244, #3d3d5e, #2f2f48, #0c0c12, #151520, #cdd6f4, #ffffff, #cdd6f4, #1e1e2e, #181825, #09090d, #a3080d, #ffffff, #dd0000, #cba6f7, #181825, #000000, #1e1e2e, #cdd6f4, #a6adc8, #a3080d
+-----------------+Palette\disabled=#999fb9, #2b2c3d, #3e3e5f, #30304a, #0d0d13, #161622, #999fb9, #ffffff, #999fb9, #1e1e2e, #1a1a28, #09090e, #1a1a28, #999fb9, #a4090e, #977dbb, #1a1a28, #000000, #1e1e2e, #cdd6f4, #7d829a, #1a1a28
+-----------------+Palette\inactive=#808194, #202031, #404062, #32324d, #0f0f16, #1a1a28, #808194, #ffffff, #808194, #1e1e2e, #1e1e2e, #0b0b10, #1e1e2e, #808194, #893551, #797393, #1e1e2e, #000000, #1e1e2e, #cdd6f4, #717289, #1e1e2e
+----------------- font="Noto Sans,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1"
+-----------------diff --git a/Kdeconfigs/gtkrc b/Kdeconfigs/gtkrc
+-----------------index fbf6aa46..c7c69f8a 100644
+-------------------- a/Kdeconfigs/gtkrc
+-----------------+++ b/Kdeconfigs/gtkrc
+-----------------@@ -1,2 +1,2 @@
+------------------# created by KDE Plasma, Wed May 1 06:41:37 2024
+-----------------+# created by KDE Plasma, Wed May 1 07:18:23 2024
+----------------- #
+-----------------diff --git a/Kdeconfigs/gtkrc-2.0 b/Kdeconfigs/gtkrc-2.0
+-----------------index 52ecc3bf..40cf3d39 100644
+-------------------- a/Kdeconfigs/gtkrc-2.0
+-----------------+++ b/Kdeconfigs/gtkrc-2.0
+-----------------@@ -1,4 +1,4 @@
+------------------# created by KDE Plasma, Wed May 1 06:41:37 2024
+-----------------+# created by KDE Plasma, Wed May 1 07:18:23 2024
+----------------- #
+----------------- 
+----------------- gtk-alternative-button-order = 1
+-----------------diff --git a/Kdeconfigs/kdeglobals b/Kdeconfigs/kdeglobals
+-----------------index 0a24013f..ec7868af 100644
+-------------------- a/Kdeconfigs/kdeglobals
+-----------------+++ b/Kdeconfigs/kdeglobals
+-----------------@@ -1,46 +1,68 @@
+----------------- [ColorEffects:Disabled]
+----------------- ChangeSelectionColor=
+------------------Color=56,56,56
+------------------ColorAmount=0
+------------------ColorEffect=0
+------------------ContrastAmount=0.65
+------------------ContrastEffect=1
+-----------------+Color=30, 30, 46
+-----------------+ColorAmount=0.30000000000000004
+-----------------+ColorEffect=2
+-----------------+ContrastAmount=0.1
+-----------------+ContrastEffect=0
+----------------- Enable=
+------------------IntensityAmount=0.1
+------------------IntensityEffect=2
+-----------------+IntensityAmount=-1
+-----------------+IntensityEffect=0
+----------------- 
+----------------- [ColorEffects:Inactive]
+------------------ChangeSelectionColor=false
+------------------Color=112,111,110
+------------------ColorAmount=0.025000000000000001
+------------------ColorEffect=2
+------------------ContrastAmount=0.10000000000000001
+------------------ContrastEffect=2
+-----------------+ChangeSelectionColor=true
+-----------------+Color=30, 30, 46
+-----------------+ColorAmount=0.5
+-----------------+ColorEffect=3
+-----------------+ContrastAmount=0
+-----------------+ContrastEffect=0
+----------------- Enable=true
+----------------- IntensityAmount=0
+----------------- IntensityEffect=0
+----------------- 
+----------------- [Colors:Button]
+------------------BackgroundAlternate=163,10,15
+------------------BackgroundNormal=30,34,51
+-----------------+BackgroundAlternate=169,14,20
+-----------------+BackgroundNormal=49, 50, 68
+----------------- DecorationFocus=221,0,0
+----------------- DecorationHover=221,0,0
+----------------- ForegroundActive=221,0,0
+------------------ForegroundInactive=102,106,115
+-----------------+ForegroundInactive=166, 173, 200
+----------------- ForegroundLink=221,0,0
+------------------ForegroundNegative=237,37,78
+------------------ForegroundNeutral=255,106,0
+------------------ForegroundNormal=195,199,209
+------------------ForegroundPositive=113,247,159
+------------------ForegroundVisited=82,148,226
+-----------------+ForegroundNegative=243, 139, 168
+-----------------+ForegroundNeutral=249, 226, 175
+-----------------+ForegroundNormal=205, 214, 244
+-----------------+ForegroundPositive=166, 227, 161
+-----------------+ForegroundVisited=203, 166, 247
+----------------- 
+----------------- [Colors:Complementary]
+-----------------+BackgroundAlternate=17, 17, 27
+-----------------+BackgroundNormal=24, 24, 37
+----------------- DecorationFocus=221,0,0
+----------------- DecorationHover=221,0,0
+----------------- ForegroundActive=221,0,0
+-----------------+ForegroundInactive=166, 173, 200
+----------------- ForegroundLink=221,0,0
+-----------------+ForegroundNegative=243, 139, 168
+-----------------+ForegroundNeutral=249, 226, 175
+-----------------+ForegroundNormal=205, 214, 244
+-----------------+ForegroundPositive=166, 227, 161
+-----------------+ForegroundVisited=203, 166, 247
+----------------- 
+----------------- [Colors:Header]
+-----------------+BackgroundAlternate=17, 17, 27
+-----------------+BackgroundNormal=24, 24, 37
+-----------------+DecorationFocus=221,0,0
+-----------------+DecorationHover=221,0,0
+-----------------+ForegroundActive=221,0,0
+-----------------+ForegroundInactive=166, 173, 200
+-----------------+ForegroundLink=221,0,0
+-----------------+ForegroundNegative=243, 139, 168
+-----------------+ForegroundNeutral=249, 226, 175
+-----------------+ForegroundNormal=205, 214, 244
+-----------------+ForegroundPositive=166, 227, 161
+-----------------+ForegroundVisited=203, 166, 247
+-----------------+
+-----------------+[Colors:Header][Inactive]
+----------------- BackgroundAlternate[$d]
+----------------- BackgroundNormal[$d]
+----------------- DecorationFocus[$d]
+-----------------@@ -55,60 +77,60 @@ ForegroundPositive[$d]
+----------------- ForegroundVisited[$d]
+----------------- 
+----------------- [Colors:Selection]
+------------------BackgroundAlternate=161,7,11
+------------------BackgroundNormal=161,7,11
+-----------------+BackgroundAlternate=163,8,13
+-----------------+BackgroundNormal=163,8,13
+----------------- DecorationFocus=221,0,0
+----------------- DecorationHover=221,0,0
+----------------- ForegroundActive=221,0,0
+----------------- ForegroundInactive=255,255,255
+----------------- ForegroundLink=221,0,0
+------------------ForegroundNegative=237,37,78
+------------------ForegroundNeutral=255,106,0
+-----------------+ForegroundNegative=243, 139, 168
+-----------------+ForegroundNeutral=249, 226, 175
+----------------- ForegroundNormal=255,255,255
+------------------ForegroundPositive=113,247,159
+------------------ForegroundVisited=189,195,199
+-----------------+ForegroundPositive=166, 227, 161
+-----------------+ForegroundVisited=203, 166, 247
+----------------- 
+----------------- [Colors:Tooltip]
+------------------BackgroundAlternate=47,52,63
+------------------BackgroundNormal=53,57,69
+-----------------+BackgroundAlternate=27,25,35
+-----------------+BackgroundNormal=30, 30, 46
+----------------- DecorationFocus=221,0,0
+----------------- DecorationHover=221,0,0
+----------------- ForegroundActive=221,0,0
+------------------ForegroundInactive=102,106,115
+-----------------+ForegroundInactive=166, 173, 200
+----------------- ForegroundLink=221,0,0
+------------------ForegroundNegative=237,37,78
+------------------ForegroundNeutral=255,106,0
+------------------ForegroundNormal=211,218,227
+------------------ForegroundPositive=113,247,159
+------------------ForegroundVisited=82,148,226
+-----------------+ForegroundNegative=243, 139, 168
+-----------------+ForegroundNeutral=249, 226, 175
+-----------------+ForegroundNormal=205, 214, 244
+-----------------+ForegroundPositive=166, 227, 161
+-----------------+ForegroundVisited=203, 166, 247
+----------------- 
+----------------- [Colors:View]
+------------------BackgroundAlternate=31,35,51
+------------------BackgroundNormal=22,25,37
+-----------------+BackgroundAlternate=24, 24, 37
+-----------------+BackgroundNormal=30, 30, 46
+----------------- DecorationFocus=221,0,0
+----------------- DecorationHover=221,0,0
+----------------- ForegroundActive=221,0,0
+------------------ForegroundInactive=102,106,115
+-----------------+ForegroundInactive=166, 173, 200
+----------------- ForegroundLink=221,0,0
+------------------ForegroundNegative=237,37,78
+------------------ForegroundNeutral=255,106,0
+------------------ForegroundNormal=211,218,227
+------------------ForegroundPositive=113,247,159
+------------------ForegroundVisited=124,183,255
+-----------------+ForegroundNegative=243, 139, 168
+-----------------+ForegroundNeutral=249, 226, 175
+-----------------+ForegroundNormal=205, 214, 244
+-----------------+ForegroundPositive=166, 227, 161
+-----------------+ForegroundVisited=203, 166, 247
+----------------- 
+----------------- [Colors:Window]
+------------------BackgroundAlternate=47,52,63
+------------------BackgroundNormal=24,27,40
+-----------------+BackgroundAlternate=17, 17, 27
+-----------------+BackgroundNormal=24, 24, 37
+----------------- DecorationFocus=221,0,0
+----------------- DecorationHover=221,0,0
+----------------- ForegroundActive=221,0,0
+------------------ForegroundInactive=102,106,115
+-----------------+ForegroundInactive=166, 173, 200
+----------------- ForegroundLink=221,0,0
+------------------ForegroundNegative=237,37,78
+------------------ForegroundNeutral=255,106,0
+------------------ForegroundNormal=211,218,227
+------------------ForegroundPositive=113,247,159
+------------------ForegroundVisited=179,13,191
+-----------------+ForegroundNegative=243, 139, 168
+-----------------+ForegroundNeutral=249, 226, 175
+-----------------+ForegroundNormal=205, 214, 244
+-----------------+ForegroundPositive=166, 227, 161
+-----------------+ForegroundVisited=203, 166, 247
+----------------- 
+----------------- [DirSelect Dialog]
+----------------- DirSelectDialog Size=820,584
+-----------------@@ -116,6 +138,7 @@ History Items[$e]=file:///media/Workspace2,file:///media/Workspace,file:$HOME/wa
+----------------- 
+----------------- [General]
+----------------- AccentColor=221,0,0
+-----------------+ColorScheme=CatppuccinMochaRed
+----------------- ColorSchemeHash=374b4774d102eb9b5cd79deb555d3ba5723e74b9
+----------------- LastUsedCustomAccentColor=221,0,0
+----------------- TerminalApplication=kitty
+-----------------@@ -126,7 +149,7 @@ accentColorFromWallpaper=false
+----------------- toolBarFont=Liberation Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+----------------- 
+----------------- [Icons]
+------------------Theme=BeautyLine
+-----------------+Theme=BeautySolar
+----------------- 
+----------------- [KDE]
+----------------- LookAndFeelPackage=Catppuccin-Mocha-Red
+-----------------@@ -157,9 +180,9 @@ View Style=DetailTree
+----------------- MaximumRemoteSize=0
+----------------- 
+----------------- [WM]
+------------------activeBackground=161,8,11
+------------------activeBlend=47,52,63
+------------------activeForeground=255,255,255
+------------------inactiveBackground=47,52,63
+------------------inactiveBlend=47,52,63
+------------------inactiveForeground=102,106,115
+-----------------+activeBackground=30,30,46
+-----------------+activeBlend=205,214,244
+-----------------+activeForeground=205,214,244
+-----------------+inactiveBackground=17,17,27
+-----------------+inactiveBlend=166,173,200
+-----------------+inactiveForeground=166,173,200
+-----------------diff --git a/Kdeconfigs/kwinrc b/Kdeconfigs/kwinrc
+-----------------index ab6b9fdf..b5016a91 100644
+-------------------- a/Kdeconfigs/kwinrc
+-----------------+++ b/Kdeconfigs/kwinrc
+-----------------@@ -36,5 +36,5 @@ BorderSize=None
+----------------- BorderSizeAuto=false
+----------------- ButtonsOnLeft=XAI
+----------------- ButtonsOnRight=SM
+------------------library=org.kde.kwin.aurorae
+------------------theme=__aurorae__svg__CatppuccinMocha-Modern
+-----------------+library=org.kde.breeze
+-----------------+theme=Breeze
+-----------------diff --git a/changes.md b/changes.md
+-----------------index 51927aaf..89dfce65 100644
+-------------------- a/changes.md
+-----------------+++ b/changes.md
+-----------------@@ -1,170 +0,0 @@
+------------------diff --git a/Kdeconfigs/katerc b/Kdeconfigs/katerc
+------------------index d3d7d1b1..528e1d3f 100644
+--------------------- a/Kdeconfigs/katerc
+------------------+++ b/Kdeconfigs/katerc
+------------------@@ -38,7 +38,7 @@ Tabbar Tab Limit=0
+------------------ [KTextEditor Renderer]
+------------------ Animate Bracket Matching=false
+------------------ Auto Color Theme Selection=true
+-------------------Color Theme=Catppuccin Mocha
+------------------+Color Theme=Breeze Dark
+------------------ Line Height Multiplier=1
+------------------ Show Indentation Lines=false
+------------------ Show Whole Bracket Expression=false
+------------------@@ -57,8 +57,8 @@ RunPrefix=
+------------------ SetEditor=false
+------------------ 
+------------------ [MainWindow]
+-------------------1920x1080 screen: Height=877
+-------------------1920x1080 screen: Width=1112
+------------------+1920x1080 screen: Height=785
+------------------+1920x1080 screen: Width=1038
+------------------ 
+------------------ [filetree]
+------------------ editShade=74,55,117
+------------------diff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+------------------index b992a885..eba2e943 100644
+--------------------- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+------------------+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+------------------@@ -163,7 +163,8 @@ positions={"1920x1080":[]}
+------------------ sortMode=-1
+------------------ 
+------------------ [Containments][25][Wallpaper][org.kde.image][General]
+-------------------Image=/home/alex/wallpapers/Catppuccin-Mocha/424363.jpg
+------------------+Image=/home/alex/wallpapers/Catppuccin-Mocha/vaxerski_noBG.png
+------------------+PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/vaxerski_noBG.png
+------------------ SlidePaths=/usr/share/wallpapers/
+------------------ 
+------------------ [Containments][25][Wallpaper][org.kde.slideshow][General]
+------------------diff --git a/auto-sync.sh b/auto-sync.sh
+------------------index 4b4a4852..f8df8816 100755
+--------------------- a/auto-sync.sh
+------------------+++ b/auto-sync.sh
+------------------@@ -2,39 +2,7 @@
+------------------ 
+------------------ #set the backup date
+------------------ date > time.txt
+-------------------
+-------------------# Get the list of modified files
+-------------------modified_files=$(git diff --name-only)
+-------------------
+-------------------# Get the count of modified files
+-------------------file_count=$(echo "$modified_files" | wc -l)
+-------------------
+-------------------# Check if there are modified files
+-------------------if [[ -z "$modified_files" ]]; then
+-------------------    echo "No changes to commit."
+-------------------    exit 0
+-------------------fi
+-------------------
+-------------------# Generate the commit message header
+-------------------commit_message=""
+-------------------
+-------------------if [[ $file_count -eq 1 ]]; then
+-------------------    commit_message+="Updated: "
+-------------------else
+-------------------    commit_message+="Updated $file_count files: "
+-------------------fi
+-------------------
+-------------------# Append the list of modified files to the commit message
+-------------------commit_message+="$modified_files"
+-------------------
+-------------------# Append the diffs for each modified file
+-------------------while IFS= read -r file; do
+-------------------    commit_message+="\n\nChanges in $file:\n"
+-------------------    commit_message+="$(git diff --color=always "$file" | sed 's/^/    /')"
+-------------------done <<< "$modified_files"
+-------------------
+-------------------echo "$commit_message and $modified_files " > changes.md
+-------------------
+------------------+git diff . > changes.md  
+------------------ git add .
+------------------ git commit -m "Update Configs : $(date)" -m "Time : $(date +%T)" -s
+------------------ git push -f
+------------------diff --git a/changes.md b/changes.md
+------------------index 53381bb0..e69de29b 100644
+--------------------- a/changes.md
+------------------+++ b/changes.md
+------------------@@ -1,75 +0,0 @@
+-------------------Updated 6 files: Kdeconfigs/gtkrc
+-------------------Kdeconfigs/gtkrc-2.0
+-------------------Kdeconfigs/kglobalshortcutsrc
+-------------------Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------------------Kdeconfigs/plasmashellrc
+-------------------time.txt\n\nChanges in Kdeconfigs/gtkrc:\n    [1mdiff --git a/Kdeconfigs/gtkrc b/Kdeconfigs/gtkrc[m
+-------------------    [1mindex 443aed12..fbf6aa46 100644[m
+-------------------    [1m--- a/Kdeconfigs/gtkrc[m
+-------------------    [1m+++ b/Kdeconfigs/gtkrc[m
+-------------------    [36m@@ -1,2 +1,2 @@[m
+-------------------    [31m-# created by KDE Plasma, Wed May 1 06:04:23 2024[m
+-------------------    [32m+[m[32m# created by KDE Plasma, Wed May 1 06:41:37 2024[m
+-------------------     #[m\n\nChanges in Kdeconfigs/gtkrc-2.0:\n    [1mdiff --git a/Kdeconfigs/gtkrc-2.0 b/Kdeconfigs/gtkrc-2.0[m
+-------------------    [1mindex 18560ad3..52ecc3bf 100644[m
+-------------------    [1m--- a/Kdeconfigs/gtkrc-2.0[m
+-------------------    [1m+++ b/Kdeconfigs/gtkrc-2.0[m
+-------------------    [36m@@ -1,4 +1,4 @@[m
+-------------------    [31m-# created by KDE Plasma, Wed May 1 06:04:23 2024[m
+-------------------    [32m+[m[32m# created by KDE Plasma, Wed May 1 06:41:37 2024[m
+-------------------     #[m
+-------------------     [m
+-------------------     gtk-alternative-button-order = 1[m\n\nChanges in Kdeconfigs/kglobalshortcutsrc:\n\n\nChanges in Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc:\n    [1mdiff --git a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc[m
+-------------------    [1mindex ff7585c2..b992a885 100644[m
+-------------------    [1m--- a/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc[m
+-------------------    [1m+++ b/Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc[m
+-------------------    [36m@@ -128,7 +128,7 @@[m [mimmutability=1[m
+-------------------     plugin=org.kde.plasma.weather[m
+-------------------     [m
+-------------------     [Containments][25][Applets][66][Configuration][m
+-------------------    [31m-PreloadWeight=26[m
+-------------------    [32m+[m[32mPreloadWeight=18[m
+-------------------     UserBackgroundHints=ShadowBackground[m
+-------------------     configMigrated=true[m
+-------------------     [m
+-------------------    [36m@@ -191,7 +191,7 @@[m [mDialogWidth=720[m
+-------------------     [Containments][26][Applets][29][Configuration][General][m
+-------------------     fill=false[m
+-------------------     groupingAppIdBlacklist=kitty.desktop,org.kde.dolphin.desktop[m
+-------------------    [31m-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:kitty.desktop[m
+-------------------    [32m+[m[32mgroupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop[m
+-------------------     launchers=preferred://browser,applications:org.kde.haruna.desktop[m
+-------------------     [m
+-------------------     [Containments][26][Applets][30][m
+-------------------    [36m@@ -336,7 +336,7 @@[m [mimmutability=1[m
+-------------------     plugin=org.kde.plasma.mediacontroller[m
+-------------------     [m
+-------------------     [Containments][32][Applets][57][Configuration][m
+-------------------    [31m-PreloadWeight=10[m
+-------------------    [32m+[m[32mPreloadWeight=2[m
+-------------------     [m
+-------------------     [Containments][32][General][m
+-------------------     extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard[m\n\nChanges in Kdeconfigs/plasmashellrc:\n    [1mdiff --git a/Kdeconfigs/plasmashellrc b/Kdeconfigs/plasmashellrc[m
+-------------------    [1mindex 65916692..a0c13743 100644[m
+-------------------    [1m--- a/Kdeconfigs/plasmashellrc[m
+-------------------    [1m+++ b/Kdeconfigs/plasmashellrc[m
+-------------------    [36m@@ -6,7 +6,7 @@[m [mimmutability=1[m
+-------------------     plugin=org.kde.plasma.weather[m
+-------------------     [m
+-------------------     [Applets][66][Configuration][m
+-------------------    [31m-PreloadWeight=26[m
+-------------------    [32m+[m[32mPreloadWeight=18[m
+-------------------     UserBackgroundHints=ShadowBackground[m
+-------------------     configMigrated=true[m
+-------------------     [m\n\nChanges in time.txt:\n    [1mdiff --git a/time.txt b/time.txt[m
+-------------------    [1mindex 9c796a26..c997a213 100644[m
+-------------------    [1m--- a/time.txt[m
+-------------------    [1m+++ b/time.txt[m
+-------------------    [36m@@ -1 +1 @@[m
+-------------------    [31m-Wed May  1 06:04:25 AM IST 2024[m
+-------------------    [32m+[m[32mWed May  1 06:41:38 AM IST 2024[m and Kdeconfigs/gtkrc
+-------------------Kdeconfigs/gtkrc-2.0
+-------------------Kdeconfigs/kglobalshortcutsrc
+-------------------Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc
+-------------------Kdeconfigs/plasmashellrc
+-------------------time.txt 
+------------------diff --git a/time.txt b/time.txt
+------------------index c997a213..9c711139 100644
+--------------------- a/time.txt
+------------------+++ b/time.txt
+------------------@@ -1 +1 @@
+-------------------Wed May  1 06:41:38 AM IST 2024
+------------------+Wed May  1 07:14:14 AM IST 2024
+-----------------diff --git a/time.txt b/time.txt
+-----------------index 9c711139..a7bc56ba 100644
+-------------------- a/time.txt
+-----------------+++ b/time.txt
+-----------------@@ -1 +1 @@
+------------------Wed May  1 07:14:14 AM IST 2024
+-----------------+Wed May  1 07:20:57 AM IST 2024
+----------------diff --git a/time.txt b/time.txt
+----------------index a7bc56ba..aa645ddc 100644
+------------------- a/time.txt
+----------------+++ b/time.txt
+----------------@@ -1 +1 @@
+-----------------Wed May  1 07:20:57 AM IST 2024
+----------------+Wed May  1 07:33:09 AM IST 2024
+---------------diff --git a/time.txt b/time.txt
+---------------index aa645ddc..1770b820 100644
+------------------ a/time.txt
+---------------+++ b/time.txt
+---------------@@ -1 +1 @@
+----------------Wed May  1 07:33:09 AM IST 2024
+---------------+Wed May  1 08:17:47 AM IST 2024
+--------------diff --git a/time.txt b/time.txt
+--------------index 1770b820..9081c19e 100644
+----------------- a/time.txt
+--------------+++ b/time.txt
+--------------@@ -1 +1 @@
+---------------Wed May  1 08:17:47 AM IST 2024
+--------------+Wed May  1 08:41:07 AM IST 2024
+-------------diff --git a/time.txt b/time.txt
+-------------index 9081c19e..83e45dda 100644
+---------------- a/time.txt
+-------------+++ b/time.txt
+-------------@@ -1 +1 @@
+--------------Wed May  1 08:41:07 AM IST 2024
+-------------+Wed May  1 08:48:24 AM IST 2024
+------------diff --git a/time.txt b/time.txt
+------------index 83e45dda..ca6afafd 100644
+--------------- a/time.txt
+------------+++ b/time.txt
+------------@@ -1 +1 @@
+-------------Wed May  1 08:48:24 AM IST 2024
+------------+Wed May  1 08:56:20 AM IST 2024
+-----------diff --git a/time.txt b/time.txt
+-----------index ca6afafd..fe0d7811 100644
+-------------- a/time.txt
+-----------+++ b/time.txt
+-----------@@ -1 +1 @@
+------------Wed May  1 08:56:20 AM IST 2024
+-----------+Wed May  1 09:01:31 AM IST 2024
+----------diff --git a/time.txt b/time.txt
+----------index fe0d7811..ba883338 100644
+------------- a/time.txt
+----------+++ b/time.txt
+----------@@ -1 +1 @@
+-----------Wed May  1 09:01:31 AM IST 2024
+----------+Wed May  1 11:34:20 AM IST 2024
+---------diff --git a/time.txt b/time.txt
+---------index ba883338..652b1713 100644
+------------ a/time.txt
+---------+++ b/time.txt
+---------@@ -1 +1 @@
+----------Wed May  1 11:34:20 AM IST 2024
+---------+Wed May  1 11:50:23 AM IST 2024
+--------diff --git a/time.txt b/time.txt
+--------index 652b1713..cc6599d7 100644
+----------- a/time.txt
+--------+++ b/time.txt
+--------@@ -1 +1 @@
+---------Wed May  1 11:50:23 AM IST 2024
+--------+Wed May  1 12:21:59 PM IST 2024
+-------diff --git a/time.txt b/time.txt
+-------index cc6599d7..42167f95 100644
+---------- a/time.txt
+-------+++ b/time.txt
+-------@@ -1 +1 @@
+--------Wed May  1 12:21:59 PM IST 2024
+-------+Wed May  1 01:19:51 PM IST 2024
+------diff --git a/time.txt b/time.txt
+------index 42167f95..c5ae538f 100644
+--------- a/time.txt
+------+++ b/time.txt
+------@@ -1 +1 @@
+-------Wed May  1 01:19:51 PM IST 2024
+------+Wed May  1 07:17:59 PM IST 2024
+-----diff --git a/time.txt b/time.txt
+-----index c5ae538f..c7d1bef4 100644
+-------- a/time.txt
+-----+++ b/time.txt
+-----@@ -1 +1 @@
+------Wed May  1 07:17:59 PM IST 2024
+-----+Wed May  1 08:16:45 PM IST 2024
+----diff --git a/install.sh b/install.sh
+----index b2828dbf..37d385a4 100755
+------- a/install.sh
+----+++ b/install.sh
+----@@ -32,6 +32,7 @@ cp -r -l -f "$PWD/Fonts/"* "$fontsdir" && echo "Fonts files successfully linked
+---- cp -r -l -f "$PWD/Themes/"* "$themedir" && echo "Theme files successfully linked to repo"
+---- cp -r -l -f "$PWD/Icons/"* "$icondir" && echo "Icons files successfully linked to repo"
+---- ln -f -s "$PWD/Kdeconfigs/"* "$configdir" && echo "Kde Config files successfully linked to repo"
+----+ln -f -s "$PWD/.bashrc" "$HOME" && echo "bashrc files successfully linked to repo"
+---- 
+---- prompt_yes_no() {
+----     while true; do
+----diff --git a/time.txt b/time.txt
+----index c7d1bef4..067d5489 100644
+------- a/time.txt
+----+++ b/time.txt
+----@@ -1 +1 @@
+-----Wed May  1 08:16:45 PM IST 2024
+----+Wed May  1 09:56:50 PM IST 2024
+---diff --git a/time.txt b/time.txt
+---index 067d5489..071ce10e 100644
+------ a/time.txt
+---+++ b/time.txt
+---@@ -1 +1 @@
+----Wed May  1 09:56:50 PM IST 2024
+---+Wed May  1 09:57:45 PM IST 2024
+--diff --git a/time.txt b/time.txt
+--index 071ce10e..e4bba716 100644
+----- a/time.txt
+--+++ b/time.txt
+--@@ -1 +1 @@
+---Wed May  1 09:57:45 PM IST 2024
+--+Wed May  1 10:30:35 PM IST 2024
+-diff --git a/time.txt b/time.txt
+-index e4bba716..c406eab7 100644
+---- a/time.txt
+-+++ b/time.txt
+-@@ -1 +1 @@
+--Wed May  1 10:30:35 PM IST 2024
+-+Wed May  1 10:48:05 PM IST 2024
+diff --git a/time.txt b/time.txt
+index c406eab7..6723ecad 100644
+--- a/time.txt
++++ b/time.txt
+@@ -1 +1 @@
+-Wed May  1 10:48:05 PM IST 2024
++Wed May  1 10:48:41 PM IST 2024
