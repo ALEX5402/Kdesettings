@@ -32,7 +32,9 @@ FocusStealingPreventionLevel=3
 Scale=1
 
 [org.kde.kdecoration2]
+BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=XAI
 ButtonsOnRight=SM
-library=org.kde.breeze
-theme=Breeze
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__CatppuccinMocha-Modern

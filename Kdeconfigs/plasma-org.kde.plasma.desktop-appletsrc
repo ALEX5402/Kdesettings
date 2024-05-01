@@ -47,7 +47,7 @@ popupHeight=324
 popupWidth=324
 
 [Containments][25][Applets][51][Configuration][General]
-history=#f4e2c0,#f9c9a6,#a6474e,#46313b
+history=#161926,#f4e2c0,#f9c9a6,#a6474e,#46313b
 
 [Containments][25][Applets][53]
 immutability=1
@@ -128,7 +128,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][25][Applets][66][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 UserBackgroundHints=ShadowBackground
 configMigrated=true
 
@@ -190,8 +190,8 @@ DialogWidth=720
 
 [Containments][26][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:kitty.desktop
+groupingAppIdBlacklist=kitty.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][26][Applets][30]
@@ -242,7 +242,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][32][Applets][33][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][32][Applets][34]
 immutability=1
@@ -293,7 +293,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][32][Applets][42][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][32][Applets][42][Configuration][General]
 currentTab=streams

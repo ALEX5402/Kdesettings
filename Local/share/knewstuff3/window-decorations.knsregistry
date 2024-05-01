@@ -2,6 +2,74 @@
 <!DOCTYPE khotnewstuff3>
 <hotnewstuffregistry>
  <stuff category="717">
+  <name>Vivid-Blur-Dark-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2133852</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>3616</downloads>
+  <installedfile>/home/alex/.local/share/aurorae/themes/Vivid-Blur-Dark-Aurorae-6/*</installedfile>
+  <id>2133852</id>
+  <releasedate>2024-03-26</releasedate>
+  <summary>BLUR Dark Rounded  Window Decorations (Aurorae Theme) for Plasma 6&lt;br />
+&lt;br />
+Dark Rounded Kvantum Theme &lt;span style="color: #008b8b;"> &lt;strong>Vivid-Dark-Kvantum&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2110194/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2133852/11.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2133852/11.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTExNDIyNTkiLCJvIjoiMSIsInMiOiI3ZmU0MDczNTAyMjlkZjc3ODA4OWE5MmU2OGQwNDlkN2VlMGIyYWNjOTgyZDNlOWQ5MTJiZmY0OWE0Yzg5YTU0YzZhZWJhYzg5MzFmNjY5OTUyOTg5NzE0ZGMzZTlmZGZhYTRmNzgzMzkzZDFkNGQ4NDZmZGIwNTE3MDc4YWE3NSIsInQiOjE3MTQ1MjYzMjYsInN0ZnAiOm51bGwsInN0aXAiOiIxMDMuMTc1LjYzLjEzNyJ9.rV-7RVTiVLzhkhrsP3o2vpVyy0wokfcuv8bWghR3BJ8/Vivid-Blur-Dark-Aurorae-6.tar.gz</payload>
+  <tags>kde,linux,unix,theme,plasma,original-product,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="717">
+  <name>Wings-Blur-Dark-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2143596</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>1545</downloads>
+  <installedfile>/home/alex/.local/share/aurorae/themes/Wings-Blur-Dark-Aurorae-6/*</installedfile>
+  <id>2143596</id>
+  <releasedate>2024-04-02</releasedate>
+  <summary>BLUR Dark Rounded  Window Decorations  For Plasma 6&lt;br />
+________________________________________________&lt;br />
+&lt;br />
+Dark Rounded  Window Decorations (Follows Dark Color Schemes)  &lt;span style="color: #008b8b;"> &lt;strong>Wings-Dark-Aurorae-6&lt;/strong> &lt;/span>:  &lt;a...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2143596/screenshot-20240402-212202.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2143596/screenshot-20240402-212202.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTIwODgwMjgiLCJvIjoiMSIsInMiOiJkYTdhNzBmYTI1Y2JlYTQ0MWEyNGI2ZWRjMzcyMjFmYjIzNGQyMjc3MTdjZDRmNjAzMzViZTRkZjhhYWM0ZTdlNWM0YjljMzhiODUxNmE3Mjk4YTJhNjQyNGJiZTQ1Zjc2NGIzNTk4MDIyNzM3MTFjMmM4ZDM0OTFjNGM2YWY1YSIsInQiOjE3MTQ1MjYzNzIsInN0ZnAiOm51bGwsInN0aXAiOiIxMDMuMTc1LjYzLjEzNyJ9.OJ-7RSDmepKd7Dr4S54TFlJi8bJCExOnJjAodzsO1eQ/Wings-Blur-Dark-Aurorae-6.tar.gz</payload>
+  <tags>linux,kde,unix,theme,plasma,original-product,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="717">
+  <name>Gently-Dark-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2136787</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>2075</downloads>
+  <installedfile>/home/alex/.local/share/aurorae/themes/Gently-Dark-Aurorae-6/*</installedfile>
+  <id>2136787</id>
+  <releasedate>2024-03-18</releasedate>
+  <summary>Dark Rounded  Window Decorations (Aurorae Theme) for Plasma 6&lt;br />
+______________________________________________________________________&lt;br />
+&lt;br />
+BLUR Dark Rounded  Window Decorations (Aurorae Theme)  &lt;span style="color: #008b8b;"> &lt;strong>Gently-Blur-Dark-Aurorae-6&lt;/strong> &lt;/span> : &lt;a...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2136787/screenshot-20240311-184124.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2136787/screenshot-20240311-184124.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA3OTEyMTQiLCJvIjoiMSIsInMiOiJmNmEzNjE2YmVmMGUwZTNlYzFlMzJhNTRhNDRiZDliNjliOTg2OWYzYjkwMzkwODJlMmMzNjdhOWRkYTdhOTVhMTc1ZWRkZmUwZTg4NTE2ZWRhY2U5ODkyYzRlMjc2MGFmODllZjNiNGVmOWNiOTY3YmE4MTY2ZjI5MTQyMjQxNyIsInQiOjE3MTQ1MjYzNDgsInN0ZnAiOm51bGwsInN0aXAiOiIxMDMuMTc1LjYzLjEzNyJ9.BM8OXQU0Z4CGN5Noryqi2Qt7p39MNd0SoiS0L2bayhk/Gently-Dark-Aurorae-6.tar.gz</payload>
+  <tags>kde,linux,gplv3,theme,unix,plasma,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="717">
   <name>Catppuccin Mocha Modern Aurora 6</name>
   <providerid>api.kde-look.org</providerid>
   <author>catppuccin</author>
@@ -24,26 +92,25 @@ Catppuccin is a community-driven pastel theme that aims to be a middle ground be
   <status>installed</status>
  </stuff>
  <stuff category="717">
-  <name>Vivid-Dark-Aurorae-6</name>
+  <name>Colorful-Blur-Dark-Aurorae-6</name>
   <providerid>api.kde-look.org</providerid>
   <author>l4k1</author>
-  <homepage>https://store.kde.org/p/2133854</homepage>
+  <homepage>https://store.kde.org/p/2134954</homepage>
   <licence></licence>
   <version></version>
   <rating>50</rating>
-  <downloads>2971</downloads>
-  <installedfile>/home/alex/.local/share/aurorae/themes/Vivid-Dark-Aurorae-6/*</installedfile>
-  <id>2133854</id>
-  <releasedate>2024-03-26</releasedate>
-  <summary>Dark Rounded  Window Decorations (Aurorae Theme) for Plasma 6&lt;br />
-______________________________________________________________________&lt;br />
+  <downloads>2005</downloads>
+  <installedfile>/home/alex/.local/share/aurorae/themes/Colorful-Blur-Dark-Aurorae-6/*</installedfile>
+  <id>2134954</id>
+  <releasedate>2024-03-18</releasedate>
+  <summary> BLUR Dark Rounded  Window Decorations (Aurorae Theme) For Plasma 6&lt;br />
 &lt;br />
- BLUR Dark Rounded  Window Decorations (Aurorae Theme)  &lt;span style="color: #008b8b;"> &lt;strong>Vivid-Blur-Dark-Aurorae-6&lt;/strong> &lt;/span>, which...</summary>
+Dark Rounded KVANTUM Theme, Blur and Transparent  &lt;span style="color: #008b8b;"> &lt;strong>Colorful-Dark-Kvantum&lt;/strong> &lt;/span>, which you can download: &lt;a href="https://store.kde.org/p/2091058" target="_blank"...</summary>
   <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2133854/2.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2133854/2.png</previewBig>
-  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTExNDIyMzkiLCJvIjoiMSIsInMiOiI5YmM1NWE5YmU4OGI2OTMzNWZjN2RmZGM3YzBkMjRmMmFjMTgwNDdhYzBjOGI2YzdmMzdjZjA4MjgwZThhYTFlN2YyZGI0Y2UyOWUwMjdhMTM2OWMyNGI4OGM5OTUzYzkxMDNlYTBhNGMzMTgzNmNhZDUyNjQ5MTJhYjZlNWVhYiIsInQiOjE3MTQyNTcyOTUsInN0ZnAiOm51bGwsInN0aXAiOiIxNDYuMTk2LjQ3LjE0OSJ9.v9XiSwEkqQa4Wb15LBTAjdOEvOYabIAsdPlSyIK6ZTg/Vivid-Dark-Aurorae-6.tar.gz</payload>
-  <tags>gplv3,linux,kde,original-product,plasma,theme,unix</tags>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2134954/logo-31.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2134954/logo-31.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA3OTA4MTIiLCJvIjoiMSIsInMiOiIwNzZjZjQ3ODAzYjlmZWMxYTUxMWFmNDZmZjZiOTE3ZDY4ODViYzYzOTEyOTFiNWRiYTZlMzA0YThmZTA5Y2M4YzdiOTIyN2I0OTEzNmQzNGZiMjNkMjc2NmNlNzdlYjI0ZTY5NTEwYTA3MTdjNGU5NjMzZTY0OTUwZTg5MmNjMCIsInQiOjE3MTQ1MjYzNjAsInN0ZnAiOm51bGwsInN0aXAiOiIxMDMuMTc1LjYzLjEzNyJ9.oubeTbVCL6kzdJC9e-kI8B8ANfX7h2ezV8Zpw2wd1YY/Colorful-Blur-Dark-Aurorae-6.tar.gz</payload>
+  <tags>theme,unix,original-product,plasma,linux,kde,gplv3</tags>
   <status>installed</status>
  </stuff>
 </hotnewstuffregistry>
