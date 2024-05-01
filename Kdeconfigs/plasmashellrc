@@ -6,7 +6,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Applets][66][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 UserBackgroundHints=ShadowBackground
 configMigrated=true
 
@@ -35,9 +35,6 @@ updateInterval=200
 
 [General]
 Number of Actions=0
-
-[PlasmaTransientsConfig]
-PreloadWeight=84
 
 [PlasmaViews][Panel 2]
 floating=1
