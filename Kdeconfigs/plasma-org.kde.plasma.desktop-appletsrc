@@ -203,7 +203,7 @@ DialogWidth=720
 [Containments][26][Applets][29][Configuration][General]
 fill=false
 groupingAppIdBlacklist=org.kde.dolphin.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:kitty.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][26][Applets][30]
@@ -346,7 +346,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][32][Applets][47][Configuration]
-PreloadWeight=16
+PreloadWeight=8
 
 [Containments][32][Applets][48]
 immutability=1
