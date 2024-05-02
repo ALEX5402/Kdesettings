@@ -167,15 +167,15 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][25][General]
-ToolBoxButtonState=topcenter
+ToolBoxButtonState=top
 ToolBoxButtonX=499
 iconSize=1
 positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/wallpapers/Catppuccin-Mocha/1345016.png
-PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/1345016.png
+Image=/home/alex/wallpapers/Catppuccin-Mocha/1313915.jpg
+PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/1313915.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -385,7 +385,7 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][73][General]
-AppletOrder=74;30;72;29;75;92;44
+AppletOrder=74;30;29;75;92;44;72
 
 [Containments][76]
 activityId=
