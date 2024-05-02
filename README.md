@@ -22,11 +22,40 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Thu May  2 08:17:29 PM IST 2024
+## Changelog Thu May  2 08:19:33 PM IST 2024
 ```
- README.md    | 918 +----------------------------------------------------------
- changelog.sh |   2 +-
- time.txt     |   2 +-
- 3 files changed, 3 insertions(+), 919 deletions(-)
+diff --git a/README.md b/README.md
+index c4d52e7f..436967d4 100644
+--- a/README.md
++++ b/README.md
+@@ -22,11 +22,5 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
+ ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
+ 
+  
+-## Changelog Thu May  2 08:17:29 PM IST 2024
++## Changelog Thu May  2 08:19:33 PM IST 2024
+ ```
+- README.md    | 918 +----------------------------------------------------------
+- changelog.sh |   2 +-
+- time.txt     |   2 +-
+- 3 files changed, 3 insertions(+), 919 deletions(-)
+-```
+- 
+diff --git a/changelog.sh b/changelog.sh
+index fdcafa05..360a1e07 100755
+--- a/changelog.sh
++++ b/changelog.sh
+@@ -7,6 +7,8 @@ cat info.txt
+ echo " "
+ echo "## Changelog $(date)"
+ echo '```'
++git diff HEAD
+ git diff --stat
+ echo '```'
+ echo " "
++
+ README.md    | 36 ++++++++++++++++++++++++++++++------
+ changelog.sh |  2 ++
+ 2 files changed, 32 insertions(+), 6 deletions(-)
 ```
  
