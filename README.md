@@ -1,5 +1,7 @@
 # Kdesettings
  My kde settings on kde 6 with all config files
+- [Latest Changelog](https://raw.githubusercontent.com/ALEX5402/Kdesettings/main/changes.md)
+ 
 # Installetion
 - clone this repo
 - `cd Kdesettings`
