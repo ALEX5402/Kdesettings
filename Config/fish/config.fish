@@ -155,8 +155,11 @@ if not test -x /usr/bin/yay; and test -x /usr/bin/paru
 end
 
 ## setup icat
-
 alias icat="kitten icat"
+
+## fix scrollback buffer clear for kitty
+alias clear "printf '\033[2J\033[3J\033[1;1H'"
+
 
 # Common use
 alias code 'code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
