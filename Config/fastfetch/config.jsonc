@@ -1,126 +1,95 @@
 {
-  "$schema": "$HOME/.config/fastfetch/json_schema.json",
-  "logo": {
-    "type": "kitty-direct",
-    "source": "~/.config/fastfetch/archgirl.png",
-    "width": 23,
-    "height": 21
-  },
-  "display": {
-     "separator": " - ",
-     "color": "green"
-  },
-  "modules": [
+    "logo": {
+        "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/\" -name \"*.png\" | sort -R | head -1)",
+        "height": 18
+    },
+    "display": {
+        "separator": " : "
+    },
+    "modules": [
         {
-            "type": "custom", // HardwareStart
-            "format": "┏━━━━━━━━━━━━━ Hardware Information ━━━━━━━━━━━━━┓"
+            "type": "custom",
+            "format": "\u001b[36m    ░A░L░E░X░"
         },
         {
-            "type": "host",
-            "key": "  "
-        },
-        {
-            "type": "cpu",
-            "key": "  "
-        },
-        {
-            "type": "gpu",
-            "key": "  "
-        },
-        {
-            "type": "disk",
-            "key": "  "
-        },
-        {
-            "type": "memory",
-            "key": "  󰑭" 
-        },
-        {
-            "type": "display",
-            "key": "  󰍹"
-        },
-        {
-            "type": "poweradapter",
-            "key": "  "
-        },
-        {
-            "type": "bluetooth",
-            "key": "  "
-        },
-        {
-            "type": "sound",
-            "key": "  "
-        },
-        {
-            "type": "custom", // SoftwareStart
-            "format": "┣━━━━━━━━━━━━━ Software Information ━━━━━━━━━━━━━┫"
-        },
-        {
-            "type": "title",
-            "key": "  ",
-            "format": "{1}@{2}"
+            "type": "custom",
+            "format": "┌──────────────────────────────────────────┐"
         },
         {
             "type": "os",
-            "key": "  " // Just get your distro's logo off nerdfonts.com
+            "key": "   OS",
+            "keyColor": "red"
         },
         {
             "type": "kernel",
-            "key": "  ",
-            "format": "{1} {2}"
+            "key": "   Kernel",
+            "keyColor": "red"
         },
         {
             "type": "packages",
-            "key": "  󰏖"
+            "key": "   Packages",
+            "keyColor": "green"
         },
         {
-            "type": "lm",
-            "key": "  󰧨"
-        },
-        {
-            "type": "de",
-            "key": "  "
+            "type": "display",
+            "key": "   Display",
+            "keyColor": "green"
         },
         {
             "type": "wm",
-            "key": "  "
-        },
-        {
-            "type": "shell",
-            "key": "  "
+            "key": "   WM",
+            "keyColor": "yellow"
         },
         {
             "type": "terminal",
-            "key": "  "
+            "key": "   Terminal",
+            "keyColor": "yellow"
         },
         {
-            "type": "terminalfont",
-            "key": "  "
+            "type": "custom",
+            "format": "└──────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "title",
+            "key": "  "
         },
         {
-            "type": "theme",
-            "key": "  󰉼"
+            "type": "custom",
+            "format": "┌──────────────────────────────────────────┐"
         },
         {
-            "type": "icons",
-            "key": "  󰀻"
+            "type": "cpu",
+            "format": "{1}",
+            "key": "   CPU",
+            "keyColor": "blue"
         },
         {
-            "type": "wallpaper",
-            "key": "  󰸉"
+            "type": "gpu",
+            "key": "   GPU",
+            "keyColor": "blue"
         },
         {
-            "type": "wifi",
-            "key": "  ",
-            "format": "{4}" // ssid
+            "type": "gpu",
+            "format": "{3}",
+            "key": "   GPU Driver",
+            "keyColor": "magenta"
         },
         {
-            "type": "custom", // InformationEnd
-            "format": "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+            "type": "memory",
+            "key": "  ﬙ Memory",
+            "keyColor": "magenta"
         },
+        {
+            "type": "custom",
+            "format": "└──────────────────────────────────────────┘"
+        },
+        "break",
         {
             "type": "colors",
             "paddingLeft": 2,
             "symbol": "circle"
-        }
-    ]}
+        },
+        "break"
+    ]
+}
