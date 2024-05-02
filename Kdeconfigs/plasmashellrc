@@ -85,12 +85,12 @@ panelOpacity=2
 panelVisibility=1
 
 [PlasmaViews][Panel 73][Defaults]
-maxLength=739
+maxLength=1903
 minLength=144
 thickness=33
 
 [PlasmaViews][Panel 73][Horizontal1920]
-maxLength=739
+maxLength=1903
 minLength=144
 
 [Updates]
