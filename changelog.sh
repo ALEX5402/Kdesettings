@@ -1,7 +1,12 @@
 #!/bin/bash
 
-#set the backup date
-echo "## $(date)"
+echo "# Kdesettings"
+echo "  My kde settings on kde 6 with all config files"
+echo " "
+cat info.txt
+echo " "
+echo "## Changelog $(date)"
 echo '```'
 git diff
 echo '```'
+echo " "

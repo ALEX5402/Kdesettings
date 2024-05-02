@@ -1,5 +1,5 @@
 #!/bin/bash
-bash changelog.sh > changes.md
+bash changelog.sh > README.md
 #set the backup date
 date > time.txt
 git add .
