@@ -64,11 +64,7 @@
             "key": "   CPU",
             "keyColor": "blue"
         },
-        {
-            "type": "gpu",
-            "key": "   GPU",
-            "keyColor": "blue"
-        },
+      
         {
             "type": "gpu",
             "format": "{3}",
