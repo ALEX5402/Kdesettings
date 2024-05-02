@@ -22,10 +22,10 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Thu May  2 08:22:29 PM IST 2024
+## Changelog Thu May  2 08:23:47 PM IST 2024
 ```
- README.md    | 89 +-----------------------------------------------------------
- changelog.sh |  2 +-
- 2 files changed, 2 insertions(+), 89 deletions(-)
+ Kdeconfigs/katerc | 4 ++--
+ README.md         | 7 +------
+ 2 files changed, 3 insertions(+), 8 deletions(-)
 ```
  
