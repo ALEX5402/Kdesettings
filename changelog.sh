@@ -3,5 +3,5 @@
 #set the backup date
 echo "## $(date)"
 echo '`'
-echo "$(git diff .)"
+echo "$(git diff)"
 echo '`'
