@@ -7,6 +7,6 @@ cat info.txt
 echo " "
 echo "## Changelog $(date)"
 echo '```'
-git diff
+git diff --stat
 echo '```'
 echo " "
