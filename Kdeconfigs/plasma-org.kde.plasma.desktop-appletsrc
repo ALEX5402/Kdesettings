@@ -12,8 +12,8 @@ popupWidth=647
 
 [Containments][25]
 ItemGeometries-0x0=Applet-69:16,320,80,80,0;Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
-ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
-ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometries-1920x1080=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1600.03,112.114,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometriesHorizontal=Applet-64:0,16,80,80,0;Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1600.03,112.114,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -404,7 +404,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][76][Applets][77][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][76][Applets][78]
 immutability=1
@@ -468,7 +468,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][76][Applets][91]
 immutability=1
@@ -493,8 +493,8 @@ favoritesPortedToKAstats=true
 
 [Containments73Appletsts][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop
 iconSpacing=0
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 

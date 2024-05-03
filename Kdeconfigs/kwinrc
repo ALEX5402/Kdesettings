@@ -59,6 +59,6 @@ Scale=1
 BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=XAI
-ButtonsOnRight=SM
+ButtonsOnRight=FM
 library=org.kde.breeze
 theme=Breeze
