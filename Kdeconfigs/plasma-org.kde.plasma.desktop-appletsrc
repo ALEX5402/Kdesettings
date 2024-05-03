@@ -443,7 +443,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][76][Applets][86][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][76][Applets][86][Configuration][General]
 currentTab=streams
