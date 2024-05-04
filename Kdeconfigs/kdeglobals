@@ -151,6 +151,7 @@ toolBarFont=Liberation Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Theme=BeautySolar
 
 [KDE]
+AnimationDurationFactor=0.7071067811865475
 LookAndFeelPackage=Catppuccin-Mocha-Red
 ShowDeleteCommand=true
 widgetStyle=Breeze
