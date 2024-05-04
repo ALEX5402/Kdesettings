@@ -22,13 +22,12 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Sat May  4 02:30:24 PM IST 2024
+## Changelog Sat May  4 02:30:44 PM IST 2024
 ```
  Kdeconfigs/gtkrc                                   |  2 +-
  Kdeconfigs/gtkrc-2.0                               |  2 +-
- Kdeconfigs/kglobalshortcutsrc                      |  2 +-
  Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  8 ++++----
- README.md                                          | 11 +----------
- 5 files changed, 8 insertions(+), 17 deletions(-)
+ README.md                                          | 10 +---------
+ 4 files changed, 7 insertions(+), 15 deletions(-)
 ```
  
