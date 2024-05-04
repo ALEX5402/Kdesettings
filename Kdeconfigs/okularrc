@@ -10,4 +10,6 @@ ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/Kotlin_ebook.pdf
+File2[$e]=$HOME/Ebooks/Android_Studio_3_0_Development_Essentials.pdf
 Name1[$e]=Kotlin_ebook.pdf
+Name2[$e]=Android_Studio_3_0_Development_Essentials.pdf

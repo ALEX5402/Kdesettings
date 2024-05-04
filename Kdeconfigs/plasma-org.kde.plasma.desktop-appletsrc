@@ -163,7 +163,7 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=540
+DialogHeight=623
 DialogWidth=720
 
 [Containments][25][General]
@@ -174,8 +174,8 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/wallpapers/Catppuccin-Mocha/1313942.png
-PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/1313942.png
+Image=/home/alex/wallpapers/Catppuccin-Mocha/424363.jpg
+PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/424363.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=kitty.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=android-studio.desktop,org.kde.dolphin.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:android-studio.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
@@ -378,7 +378,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][73][Applets][75][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 SystrayContainmentId=76
 
 [Containments][73][Applets][92]
@@ -454,7 +454,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][76][Applets][87][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][76][Applets][88]
 immutability=1
@@ -475,7 +475,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=52
+PreloadWeight=42
 
 [Containments][76][Applets][91]
 immutability=1

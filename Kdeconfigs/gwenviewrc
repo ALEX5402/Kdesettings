@@ -6,6 +6,7 @@ ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Kdesettings/wallpapers/Cyberpunk-Edge/lucy_rebecca.jpg
+File10[$e]=$HOME/GitHub/SandVXposed/art/art1.jpg
 File2[$e]=$HOME/Pictures/Screenshots/Screenshot_20240430_080430.png
 File3[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
 File4[$e]=$HOME/Pictures/Screenshots/240318_21h23m29s_screenshot.png
@@ -13,7 +14,9 @@ File5[$e]=$HOME/Pictures/Screenshots/sssss.png
 File6[$e]=$HOME/Pictures/Screenshots/240331_16h30m30s_screenshot.png
 File7[$e]=$HOME/temp/arch-dotfiles/.config/fastfetch/archgirl.png
 File8[$e]=$HOME/Pictures/vaxerski_noBG.png
+File9[$e]=$HOME/GitHub/SandVXposed/art/art2.jpg
 Name1[$e]=lucy_rebecca.jpg
+Name10[$e]=art1.jpg
 Name2[$e]=Screenshot_20240430_080430.png
 Name3[$e]=240331_01h16m45s_screenshot.png
 Name4[$e]=240318_21h23m29s_screenshot.png
@@ -21,6 +24,7 @@ Name5[$e]=sssss.png
 Name6[$e]=240331_16h30m30s_screenshot.png
 Name7[$e]=archgirl.png
 Name8[$e]=vaxerski_noBG.png
+Name9[$e]=art2.jpg
 
 [SideBar]
 InformationSplitterSizes=211,244
