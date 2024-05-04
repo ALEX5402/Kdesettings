@@ -249,7 +249,7 @@ show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
-toggle do not disturb=Meta+F1,,Toggle do not disturb
+toggle do not disturb=Meta+F1,none,Toggle do not disturb
 
 [services][android-studio.desktop]
 _launch=Meta+Z
