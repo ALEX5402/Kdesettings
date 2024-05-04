@@ -1,6 +1,7 @@
 ## Set values
 # Hide welcome message & ensure we are reporting fish as shell
 set fish_greeting
+fastfetch
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -x SHELL /usr/bin/fish
