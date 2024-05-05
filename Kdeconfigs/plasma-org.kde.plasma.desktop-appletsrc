@@ -12,8 +12,8 @@ popupWidth=647
 
 [Containments][25]
 ItemGeometries-0x0=Applet-69:16,320,80,80,0;Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
-ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-64:0,352,80,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
-ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-49:1712,16,176,80,0;Applet-64:0,352,80,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -170,7 +170,7 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["4"\\,"20"\\,"desktop:/250 netflix cookies by @bedrock16"\\,"3"\\,"2"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/250 netflix cookies by @bedrock16"\\,"0"\\,"1"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=android-studio.desktop,kitty.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
@@ -345,7 +345,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][44][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 popupHeight=450
 popupWidth=560
 
@@ -378,7 +378,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][73][Applets][75][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 SystrayContainmentId=76
 
 [Containments][73][Applets][92]
@@ -410,6 +410,9 @@ PreloadWeight=70
 immutability=1
 plugin=org.kde.kdeconnect
 
+[Containments][76][Applets][78][Configuration]
+PreloadWeight=55
+
 [Containments][76][Applets][79]
 immutability=1
 plugin=org.kde.plasma.cameraindicator
@@ -434,6 +437,9 @@ plugin=org.kde.plasma.manage-inputmethod
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][76][Applets][84][Configuration]
+PreloadWeight=55
+
 [Containments][76][Applets][85]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
@@ -454,14 +460,14 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][76][Applets][87][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 
 [Containments][76][Applets][88]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=4
+PreloadWeight=1
 
 [Containments][76][Applets][89]
 immutability=1
