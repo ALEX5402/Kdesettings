@@ -170,7 +170,7 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/250 netflix cookies by @bedrock16"\\,"0"\\,"1"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/250 netflix cookies by @bedrock16"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=android-studio.desktop,org.kde.dolphin.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:android-studio.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
@@ -378,7 +378,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][73][Applets][75][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 SystrayContainmentId=76
 
 [Containments][73][Applets][92]
@@ -460,14 +460,14 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][76][Applets][87][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][76][Applets][88]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][76][Applets][89]
 immutability=1
