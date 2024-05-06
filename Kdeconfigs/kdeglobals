@@ -133,7 +133,7 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=820,584
+DirSelectDialog Size=1216,808
 History Items[$e]=file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
 
 [General]
