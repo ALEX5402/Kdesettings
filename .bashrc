@@ -18,9 +18,7 @@ fi
 
 export TERMINAL=kitty
 export QT_TERMINAL=kitty
-export GTK_IM_MODULE=kitty
 export XDG_SESSION_TYPE=wayland
-export QT_QPA_PLATFORM=kitty
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
 export MOZ_ENABLE_WAYLAND=1
