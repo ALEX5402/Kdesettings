@@ -133,8 +133,8 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=820,584
-History Items[$e]=file:///media/workspace2,file:///media/workspace1,file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
+DirSelectDialog Size=980,600
+History Items[$e]=file:$HOME/Telegram,file:///media/workspace2,file:///media/workspace1,file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
 
 [General]
 AccentColor=221,0,0

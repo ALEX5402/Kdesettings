@@ -14,6 +14,7 @@ show_thumbnails=1
 # skip_thumb_download=1
 async_thumbnails=1
 is_loop=1
+thumbnail_viewer=kitty
 load_thumbnail_viewer=1
 search_again=1
 scripting_video_count=30
