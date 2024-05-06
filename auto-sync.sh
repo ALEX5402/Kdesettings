@@ -1,4 +1,5 @@
 #!/bin/bash
+cd $HOME/Kdesettings
 bash changelog.sh > README.md
 #set the backup date
 date > time.txt

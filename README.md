@@ -22,9 +22,10 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Mon May  6 02:14:29 PM IST 2024
+## Changelog Mon May  6 02:15:00 PM IST 2024
 ```
- README.md | 7 +------
- 1 file changed, 1 insertion(+), 6 deletions(-)
+ README.md    | 6 +-----
+ auto-sync.sh | 1 +
+ 2 files changed, 2 insertions(+), 5 deletions(-)
 ```
  
