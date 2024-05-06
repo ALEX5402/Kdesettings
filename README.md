@@ -27,13 +27,12 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Tue May  7 12:45:22 AM IST 2024
+## Changelog Tue May  7 12:47:33 AM IST 2024
 ```
  Kdeconfigs/gtkrc              |  2 +-
  Kdeconfigs/gtkrc-2.0          |  2 +-
- Kdeconfigs/kglobalshortcutsrc | 32 ++++++++++++++++----------------
- Kdeconfigs/kwinrulesrc        | 29 +++++++++++++++++++----------
+ Kdeconfigs/kglobalshortcutsrc | 22 +++++++++++-----------
  README.md                     | 10 +---------
- 5 files changed, 38 insertions(+), 37 deletions(-)
+ 4 files changed, 14 insertions(+), 22 deletions(-)
 ```
  
