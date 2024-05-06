@@ -27,17 +27,13 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Tue May  7 12:25:33 AM IST 2024
+## Changelog Tue May  7 12:44:46 AM IST 2024
 ```
- Config/nvim/lazy-lock.json                         | 22 +++++++++++-----------
- Kdeconfigs/QtProject.conf                          |  2 +-
- Kdeconfigs/katerc                                  |  2 +-
- Kdeconfigs/kwinrulesrc                             | 16 ++--------------
- Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  8 ++++----
- Kdeconfigs/plasmanotifyrc                          |  4 ++++
- Kdeconfigs/plasmarc                                |  2 +-
- README.md                                          | 11 ++++++-----
- info.txt                                           |  5 +++++
- 9 files changed, 35 insertions(+), 37 deletions(-)
+ .bashrc                        |  8 ++++----
+ Config/fish/config.fish        |  2 +-
+ Kdeconfigs/katerc              |  4 ++--
+ Local/share/nwg-look/gsettings |  6 +++---
+ README.md                      | 14 +-------------
+ 5 files changed, 11 insertions(+), 23 deletions(-)
 ```
  

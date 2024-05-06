@@ -28,7 +28,7 @@ end
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-set -gx PATH /home/alex/120GB/sdk-tools/ndk/22.1.7171670 $PATH
+set -gx PATH $HOME/Android/Sdk/ndk/22.1.7171670 $PATH
 
 # Add ~/.local/bin to PATH
 if test -d ~/.local/bin
