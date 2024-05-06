@@ -29,14 +29,14 @@ mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+M,Microphone Mute\tMeta+Volume 
 mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
-Halt Without Confirmation=none,,Shut Down Without Confirmation
+Halt Without Confirmation=none,none,Shut Down Without Confirmation
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
-Log Out Without Confirmation=none,,Log Out Without Confirmation
-Reboot=none,,Reboot
-Reboot Without Confirmation=none,,Reboot Without Confirmation
-Shut Down=none,,Shut Down
-_k_friendly_name=Session Management
+Log Out Without Confirmation=none,none,Log Out Without Confirmation
+Reboot=none,none,Reboot
+Reboot Without Confirmation=none,none,Reboot Without Confirmation
+Shut Down=none,none,Shut Down
+_k_friendly_name=KWin
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
@@ -196,11 +196,11 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,,Media volume down
-mediavolumeup=none,,Media volume up
+mediavolumedown=none,none,Media volume down
+mediavolumeup=none,none,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,,Play media playback
+playmedia=none,none,Play media playback
 playpausemedia=Media Play\tPause,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -234,22 +234,22 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 3=none,none,Activate Application Launcher Widget
-clear-history=none,,Clear Clipboard History
+clear-history=none,none,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
-cycleNextAction=none,,Next History Item
-cyclePrevAction=none,,Previous History Item
+cycleNextAction=none,none,Next History Item
+cyclePrevAction=none,none,Previous History Item
 manage activities=none,Meta+Q,Show Activity Switcher
 next activity=none,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
-show-barcode=none,,Show Barcode…
+show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
-switch to next activity=none,,Switch to Next Activity
-switch to previous activity=none,,Switch to Previous Activity
-toggle do not disturb=Meta+F1,,Toggle do not disturb
+switch to next activity=none,none,Switch to Next Activity
+switch to previous activity=none,none,Switch to Previous Activity
+toggle do not disturb=Meta+F1,none,Toggle do not disturb
 
 [services][android-studio.desktop]
 _launch=Meta+Z

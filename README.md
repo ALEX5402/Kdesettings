@@ -27,13 +27,13 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Tue May  7 12:44:46 AM IST 2024
+## Changelog Tue May  7 12:45:22 AM IST 2024
 ```
- .bashrc                        |  8 ++++----
- Config/fish/config.fish        |  2 +-
- Kdeconfigs/katerc              |  4 ++--
- Local/share/nwg-look/gsettings |  6 +++---
- README.md                      | 14 +-------------
- 5 files changed, 11 insertions(+), 23 deletions(-)
+ Kdeconfigs/gtkrc              |  2 +-
+ Kdeconfigs/gtkrc-2.0          |  2 +-
+ Kdeconfigs/kglobalshortcutsrc | 32 ++++++++++++++++----------------
+ Kdeconfigs/kwinrulesrc        | 29 +++++++++++++++++++----------
+ README.md                     | 10 +---------
+ 5 files changed, 38 insertions(+), 37 deletions(-)
 ```
  
