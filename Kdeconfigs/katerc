@@ -47,7 +47,7 @@ Word Wrap Marker=false
 
 [KTextEditor::Search]
 Replace History==',alias=,2023.3.1.18
-Search History=font,accompanist,com.google.accompanist,com.google.accompanist.navigation,com.google.accompanist.navigation.animation,rememberAnimatedNavController,alex, ',alias ,_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+Search History=iterm2,sixel,jetbra,font,clip,accompanist,com.google.accompanist,com.google.accompanist.navigation,com.google.accompanist.navigation.animation,rememberAnimatedNavController,alex, ',alias ,_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
 
 [Konsole]
 AutoSyncronize=true

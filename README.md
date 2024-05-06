@@ -14,6 +14,11 @@
 - qt5-wayland                                            ( wayland support in qt5 )
 - qt6-wayland                                            ( wayland support in qt6 )
 
+## Packages i use 
+``` 
+ueberzug apk-editor-studio-bin apkstudio-git appimagelauncher fisher tmux waydroid python-pyclip wl-clipboard-rs kio-admin noto-fonts-extra jdk21-openjdk jdk17-openjdk jdk-openjdk iaito ttf-jetbrains-mono neovim ttf-jetbrains-mono-nerd ttf-liberation ttf-jetbrains-mono ugrep elisa f2fs-tools ytfzf yt-dlp yyjson android-studio rust qt5ct qt6ct nwg-look frida frida-dexdump fzf eza bat ugrep android-tools fish fisher ttf-jetbrains-mono ttf-jetbrains-mono-nerd 
+
+```
 ## have a look
 ![sssss](https://github.com/ALEX5402/Kdesettings/assets/76860596/b80d5c47-3875-4c11-a451-b70e212b507a)
 image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/assets/76860596/dc3b01ac-b289-4165-a134-acf529370561)
@@ -22,9 +27,17 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Mon May  6 11:30:05 PM IST 2024
+## Changelog Tue May  7 12:25:33 AM IST 2024
 ```
- README.md | 13 +------------
- 1 file changed, 1 insertion(+), 12 deletions(-)
+ Config/nvim/lazy-lock.json                         | 22 +++++++++++-----------
+ Kdeconfigs/QtProject.conf                          |  2 +-
+ Kdeconfigs/katerc                                  |  2 +-
+ Kdeconfigs/kwinrulesrc                             | 16 ++--------------
+ Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  8 ++++----
+ Kdeconfigs/plasmanotifyrc                          |  4 ++++
+ Kdeconfigs/plasmarc                                |  2 +-
+ README.md                                          | 11 ++++++-----
+ info.txt                                           |  5 +++++
+ 9 files changed, 35 insertions(+), 37 deletions(-)
 ```
  

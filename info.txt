@@ -11,6 +11,11 @@
 - qt5-wayland                                            ( wayland support in qt5 )
 - qt6-wayland                                            ( wayland support in qt6 )
 
+## Packages i use 
+``` 
+ueberzug apk-editor-studio-bin apkstudio-git appimagelauncher fisher tmux waydroid python-pyclip wl-clipboard-rs kio-admin noto-fonts-extra jdk21-openjdk jdk17-openjdk jdk-openjdk iaito ttf-jetbrains-mono neovim ttf-jetbrains-mono-nerd ttf-liberation ttf-jetbrains-mono ugrep elisa f2fs-tools ytfzf yt-dlp yyjson android-studio rust qt5ct qt6ct nwg-look frida frida-dexdump fzf eza bat ugrep android-tools fish fisher ttf-jetbrains-mono ttf-jetbrains-mono-nerd 
+
+```
 ## have a look
 ![sssss](https://github.com/ALEX5402/Kdesettings/assets/76860596/b80d5c47-3875-4c11-a451-b70e212b507a)
 image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/assets/76860596/dc3b01ac-b289-4165-a134-acf529370561)

@@ -163,8 +163,8 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=725
+DialogWidth=948
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
@@ -174,8 +174,8 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/wallpapers/Catppuccin-Mocha/1345016.png
-PreviewImage=/home/alex/wallpapers/Catppuccin-Mocha/1345016.png
+Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/wallpaperflare.com_wallpaper (1).jpg
+PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/wallpaperflare.com_wallpaper (1).jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
