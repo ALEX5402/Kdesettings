@@ -22,10 +22,18 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Mon May  6 02:15:00 PM IST 2024
+## Changelog Mon May  6 02:17:37 PM IST 2024
 ```
- README.md    | 6 +-----
- auto-sync.sh | 1 +
- 2 files changed, 2 insertions(+), 5 deletions(-)
+ Kdeconfigs/Trolltech.conf                          |  26 ++--
+ Kdeconfigs/gtkrc                                   |   2 +-
+ Kdeconfigs/gtkrc-2.0                               |   2 +-
+ Kdeconfigs/katerc                                  |   2 +-
+ Kdeconfigs/kconf_updaterc                          |  18 +--
+ Kdeconfigs/kdeglobals                              | 156 ++++++++++-----------
+ Kdeconfigs/kglobalshortcutsrc                      |   2 +-
+ Kdeconfigs/kwinoutputconfig.json                   |   2 +-
+ Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |   2 +-
+ README.md                                          |   7 +-
+ 10 files changed, 107 insertions(+), 112 deletions(-)
 ```
  

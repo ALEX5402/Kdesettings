@@ -59,7 +59,7 @@ SetEditor=false
 
 [MainWindow]
 1920x1080 screen: Height=581
-1920x1080 screen: Width=769
+1920x1080 screen: Width=720
 
 [filetree]
 editShade=74,55,117
