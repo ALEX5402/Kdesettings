@@ -133,8 +133,8 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=1216,808
-History Items[$e]=file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
+DirSelectDialog Size=820,584
+History Items[$e]=file:///media/workspace2,file:///media/workspace1,file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
 
 [General]
 AccentColor=221,0,0
@@ -178,6 +178,30 @@ View Style=DetailTree
 
 [PreviewSettings]
 MaximumRemoteSize=0
+
+[Shortcuts]
+AboutApp=
+AboutKDE=
+Clear=
+ConfigureNotifications=
+ConfigureToolbars=
+Donate=
+EditBookmarks=
+FitToHeight=
+FitToPage=
+FitToWidth=
+Goto=
+GotoPage=
+Mail=
+OpenRecent=
+PrintPreview=
+ReportBug=
+Revert=
+ShowStatusbar=
+ShowToolbar=
+Spelling=
+SwitchApplicationLanguage=
+Zoom=
 
 [WM]
 activeBackground=30,30,46

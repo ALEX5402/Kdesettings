@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=kitty.desktop,org.kde.dolphin.desktop,android-studio.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=kitty.desktop,android-studio.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:android-studio.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
@@ -365,14 +365,6 @@ DialogWidth=720
 [Containments][73][Applets][72][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][73][Applets][74]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
-[Containments][73][Applets][74][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][73][Applets][75]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -386,7 +378,7 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][73][General]
-AppletOrder=74;30;29;75;92;44;72
+AppletOrder=30;29;75;92;44;72
 
 [Containments][76]
 activityId=
