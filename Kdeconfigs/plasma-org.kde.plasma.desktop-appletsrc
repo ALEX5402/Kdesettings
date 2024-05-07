@@ -12,8 +12,8 @@ popupWidth=647
 
 [Containments][25]
 ItemGeometries-0x0=Applet-69:16,320,80,80,0;Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-49:1744,16,176,80,0;Applet-66:1616,96,288,352,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
-ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
-ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1712,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-66:1600,112,288,288,0;Applet-49:1712,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
+ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-66:1600,112,288,288,0;Applet-49:1712,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -345,7 +345,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][44][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 popupHeight=450
 popupWidth=560
 
