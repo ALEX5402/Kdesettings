@@ -11,7 +11,7 @@ ordering=applications:org.kde.dolphin.desktop,preferred://browser,applications:s
 ordering=applications:org.kde.dolphin.desktop,preferred://browser,applications:systemsettings.desktop
 
 [Favorites-org.kde.plasma.kickoff.favorites.instance-72-8a754234-cc6a-4e12-9b93-2654c2c93eec]
-ordering=applications:org.kde.dolphin.desktop,preferred://browser,applications:systemsettings.desktop,applications:code-oss.desktop
+ordering=applications:org.kde.dolphin.desktop,preferred://browser,applications:systemsettings.desktop
 
 [Favorites-org.kde.plasma.kickoff.favorites.instance-72-global]
-ordering=applications:org.kde.dolphin.desktop,preferred://browser,applications:systemsettings.desktop,applications:code-oss.desktop
+ordering=applications:org.kde.dolphin.desktop,preferred://browser,applications:systemsettings.desktop
