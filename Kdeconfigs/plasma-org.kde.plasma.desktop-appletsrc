@@ -333,7 +333,7 @@ DialogWidth=720
 [Containments][73][Applets][29][Configuration][General]
 fill=false
 groupingAppIdBlacklist=org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:kitty.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
