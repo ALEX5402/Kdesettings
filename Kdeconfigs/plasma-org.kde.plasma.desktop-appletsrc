@@ -174,8 +174,8 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/1329617.png
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/1329617.png
+Image=/home/alex/Telegram/Anime Original 3840 x 2160.jpg
+PreviewImage=/home/alex/Telegram/Anime Original 3840 x 2160.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.konsole.desktop,org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,android-studio.desktop,org.kde.konsole.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -345,7 +345,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][44][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 popupHeight=450
 popupWidth=560
 
@@ -396,7 +396,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][76][Applets][77][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][76][Applets][78]
 immutability=1
@@ -480,7 +480,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][76][Applets][91][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][76][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
