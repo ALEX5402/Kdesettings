@@ -11,6 +11,10 @@ source ~/.config/fish/githubtoken.fish
 ## Export variable need for qt-theme
 if type "qtile" >> /dev/null 2>&1
    set -x QT_QPA_PLATFORMTHEME "qt5ct"
+end 
+
+function ytd
+    youtube-dl -t $argv[1] 
 end
 
 # Set settings for https://github.com/franciscolourenco/done
@@ -129,11 +133,11 @@ function alexclone
 end
 
 #to play youtube with ytfzf
-alias play 'ytfzf -T kitty -t' # play
-alias play-l 'ytfzf -T kitty -L'
-alias play-m 'ytfzf -T kitty -m --audio-only'
-alias yt-search 'ytfzf -T kitty -cO'
-alias haru-play 'ytfzf -T kitty -u haruna -t' # dadad
+alias play 'ytfzf -t' # play
+alias play-l 'ytfzf -L'
+alias play-m 'ytfzf -m --audio-only'
+alias yt-search 'ytfzf -cO'
+alias haru-play 'ytfzf -u haruna -t' # dadad
 
 #playgif
 alias play-gif 'chafa'
