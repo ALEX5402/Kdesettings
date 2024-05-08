@@ -2,9 +2,9 @@
 count=0
 
 [Session: saved at previous logout]
-clientId1[$d]
-count=0
-program1[$d]
-restartCommand1[$d]
-restartStyleHint1[$d]
-userId1[$d]
+clientId1=10100156e3e0000171513279400000010180003
+count=1
+program1=firefox
+restartCommand1=/usr/lib/firefox/firefox,--sm-client-id,10100156e3e0000171513279400000010180003
+restartStyleHint1=0
+userId1=alex
