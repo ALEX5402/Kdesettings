@@ -14,7 +14,7 @@ if type "qtile" >> /dev/null 2>&1
 end 
 
 function ytd
-    youtube-dl -t $argv[1] 
+    youtube-dl $argv[1] 
 end
 
 # Set settings for https://github.com/franciscolourenco/done

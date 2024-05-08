@@ -5,26 +5,26 @@ LastUsedVersion=210800
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Pictures/Screenshots/Screenshot_20240430_080430.png
-File10[$e]=$HOME/Telegram/Anime Original 3840 x 2160.jpg
-File2[$e]=$HOME/Pictures/Screenshots/240331_01h16m45s_screenshot.png
-File3[$e]=$HOME/Pictures/Screenshots/240318_21h23m29s_screenshot.png
-File4[$e]=$HOME/Pictures/Screenshots/sssss.png
-File5[$e]=$HOME/Pictures/Screenshots/240331_16h30m30s_screenshot.png
-File6[$e]=$HOME/temp/arch-dotfiles/.config/fastfetch/archgirl.png
-File7[$e]=$HOME/Pictures/vaxerski_noBG.png
-File8[$e]=$HOME/GitHub/SandVXposed/art/art2.jpg
-File9[$e]=$HOME/GitHub/SandVXposed/art/art1.jpg
-Name1[$e]=Screenshot_20240430_080430.png
-Name10[$e]=Anime Original 3840 x 2160.jpg
-Name2[$e]=240331_01h16m45s_screenshot.png
-Name3[$e]=240318_21h23m29s_screenshot.png
-Name4[$e]=sssss.png
-Name5[$e]=240331_16h30m30s_screenshot.png
-Name6[$e]=archgirl.png
-Name7[$e]=vaxerski_noBG.png
-Name8[$e]=art2.jpg
-Name9[$e]=art1.jpg
+File1[$e]=$HOME/Pictures/Screenshots/sssss.png
+File10[$e]=$HOME/Inspiration-Projects/GreenStash/app/src/main/res/drawable/app_lock_icon.png
+File2[$e]=$HOME/Pictures/Screenshots/240331_16h30m30s_screenshot.png
+File3[$e]=$HOME/temp/arch-dotfiles/.config/fastfetch/archgirl.png
+File4[$e]=$HOME/Pictures/vaxerski_noBG.png
+File5[$e]=$HOME/GitHub/SandVXposed/art/art2.jpg
+File6[$e]=$HOME/GitHub/SandVXposed/art/art1.jpg
+File7[$e]=$HOME/Telegram/Anime Original 3840 x 2160.jpg
+File8[$e]=$HOME/Inspiration-Projects/GreenStash/app/src/main/res/drawable/default_goal_image.png
+File9[$e]=$HOME/Inspiration-Projects/GreenStash/app/src/main/res/drawable/widget_preview.png
+Name1[$e]=sssss.png
+Name10[$e]=app_lock_icon.png
+Name2[$e]=240331_16h30m30s_screenshot.png
+Name3[$e]=archgirl.png
+Name4[$e]=vaxerski_noBG.png
+Name5[$e]=art2.jpg
+Name6[$e]=art1.jpg
+Name7[$e]=Anime Original 3840 x 2160.jpg
+Name8[$e]=default_goal_image.png
+Name9[$e]=widget_preview.png
 
 [SideBar]
 InformationSplitterSizes=211,244
