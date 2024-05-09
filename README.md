@@ -27,13 +27,17 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Thu May  9 08:41:49 PM IST 2024
+## Changelog Thu May  9 11:56:13 PM IST 2024
 ```
- Kdeconfigs/gtkrc                                   |  2 +-
- Kdeconfigs/gtkrc-2.0                               |  2 +-
+ Extrafiles/youtube-music.desktop                   |  3 ++-
+ Kdeconfigs/katerc                                  |  4 ++--
  Kdeconfigs/kglobalshortcutsrc                      | 10 +++++-----
- Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  8 ++++----
- README.md                                          | 13 +------------
- 5 files changed, 12 insertions(+), 23 deletions(-)
+ Kdeconfigs/krunnerrc                               |  5 +++++
+ Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc | 12 ++++++------
+ Kdeconfigs/plasma.emojierrc                        |  4 ++--
+ Kdeconfigs/plasmanotifyrc                          |  4 ----
+ Kdeconfigs/plasmarc                                |  2 +-
+ README.md                                          | 10 +---------
+ 9 files changed, 24 insertions(+), 30 deletions(-)
 ```
  

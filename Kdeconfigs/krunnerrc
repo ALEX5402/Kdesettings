@@ -1,3 +1,8 @@
 [General]
 FreeFloating=true
 
+[Plugins]
+baloosearchEnabled=false
+
+[Plugins][Favorites]
+plugins=krunner_services,baloosearch
