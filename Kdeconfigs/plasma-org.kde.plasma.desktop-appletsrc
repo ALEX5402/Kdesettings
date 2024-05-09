@@ -47,7 +47,7 @@ popupHeight=324
 popupWidth=324
 
 [Containments][25][Applets][51][Configuration][General]
-history=#ad3249,#161926,#f4e2c0,#f9c9a6,#a6474e,#46313b
+history=#01fd06,#ad3249,#161926,#f4e2c0,#f9c9a6,#a6474e,#46313b
 
 [Containments][25][Applets][53]
 immutability=1
@@ -333,7 +333,7 @@ DialogWidth=720
 [Containments][73][Applets][29][Configuration][General]
 fill=false
 groupingAppIdBlacklist=kitty.desktop,android-studio.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.konsole.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
