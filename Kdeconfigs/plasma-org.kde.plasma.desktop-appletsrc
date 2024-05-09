@@ -27,7 +27,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][25][Applets][49][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 popupHeight=450
 popupWidth=560
 
@@ -380,7 +380,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][76][Applets][77][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 
 [Containments][76][Applets][78]
 immutability=1
@@ -457,14 +457,14 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=32
+PreloadWeight=37
 
 [Containments][76][Applets][91]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][76][Applets][91][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][76][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
@@ -489,4 +489,4 @@ launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/steam.desktop,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec

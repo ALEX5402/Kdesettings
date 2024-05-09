@@ -133,8 +133,8 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=980,600
-History Items[$e]=file:$HOME/Telegram,file:///media/workspace2,file:///media/workspace1,file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
+DirSelectDialog Size=834,591
+History Items[$e]=file:$HOME/OBS,file:$HOME/Telegram,file:///media/workspace2,file:///media/workspace1,file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
 
 [General]
 AccentColor=221,0,0
@@ -154,7 +154,7 @@ Theme=BeautySolar
 AnimationDurationFactor=0.7071067811865475
 LookAndFeelPackage=Catppuccin-Mocha-Red
 ShowDeleteCommand=true
-widgetStyle=Breeze
+widgetStyle=qt6ct-style
 
 [KFileDialog Settings]
 Allow Expansion=false
