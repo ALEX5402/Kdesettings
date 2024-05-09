@@ -170,7 +170,7 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":[]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=android-studio.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
+groupingAppIdBlacklist=android-studio.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop
+groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -457,7 +457,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=37
+PreloadWeight=29
 
 [Containments][76][Applets][91]
 immutability=1
