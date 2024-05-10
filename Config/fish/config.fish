@@ -211,6 +211,7 @@ alias vdir 'vdir --color=auto'
 alias wget 'wget -c '
 alias staccer 'QT_QPA_PLATFORM=xcb stacer'
 alias remove-force 'sudo pacman -Rnsdd'
+alias pull 'git pull'
 
 # Get fastest mirrors
 alias mirror-update 'sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist'
