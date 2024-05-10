@@ -27,16 +27,10 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Fri May 10 05:02:10 PM IST 2024
+## Changelog Fri May 10 07:36:08 PM IST 2024
 ```
- Config/fish/config.fish                            |  1 +
- Kdeconfigs/katerc                                  |  6 +++---
- Kdeconfigs/kglobalshortcutsrc                      |  8 ++++----
- Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc | 10 +++++-----
- Kdeconfigs/plasma.emojierrc                        |  4 ++--
- Kdeconfigs/plasmanotifyrc                          |  4 ++++
- Kdeconfigs/spectaclerc                             |  2 +-
- README.md                                          | 10 +---------
- 8 files changed, 21 insertions(+), 24 deletions(-)
+ Kdeconfigs/plasmanotifyrc |  2 +-
+ README.md                 | 13 +------------
+ 2 files changed, 2 insertions(+), 13 deletions(-)
 ```
  
