@@ -1,4 +1,5 @@
 [EmbedSettings]
+embed-application/vnd.ms-publisher=false
 embed-application/x-matroska=false
 embed-application/x-shellscript=false
 embed-application/xml=false
