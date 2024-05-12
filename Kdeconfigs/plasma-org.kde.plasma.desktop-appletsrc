@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,steam.desktop,io.github.tdesktop_x64.TDesktop.desktop,android-studio.desktop,org.kde.konsole.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.konsole.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:steam.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=android-studio.desktop,org.kde.konsole.desktop,kitty.desktop,steam.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:steam.desktop,applications:kitty.desktop,applications:org.kde.konsole.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
