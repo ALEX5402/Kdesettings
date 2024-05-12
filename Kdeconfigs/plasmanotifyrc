@@ -1,15 +1,14 @@
 [Applications][firefox]
 Seen=true
 
+[Applications][heroic]
+Seen=true
+
 [Applications][io.github.tdesktop_x64.TDesktop]
 Seen=true
 
 [Applications][vesktop]
 Seen=true
-
-[DoNotDisturb]
-NotificationSoundsMuted=true
-Until=2025,5,11,20,26,51.522
 
 [Notifications]
 LowPriorityHistory=true

@@ -13,6 +13,7 @@ if type "qtile" >> /dev/null 2>&1
    set -x QT_QPA_PLATFORMTHEME "qt5ct"
 end 
 
+#youtubedl fix
 function ytd
     youtube-dl $argv[1] 
 end
@@ -137,7 +138,7 @@ alias play 'ytfzf -t' # play
 alias play-l 'ytfzf -L'
 alias play-m 'ytfzf -m --audio-only'
 alias yt-search 'ytfzf -cO'
-alias haru-play 'ytfzf -u haruna -t' # dadad
+alias haru-play 'ytfzf -u haruna -t'
 
 #playgif
 alias play-gif 'chafa'
@@ -186,6 +187,7 @@ alias waystart 'bash ~/waydroid.sh'
 alias fish 'source ~/.config/fish/config.fish'
 
 alias warpc 'warp-cli connect'
+alias flex 'fastfetch'
 alias warpd 'warp-cli disconnect'
 alias .. 'cd ..'
 alias ... 'cd ../..'
