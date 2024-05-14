@@ -174,8 +174,8 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
+Image=/home/alex/Pictures/rakl4jqyplv81.png
+PreviewImage=/home/alex/Pictures/rakl4jqyplv81.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -332,8 +332,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.konsole.desktop,io.github.tdesktop_x64.TDesktop.desktop,steam.desktop,android-studio.desktop,kitty.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:steam.desktop,applications:android-studio.desktop,applications:kitty.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,steam.desktop,org.kde.konsole.desktop,android-studio.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:android-studio.desktop,applications:kitty.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -443,7 +443,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][76][Applets][89]
 immutability=1
