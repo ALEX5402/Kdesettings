@@ -10,6 +10,10 @@ Seen=true
 [Applications][vesktop]
 Seen=true
 
+[DoNotDisturb]
+NotificationSoundsMuted=true
+Until=2025,5,15,21,31,27.774
+
 [Notifications]
 LowPriorityHistory=true
 PopupPosition=TopRight

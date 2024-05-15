@@ -183,7 +183,7 @@ alias vim 'nvim'
 
 alias print-fingerprint-jar 'keytool -printcert -jarfile'
 alias wayshere 'sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/media/0/Documents'
-alias waystart 'bash ~/waydroid.sh'
+alias waystart 'waydroid show-full-ui'
 alias fish 'source ~/.config/fish/config.fish'
 
 alias warpc 'warp-cli connect'
@@ -216,6 +216,7 @@ alias remove-force 'sudo pacman -Rnsdd'
 alias pull 'git pull'
 alias push 'git push'
 alias commit 'git commit'
+alias clone 'git clone'
 
 
 # Get fastest mirrors
@@ -470,33 +471,7 @@ complete -c hyprkeys -n '__hyprkeys_clear_perform_completion_once_result'
 complete -c hyprkeys -n 'not __hyprkeys_requires_order_preservation && __hyprkeys_prepare_completions' -f -a '$__hyprkeys_comp_results'
 # otherwise we use the -k flag
 complete -k -c hyprkeys -n '__hyprkeys_requires_order_preservation && __hyprkeys_prepare_completions' -f -a '$__hyprkeys_comp_results'
-
-
-## Run fastfetch if session is interactive
-
-function clone -d "Clone the current fish session into a new kitty window"
-    set --local data
-    for a in $argv
-        if contains -- "$a" -h --help
-            echo "Clone the current fish session into a new kitty window."
-            echo
-            echo "For usage instructions see: https://sw.kovidgoyal.net/kitty/shell-integration/#clone-shell"
-            return
-        end
-        set --local ea (printf "%s" "$a" | base64)
-        set --append data "a=$ea"
-    end
-    set --local envs
-    for e in (set --export --names)
-        set --append envs "$e=$$e"
-    end
-    set --local b64_envs (string join0 -- $envs | base64)
-    set --local b64_cwd (printf "%s" "$PWD" | base64)
-    set --prepend data "shell=fish" "pid=$fish_pid" "cwd=$b64_cwd" "env=$b64_envs"
-    __ksi_transmit_data (string join "," -- $data) "clone"
-end
-
-
+ 
 # ### key-bindings.fish ###
 # #     ____      ____
 # #    / __/___  / __/
