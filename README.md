@@ -27,13 +27,15 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Wed May 15 09:18:49 AM IST 2024
+## Changelog Wed May 15 11:09:20 AM IST 2024
 ```
- Kdeconfigs/gtkrc                                   |  2 +-
- Kdeconfigs/gtkrc-2.0                               |  2 +-
+ Config/fish/config.fish                            |  3 +++
+ Kdeconfigs/code-flags.conf                         |  1 -
+ Kdeconfigs/katerc                                  |  2 +-
  Kdeconfigs/kglobalshortcutsrc                      | 10 +++++-----
- Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  2 +-
- README.md                                          | 11 +----------
- 5 files changed, 9 insertions(+), 18 deletions(-)
+ Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  4 ++--
+ Kdeconfigs/systemmonitorrc                         |  6 +++---
+ README.md                                          | 10 +---------
+ 7 files changed, 15 insertions(+), 21 deletions(-)
 ```
  
