@@ -133,7 +133,7 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=834,591
+DirSelectDialog Size=836,584
 History Items[$e]=file:$HOME/OBS,file:$HOME/Telegram,file:///media/workspace2,file:///media/workspace1,file:///media/Workspace2,file:///media/Workspace,file:$HOME/wallpapers/Catppuccin-Mocha
 
 [General]

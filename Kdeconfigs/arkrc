@@ -2,6 +2,9 @@
 LockSidebar=true
 ShowSidebar=true
 
+[KTextEditor::Search]
+Search History=GNativeAndroidApp_Offset
+
 [MainWindow]
 StatusBar=Disabled
 ToolBarsMovable=Disabled
