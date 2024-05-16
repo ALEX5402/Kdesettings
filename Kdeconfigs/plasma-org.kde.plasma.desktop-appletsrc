@@ -443,7 +443,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][76][Applets][89]
 immutability=1
@@ -457,7 +457,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=35
+PreloadWeight=27
 
 [Containments][76][Applets][91]
 immutability=1
@@ -489,4 +489,4 @@ launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
