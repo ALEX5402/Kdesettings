@@ -333,8 +333,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,steam.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.konsole.desktop,android-studio.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.konsole.desktop,applications:steam.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=steam.desktop,android-studio.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,org.kde.konsole.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.konsole.desktop,applications:steam.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -458,7 +458,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][76][Applets][91]
 immutability=1
