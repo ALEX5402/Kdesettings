@@ -48,7 +48,7 @@ popupHeight=324
 popupWidth=324
 
 [Containments][25][Applets][51][Configuration][General]
-history=#8e4156,#01fd06,#ad3249,#161926,#f4e2c0,#f9c9a6,#a6474e,#46313b
+history=#eee2d1,#8e4156,#01fd06,#ad3249,#161926,#f4e2c0,#f9c9a6,#a6474e,#46313b
 
 [Containments][25][Applets][53]
 immutability=1
@@ -333,8 +333,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,kitty.desktop,android-studio.desktop,org.kde.konsole.desktop,steam.desktop
-groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,kitty.desktop,android-studio.desktop,firefox.desktop,org.kde.konsole.desktop,steam.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:firefox.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -490,4 +490,4 @@ launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
