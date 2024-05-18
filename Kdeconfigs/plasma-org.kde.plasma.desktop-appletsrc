@@ -43,7 +43,7 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][25][Applets][51][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 popupHeight=324
 popupWidth=324
 
@@ -333,8 +333,8 @@ DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=steam.desktop,android-studio.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:steam.desktop,applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,kitty.desktop,android-studio.desktop,org.kde.konsole.desktop,steam.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -458,7 +458,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=0
+PreloadWeight=25
 
 [Containments][76][Applets][91]
 immutability=1

@@ -36,3 +36,5 @@ embed-video/x-ogm=false
 embed-video/x-ogm+ogg=false
 embed-video/x-theora=false
 embed-video/x-theora+ogg=false
+embed-x-scheme-handler/http=false
+embed-x-scheme-handler/https=false
