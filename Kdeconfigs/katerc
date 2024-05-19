@@ -58,8 +58,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=872
-1920x1080 screen: Width=1109
+1920x1080 screen: Height=785
+1920x1080 screen: Width=1057
 
 [filetree]
 editShade=74,55,117
