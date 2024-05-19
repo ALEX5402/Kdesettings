@@ -194,8 +194,8 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=677
+DialogWidth=864
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
@@ -205,8 +205,8 @@ positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"1"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/424363.jpg
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/424363.jpg
+Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_leaves.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_leaves.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -412,8 +412,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=android-studio.desktop,org.kde.konsole.desktop,firefox.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,steam.desktop
-groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:steam.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop
+groupingAppIdBlacklist=org.kde.konsole.desktop,steam.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,firefox.desktop,android-studio.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:firefox.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -546,7 +546,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][76][Applets][91]
 immutability=1
