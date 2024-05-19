@@ -12,8 +12,8 @@ popupWidth=647
 
 [Containments][25]
 ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-69:16,320,80,80,0;Applet-93:224,80,400,272,0;Applet-66:1616,96,288,352,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
-ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-93:224,80,400,272,0;Applet-66:1600,112,288,288,0;Applet-49:1712,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,784,192,208,0;
-ItemGeometriesHorizontal=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-69:16,320,80,80,0;Applet-93:224,80,400,272,0;Applet-66:1616,96,288,352,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1728,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
+ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1728,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -22,12 +22,42 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][25][Applets][100][Configuration][SensorColors]
+cpu/all/usage=163,8,13
+
+[Containments][25][Applets][101][Configuration][SensorColors]
+cpu/all/usage=163,8,13
+
+[Containments][25][Applets][104]
+immutability=1
+plugin=org.kde.plasma.systemmonitor.diskusage
+
+[Containments][25][Applets][104][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
+UserBackgroundHints=ShadowBackground
+
+[Containments][25][Applets][104][Configuration][Appearance]
+chartFace=org.kde.ksysguard.horizontalbars
+title=Disk Usage
+
+[Containments][25][Applets][104][Configuration][SensorColors]
+disk/.*/usedPercent=163,8,13
+disk/118411c8-c6ba-45bb-8d93-9f43066d5c2c/usedPercent=91,163,8
+disk/all/usedPercent=80,8,163
+disk/b5b8679b-868f-43e2-b30d-cf8a33bafeca/usedPercent=163,8,13
+disk/c8ef880b-3db6-4f9a-94cf-45221c366b03/usedPercent=8,163,158
+
+[Containments][25][Applets][104][Configuration][Sensors]
+highPrioritySensorIds=["disk/.*/usedPercent"]
+lowPrioritySensorIds=["disk/all/total"]
+totalSensors=["disk/all/usedPercent"]
+
 [Containments][25][Applets][49]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][25][Applets][49][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 popupHeight=450
 popupWidth=560
 
@@ -162,20 +192,6 @@ plugin=org.kde.plasma.icon
 [Containments][25][Applets][69][Configuration]
 localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.desktop
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
-
-[Containments][25][Applets][93]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][25][Applets][93][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][25][Applets][93][Configuration][General]
-color=black
-cursorPosition=122
-fontSize=11
-noteId=8d2b2108-9ab9-4ae8-8fab-2eb62289f3
 
 [Containments][25][ConfigDialog]
 DialogHeight=540
@@ -337,6 +353,56 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][73][Applets][105]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][73][Applets][105][Configuration]
+PreloadWeight=100
+
+[Containments][73][Applets][105][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][73][Applets][105][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][73][Applets][108]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][73][Applets][108][Configuration][Appearance]
+autoFontAndSize=false
+fontFamily=JetBrainsMono Nerd Font
+fontStyleName=Regular
+fontWeight=400
+showDate=false
+showSeconds=Always
+
+[Containments][73][Applets][108][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][73][Applets][112]
+immutability=1
+plugin=org.kde.netspeedWidget
+
+[Containments][73][Applets][112][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][73][Applets][112][Configuration][General]
+fontSize=75
+speedLayout=columns
+
+[Containments][73][Applets][117]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][73][Applets][120]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
 [Containments][73][Applets][29]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -346,23 +412,17 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-fill=false
-groupingAppIdBlacklist=steam.desktop,org.kde.dolphin.desktop,kitty.desktop,firefox.desktop,android-studio.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.konsole.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.konsole.desktop,applications:firefox.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:steam.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=android-studio.desktop,org.kde.konsole.desktop,firefox.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,steam.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:steam.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
-[Containments][73][Applets][44]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][73][Applets][44][Configuration]
-PreloadWeight=100
-popupHeight=450
-popupWidth=560
+[Containments][73][Applets][30][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][73][Applets][75]
 immutability=1
@@ -376,8 +436,22 @@ SystrayContainmentId=76
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][73][Applets][92][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][73][Applets][94]
+immutability=1
+plugin=org.kde.plasma.cameraindicator
+
+[Containments][73][Applets][99][Configuration][SensorColors]
+cpu/all/usage=163,8,13
+
 [Containments][73][General]
-AppletOrder=30;29;75;92;44
+AppletOrder=108;112;92;30;29;117;75;120;105;94
+
+[Containments][73][Shortcuts]
+global=Meta+Space
 
 [Containments][76]
 activityId=
@@ -472,7 +546,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=0
+PreloadWeight=15
 
 [Containments][76][Applets][91]
 immutability=1
@@ -480,6 +554,10 @@ plugin=org.kde.plasma.networkmanagement
 
 [Containments][76][Applets][91][Configuration]
 PreloadWeight=100
+
+[Containments][76][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][76][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
@@ -492,16 +570,37 @@ favoritesDisplay=1
 favoritesPortedToKAstats=true
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
+[Containments25Appletsts][99][Configuration][Appearance]
+title=Total CPU Use
+
 [Containments26Appletsts][59][Configuration][General]
 favoritesPortedToKAstats=true
 
+[Containments73Appletsts][105][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments73Appletsts][108][Configuration][Appearance]
+autoFontAndSize=false
+fontFamily=Iosevka Nerd Font
+fontStyleName=Book
+fontWeight=400
+showDate=false
+showSeconds=Always
+
+[Containments73Appletsts][112][Configuration][General]
+fontSize=70
+showLowSpeeds=true
+speedLayout=columns
+
 [Containments73Appletsts][29][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop
-iconSpacing=0
-launchers=preferred://browser,applications:org.kde.haruna.desktop
+groupingAppIdBlacklist=org.kde.konsole.desktop,kitty.desktop,android-studio.desktop,steam.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,firefox.desktop
+groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop,applications:android-studio.desktop
+launchers=applications:org.kde.haruna.desktop,preferred://browser
+
+[Containments73Appletsts][98][Configuration][Appearance]
+title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/Empty File,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
