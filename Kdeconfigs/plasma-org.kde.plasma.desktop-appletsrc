@@ -173,7 +173,7 @@ DialogWidth=720
 
 [Containments][25][Applets][93][Configuration][General]
 color=black
-cursorPosition=13
+cursorPosition=122
 fontSize=11
 noteId=8d2b2108-9ab9-4ae8-8fab-2eb62289f3
 
@@ -185,7 +185,7 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["2"\\,"20"\\,"desktop:/Empty File"\\,"1"\\,"1"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/Empty File"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -504,4 +504,4 @@ launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/Empty File,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/Empty File,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
