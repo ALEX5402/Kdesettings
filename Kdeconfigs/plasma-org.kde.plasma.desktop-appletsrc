@@ -412,8 +412,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=org.kde.konsole.desktop,steam.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,firefox.desktop,android-studio.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:firefox.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop
+groupingAppIdBlacklist=android-studio.desktop,kitty.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,steam.desktop,firefox.desktop,io.github.tdesktop_x64.TDesktop.desktop
+groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:firefox.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:steam.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]

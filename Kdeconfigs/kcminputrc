@@ -7,4 +7,6 @@ ScrollFactor=1
 
 [Mouse]
 X11LibInputXAccelProfileFlat=true
+XLbInptAccelProfileFlat=false
+XLbInptPointerAcceleration=0.2
 cursorTheme=Breeze_Light

@@ -1,5 +1,12 @@
 [LegacySession: saved at previous logout]
-count=0
+clientMachine1=localhost
+command1=firefox
+count=1
 
 [Session: saved at previous logout]
-count=0
+clientId1=10100156e3e0000171615094400000571750006
+count=1
+program1=/usr/bin/firewall-applet
+restartCommand1=/usr/bin/firewall-applet,-session,10100156e3e0000171615094400000571750006_1716153148_434868,-name,firewall-applet
+restartStyleHint1=0
+userId1=alex
