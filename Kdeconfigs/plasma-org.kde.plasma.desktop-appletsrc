@@ -57,7 +57,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][25][Applets][49][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 popupHeight=450
 popupWidth=560
 
@@ -201,12 +201,12 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"0"]}
+positions={"1920x1080":["7"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"0"\\,"desktop:/randominfo.cpp"\\,"6"\\,"0"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/huhu.png
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/huhu.png
+Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/967707-blonde-hat-long-hair-angel-wings-nature.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/967707-blonde-hat-long-hair-angel-wings-nature.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -416,8 +416,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=android-studio.desktop,firefox.desktop,steam.desktop,kitty.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.konsole.desktop,vesktop.desktop
-groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop,applications:org.kde.konsole.desktop,applications:steam.desktop
+groupingAppIdBlacklist=android-studio.desktop,kitty.desktop,org.kde.dolphin.desktop,firefox.desktop,vesktop.desktop,steam.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.konsole.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.konsole.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:steam.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -611,4 +611,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec

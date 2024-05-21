@@ -8,6 +8,8 @@ Search History=GNativeAndroidApp_Offset
 [MainWindow]
 StatusBar=Disabled
 ToolBarsMovable=Disabled
+splitterSizes=894,91
 
 [Viewer]
+StatusBar=Disabled
 ToolBarsMovable=Disabled
