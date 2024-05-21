@@ -416,8 +416,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.konsole.desktop,firefox.desktop,vesktop.desktop,android-studio.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,kitty.desktop,steam.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:steam.desktop,applications:android-studio.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop,applications:vesktop.desktop,applications:firefox.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,android-studio.desktop,steam.desktop,kitty.desktop,org.kde.konsole.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,vesktop.desktop,firefox.desktop
+groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:kitty.desktop,applications:android-studio.desktop,applications:vesktop.desktop,applications:steam.desktop,applications:firefox.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
