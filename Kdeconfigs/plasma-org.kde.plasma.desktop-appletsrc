@@ -57,7 +57,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][25][Applets][49][Configuration]
-PreloadWeight=75
+PreloadWeight=85
 popupHeight=450
 popupWidth=560
 
@@ -372,6 +372,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
+PreloadWeight=55
 popupHeight=450
 popupWidth=560
 
@@ -416,8 +417,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=android-studio.desktop,kitty.desktop,org.kde.dolphin.desktop,firefox.desktop,vesktop.desktop,steam.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.konsole.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.konsole.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:steam.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop
+groupingAppIdBlacklist=vesktop.desktop,firefox.desktop,org.kde.konsole.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.dolphin.desktop,steam.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop,android-studio.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:android-studio.desktop,applications:steam.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -541,7 +542,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][76][Applets][89]
 immutability=1

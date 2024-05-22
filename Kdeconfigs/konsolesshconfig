@@ -1,2 +1,32 @@
 [Global plugin config]
 manageProfile=false
+
+[SSH Config][api]
+hostname=185.199.52.243
+identifier=api
+importedFromSshConfig=true
+port=22
+profileName=Profile 1
+sshkey=~/vps/alex
+useSshConfig=true
+username=root
+
+[SSH Config][github]
+hostname=github.com
+identifier=github
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=~/.ssh/github_id_rsa
+useSshConfig=true
+username=git
+
+[SSH Config][gitlab]
+hostname=gitlab.com
+identifier=gitlab
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=~/.ssh/Gitlab
+useSshConfig=true
+username=git
