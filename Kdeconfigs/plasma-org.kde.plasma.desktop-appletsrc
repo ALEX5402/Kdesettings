@@ -194,8 +194,8 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=624
+DialogWidth=786
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
@@ -205,8 +205,8 @@ positions={"1920x1080":["1"\\,"20"\\,"desktop:/randominfo.cpp"\\,"0"\\,"0"\\,"de
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/967707-blonde-hat-long-hair-angel-wings-nature.png
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/967707-blonde-hat-long-hair-angel-wings-nature.png
+Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_leaves.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_leaves.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
