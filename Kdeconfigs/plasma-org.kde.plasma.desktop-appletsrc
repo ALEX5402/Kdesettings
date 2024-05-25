@@ -201,7 +201,7 @@ DialogWidth=1058
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["7"\\,"20"\\,"desktop:/tasks"\\,"2"\\,"1"\\,"desktop:/randominfo.cpp"\\,"0"\\,"0"\\,"desktop:/tasks.txt"\\,"3"\\,"1"\\,"desktop:/tasks2.txt"\\,"6"\\,"0"]}
+positions={"1920x1080":["7"\\,"20"\\,"desktop:/tasks2.txt"\\,"6"\\,"0"\\,"desktop:/tasks"\\,"2"\\,"1"\\,"desktop:/randominfo.cpp"\\,"0"\\,"0"\\,"desktop:/tasks.txt"\\,"3"\\,"1"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -417,8 +417,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,kitty.desktop,firefox.desktop,steam.desktop,vesktop.desktop,android-studio.desktop,io.github.tdesktop_x64.TDesktop.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.konsole.desktop,applications:vesktop.desktop,applications:firefox.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:steam.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=vesktop.desktop,org.kde.konsole.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,kitty.desktop,android-studio.desktop,firefox.desktop,steam.desktop
+groupingLauncherUrlBlacklist=applications:steam.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:firefox.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -613,4 +613,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
