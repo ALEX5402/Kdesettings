@@ -1,7 +1,5 @@
 [LegacySession: saved at previous logout]
-clientMachine1=localhost
-command1=java
-count=1
+count=0
 
 [Session: saved at previous logout]
 count=0
