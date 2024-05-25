@@ -194,19 +194,19 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=624
-DialogWidth=786
+DialogHeight=740
+DialogWidth=1058
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["6"\\,"20"\\,"desktop:/randominfo.cpp"\\,"0"\\,"0"\\,"desktop:/tasks2.txt"\\,"5"\\,"1"\\,"desktop:/tasks"\\,"2"\\,"1"\\,"desktop:/tasks.txt"\\,"0"\\,"3"]}
+positions={"1920x1080":["7"\\,"20"\\,"desktop:/tasks"\\,"2"\\,"1"\\,"desktop:/randominfo.cpp"\\,"0"\\,"0"\\,"desktop:/tasks2.txt"\\,"6"\\,"0"\\,"desktop:/tasks.txt"\\,"0"\\,"3"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_leaves.png
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_leaves.png
+Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
+PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -372,7 +372,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 popupHeight=450
 popupWidth=560
 
@@ -485,7 +485,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][76][Applets][78][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][76][Applets][79]
 immutability=1
@@ -556,7 +556,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][76][Applets][91]
 immutability=1

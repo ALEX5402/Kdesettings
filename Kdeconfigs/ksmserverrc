@@ -1,10 +1,7 @@
 [LegacySession: saved at previous logout]
-count=0
+clientMachine1=localhost
+command1=java
+count=1
 
 [Session: saved at previous logout]
-clientId1=10100156e3e0000171656955500000011040005
-count=1
-program1=firefox
-restartCommand1=/usr/lib/firefox/firefox,--sm-client-id,10100156e3e0000171656955500000011040005
-restartStyleHint1=0
-userId1=alex
+count=0
