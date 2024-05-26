@@ -201,7 +201,7 @@ DialogWidth=1298
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["8"\\,"20"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks"\\,"7"\\,"2"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/link.txt"\\,"7"\\,"0"]}
+positions={"1920x1080":["8"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks"\\,"7"\\,"2"\\,"desktop:/link.txt"\\,"7"\\,"0"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -417,8 +417,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=steam.desktop,vesktop.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,android-studio.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,firefox.desktop
-groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:vesktop.desktop,applications:steam.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop
+groupingAppIdBlacklist=firefox.desktop,vesktop.desktop,android-studio.desktop,kitty.desktop,steam.desktop,org.kde.konsole.desktop,io.github.tdesktop_x64.TDesktop.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:steam.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop,applications:vesktop.desktop,applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:firefox.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -612,4 +612,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
