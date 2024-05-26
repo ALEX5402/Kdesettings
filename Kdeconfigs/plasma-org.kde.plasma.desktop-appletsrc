@@ -13,7 +13,7 @@ popupWidth=647
 [Containments][25]
 ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-69:16,320,80,80,0;Applet-66:1616,96,288,352,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
 ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1728,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
-ItemGeometriesHorizontal=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-69:16,320,80,80,0;Applet-66:1616,96,288,352,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
+ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1728,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -147,7 +147,7 @@ immutability=1
 plugin=org.kde.plasma.trash
 
 [Containments][25][Applets][64][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][25][Applets][65]
 immutability=1
@@ -194,19 +194,19 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=930
-DialogWidth=1298
+DialogHeight=678
+DialogWidth=881
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks"\\,"0"\\,"0"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/tasks"\\,"0"\\,"0"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks.txt"\\,"0"\\,"3"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Decay-Green/moments_before_desk.png
-PreviewImage=/home/alex/Kdesettings/wallpapers/Decay-Green/moments_before_desk.png
+Image=/home/alex/Kdesettings/wallpapers/Anime-wifu/vaxerski_noBG.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/Anime-wifu/vaxerski_noBG.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -372,7 +372,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 popupHeight=450
 popupWidth=560
 
@@ -517,6 +517,9 @@ PreloadWeight=55
 [Containments][76][Applets][85]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
+
+[Containments][76][Applets][85][Configuration]
+PreloadWeight=55
 
 [Containments][76][Applets][86]
 immutability=1
