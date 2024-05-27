@@ -36,7 +36,7 @@ Log Out Without Confirmation=none,,Log Out Without Confirmation
 Reboot=none,,Reboot
 Reboot Without Confirmation=none,,Reboot Without Confirmation
 Shut Down=none,,Shut Down
-_k_friendly_name=Session Management
+_k_friendly_name=KWin
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention

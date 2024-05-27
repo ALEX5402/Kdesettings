@@ -27,13 +27,12 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Mon May 27 09:03:54 PM IST 2024
+## Changelog Mon May 27 09:11:53 PM IST 2024
 ```
- Kdeconfigs/QtProject.conf     |  2 +-
- Kdeconfigs/kglobalshortcutsrc |  2 ++
- Kdeconfigs/kwinrc             | 12 +++++++-----
- Kdeconfigs/kwinrulesrc        |  4 ++--
- README.md                     |  8 +-------
- 5 files changed, 13 insertions(+), 15 deletions(-)
+ Kdeconfigs/kglobalshortcutsrc                      |  2 +-
+ Kdeconfigs/kwinoutputconfig.json                   | 34 ++++++++++++++++++++++
+ Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  2 +-
+ README.md                                          | 10 +------
+ 4 files changed, 37 insertions(+), 11 deletions(-)
 ```
  
