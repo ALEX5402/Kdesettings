@@ -192,6 +192,7 @@ FitToPage=
 FitToWidth=
 Goto=
 GotoPage=
+Help=
 Mail=
 OpenRecent=
 PrintPreview=
@@ -201,6 +202,7 @@ ShowStatusbar=
 ShowToolbar=
 Spelling=
 SwitchApplicationLanguage=
+WhatsThis=
 Zoom=
 
 [WM]
