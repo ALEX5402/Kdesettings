@@ -58,12 +58,13 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=897
-1920x1080 screen: Width=1018
+1920x1080 screen: Height=755
+1920x1080 screen: Width=935
 
 [filetree]
 editShade=74,55,117
 listMode=false
+middleClickToClose=false
 shadingEnabled=true
 showCloseButton=false
 showFullPathOnRoots=false
