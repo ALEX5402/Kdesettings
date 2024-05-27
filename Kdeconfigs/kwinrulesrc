@@ -11,9 +11,9 @@ wmclassmatch=1
 
 [2]
 Description=Dolphin
-opacityactive=95
+opacityactive=94
 opacityactiverule=2
-opacityinactive=93
+opacityinactive=94
 opacityinactiverule=2
 types=1
 wmclass=org.kde.dolphin
