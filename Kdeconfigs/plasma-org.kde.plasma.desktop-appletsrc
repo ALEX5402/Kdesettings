@@ -201,7 +201,7 @@ DialogWidth=1084
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["8"\\,"20"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks"\\,"7"\\,"1"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/link.txt"\\,"0"\\,"1"]}
+positions={"1920x1080":["8"\\,"20"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks"\\,"7"\\,"1"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/tasks.txt"\\,"0"\\,"3"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -529,6 +529,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][76][Applets][86][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -544,7 +545,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][76][Applets][89]
 immutability=1
@@ -615,4 +616,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
