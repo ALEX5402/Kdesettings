@@ -59,7 +59,7 @@ plugin=org.kde.plasma.digitalclock
 [Containments][25][Applets][49][Configuration]
 PreloadWeight=85
 popupHeight=450
-popupWidth=560
+popupWidth=396
 
 [Containments][25][Applets][49][Configuration][Appearance]
 showSeconds=Always
@@ -417,8 +417,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=vesktop.desktop,firefox.desktop,org.kde.dolphin.desktop,steam.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.konsole.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,android-studio.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:android-studio.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop,applications:vesktop.desktop,applications:steam.desktop
+groupingAppIdBlacklist=steam.desktop,vesktop.desktop,android-studio.desktop,firefox.desktop,org.kde.dolphin.desktop,kitty.desktop,org.kde.konsole.desktop,io.github.tdesktop_x64.TDesktop.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop
+groupingLauncherUrlBlacklist=applications:vesktop.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:kitty.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:firefox.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -512,7 +512,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][76][Applets][84][Configuration]
-PreloadWeight=55
+PreloadWeight=80
 
 [Containments][76][Applets][85]
 immutability=1
