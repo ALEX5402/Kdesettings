@@ -27,13 +27,68 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Tue May 28 08:36:00 PM IST 2024
+## Changelog Wed May 29 07:27:10 AM IST 2024
 ```
- Kdeconfigs/gtkrc                                   |  2 +-
- Kdeconfigs/gtkrc-2.0                               |  2 +-
- Kdeconfigs/kglobalshortcutsrc                      | 10 +++++-----
- Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  4 ++--
- README.md                                          |  8 +-------
- 5 files changed, 10 insertions(+), 16 deletions(-)
+ Config/nvim/lazy-lock.json                         |  34 +--
+ Kdeconfigs/katerc                                  |   4 +-
+ Kdeconfigs/kglobalshortcutsrc                      |  12 +-
+ Kdeconfigs/kwinrulesrc                             |  31 +-
+ Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |   6 +-
+ Kdeconfigs/spectaclerc                             |   2 +-
+ .../2909i102dee260fc93a07.vcf                      |   4 +-
+ .../2909i10ab625086874f1.vcf                       | 232 +++++++++------
+ .../2909i11b60418eb90fc5.vcf                       |   4 +-
+ .../2909i130dc4520f75dca8.vcf                      |   4 +-
+ .../2909i1c1b0cd08a6680a5.vcf                      |   4 +-
+ .../2909i202d54ea8934aeac.vcf                      |   4 +-
+ .../2909i256b31ad0c36834a.vcf                      |   4 +-
+ .../2909i286698648b9caa1a.vcf                      |   4 +-
+ .../2909i2ae840118c80d71f.vcf                      |   4 +-
+ .../2909i2c0095c88c28ab2f.vcf                      |   4 +-
+ .../2909i2d809e070da3d620.vcf                      |   4 +-
+ .../2909i3040933089acfabf.vcf                      |   4 +-
+ .../2909i3235d7c98b152c59.vcf                      |   4 +-
+ .../2909i32def4a8d1b117d.vcf                       |   4 +-
+ .../2909i340243d28902012e.vcf                      |   4 +-
+ .../2909i346b800a0bbcc40d.vcf                      |   4 +-
+ .../2909i38852c410b658d23.vcf                      |   4 +-
+ .../2909i39bd8eba8d76a113.vcf                      |   4 +-
+ .../2909i3cc6e2b40ecc0422.vcf                      |   4 +-
+ .../2909i415160660e8ebedb.vcf                      | 267 +++++++++++-------
+ .../2909i45e85749881ae6fa.vcf                      |   4 +-
+ .../2909i48077da18af3408b.vcf                      | 313 ++++++++++++---------
+ .../2909i48755063088c3370.vcf                      |   4 +-
+ .../2909i4d6c525a8ebe1938.vcf                      |   4 +-
+ .../2909i4f96d8ff0807efec.vcf                      |   4 +-
+ .../2909i517890cf8e3098c2.vcf                      |   4 +-
+ .../2909i529a389b8dbc0c29.vcf                      |   4 +-
+ .../2909i569f01c60f4aa3bc.vcf                      |   4 +-
+ .../2909i5736d93f8b3fc5f3.vcf                      |   4 +-
+ .../2909i577b64108767a07.vcf                       |   4 +-
+ .../2909i5a4c43b60bf39875.vcf                      |   4 +-
+ .../2909i609de3d789314b7c.vcf                      |   4 +-
+ .../2909i60a0a7a98f38ab77.vcf                      | 288 +++++++++++--------
+ .../2909i614bc72e0d587091.vcf                      |   4 +-
+ .../2909i61a45be68d70ddb5.vcf                      |   4 +-
+ .../2909i61cada6c0d55a2c7.vcf                      |   4 +-
+ .../2909i651541ff0bf79606.vcf                      |   4 +-
+ .../2909i6636ebb70926879e.vcf                      |   4 +-
+ .../2909i688c3b840a39e61a.vcf                      |   4 +-
+ .../2909i68c3d7b58f682740.vcf                      |   4 +-
+ .../2909i69cd17a40cc376b3.vcf                      |   4 +-
+ .../2909i74356086897054f5.vcf                      |   4 +-
+ .../2909i78cb47b388586af9.vcf                      |   4 +-
+ .../2909i7daf06f8b43ec80.vcf                       |   4 +-
+ .../2909i7e36a157888625c3.vcf                      |   4 +-
+ .../2909i7e7610f7899759d5.vcf                      | 249 +++++++++-------
+ .../2909iec909a10ed8da08.vcf                       |   4 +-
+ .../723i11544fa30dde96b9.vcf                       |   4 +-
+ .../723i18efcee50b0c8c61.vcf                       |   4 +-
+ .../723i24e984c88c52e71a.vcf                       |   4 +-
+ .../723i3efa29660b9fcc4f.vcf                       |   4 +-
+ .../723i5288e0fe8f93c618.vcf                       |   4 +-
+ .../723i61ed128189c505c2.vcf                       |   4 +-
+ README.md                                          |  10 +-
+ 60 files changed, 954 insertions(+), 686 deletions(-)
 ```
  
