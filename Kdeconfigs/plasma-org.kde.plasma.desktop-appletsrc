@@ -2,6 +2,25 @@
 MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=false
+_context=true
+_display_settings=true
+_lock_screen=false
+_logout=false
+_open_terminal=false
+_run_command=false
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=false
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
@@ -12,8 +31,8 @@ popupWidth=647
 
 [Containments][25]
 ItemGeometries-0x0=Applet-64:16,128,80,80,0;Applet-65:16,240,80,80,0;Applet-69:16,320,80,80,0;Applet-66:1616,96,288,352,0;Applet-49:1744,16,176,80,0;Applet-61:1728,480,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
-ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1728,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
-ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-49:1728,16,176,80,0;Applet-66:1600,112,288,288,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
+ItemGeometries-1920x1080=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-66:1600,112,288,288,0;Applet-49:1728,16,176,80,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
+ItemGeometriesHorizontal=Applet-65:0,128,80,80,0;Applet-69:0,240,80,80,0;Applet-64:0,352,80,80,0;Applet-66:1600,112,288,288,0;Applet-49:1728,16,176,80,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -73,7 +92,7 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][25][Applets][51][Configuration]
-PreloadWeight=75
+PreloadWeight=95
 popupHeight=324
 popupWidth=324
 
@@ -194,19 +213,19 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=720
-DialogWidth=1084
+DialogHeight=631
+DialogWidth=888
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks"\\,"0"\\,"0"]}
+positions={"1920x1080":["6"\\,"20"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks"\\,"5"\\,"2"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
+Image=/home/alex/Kdesettings/wallpapers/Graphite-Mono/limbo.jpg
+PreviewImage=/home/alex/Kdesettings/wallpapers/Graphite-Mono/limbo.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -558,7 +577,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][76][Applets][91]
 immutability=1
@@ -615,4 +634,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
