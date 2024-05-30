@@ -97,7 +97,7 @@ popupHeight=324
 popupWidth=324
 
 [Containments][25][Applets][51][Configuration][General]
-history=#eee2d1,#8e4156,#01fd06,#ad3249,#161926,#f4e2c0,#f9c9a6,#a6474e,#46313b
+history=#123d58,#6b3784,#0d2d43,#eee2d1,#8e4156,#01fd06,#ad3249,#161926,#f4e2c0
 
 [Containments][25][Applets][53]
 immutability=1
@@ -436,8 +436,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=org.kde.dolphin.desktop,android-studio.desktop,io.github.tdesktop_x64.TDesktop.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,firefox.desktop,vesktop.desktop,org.kde.konsole.desktop,steam.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:steam.desktop,applications:vesktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:firefox.desktop,applications:kitty.desktop
+groupingAppIdBlacklist=firefox.desktop,org.kde.konsole.desktop,steam.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,vesktop.desktop,kitty.desktop,android-studio.desktop
+groupingLauncherUrlBlacklist=applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:firefox.desktop,applications:vesktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:steam.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -548,6 +548,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][76][Applets][86][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -577,7 +578,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][76][Applets][91]
 immutability=1
@@ -634,4 +635,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
