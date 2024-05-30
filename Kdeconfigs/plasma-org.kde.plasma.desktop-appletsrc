@@ -220,7 +220,7 @@ DialogWidth=888
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/tasks"\\,"0"\\,"0"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/link.txt"\\,"0"\\,"1"]}
+positions={"1920x1080":["4"\\,"20"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks"\\,"3"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
