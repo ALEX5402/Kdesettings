@@ -213,19 +213,19 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=631
-DialogWidth=888
+DialogHeight=540
+DialogWidth=720
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["4"\\,"20"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks"\\,"3"\\,"4"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks"\\,"0"\\,"0"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/link.txt"\\,"0"\\,"1"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Graphite-Mono/limbo.jpg
-PreviewImage=/home/alex/Kdesettings/wallpapers/Graphite-Mono/limbo.jpg
+Image=/home/alex/Kdesettings/wallpapers/Rose-Pine/waifu_pink.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/Rose-Pine/waifu_pink.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -436,8 +436,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=firefox.desktop,android-studio.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.konsole.desktop,steam.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop,vesktop.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:kitty.desktop,applications:vesktop.desktop,applications:android-studio.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
+groupingAppIdBlacklist=jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,android-studio.desktop,vesktop.desktop,org.kde.konsole.desktop,kitty.desktop,steam.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,firefox.desktop
+groupingLauncherUrlBlacklist=applications:steam.desktop,applications:vesktop.desktop,applications:firefox.desktop,applications:android-studio.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.dolphin.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -548,7 +548,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][76][Applets][86][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
