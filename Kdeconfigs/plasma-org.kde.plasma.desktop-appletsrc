@@ -76,7 +76,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][25][Applets][49][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 popupHeight=450
 popupWidth=396
 
@@ -213,19 +213,19 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=648
+DialogWidth=1002
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks"\\,"0"\\,"0"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks"\\,"0"\\,"0"\\,"desktop:/tasks.txt"\\,"0"\\,"3"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Rose-Pine/waifu_pink.png
-PreviewImage=/home/alex/Kdesettings/wallpapers/Rose-Pine/waifu_pink.png
+Image=/home/alex/Kdesettings/wallpapers/Anime-wifu/1334452.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/Anime-wifu/1334452.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -469,8 +469,8 @@ immutability=1
 plugin=org.kde.plasma.cameraindicator
 
 [Containments][73][Applets][94][Configuration]
-popupHeight=0
-popupWidth=0
+popupHeight=216
+popupWidth=216
 
 [Containments][73][Applets][99][Configuration][SensorColors]
 cpu/all/usage=163,8,13
