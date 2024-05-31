@@ -393,7 +393,7 @@ plugin=org.kde.plasma.digitalclock
 [Containments][73][Applets][108][Configuration]
 PreloadWeight=80
 popupHeight=450
-popupWidth=560
+popupWidth=396
 
 [Containments][73][Applets][108][Configuration][Appearance]
 autoFontAndSize=false
@@ -436,8 +436,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,android-studio.desktop,vesktop.desktop,org.kde.konsole.desktop,kitty.desktop,steam.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,firefox.desktop
-groupingLauncherUrlBlacklist=applications:steam.desktop,applications:vesktop.desktop,applications:firefox.desktop,applications:android-studio.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=firefox.desktop,vesktop.desktop,android-studio.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.konsole.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop,steam.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:steam.desktop,applications:kitty.desktop,applications:vesktop.desktop,applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.konsole.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:android-studio.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -469,8 +469,8 @@ immutability=1
 plugin=org.kde.plasma.cameraindicator
 
 [Containments][73][Applets][94][Configuration]
-popupHeight=216
-popupWidth=216
+popupHeight=0
+popupWidth=0
 
 [Containments][73][Applets][99][Configuration][SensorColors]
 cpu/all/usage=163,8,13
@@ -634,4 +634,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
