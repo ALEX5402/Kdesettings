@@ -6,25 +6,25 @@ ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Desktop/tasks/Screenshot_1716569064.png
-File10[$e]=$HOME/Desktop/tasks/refine-2.png
+File10[$e]=$HOME/Documents/Untitled-2024-05-14-2346.png
 File2[$e]=$HOME/Pictures/aaaaaaaaaaaaaa.gif
 File3[$e]=$HOME/Desktop/hgcvxjukszbfzuihfvg.gif
 File4[$e]=$HOME/Desktop/output.gif
 File5[$e]=$HOME/Desktop/tasks/app-drawer.png
-File6[$e]=$HOME/Documents/Untitled-2024-05-14-2346.png
-File7[$e]=$HOME/Desktop/tasks/filters.png
-File8[$e]=$HOME/Desktop/tasks/explore-1.png
-File9[$e]=$HOME/Desktop/tasks/refine.png
+File6[$e]=$HOME/Desktop/tasks/filters.png
+File7[$e]=$HOME/Desktop/tasks/explore-1.png
+File8[$e]=$HOME/Desktop/tasks/refine.png
+File9[$e]=$HOME/Desktop/tasks/refine-2.png
 Name1[$e]=Screenshot_1716569064.png
-Name10[$e]=refine-2.png
+Name10[$e]=Untitled-2024-05-14-2346.png
 Name2[$e]=aaaaaaaaaaaaaa.gif
 Name3[$e]=hgcvxjukszbfzuihfvg.gif
 Name4[$e]=output.gif
 Name5[$e]=app-drawer.png
-Name6[$e]=Untitled-2024-05-14-2346.png
-Name7[$e]=filters.png
-Name8[$e]=explore-1.png
-Name9[$e]=refine.png
+Name6[$e]=filters.png
+Name7[$e]=explore-1.png
+Name8[$e]=refine.png
+Name9[$e]=refine-2.png
 
 [SideBar]
 InformationSplitterSizes=211,244
