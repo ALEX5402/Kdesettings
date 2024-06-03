@@ -1,3 +1,8 @@
+[Daemon]
+Autolock=false
+LockOnResume=false
+Timeout=6
+
 [Greeter][Wallpaper][org.kde.image][General]
 Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/huhu.png
 PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/huhu.png

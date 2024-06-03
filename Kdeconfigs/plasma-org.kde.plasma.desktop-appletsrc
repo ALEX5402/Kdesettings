@@ -213,14 +213,14 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=648
-DialogWidth=1002
+DialogHeight=540
+DialogWidth=720
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["2"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks"\\,"1"\\,"3"]}
+positions={"1920x1080":["6"\\,"20"\\,"desktop:/tasks"\\,"5"\\,"3"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -391,7 +391,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 popupHeight=450
 popupWidth=396
 
@@ -436,8 +436,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=firefox.desktop,org.kde.konsole.desktop,kitty.desktop,android-studio.desktop,org.kde.dolphin.desktop,vesktop.desktop,io.github.tdesktop_x64.TDesktop.desktop,steam.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop
-groupingLauncherUrlBlacklist=applications:android-studio.desktop,applications:steam.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop,applications:firefox.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop
+groupingAppIdBlacklist=kitty.desktop,firefox.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,steam.desktop,vesktop.desktop,android-studio.desktop,io.github.tdesktop_x64.TDesktop.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.konsole.desktop,applications:firefox.desktop,applications:vesktop.desktop,applications:steam.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -469,8 +469,8 @@ immutability=1
 plugin=org.kde.plasma.cameraindicator
 
 [Containments][73][Applets][94][Configuration]
-popupHeight=216
-popupWidth=216
+popupHeight=0
+popupWidth=0
 
 [Containments][73][Applets][99][Configuration][SensorColors]
 cpu/all/usage=163,8,13
