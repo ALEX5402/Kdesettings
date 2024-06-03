@@ -46,8 +46,8 @@ Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
 Word Wrap Marker=false
 
 [KTextEditor::Search]
-Replace History==',alias=,2023.3.1.18
-Search History=a716ca698e7a3417936ef9928a5ddcc3df05667f39237ad610d52477f49c5c32,is_lkm_mode,runtime,runtime-livedata,git,Splash,disable,thumbnail,iterm2,sixel,jetbra,font,clip,accompanist,com.google.accompanist,com.google.accompanist.navigation,com.google.accompanist.navigation.animation,rememberAnimatedNavController,alex, ',alias ,_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
+Replace History=alex5402,=',alias=,2023.3.1.18
+Search History=github.com,NicoRuizDev,a716ca698e7a3417936ef9928a5ddcc3df05667f39237ad610d52477f49c5c32,is_lkm_mode,runtime,runtime-livedata,git,Splash,disable,thumbnail,iterm2,sixel,jetbra,font,clip,accompanist,com.google.accompanist,com.google.accompanist.navigation,com.google.accompanist.navigation.animation,rememberAnimatedNavController,alex, ',alias ,_fzf_compgen_path,_fzf_compgen_dir,2023.2.1.25,QT_QPA_PLATFORM=xeb,video_player,player
 
 [Konsole]
 AutoSyncronize=true

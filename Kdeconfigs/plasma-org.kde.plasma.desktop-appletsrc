@@ -213,19 +213,19 @@ localPath=/home/alex/.local/share/plasma_icons/io.github.tdesktop_x64.TDesktop.d
 url=file:///usr/share/applications/io.github.tdesktop_x64.TDesktop.desktop
 
 [Containments][25][ConfigDialog]
-DialogHeight=645
-DialogWidth=849
+DialogHeight=685
+DialogWidth=792
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["6"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks"\\,"5"\\,"3"\\,"desktop:/link.txt"\\,"0"\\,"1"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"]}
+positions={"1920x1080":["6"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks"\\,"5"\\,"3"\\,"desktop:/link.txt"\\,"0"\\,"1"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_lofi_cafe.jpg
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_lofi_cafe.jpg
+Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/1313915.jpg
+PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/1313915.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -391,7 +391,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 popupHeight=450
 popupWidth=396
 
@@ -436,8 +436,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.konsole.desktop,kitty.desktop,steam.desktop,android-studio.desktop,vesktop.desktop,firefox.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:vesktop.desktop,applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:steam.desktop,applications:kitty.desktop
+groupingAppIdBlacklist=org.kde.konsole.desktop,io.github.tdesktop_x64.TDesktop.desktop,firefox.desktop,org.kde.dolphin.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,steam.desktop,android-studio.desktop,vesktop.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:vesktop.desktop,applications:android-studio.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:org.kde.konsole.desktop,applications:firefox.desktop,applications:steam.desktop
 launchers=applications:org.kde.haruna.desktop,preferred://browser
 
 [Containments][73][Applets][30]
@@ -469,8 +469,8 @@ immutability=1
 plugin=org.kde.plasma.cameraindicator
 
 [Containments][73][Applets][94][Configuration]
-popupHeight=0
-popupWidth=0
+popupHeight=216
+popupWidth=216
 
 [Containments][73][Applets][99][Configuration][SensorColors]
 cpu/all/usage=163,8,13
@@ -577,7 +577,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][76][Applets][91]
 immutability=1
@@ -634,4 +634,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/photo_2023-11-14_15-30-41.png,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
