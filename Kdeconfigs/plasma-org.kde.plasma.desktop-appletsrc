@@ -220,7 +220,7 @@ DialogWidth=792
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["6"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/tasks"\\,"5"\\,"3"\\,"desktop:/link.txt"\\,"0"\\,"1"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks.txt"\\,"0"\\,"3"\\,"desktop:/photo_2023-11-14_15-30-41.png"\\,"0"\\,"5"\\,"desktop:/tasks2.txt"\\,"0"\\,"4"\\,"desktop:/randominfo.cpp"\\,"0"\\,"2"\\,"desktop:/link.txt"\\,"0"\\,"1"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
@@ -548,6 +548,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][76][Applets][86][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -634,4 +635,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/photo_2023-11-14_15-30-41.png,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/photo_2023-11-14_15-30-41.png,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/randominfo.cpp,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tasks.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/link.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
