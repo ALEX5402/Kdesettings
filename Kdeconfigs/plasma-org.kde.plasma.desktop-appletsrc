@@ -220,12 +220,12 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks2.txt"\\,"0"\\,"3"\\,"desktop:/randominfo.cpp"\\,"0"\\,"1"\\,"desktop:/link.txt"\\,"0"\\,"0"\\,"desktop:/tasks.txt"\\,"0"\\,"2"]}
+positions={"1920x1080":["1"\\,"20"\\,"desktop:/tasks2.txt"\\,"0"\\,"3"\\,"desktop:/randominfo.cpp"\\,"0"\\,"1"\\,"desktop:/tasks.txt"\\,"0"\\,"2"\\,"desktop:/link.txt"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/Anime Original 3840 x 2160.jpg
+Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_lofi_cafe.jpg
+PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/cat_lofi_cafe.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -391,7 +391,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 popupHeight=450
 popupWidth=396
 
@@ -564,7 +564,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][76][Applets][89]
 immutability=1

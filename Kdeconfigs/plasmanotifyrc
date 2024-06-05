@@ -10,9 +10,6 @@ Seen=true
 [Applications][vesktop]
 Seen=true
 
-[DoNotDisturb]
-NotificationSoundsMuted=true
-
 [Notifications]
 LowPriorityHistory=true
 PopupPosition=TopRight

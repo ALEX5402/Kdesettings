@@ -5,26 +5,26 @@ LastUsedVersion=210800
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Desktop/hgcvxjukszbfzuihfvg.gif
-File10[$e]=$HOME/Desktop/photo_2023-11-14_15-30-41.png
-File2[$e]=$HOME/Desktop/output.gif
-File3[$e]=$HOME/Documents/Untitled-2024-05-14-2346.png
-File4[$e]=$HOME/Desktop/tasks/explore-1.png
-File5[$e]=$HOME/Desktop/tasks/filters.png
-File6[$e]=$HOME/Desktop/tasks/refine-2.png
-File7[$e]=$HOME/Desktop/tasks/refine.png
-File8[$e]=$HOME/Desktop/tasks/app-drawer.png
-File9[$e]=$HOME/Inspiration-Projects/karthiklal-master/assets/img/intro/img.png
-Name1[$e]=hgcvxjukszbfzuihfvg.gif
-Name10[$e]=photo_2023-11-14_15-30-41.png
-Name2[$e]=output.gif
-Name3[$e]=Untitled-2024-05-14-2346.png
-Name4[$e]=explore-1.png
-Name5[$e]=filters.png
-Name6[$e]=refine-2.png
-Name7[$e]=refine.png
-Name8[$e]=app-drawer.png
-Name9[$e]=img.png
+File1[$e]=$HOME/Desktop/tasks/explore-1.png
+File10[$e]=$HOME/Current Projects/termux-app/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg
+File2[$e]=$HOME/Desktop/tasks/filters.png
+File3[$e]=$HOME/Desktop/tasks/refine-2.png
+File4[$e]=$HOME/Desktop/tasks/refine.png
+File5[$e]=$HOME/Desktop/tasks/app-drawer.png
+File6[$e]=$HOME/Inspiration-Projects/karthiklal-master/assets/img/intro/img.png
+File7[$e]=$HOME/Desktop/photo_2023-11-14_15-30-41.png
+File8[$e]=$HOME/Pictures/Screenshots/Screenshot_20240605_022749.png
+File9[$e]=$HOME/Current Projects/termux-app/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg
+Name1[$e]=explore-1.png
+Name10[$e]=4.jpg
+Name2[$e]=filters.png
+Name3[$e]=refine-2.png
+Name4[$e]=refine.png
+Name5[$e]=app-drawer.png
+Name6[$e]=img.png
+Name7[$e]=photo_2023-11-14_15-30-41.png
+Name8[$e]=Screenshot_20240605_022749.png
+Name9[$e]=3.jpg
 
 [SideBar]
 InformationSplitterSizes=211,244
