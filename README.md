@@ -27,14 +27,13 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
 
  
-## Changelog Thu Jun  6 09:48:19 AM IST 2024
+## Changelog Thu Jun  6 11:02:47 AM IST 2024
 ```
- Kdeconfigs/QtProject.conf                          |  2 +-
- Kdeconfigs/katerc                                  |  6 +++---
- Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc |  4 ++--
- Kdeconfigs/plasmanotifyrc                          |  3 ---
- Kdeconfigs/systemmonitorrc                         |  1 -
- README.md                                          | 10 +---------
- 6 files changed, 7 insertions(+), 19 deletions(-)
+ Kdeconfigs/gtkrc                                   |  2 +-
+ Kdeconfigs/gtkrc-2.0                               |  2 +-
+ Kdeconfigs/kglobalshortcutsrc                      | 10 +++++-----
+ Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc | 10 +++++-----
+ README.md                                          | 11 +----------
+ 5 files changed, 13 insertions(+), 22 deletions(-)
 ```
  
