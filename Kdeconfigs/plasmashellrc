@@ -36,9 +36,6 @@ updateInterval=200
 [General]
 Number of Actions=0
 
-[PlasmaTransientsConfig]
-PreloadWeight=26
-
 [PlasmaViews][Panel 2]
 floating=1
 
