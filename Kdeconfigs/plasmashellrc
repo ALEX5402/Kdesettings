@@ -6,6 +6,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Applets][121][Configuration]
+PreloadWeight=42
 UserBackgroundHints=ShadowBackground
 configMigrated=true
 
@@ -33,9 +34,6 @@ source=wettercom|weather|Kolkata, State of West Bengal, IN|IN0WB0002;Kolkata
 
 [General]
 Number of Actions=0
-
-[PlasmaTransientsConfig]
-PreloadWeight=42
 
 [PlasmaViews][Panel 2]
 floating=1
