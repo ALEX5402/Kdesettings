@@ -1,33 +1,31 @@
 [ActionsWidget]
 ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAAkgAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
-[Applets][66]
+[Applets][121]
 immutability=1
 plugin=org.kde.plasma.weather
 
-[Applets][66][Configuration]
-PreloadWeight=0
+[Applets][121][Configuration]
 UserBackgroundHints=ShadowBackground
 configMigrated=true
 
-[Applets][66][Configuration][Appearance]
+[Applets][121][Configuration][Appearance]
 showPressureInTooltip=true
 showTemperatureInBadge=true
 showTemperatureInCompactMode=true
 
-[Applets][66][Configuration][ConfigDialog]
+[Applets][121][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Applets][66][Configuration][Units]
-pressureUnit=5022
-speedUnit=9001
+[Applets][121][Configuration][Units]
+pressureUnit=5028
+speedUnit=9002
 temperatureUnit=6001
-visibilityUnit=2007
+visibilityUnit=2024
 
-[Applets][66][Configuration][WeatherStation]
+[Applets][121][Configuration][WeatherStation]
 source=wettercom|weather|Kolkata, State of West Bengal, IN|IN0WB0002;Kolkata
-updateInterval=200
 
 [ConfigDialog]
 1920x1080 screen: Height=550
@@ -35,6 +33,9 @@ updateInterval=200
 
 [General]
 Number of Actions=0
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
 
 [PlasmaViews][Panel 2]
 floating=1
