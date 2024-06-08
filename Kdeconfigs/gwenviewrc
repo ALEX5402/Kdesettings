@@ -5,26 +5,26 @@ LastUsedVersion=210800
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Desktop/tasks/refine-2.png
-File10[$e]=$HOME/OBS/meme.gif
-File2[$e]=$HOME/Desktop/tasks/refine.png
-File3[$e]=$HOME/Desktop/tasks/app-drawer.png
-File4[$e]=$HOME/Inspiration-Projects/karthiklal-master/assets/img/intro/img.png
-File5[$e]=$HOME/Desktop/photo_2023-11-14_15-30-41.png
-File6[$e]=$HOME/Pictures/Screenshots/Screenshot_20240605_022749.png
-File7[$e]=$HOME/Current Projects/termux-app/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg
-File8[$e]=$HOME/Current Projects/termux-app/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg
-File9[$e]=$HOME/Pictures/r0h0HNG6WJs-HD.jpg
-Name1[$e]=refine-2.png
-Name10[$e]=meme.gif
-Name2[$e]=refine.png
-Name3[$e]=app-drawer.png
-Name4[$e]=img.png
-Name5[$e]=photo_2023-11-14_15-30-41.png
-Name6[$e]=Screenshot_20240605_022749.png
-Name7[$e]=3.jpg
-Name8[$e]=4.jpg
-Name9[$e]=r0h0HNG6WJs-HD.jpg
+File1[$e]=$HOME/Pictures/Screenshots/Screenshot_20240605_022749.png
+File10[$e]=$HOME/Current Projects/alex5402.com/static/default.png
+File2[$e]=$HOME/Current Projects/termux-app/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg
+File3[$e]=$HOME/Current Projects/termux-app/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg
+File4[$e]=$HOME/Pictures/r0h0HNG6WJs-HD.jpg
+File5[$e]=$HOME/OBS/meme.gif
+File6[$e]=$HOME/Current Projects/alex5402.com/static/default.webp
+File7[$e]=$HOME/Current Projects/alex5402.com/static/favicon.webp
+File8[$e]=$HOME/Current Projects/alex5402.com/static/art/lonely.webp
+File9[$e]=$HOME/Current Projects/alex5402.com/static/supporters/taku.webp
+Name1[$e]=Screenshot_20240605_022749.png
+Name10[$e]=default.png
+Name2[$e]=3.jpg
+Name3[$e]=4.jpg
+Name4[$e]=r0h0HNG6WJs-HD.jpg
+Name5[$e]=meme.gif
+Name6[$e]=default.webp
+Name7[$e]=favicon.webp
+Name8[$e]=lonely.webp
+Name9[$e]=taku.webp
 
 [SideBar]
 InformationSplitterSizes=211,244
