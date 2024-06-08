@@ -387,7 +387,7 @@ DialogWidth=720
 [Containments][73][Applets][29][Configuration][General]
 groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,kitty.desktop,android-studio.desktop,steam.desktop,org.kde.konsole.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,vesktop.desktop,firefox.desktop
 groupingLauncherUrlBlacklist=applications:vesktop.desktop,applications:kitty.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:android-studio.desktop,applications:org.kde.konsole.desktop,applications:firefox.desktop,applications:steam.desktop,applications:org.kde.dolphin.desktop
-launchers=applications:org.kde.haruna.desktop,preferred://browser
+launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
 immutability=1
@@ -583,4 +583,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
