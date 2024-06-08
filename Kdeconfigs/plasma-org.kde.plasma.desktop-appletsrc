@@ -361,11 +361,13 @@ immutability=1
 plugin=org.kde.netspeedWidget
 
 [Containments][73][Applets][112][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=572
+DialogWidth=756
 
 [Containments][73][Applets][112][Configuration][General]
+customColors=true
 fontSize=75
+kilobyteColor=128,40,128
 speedLayout=columns
 
 [Containments][73][Applets][117]
@@ -385,8 +387,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,kitty.desktop,android-studio.desktop,steam.desktop,org.kde.konsole.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,vesktop.desktop,firefox.desktop
-groupingLauncherUrlBlacklist=applications:vesktop.desktop,applications:kitty.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:android-studio.desktop,applications:org.kde.konsole.desktop,applications:firefox.desktop,applications:steam.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop,firefox.desktop,org.kde.dolphin.desktop,vesktop.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,android-studio.desktop,org.kde.konsole.desktop,steam.desktop
+groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop,applications:vesktop.desktop,applications:steam.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:android-studio.desktop,applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
