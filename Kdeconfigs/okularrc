@@ -10,6 +10,7 @@ ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/Kotlin_ebook.pdf
+File10[$e]=$HOME/Inspiration-Projects/resume/suman.pdf
 File2[$e]=$HOME/Ebooks/Android_Studio_3_0_Development_Essentials.pdf
 File3[$e]=/media/workspace2/Ebooks/Kotlin_ebook.pdf
 File4[$e]=/media/workspace2/Ebooks/Android_Studio_3_0_Development_Essentials.pdf
@@ -19,6 +20,7 @@ File7[$e]=$HOME/Downloads/Data Engineer (clone).pdf
 File8[$e]=$HOME/Roadmap/android.pdf
 File9[$e]=$HOME/Downloads/resume.pdf
 Name1[$e]=Kotlin_ebook.pdf
+Name10[$e]=suman.pdf
 Name2[$e]=Android_Studio_3_0_Development_Essentials.pdf
 Name3[$e]=Kotlin_ebook.pdf
 Name4[$e]=Android_Studio_3_0_Development_Essentials.pdf
