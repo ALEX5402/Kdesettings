@@ -174,6 +174,7 @@ alias discord 'discord --enable-features=UseOzonePlatform --ozone-platform=wayla
 alias youtube-music 'youtube-music --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias github 'github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias github-desktop 'github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias spotify 'LD_PRELOAD=/lib/spotify-adblock.so spotify --enable-features=UseOzonePlatform --ozone-platform=wayland'
 
 alias install 'paru -S'
 alias remove 'paru -R'
