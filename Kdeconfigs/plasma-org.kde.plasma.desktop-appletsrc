@@ -387,8 +387,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=vesktop.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop,firefox.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,org.kde.dolphin.desktop,steam.desktop,org.kde.konsole.desktop,android-studio.desktop
-groupingLauncherUrlBlacklist=applications:vesktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop,applications:steam.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:android-studio.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:firefox.desktop
+groupingAppIdBlacklist=android-studio.desktop,firefox.desktop,vesktop.desktop,kitty.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,steam.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,io.github.tdesktop_x64.TDesktop.desktop
+groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:vesktop.desktop,applications:steam.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:android-studio.desktop,applications:kitty.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
@@ -499,6 +499,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][76][Applets][86][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -585,4 +586,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
