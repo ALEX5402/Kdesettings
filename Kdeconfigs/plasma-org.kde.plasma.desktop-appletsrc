@@ -341,8 +341,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
 PreloadWeight=100
-popupHeight=0
-popupWidth=0
+popupHeight=450
+popupWidth=560
 
 [Containments][73][Applets][108][Configuration][Appearance]
 autoFontAndSize=false
