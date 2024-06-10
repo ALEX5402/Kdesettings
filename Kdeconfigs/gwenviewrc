@@ -5,26 +5,26 @@ LastUsedVersion=210800
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/OBS/meme.gif
-File10[$e]=$HOME/Pictures/stickger.webp
-File2[$e]=$HOME/Current Projects/alex5402.com/static/default.webp
-File3[$e]=$HOME/Current Projects/alex5402.com/static/favicon.webp
-File4[$e]=$HOME/Current Projects/alex5402.com/static/art/lonely.webp
-File5[$e]=$HOME/Current Projects/alex5402.com/static/supporters/taku.webp
-File6[$e]=$HOME/Current Projects/alex5402.com/static/art/ribbons.webp
-File7[$e]=$HOME/Current Projects/alex5402.com/static/art/811.webp
-File8[$e]=$HOME/Current Projects/alex5402.com/static/default.png
-File9[$e]=$HOME/Current Projects/alex5402.com/static/afn.webp
-Name1[$e]=meme.gif
-Name10[$e]=stickger.webp
-Name2[$e]=default.webp
-Name3[$e]=favicon.webp
-Name4[$e]=lonely.webp
-Name5[$e]=taku.webp
-Name6[$e]=ribbons.webp
-Name7[$e]=811.webp
-Name8[$e]=default.png
-Name9[$e]=afn.webp
+File1[$e]=$HOME/Current Projects/alex5402.com/static/default.webp
+File10[$e]=$HOME/Current Projects/alex5402/static/supporters/ema.jpg
+File2[$e]=$HOME/Current Projects/alex5402.com/static/favicon.webp
+File3[$e]=$HOME/Current Projects/alex5402.com/static/art/lonely.webp
+File4[$e]=$HOME/Current Projects/alex5402.com/static/supporters/taku.webp
+File5[$e]=$HOME/Current Projects/alex5402.com/static/art/ribbons.webp
+File6[$e]=$HOME/Current Projects/alex5402.com/static/art/811.webp
+File7[$e]=$HOME/Current Projects/alex5402.com/static/default.png
+File8[$e]=$HOME/Current Projects/alex5402.com/static/afn.webp
+File9[$e]=$HOME/Pictures/stickger.webp
+Name1[$e]=default.webp
+Name10[$e]=ema.jpg
+Name2[$e]=favicon.webp
+Name3[$e]=lonely.webp
+Name4[$e]=taku.webp
+Name5[$e]=ribbons.webp
+Name6[$e]=811.webp
+Name7[$e]=default.png
+Name8[$e]=afn.webp
+Name9[$e]=stickger.webp
 
 [SideBar]
 InformationSplitterSizes=211,244
