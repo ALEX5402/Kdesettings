@@ -118,7 +118,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=Matrix,GNativeAndroidApp_Offset
+Search History=proxies,proxyFile,Matrix,GNativeAndroidApp_Offset
 
 [MainWindow]
 StatusBar=Disabled
