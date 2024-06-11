@@ -341,8 +341,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
 PreloadWeight=100
-popupHeight=0
-popupWidth=0
+popupHeight=450
+popupWidth=560
 
 [Containments][73][Applets][108][Configuration][Appearance]
 autoFontAndSize=false
@@ -387,8 +387,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=kitty.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,firefox.desktop,org.kde.dolphin.desktop,android-studio.desktop,steam.desktop,vesktop.desktop,org.kde.konsole.desktop,io.github.tdesktop_x64.TDesktop.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:android-studio.desktop,applications:vesktop.desktop,applications:firefox.desktop,applications:kitty.desktop,applications:steam.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,steam.desktop,firefox.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,vesktop.desktop,android-studio.desktop
+groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:kitty.desktop,applications:vesktop.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.dolphin.desktop,applications:steam.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:android-studio.desktop,applications:org.kde.konsole.desktop
 launchers=preferred://browser,applications:org.kde.haruna.desktop
 
 [Containments][73][Applets][30]
