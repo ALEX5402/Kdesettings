@@ -11,6 +11,16 @@ sshkey=~/vps/alex
 useSshConfig=true
 username=root
 
+[SSH Config][api2]
+hostname=serverhost
+identifier=api2
+importedFromSshConfig=true
+port=22
+profileName=Profile 1
+sshkey=~/vps/hostinger
+useSshConfig=true
+username=root
+
 [SSH Config][github]
 hostname=github.com
 identifier=github
@@ -30,3 +40,13 @@ profileName=
 sshkey=~/.ssh/Gitlab
 useSshConfig=true
 username=git
+
+[SSH Config][gitpod]
+hostname=test5500724-testt-ue8xs0al9ad.ssh.ws-us114.gitpod.io
+identifier=gitpod
+importedFromSshConfig=true
+port=22
+profileName=Profile 1
+sshkey=~/vps/gitpod
+useSshConfig=true
+username=test5500724-testt-ue8xs0al9ad

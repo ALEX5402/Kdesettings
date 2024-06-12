@@ -162,8 +162,8 @@ lowPrioritySensorIds=[]
 totalSensors=["cpu/all/averageTemperature"]
 
 [Containments][25][ConfigDialog]
-DialogHeight=757
-DialogWidth=957
+DialogHeight=837
+DialogWidth=1011
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
@@ -173,8 +173,8 @@ positions={"1920x1080":["1"\\,"20"\\,"desktop:/info.txt"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/424363.jpg
-PreviewImage=/home/alex/Kdesettings/wallpapers/Catppuccin-Mocha/424363.jpg
+Image=/home/alex/Kdesettings/wallpapers/Decay-Green/moments_before_desk.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/Decay-Green/moments_before_desk.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -341,8 +341,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
 PreloadWeight=100
-popupHeight=450
-popupWidth=560
+popupHeight=0
+popupWidth=0
 
 [Containments][73][Applets][108][Configuration][Appearance]
 autoFontAndSize=false
@@ -420,8 +420,8 @@ immutability=1
 plugin=org.kde.plasma.cameraindicator
 
 [Containments][73][Applets][94][Configuration]
-popupHeight=216
-popupWidth=216
+popupHeight=0
+popupWidth=0
 
 [Containments][73][Applets][99][Configuration][SensorColors]
 cpu/all/usage=163,8,13
@@ -482,7 +482,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][76][Applets][84][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][76][Applets][85]
 immutability=1
