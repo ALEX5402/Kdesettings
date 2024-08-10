@@ -20,6 +20,7 @@ ueberzug apk-editor-studio-bin apkstudio-git appimagelauncher fisher tmux waydro
 
 ```
 ## have a look
+[Demo Video](https://0x0.st/XWZE.mp4)
 ![sssss](https://github.com/ALEX5402/Kdesettings/assets/76860596/b80d5c47-3875-4c11-a451-b70e212b507a)
 image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/assets/76860596/dc3b01ac-b289-4165-a134-acf529370561)
 ![Screenshot_20240430_080652](https://github.com/ALEX5402/Kdesettings/assets/76860596/7f518edf-ff0b-41fd-853c-b78ea457078f)
