@@ -13,6 +13,7 @@
 - kvantum                                                ( svg based qt theme engine )
 - qt5-wayland                                            ( wayland support in qt5 )
 - qt6-wayland                                            ( wayland support in qt6 )
+- BeautySolar (iconpack)
 
 ## Packages i use 
 ``` 
