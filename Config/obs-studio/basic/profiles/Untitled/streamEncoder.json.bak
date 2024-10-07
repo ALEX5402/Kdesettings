@@ -1,0 +1,1 @@
+{"rate-control":"qvbr","tune":"high-compression","compliance-mode":"strict","mbbrc":"auto","prediction-type":"default","device":"pci-0000:08:00.0-render","qos":false,"trellis":false,"bitrate":0,"keyframe-period":30,"quality-level":4}

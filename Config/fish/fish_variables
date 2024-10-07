@@ -3,6 +3,9 @@
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:3400
+SETUVAR _fisher_edc_2F_bass_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish
+SETUVAR _fisher_plugins:edc/bass
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:blue
@@ -31,3 +34,4 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR grc_plugin_execs:df\x1edig\x1eifconfig\x1emake\x1emount\x1emtr\x1enetstat\x1eping\x1eps\x1etail\x1etraceroute\x1ewdiff\x1eblkid\x1edu\x1ednf\x1eenv\x1eid\x1eip\x1eiostat\x1ejournalctl\x1ekubectl\x1elast\x1elsattr\x1elsblk\x1elspci\x1elsmod\x1elsof\x1egetfacl\x1egetsebool\x1eulimit\x1euptime\x1enmap\x1efdisk\x1efindmnt\x1efree\x1esemanage\x1esar\x1ess\x1esysctl\x1esystemctl\x1etcpdump\x1etune2fs\x1evmstat\x1ew\x1ewho\x1esockstat

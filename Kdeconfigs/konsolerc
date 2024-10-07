@@ -1,5 +1,5 @@
 [Desktop Entry]
-DefaultProfile=Profile 1.profile
+DefaultProfile=alex.profile
 
 [General]
 ConfigVersion=1
@@ -8,4 +8,4 @@ ConfigVersion=1
 ToolBarsMovable=Disabled
 
 [UiSettings]
-ColorScheme=
+ColorScheme=Breeze Dark

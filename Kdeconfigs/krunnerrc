@@ -1,9 +1,10 @@
 [General]
 FreeFloating=true
-historyBehavior=ImmediateCompletion
 
 [Plugins]
 baloosearchEnabled=false
+calculatorEnabled=false
+org.kde.activities2Enabled=false
 
 [Plugins][Favorites]
 plugins=krunner_services,baloosearch

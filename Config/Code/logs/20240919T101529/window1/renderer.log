@@ -1,0 +1,133 @@
+2024-09-19 10:15:29.691 [info] Started local extension host with pid 128046.
+2024-09-19 10:15:30.017 [info] Invoking resolveAuthority(ssh-remote)...
+2024-09-19 10:15:30.017 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2024-09-19 10:15:30.018 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] invoking...
+2024-09-19 10:15:31.018 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1001ms] waiting...
+2024-09-19 10:15:32.021 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][2003ms] waiting...
+2024-09-19 10:15:33.018 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][3001ms] waiting...
+2024-09-19 10:15:34.018 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][4001ms] waiting...
+2024-09-19 10:15:34.176 [error] [LocalProcess0][resolveAuthority(ssh-remote,1)][4159ms] returned an error {"code":"NotAvailable","message":"","detail":true}
+2024-09-19 10:15:34.176 [error] resolveAuthority(ssh-remote) returned an error after 4159 ms An unknown error occurred. Please consult the log for more details.
+2024-09-19 10:15:34.176 [error] Error received from starting extension host (kind: Remote)
+2024-09-19 10:15:34.177 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.177 [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2024-09-19 10:15:34.177 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.177 [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2024-09-19 10:15:34.177 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.200 [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2024-09-19 10:15:34.200 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.226 [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2024-09-19 10:15:34.226 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.269 [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2024-09-19 10:15:34.269 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.275 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.276 [error] Cannot register remote filesystem provider. Error while fetching remote environment. CodeExpectedError
+2024-09-19 10:15:34.276 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.276 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.276 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.276 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.276 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.278 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.279 [warning] Ignoring the error while validating workspace folder vscode-remote://ssh-remote%2Bnewvps/root/bot - ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bnewvps/root/bot'
+2024-09-19 10:15:34.279 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bnewvps/root/bot'
+    at r.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:13815)
+    at async r.bb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:25816)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:25524
+2024-09-19 10:15:34.285 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bnewvps/root/bot/.vscode/extensions'
+    at r.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:13815)
+    at async r.bb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:25816)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:25524
+2024-09-19 10:15:34.294 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:34.294 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bnewvps/root/bot': CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bnewvps/root/bot'
+    at r.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:13815)
+    at async r.s (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:14646)
+    at async r.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:14436)
+    at async d.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1916:52398)
+2024-09-19 10:15:34.295 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bnewvps/root/bot/.vscode': CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bnewvps/root/bot/.vscode'
+    at r.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:13815)
+    at async r.exists (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:673:16100)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2137:6511
+    at async Promise.all (index 0)
+    at async A.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2137:6687)
+2024-09-19 10:15:34.419 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:35.668 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3264:3923)
+    at async _.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:24007)
+2024-09-19 10:15:49.309 [info] Started local extension host with pid 128471.
+2024-09-19 10:15:52.741 [info] Started local extension host with pid 128570.
+2024-09-19 10:15:53.029 [info] Invoking resolveAuthority(ssh-remote)...
+2024-09-19 10:15:53.029 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2024-09-19 10:15:53.029 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] invoking...
+2024-09-19 10:15:54.029 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1000ms] waiting...
+2024-09-19 10:15:55.030 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][2000ms] waiting...
+2024-09-19 10:15:56.029 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][3000ms] waiting...
+2024-09-19 10:15:57.030 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][4000ms] waiting...
+2024-09-19 10:15:57.447 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][4418ms] returned Managed(1)
+2024-09-19 10:15:57.447 [info] resolveAuthority(ssh-remote) returned 'Managed(1)' after 4419 ms
+2024-09-19 10:15:57.448 [info] Creating a socket (renderer-Management-4800ce92-59b7-4785-aa1f-ecf5b71363d1)...
+2024-09-19 10:15:57.448 [info] Creating a socket (renderer-ExtensionHost-a4a6a38a-fa75-49e1-a5d4-0b85d9d5f0be)...
+2024-09-19 10:16:00.277 [info] Creating a socket (renderer-ExtensionHost-a4a6a38a-fa75-49e1-a5d4-0b85d9d5f0be) was successful after 2829 ms.
+2024-09-19 10:16:00.280 [info] Creating a socket (renderer-Management-4800ce92-59b7-4785-aa1f-ecf5b71363d1) was successful after 2831 ms.
+2024-09-19 10:16:03.048 [info] [perf] Render performance baseline is 19ms

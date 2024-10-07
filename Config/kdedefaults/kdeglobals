@@ -1,8 +1,8 @@
 [General]
-ColorScheme=Sweet
+ColorScheme=CatppuccinMochaRed
 
 [Icons]
-Theme=BeautySolar
+Theme=breeze-dark
 
 [KDE]
-widgetStyle=kvantum-dark
+widgetStyle=Breeze

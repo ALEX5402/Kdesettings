@@ -1,0 +1,7 @@
+
+   "custom/cava": {
+       "exec": "WaybarCava.sh",
+       "format": "{}",
+       "tooltip": true,
+       "tooltip-format": "{}"
+    },

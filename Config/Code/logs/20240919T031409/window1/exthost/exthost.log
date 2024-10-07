@@ -1,0 +1,38 @@
+2024-09-19 03:14:10.705 [info] Extension host with pid 596466 started
+2024-09-19 03:14:10.705 [info] Skipping acquiring lock for /home/alex/.config/Code/User/workspaceStorage/8b39dfa96cf2de6e3d71cb7f18284049.
+2024-09-19 03:14:10.706 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2024-09-19 03:14:10.719 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2024-09-19 03:14:10.740 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+oracle
+2024-09-19 03:14:10.740 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+oracle...
+2024-09-19 03:14:10.740 [info] [resolveAuthority(ssh-remote,1)][0ms] invoking final resolve()...
+2024-09-19 03:14:11.741 [info] [resolveAuthority(ssh-remote,1)][1001ms] waiting...
+2024-09-19 03:14:12.284 [info] [resolveAuthority(ssh-remote,1)][1544ms] setting tunnel factory...
+2024-09-19 03:14:12.285 [info] [resolveAuthority(ssh-remote,1)][1545ms] returned managed authority
+2024-09-19 03:14:13.090 [info] Eager extensions activated
+2024-09-19 03:14:13.199 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-internal.setActiveFolders'
+2024-09-19 03:14:14.084 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-19 03:39:04.411 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-19 03:39:04.415 [error] Canceled: Canceled
+	at new D (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at t.shutdown (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at m.eb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:10082)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-09-19 03:39:04.415 [info] Extension host with pid 596466 exiting with code 0

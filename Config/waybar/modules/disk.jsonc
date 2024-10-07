@@ -1,0 +1,13 @@
+
+   "disk": {
+    "interval": 1,
+    "format": "󰋊 {percentage_used}%",
+    "path": "/",
+    "format-alt-click": "click-right",
+    "format-alt": "󰋊 {percentage_used}%",
+    "tooltip": true,
+    "tooltip-format": "Disk - {used} used out of {total} on {path} ({percentage_used}%)",
+    "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+  },
+
+

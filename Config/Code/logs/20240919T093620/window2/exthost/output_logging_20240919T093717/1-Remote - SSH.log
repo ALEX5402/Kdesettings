@@ -1,0 +1,289 @@
+[09:37:17.703] Log Level: 2
+[09:37:17.705] SSH Resolver called for "ssh-remote+newvps", attempt 1
+[09:37:17.705] "remote.SSH.useLocalServer": true
+[09:37:17.705] "remote.SSH.useExecServer": true
+[09:37:17.705] "remote.SSH.path": undefined
+[09:37:17.705] "remote.SSH.configFile": undefined
+[09:37:17.705] "remote.SSH.useFlock": true
+[09:37:17.705] "remote.SSH.lockfilesInTmp": false
+[09:37:17.705] "remote.SSH.localServerDownload": auto
+[09:37:17.706] "remote.SSH.remoteServerListenOnSocket": false
+[09:37:17.706] "remote.SSH.showLoginTerminal": false
+[09:37:17.706] "remote.SSH.defaultExtensions": []
+[09:37:17.706] "remote.SSH.loglevel": 2
+[09:37:17.706] "remote.SSH.enableDynamicForwarding": true
+[09:37:17.706] "remote.SSH.enableRemoteCommand": false
+[09:37:17.706] "remote.SSH.serverPickPortsFromRange": {}
+[09:37:17.706] "remote.SSH.serverInstallPath": {}
+[09:37:17.706] "remote.SSH.permitPtyAllocation": false
+[09:37:17.706] "remote.SSH.preferredLocalPortRange: undefined
+[09:37:17.706] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[09:37:17.713] VS Code version: 1.93.1
+[09:37:17.713] Remote-SSH version: remote-ssh@0.114.3
+[09:37:17.713] linux x64
+[09:37:17.714] SSH Resolver called for host: newvps
+[09:37:17.714] Setting up SSH remote "newvps"
+[09:37:17.717] Acquiring local install lock: /tmp/vscode-remote-ssh-6929eaf4-install.lock
+[09:37:17.720] Looking for existing server data file at /home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json
+[09:37:17.720] No existing data file
+[09:37:17.721] Using commit id "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40" and quality "stable" for server
+[09:37:17.721] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "a5e08196f5e2",
+  "startMarker": "a5e08196f5e2: running",
+  "commitId": "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40",
+  "quality": "stable",
+  "token": "1a11aaa1-1aa1-11a1-aa1a-aa111111aaa1",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "a5e08196f5e2:trigger_server_download",
+  "getDownloadServerEndTrigger": "a5e08196f5e2:trigger_server_download_end",
+  "getProgressDownloading": "a5e08196f5e2%%1%%",
+  "getProgressInstalling": "a5e08196f5e2%%2%%"
+}
+[09:37:17.723] Install and start server if needed
+[09:37:17.725] PATH: /home/alex/.local/bin:/usr/condabin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-ndk:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/alex/.local/share/bin
+[09:37:17.725] Checking ssh with "ssh -V"
+[09:37:17.732] > OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+
+[09:37:17.735] askpass server listening on /run/user/1000/vscode-ssh-askpass-b8169eb2fc62f731b2bb46ecb35d805abcaef21f.sock
+[09:37:17.735] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-a4f93b4f472043be5122bf154af7f87589b077fa.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","40113","-o","ConnectTimeout=15","newvps"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json"}
+[09:37:17.735] Local server env: {"SHELL":"/usr/bin/fish","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-b8169eb2fc62f731b2bb46ecb35d805abcaef21f.sock"}
+[09:37:17.738] Spawned 81783
+[09:37:17.830] > local-server-1> Running ssh connection command: ssh -v -T -D 40113 -o ConnectTimeout=15 newvps
+[09:37:17.834] > local-server-1> Spawned ssh, pid=81791
+[09:37:17.836] stderr> OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+[09:37:18.615] stderr> debug1: Server host key: ssh-ed25519 SHA256:hA4r5UJvjj3xa25a4ofmUno++wxBv2mQW197Afs4Jdw
+[09:37:19.582] stderr> Authenticated to 109.199.121.208 ([109.199.121.208]:22) using "publickey".
+[09:37:20.149] > Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-105-generic x86_64)
+> 
+>  * Documentation:  https://help.ubuntu.com
+>  * Management:     https://landscape.canonical.com
+>  * Support:        https://ubuntu.com/pro
+> New release '22.04.5 LTS' available.
+> Run 'do-release-upgrade' to upgrade to it.
+> 
+>   _____
+>  / ___/___  _  _ _____ _   ___  ___
+> | |   / _ \| \| |_   _/ \ | _ )/ _ \
+> | |__| (_) | .` | | |/ _ \| _ \ (_) |
+>  \____\___/|_|\_| |_/_/ \_|___/\___/
+> 
+> Welcome!
+> 
+> This server is hosted by Contabo. If you have any questions or need help,
+> please don't hesitate to contact us at support@contabo.com.
+[09:37:20.332] > ready: a5e08196f5e2
+[09:37:20.521] > Linux 5.4.0-105-generic #119-Ubuntu SMP Mon Mar 7 18:49:24 UTC 2022
+[09:37:20.521] Platform: linux
+[09:37:20.708] > /bin/bash
+[09:37:20.708] Parent Shell: bash
+[09:37:20.708] Parent Shell pid: 81783
+[09:37:20.899] > 950606
+[09:37:20.900] Waiting for pid of spawned 'sh' subshell: '950606'...
+[09:37:20.945] > 950606
+[09:37:20.998] > 950606
+[09:37:21.049] > 950606
+[09:37:21.122] > a5e08196f5e2: running
+> Script executing under PID: 950606
+[09:37:21.158] > Installing to /root/.vscode-server...
+[09:37:21.163] > a5e08196f5e2%%1%%
+> Downloading with wget
+> wget is from busybox: no
+[09:37:21.178] stderr> Program 'wget' appears to support flag '--no-config'
+[09:37:21.555] > Download complete
+[09:37:21.561] > a5e08196f5e2%%2%%
+[09:37:21.571] > tar --version: tar (GNU tar) 1.30
+> Copyright (C) 2017 Free Software Foundation, Inc.
+> License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+> This is free software: you are free to change and redistribute it.
+> There is NO WARRANTY, to the extent permitted by law.
+> 
+> Written by John Gilmore and Jay Fenlason.
+[09:37:21.871] > code 1.93.1 (commit 38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40)
+[09:37:21.913] > Starting VS Code CLI...
+[09:37:21.914] > printenv:
+[09:37:21.916] >     LANGUAGE=en_US:
+>     USER=root
+>     SSH_CLIENT=146.196.47.135 37390 22
+>     XDG_SESSION_TYPE=tty
+>     SHLVL=1
+>     MOTD_SHOWN=pam
+>     HOME=/root
+>     OLDPWD=/root/.vscode-server
+>     LOGNAME=root
+>     _=/usr/bin/sh
+>     XDG_SESSION_CLASS=user
+>     XDG_SESSION_ID=5340
+>     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+>     XDG_RUNTIME_DIR=/run/user/0
+>     LANG=en_US.UTF-8
+>     SHELL=/bin/bash
+>     PWD=/root
+>     SSH_CONNECTION=146.196.47.135 37390 109.199.121.208 22
+[09:37:21.920] > Spawned remote CLI: 950660
+[09:37:21.924] > Waiting for server log...
+[09:37:21.972] > Waiting for server log...
+[09:37:22.017] > a5e08196f5e2: start
+> listeningOn==127.0.0.1:41305==
+[09:37:22.018] > osReleaseId==ubuntu==
+> arch==x86_64==
+> vscodeArch==x64==
+> bitness==64==
+> tmpDir==/run/user/0==
+[09:37:22.060] > platform==linux==
+> unpackResult==success==
+> didLocalDownload==0==
+> downloadTime==398==
+> installTime==277==
+> serverStartTime==98==
+> execServerToken==1a11aaa1-1aa1-11a1-aa1a-aa111111aaa1==
+> platformDownloadPath==cli-alpine-x64==
+> a5e08196f5e2: end
+[09:37:22.061] Received install output: 
+listeningOn==127.0.0.1:41305==osReleaseId==ubuntu==
+arch==x86_64==
+vscodeArch==x64==
+bitness==64==
+tmpDir==/run/user/0==platform==linux==
+unpackResult==success==
+didLocalDownload==0==
+downloadTime==398==
+installTime==277==
+serverStartTime==98==
+execServerToken==1a11aaa1-1aa1-11a1-aa1a-aa111111aaa1==
+platformDownloadPath==cli-alpine-x64==
+
+[09:37:22.061] Remote server is listening on port 41305
+[09:37:22.061] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":41305},"osReleaseId":"ubuntu","arch":"x86_64","tmpDir":"/run/user/0","platform":"linux","execServerToken":"1a11aaa1-1aa1-11a1-aa1a-aa111111aaa1"},"downloadTime":398,"installTime":277,"serverStartTime":98,"installUnpackCode":"success"}
+[09:37:22.062] Persisting server connection details to /home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json
+[09:37:22.063] Starting forwarding server. local port 44551 -> socksPort 40113 -> remotePort 41305
+[09:37:22.063] Forwarding server listening on port 44551
+[09:37:22.063] Waiting for ssh tunnel to be ready
+[09:37:22.064] [Forwarding server port 44551] Got connection 0
+[09:37:22.064] Tunneled port 41305 to local port 44551
+[09:37:22.064] Resolved "ssh-remote+newvps" to "port 44551"
+[09:37:22.069] Initizing new exec server for ssh-remote+newvps
+[09:37:22.070] Resolving exec server at port 44551
+[09:37:22.086] [Forwarding server port 44551] Got connection 1
+[09:37:22.651] Exec server for ssh-remote+newvps created and cached
+[09:37:22.654] ------
+
+
+
+
+[09:37:22.854] [server] Checking /root/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/log.txt and /root/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/pid.txt for a running server...
+[09:37:23.003] [server] Installing and setting up Visual Studio Code Server...
+[09:37:23.209] [server] Downloading Visual Studio Code server -> /tmp/.tmpXYijRd/vscode-server-linux-x64.tar.gz
+[09:37:23.211] [server] server download progress: 0/60061264 (0%)
+[09:37:23.614] [server] server download progress: 2105329/60061264 (4%)
+[09:37:23.642] [server] server download progress: 4210672/60061264 (7%)
+[09:37:23.751] [server] server download progress: 6307840/60061264 (11%)
+[09:37:23.817] [server] server download progress: 8413184/60061264 (14%)
+[09:37:24.114] [server] server download progress: 10518527/60061264 (18%)
+[09:37:24.220] [server] server download progress: 12623871/60061264 (21%)
+[09:37:24.324] [server] server download progress: 14729214/60061264 (25%)
+[09:37:24.641] [server] server download progress: 16834558/60061264 (28%)
+[09:37:24.800] [server] server download progress: 18939901/60061264 (32%)
+[09:37:24.951] [server] server download progress: 21045245/60061264 (35%)
+[09:37:24.982] [server] server download progress: 23150588/60061264 (39%)
+[09:37:25.207] [server] server download progress: 25255932/60061264 (42%)
+[09:37:25.241] [server] server download progress: 27361275/60061264 (46%)
+[09:37:25.249] [server] server download progress: 29466619/60061264 (49%)
+[09:37:25.337] [server] server download progress: 31571962/60061264 (53%)
+[09:37:25.532] [server] server download progress: 33677306/60061264 (56%)
+[09:37:25.591] [server] server download progress: 35782649/60061264 (60%)
+[09:37:25.649] [server] server download progress: 37887993/60061264 (63%)
+[09:37:25.734] [server] server download progress: 39993336/60061264 (67%)
+[09:37:25.903] [server] server download progress: 42098680/60061264 (70%)
+[09:37:26.031] [server] server download progress: 44204023/60061264 (74%)
+[09:37:26.061] [server] server download progress: 46309367/60061264 (77%)
+[09:37:26.149] [server] server download progress: 48414710/60061264 (81%)
+[09:37:26.233] [server] server download progress: 50520054/60061264 (84%)
+[09:37:26.349] [server] server download progress: 52625397/60061264 (88%)
+[09:37:26.383] [server] server download progress: 54730741/60061264 (91%)
+[09:37:26.594] [server] server download progress: 56836084/60061264 (95%)
+[09:37:26.680] [server] server download progress: 58941428/60061264 (98%)
+[09:37:26.694] [server] server download progress: 60061264/60061264 (100%)
+[09:37:27.649] [server] server inflate progress: 89/1765 (5%)
+[09:37:27.666] [server] server inflate progress: 179/1765 (10%)
+[09:37:27.695] [server] server inflate progress: 269/1765 (15%)
+[09:37:27.733] [server] server inflate progress: 359/1765 (20%)
+[09:37:27.809] [server] server inflate progress: 449/1765 (25%)
+[09:37:27.847] [server] server inflate progress: 539/1765 (31%)
+[09:37:27.894] [server] server inflate progress: 629/1765 (36%)
+[09:37:28.713] [server] server inflate progress: 719/1765 (41%)
+[09:37:28.803] [server] server inflate progress: 809/1765 (46%)
+[09:37:29.060] [server] server inflate progress: 899/1765 (51%)
+[09:37:29.061] [server] server inflate progress: 989/1765 (56%)
+[09:37:29.072] [server] server inflate progress: 1079/1765 (61%)
+[09:37:29.117] [server] server inflate progress: 1169/1765 (66%)
+[09:37:29.133] [server] server inflate progress: 1259/1765 (71%)
+[09:37:29.150] [server] server inflate progress: 1349/1765 (76%)
+[09:37:29.156] [server] server inflate progress: 1439/1765 (82%)
+[09:37:29.191] [server] server inflate progress: 1529/1765 (87%)
+[09:37:29.211] [server] server inflate progress: 1619/1765 (92%)
+[09:37:29.328] [server] server inflate progress: 1709/1765 (97%)
+[09:37:29.328] [server] server inflate progress: 1765/1765 (100%)
+[09:37:29.776] [server] Server integrity verified, version: 1.93.1 / 38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40 / x64 / 
+[09:37:29.787] [server] Server setup complete
+[09:37:29.789] [server] Starting server...
+[09:37:29.789] [server] Starting server with command... Command { std: "/root/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/bin/code-server" "--connection-token=remotessh" "--accept-server-license-terms" "--start-server" "--enable-remote-auto-shutdown" "--socket-path=/tmp/code-29aa4d2f-11c7-4f35-84cf-e24d8061fc03", kill_on_drop: false }
+[09:37:29.886] [server] *
+[09:37:29.887] [server] * Visual Studio Code Server
+[09:37:29.887] [server] *
+[09:37:29.887] [server] * By using the software, you agree to
+[09:37:29.891] [server] * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[09:37:29.892] [server] Server bound to /tmp/code-29aa4d2f-11c7-4f35-84cf-e24d8061fc03
+[09:37:29.893] [server] Extension host agent listening on /tmp/code-29aa4d2f-11c7-4f35-84cf-e24d8061fc03
+[09:37:29.893] [server] parsed location: "/tmp/code-29aa4d2f-11c7-4f35-84cf-e24d8061fc03"
+[09:37:29.965] [server] 
+[09:37:30.098] [server] [06:07:30] 
+[09:37:30.098] [server] 
+[09:37:30.098] [server] 
+[09:37:30.099] [server] 
+[09:37:30.223] [server] [06:07:30] Extension host agent started.
+[09:37:30.517] [server] [06:07:30] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+[09:37:30.654] [server] [06:07:30] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+[09:37:30.803] [server] [06:07:30] [<unknown>][3f3e8b30][ExtensionHostConnection] New connection established.
+[09:37:30.805] [server] [06:07:30] [<unknown>][6f3d6bb6][ManagementConnection] New connection established.
+[09:37:30.898] [server] [06:07:30] [<unknown>][3f3e8b30][ExtensionHostConnection] <950742> Launched Extension Host Process.

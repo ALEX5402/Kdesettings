@@ -1,0 +1,21 @@
+[General]
+Days Meta Infos=30
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=false
+Show Status Bar=true
+Show Tab Bar=true
+Show Url Nav Bar=false
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Light
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Text Font=CaskaydiaCove Nerd Font Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Word Wrap Marker=false
+
+[MainWindow]
+1920x1080 screen: Window-Maximized=true

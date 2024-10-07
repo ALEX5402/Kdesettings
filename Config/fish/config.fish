@@ -5,8 +5,6 @@ set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -x SHELL /usr/bin/fish
 
-## set my github token
-source ~/.config/fish/githubtoken.fish
 
 ## Export variable need for qt-theme
 if type "qtile" >> /dev/null 2>&1
@@ -29,11 +27,15 @@ if test -f ~/.fish_profile
   source ~/.fish_profile
 end
 
+set -gx EDITOR (which nvim)
+set -gx VISUAL $EDITOR
+set -gx SUDO_EDITOR $EDITOR
+
 #for btop
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-set -gx PATH $HOME/Android/Sdk/ndk/22.1.7171670 $PATH
+# set -gx PATH $HOME/Android/Sdk/ndk/26.1.10909125 $PATH
 
 # Add ~/.local/bin to PATH
 if test -d ~/.local/bin
@@ -129,8 +131,8 @@ function alexclone
         return 1
     end
 
-    set repo_url "https://alex5402:$gtoken@github.com/alex5402/$argv[1]"
-    git clone $repo_url
+    set repo_url "alex5402/$argv[1]"
+    gh repo clone $repo_url
 end
 
 #to play youtube with ytfzf
@@ -141,7 +143,7 @@ alias yt-search 'ytfzf -cO'
 alias haru-play 'ytfzf -u haruna -t'
 
 #playgif
-alias play-gif 'chafa'
+alias gif-play 'chafa'
 
 # Replace ls with eza
 alias ls 'eza -a --tree --level=1 --color=always --group-directories-first --icons' # preferred listing
@@ -167,8 +169,8 @@ alias clear "printf '\033[2J\033[3J\033[1;1H'"
 
 
 # Common use
-alias code 'code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
-alias code-oss 'code --ozone-platform=wayland --disable-features=WaylandFractionalScaleV1'
+# alias code 'code --ozone-platform=wayland'
+# alias code-oss 'code --ozone-platform=wayland'
 alias vesktop 'vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias discord 'discord --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias youtube-music 'youtube-music --enable-features=UseOzonePlatform --ozone-platform=wayland'
@@ -181,11 +183,29 @@ alias remove 'paru -R'
 alias update 'sudo pacman -Syu'
 alias studio 'QT_QPA_PLATFORM=xcb android-studio'
 alias vim 'nvim'
+abbr vi nvim
+alias vimpager 'nvim - -c "lua require(\'util\').colorize()"'
+
+
+## distrobox containers 
+
+alias arch-linux1 'distrobox enter arch2'
 
 alias print-fingerprint-jar 'keytool -printcert -jarfile'
 alias wayshere 'sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/media/0/Documents'
 alias waystart 'waydroid show-full-ui'
 alias fish 'source ~/.config/fish/config.fish'
+
+# git stuff
+
+alias pull 'git pull'
+alias push 'git push'
+alias commit 'git commit'
+alias clone 'git clone'
+alias git-push-behave 'git config --global push.default'
+alias git-setefitor 'git config --global core.editor'
+alias git-colour 'git config --global color.ui'
+alias gadd 'git add'
 
 alias warpc 'warp-cli connect'
 alias flex 'fastfetch'
@@ -196,13 +216,15 @@ alias .... 'cd ../../..'
 alias ..... 'cd ../../../..'
 alias ...... 'cd ../../../../..'
 alias big 'expac -H M "%m\t%n" | sort -h | nl'     # Sort installed packages according to size in MB (expac must be installed)
-alias dir 'dir --color=auto'
+alias dir 'lsd --color=auto'
 alias fixpacman 'sudo rm /var/lib/pacman/db.lck'
 alias gitpkg 'pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
 alias grep 'ugrep --color=auto'
 alias egrep 'ugrep -E --color=auto'
 alias fgrep 'ugrep -F --color=auto'
 alias grub-update 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
+#alias grub-update 'sudo grub-mkconfig -o /etc/default/grub'
+
 alias hw 'hwinfo --short'                          # Hardware Info
 alias ip 'ip -color'
 alias psmem 'ps auxf | sort -nr -k 4'
@@ -214,12 +236,7 @@ alias vdir 'vdir --color=auto'
 alias wget 'wget -c '
 alias staccer 'QT_QPA_PLATFORM=xcb stacer'
 alias remove-force 'sudo pacman -Rnsdd'
-alias pull 'git pull'
-alias push 'git push'
-alias commit 'git commit'
-alias clone 'git clone'
-
-
+abbr se "sudo systemctl enable --now"
 # Get fastest mirrors
 alias mirror-update 'sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist'
 alias mirror-age 'sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist'
@@ -245,6 +262,7 @@ function __hyprkeys_debug
         echo "$argv" >> $file
     end
 end
+
 
 function __hyprkeys_perform_completion
     __hyprkeys_debug "Starting __hyprkeys_perform_completion"
@@ -492,6 +510,4 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
 export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
-
-
 

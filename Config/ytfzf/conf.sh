@@ -10,6 +10,7 @@
 
 # video_pref="bestvideo[height<=?1080]+bestaudio/best"
 video_pref="medium[height<=?144]+bestaudio/mediam"
+ytdl_pref="$video_pref+$audio_pref/best/$video_pref/$audio_pref"
 show_thumbnails=1
 # skip_thumb_download=1
 async_thumbnails=1
@@ -24,6 +25,49 @@ search_result_type=all
 
 # Scrapers=youtube-playlist
 
+
+#         The shortcut to download the selected videos.
+#         default: alt-d
+#     $video_shortcut
+#
+#         The shortcut to watch the selected videos.
+#         default: alt-v
+#     $audio_shortcut
+#
+#         The shortcut to listen to the selected videos.
+#         default: alt-m
+#     $detach_shortcut
+#
+#         The shortcut to use the detach player.
+#         default: alt-e
+#     $print_link_shortcut
+#
+#         The shortcut to use to print the link.
+#         default: alt-l
+#     $show_formats_shortcut
+#
+#         The shortcut to show formats before playing the video.
+#         default: alt-f
+#     $info_shortcut
+#
+#         The shortcut to get all info about the selected video.
+#         default: alt-i
+#     $search_again_shortcut
+#
+#         The shortcut to make another search.
+#         default: alt-s
+#     $shortcut_binds
+#
+#         The keys to listen for in fzf.
+#         default:"Enter,double-click,$download_shortcut, $video_shortcut,$detach_shortcut,$print_link_shortcut,$show_formats_shortcut, $info_shortcut,$search_again_shortcut,$custom_shortcut_binds"
+#     next_page_action_shortcut
+#
+#         The shortcut to scrape the next page.
+#         default: ctrl-p
+#     $custom_shortcut_binds
+#
+#         The custom shortcut keys. Automatically appended to $shortcut_binds
+#         If $shortcut_binds is set manually, this must also manually be appended.
 
 # SYNOPSIS
 #

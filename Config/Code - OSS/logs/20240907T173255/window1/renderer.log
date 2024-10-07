@@ -1,0 +1,3 @@
+2024-09-07 17:32:56.347 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/alex/Current-Projects/Telegram/Socket/Clint/.kdev4/Clint.kdev4","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-09-07 17:32:56.637 [info] Started local extension host with pid 7270.
+2024-09-07 17:32:59.307 [info] [perf] Render performance baseline is 23ms

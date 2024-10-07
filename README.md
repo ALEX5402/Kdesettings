@@ -1,10 +1,6 @@
 # Kdesettings
   My kde settings on kde 6 with all config files
  
-# Installetion
-- clone this repo
-- `cd Kdesettings`
-- `./install.sh`
 
 # Requred dependencies need to be installed
 - nwg-look                                                ( gtk configuration tool )
@@ -27,17 +23,3 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080652](https://github.com/ALEX5402/Kdesettings/assets/76860596/7f518edf-ff0b-41fd-853c-b78ea457078f)
 ![Screenshot_20240430_080509](https://github.com/ALEX5402/Kdesettings/assets/76860596/e7017410-fc18-4a68-b25f-7132873ecb0b)
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
-
- 
-## Changelog Wed Jun 12 02:36:08 PM IST 2024
-```
- Kdeconfigs/QtProject.conf                          |  4 ++--
- Kdeconfigs/konsolesshconfig                        | 20 ++++++++++++++++++++
- Kdeconfigs/plasma-org.kde.plasma.desktop-appletsrc | 18 +++++++++---------
- Kdeconfigs/plasma.emojierrc                        |  4 ++--
- Kdeconfigs/plasmanotifyrc                          |  4 ----
- Kdeconfigs/spectaclerc                             |  2 +-
- README.md                                          | 10 +---------
- 7 files changed, 35 insertions(+), 27 deletions(-)
-```
- 

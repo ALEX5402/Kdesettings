@@ -1,0 +1,10 @@
+[Client I] GitHub Codespaces version 1.17.3
+[Client I] isRunningInWeb: "false"
+[Client V] Initializing authentication
+[Authentication I] Did not find existing login session
+[Authentication I] Did not find existing login session
+[API I] Signing out due to unsuccessful sign in attempt
+[Authentication I] Did not find existing login session
+[API E] featureFlags: listCodespaces error. No response received.
+[Client:extension:0776 I] initializing
+[Client:extension:0776:resolver I] created with protocol "codespaces"

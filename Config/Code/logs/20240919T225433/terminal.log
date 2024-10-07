@@ -1,0 +1,12 @@
+2024-09-19 22:54:51.279 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 222.20ms
+ptyhostservice<->ptyhost: 2.14ms []
+2024-09-19 22:54:51.279 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 222.00ms
+ptyhostservice<->ptyhost: 0.91ms []
+2024-09-19 22:54:51.279 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 218.00ms
+ptyhostservice<->ptyhost: 0.71ms []
+2024-09-19 22:54:51.280 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 217.90ms
+ptyhostservice<->ptyhost: 0.89ms []

@@ -1,0 +1,153 @@
+[09:37:57.842] Log Level: 2
+[09:37:57.846] VS Code version: 1.93.1
+[09:37:57.846] Remote-SSH version: remote-ssh@0.114.3
+[09:37:57.846] linux x64
+[09:37:57.851] SSH Resolver called for "ssh-remote+newvps", attempt 1
+[09:37:57.851] "remote.SSH.useLocalServer": true
+[09:37:57.851] "remote.SSH.useExecServer": true
+[09:37:57.851] "remote.SSH.path": undefined
+[09:37:57.851] "remote.SSH.configFile": undefined
+[09:37:57.852] "remote.SSH.useFlock": true
+[09:37:57.852] "remote.SSH.lockfilesInTmp": false
+[09:37:57.852] "remote.SSH.localServerDownload": auto
+[09:37:57.852] "remote.SSH.remoteServerListenOnSocket": false
+[09:37:57.852] "remote.SSH.showLoginTerminal": false
+[09:37:57.852] "remote.SSH.defaultExtensions": []
+[09:37:57.852] "remote.SSH.loglevel": 2
+[09:37:57.852] "remote.SSH.enableDynamicForwarding": true
+[09:37:57.852] "remote.SSH.enableRemoteCommand": false
+[09:37:57.852] "remote.SSH.serverPickPortsFromRange": {}
+[09:37:57.852] "remote.SSH.serverInstallPath": {}
+[09:37:57.852] "remote.SSH.permitPtyAllocation": false
+[09:37:57.853] "remote.SSH.preferredLocalPortRange: undefined
+[09:37:57.853] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[09:37:57.859] SSH Resolver called for host: newvps
+[09:37:57.859] Setting up SSH remote "newvps"
+[09:37:57.862] Acquiring local install lock: /tmp/vscode-remote-ssh-6929eaf4-install.lock
+[09:37:57.865] Looking for existing server data file at /home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json
+[09:37:57.865] Found existing data file
+[09:37:57.865] Found local server running: {"remoteListeningOn":{"port":41305},"osReleaseId":"ubuntu","arch":"x86_64","tmpDir":"/run/user/0","platform":"linux","execServerToken":"2b74bee9-1ee9-44d4-bd1f-ef389546dab6","pid":81783,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-a4f93b4f472043be5122bf154af7f87589b077fa.sock","socksPort":40113,"startupTime":1726718837738}
+[09:37:57.874] Found running server - short-circuiting install
+[09:37:57.876] Starting forwarding server. local port 42941 -> socksPort 40113 -> remotePort 41305
+[09:37:57.876] Forwarding server listening on port 42941
+[09:37:57.876] Waiting for ssh tunnel to be ready
+[09:37:57.878] [Forwarding server port 42941] Got connection 0
+[09:37:57.879] Tunneled port 41305 to local port 42941
+[09:37:57.879] Resolved "ssh-remote+newvps" to "port 42941"
+[09:37:57.884] Initizing new exec server for ssh-remote+newvps
+[09:37:57.884] Resolving exec server at port 42941
+[09:37:57.906] [Forwarding server port 42941] Got connection 1
+[09:37:58.709] Exec server for ssh-remote+newvps created and cached
+[09:37:58.712] ------
+
+
+
+
+[09:37:58.909] [server] Checking /root/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/log.txt and /root/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/pid.txt for a running server...
+[09:37:58.953] [server] Found running server (pid=950718)
+[09:54:31.131] Exec server for ssh-remote+newvps closed (gracefully)
+[09:54:31.135] ------
+
+
+
+
+[09:54:31.135] SSH Resolver called for "ssh-remote+newvps", attempt 2, (Reconnection)
+[09:54:31.137] SSH Resolver called for host: newvps
+[09:54:31.137] Setting up SSH remote "newvps"
+[09:54:31.139] Acquiring local install lock: /tmp/vscode-remote-ssh-6929eaf4-install.lock
+[09:54:31.139] Looking for existing server data file at /home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json
+[09:54:31.139] No existing data file
+[09:54:31.140] Using commit id "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40" and quality "stable" for server
+[09:54:31.142] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "30970cfe6f9b",
+  "startMarker": "30970cfe6f9b: running",
+  "commitId": "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40",
+  "quality": "stable",
+  "token": "a1a1a11a-1aa1-11a1-1aa1-1aa1aa111a1a",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "30970cfe6f9b:trigger_server_download",
+  "getDownloadServerEndTrigger": "30970cfe6f9b:trigger_server_download_end",
+  "getProgressDownloading": "30970cfe6f9b%%1%%",
+  "getProgressInstalling": "30970cfe6f9b%%2%%"
+}
+[09:54:31.144] Install and start server if needed
+[09:54:31.146] PATH: /home/alex/.local/bin:/usr/condabin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-ndk:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/alex/.local/share/bin
+[09:54:31.146] Checking ssh with "ssh -V"
+[09:54:31.155] > OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+
+[09:54:31.157] askpass server listening on /run/user/1000/vscode-ssh-askpass-0fd4200e6c20f3878e4f0fa96722ff9fa20d4f39.sock
+[09:54:31.157] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-d89a5ea78bc374a5da6161234cd4ae8d6d59be42.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","36709","-o","ConnectTimeout=15","newvps"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json"}
+[09:54:31.157] Local server env: {"SHELL":"/usr/bin/fish","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-0fd4200e6c20f3878e4f0fa96722ff9fa20d4f39.sock"}
+[09:54:31.162] Spawned 103507
+[09:54:31.255] > local-server-1> Running ssh connection command: ssh -v -T -D 36709 -o ConnectTimeout=15 newvps
+[09:54:31.259] > local-server-1> Spawned ssh, pid=103515
+[09:54:31.262] stderr> OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+[09:54:31.580] stderr> ssh: connect to host 109.199.121.208 port 22: Connection refused
+[09:54:31.581] > local-server-1> ssh child died, shutting down
+[09:54:31.589] Local server exit: 0
+[09:54:31.589] Received install output: local-server-1> Running ssh connection command: ssh -v -T -D 36709 -o ConnectTimeout=15 newvps
+local-server-1> Spawned ssh, pid=103515
+OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+ssh: connect to host 109.199.121.208 port 22: Connection refused
+local-server-1> ssh child died, shutting down
+
+[09:54:31.590] Failed to parse remote port from server output
+[09:54:31.591] Resolver error: Error: 
+	at v.Create (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:501404)
+	at t.handleInstallOutput (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:498726)
+	at e (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:553052)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async /home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:575341
+	at async t.withShowDetailsEvent (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:579017)
+	at async /home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:549757
+	at async T (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:547808)
+	at async t.resolveWithLocalServer (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:549297)
+	at async k (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:572473)
+	at async t.resolve (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:576428)
+	at async /home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:844803
+[09:54:31.593] ------
+
+
+
+

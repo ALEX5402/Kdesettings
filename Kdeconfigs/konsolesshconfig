@@ -6,28 +6,38 @@ hostname=185.199.52.243
 identifier=api
 importedFromSshConfig=true
 port=22
-profileName=Profile 1
+profileName=Built-in
 sshkey=~/vps/alex
 useSshConfig=true
 username=root
 
 [SSH Config][api2]
-hostname=serverhost
+hostname=191.101.80.155
 identifier=api2
 importedFromSshConfig=true
 port=22
-profileName=Profile 1
-sshkey=~/vps/hostinger
+profileName=Built-in
+sshkey=~/.ssh/hostinger1
 useSshConfig=true
 username=root
+
+[SSH Config][gitgay]
+hostname=git.gay
+identifier=gitgay
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/gitgay
+useSshConfig=true
+username=git
 
 [SSH Config][github]
 hostname=github.com
 identifier=github
 importedFromSshConfig=true
 port=22
-profileName=
-sshkey=~/.ssh/github_id_rsa
+profileName=Built-in
+sshkey=~/.ssh/github
 useSshConfig=true
 username=git
 
@@ -37,16 +47,46 @@ identifier=gitlab
 importedFromSshConfig=true
 port=22
 profileName=
-sshkey=~/.ssh/Gitlab
+sshkey=~/.ssh/gitlab
 useSshConfig=true
 username=git
 
-[SSH Config][gitpod]
-hostname=test5500724-testt-ue8xs0al9ad.ssh.ws-us114.gitpod.io
-identifier=gitpod
+[SSH Config][newvps]
+hostname=109.199.121.208
+identifier=newvps
 importedFromSshConfig=true
 port=22
-profileName=Profile 1
-sshkey=~/vps/gitpod
+profileName=alex
+sshkey=~/.ssh/newvps
 useSshConfig=true
-username=test5500724-testt-ue8xs0al9ad
+username=root
+
+[SSH Config][oracle]
+hostname=140.238.241.42
+identifier=oracle
+importedFromSshConfig=true
+port=22
+profileName=alex
+sshkey=~/.ssh/oracle
+useSshConfig=true
+username=ubuntu
+
+[SSH Config][segfault]
+hostname=adm.segfault.net
+identifier=segfault
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/adm-segfault
+useSshConfig=true
+username=root
+
+[SSH Config][vps-telegrambot]
+hostname=82.112.230.52
+identifier=vps-telegrambot
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/telegrambot-vps
+useSshConfig=true
+username=root

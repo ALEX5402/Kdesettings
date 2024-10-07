@@ -1,0 +1,215 @@
+[10:15:30.004] Log Level: 2
+[10:15:30.007] VS Code version: 1.93.1
+[10:15:30.007] Remote-SSH version: remote-ssh@0.114.3
+[10:15:30.007] linux x64
+[10:15:30.019] SSH Resolver called for "ssh-remote+newvps", attempt 1
+[10:15:30.020] "remote.SSH.useLocalServer": true
+[10:15:30.020] "remote.SSH.useExecServer": true
+[10:15:30.020] "remote.SSH.path": undefined
+[10:15:30.020] "remote.SSH.configFile": undefined
+[10:15:30.020] "remote.SSH.useFlock": true
+[10:15:30.020] "remote.SSH.lockfilesInTmp": false
+[10:15:30.020] "remote.SSH.localServerDownload": auto
+[10:15:30.020] "remote.SSH.remoteServerListenOnSocket": false
+[10:15:30.020] "remote.SSH.showLoginTerminal": false
+[10:15:30.020] "remote.SSH.defaultExtensions": []
+[10:15:30.020] "remote.SSH.loglevel": 2
+[10:15:30.020] "remote.SSH.enableDynamicForwarding": true
+[10:15:30.021] "remote.SSH.enableRemoteCommand": false
+[10:15:30.021] "remote.SSH.serverPickPortsFromRange": {}
+[10:15:30.021] "remote.SSH.serverInstallPath": {}
+[10:15:30.021] "remote.SSH.permitPtyAllocation": false
+[10:15:30.021] "remote.SSH.preferredLocalPortRange: undefined
+[10:15:30.021] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[10:15:30.029] SSH Resolver called for host: newvps
+[10:15:30.029] Setting up SSH remote "newvps"
+[10:15:30.032] Acquiring local install lock: /tmp/vscode-remote-ssh-6929eaf4-install.lock
+[10:15:30.033] Looking for existing server data file at /home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json
+[10:15:30.033] No existing data file
+[10:15:30.033] Using commit id "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40" and quality "stable" for server
+[10:15:30.034] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "a7024a33c773",
+  "startMarker": "a7024a33c773: running",
+  "commitId": "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40",
+  "quality": "stable",
+  "token": "aa111111-aa11-111a-a111-aaaaa1111aa1",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "a7024a33c773:trigger_server_download",
+  "getDownloadServerEndTrigger": "a7024a33c773:trigger_server_download_end",
+  "getProgressDownloading": "a7024a33c773%%1%%",
+  "getProgressInstalling": "a7024a33c773%%2%%"
+}
+[10:15:30.035] Install and start server if needed
+[10:15:30.037] PATH: /home/alex/.local/bin:/usr/condabin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-ndk:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/alex/.local/share/bin
+[10:15:30.037] Checking ssh with "ssh -V"
+[10:15:30.044] > OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+
+[10:15:30.048] askpass server listening on /run/user/1000/vscode-ssh-askpass-f1f793952aeb58c02a69958a3b7dc04d15b01f95.sock
+[10:15:30.048] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-eb5969b14536a859c5057c6c1b424fff6980fc48.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","35949","-o","ConnectTimeout=15","newvps"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-6929eaf4-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json"}
+[10:15:30.048] Local server env: {"SHELL":"/usr/bin/fish","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-f1f793952aeb58c02a69958a3b7dc04d15b01f95.sock"}
+[10:15:30.055] Spawned 128102
+[10:15:30.159] > local-server-1> Running ssh connection command: ssh -v -T -D 35949 -o ConnectTimeout=15 newvps
+[10:15:30.164] > local-server-1> Spawned ssh, pid=128125
+[10:15:30.167] stderr> OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+[10:15:30.935] stderr> debug1: Server host key: ssh-ed25519 SHA256:hA4r5UJvjj3xa25a4ofmUno++wxBv2mQW197Afs4Jdw
+[10:15:31.878] stderr> Authenticated to 109.199.121.208 ([109.199.121.208]:22) using "publickey".
+[10:15:32.439] > Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-196-generic x86_64)
+> 
+>  * Documentation:  https://help.ubuntu.com
+>  * Management:     https://landscape.canonical.com
+>  * Support:        https://ubuntu.com/pro
+> New release '22.04.5 LTS' available.
+> Run 'do-release-upgrade' to upgrade to it.
+> 
+>   _____
+>  / ___/___  _  _ _____ _   ___  ___
+> | |   / _ \| \| |_   _/ \ | _ )/ _ \
+> | |__| (_) | .` | | |/ _ \| _ \ (_) |
+>  \____\___/|_|\_| |_/_/ \_|___/\___/
+> 
+> Welcome!
+> 
+> This server is hosted by Contabo. If you have any questions or need help,
+> please don't hesitate to contact us at support@contabo.com.
+[10:15:32.622] > ready: a7024a33c773
+[10:15:32.808] > Linux 5.4.0-196-generic #216-Ubuntu SMP Thu Aug 29 13:26:53 UTC 2024
+[10:15:32.808] Platform: linux
+[10:15:32.995] > /bin/bash
+[10:15:32.995] Parent Shell: bash
+[10:15:32.995] Parent Shell pid: 128102
+[10:15:33.182] > 6241
+[10:15:33.182] Waiting for pid of spawned 'sh' subshell: '6241'...
+[10:15:33.229] > 6241
+[10:15:33.279] > 6241
+[10:15:33.332] > 6241
+[10:15:33.404] > a7024a33c773: running
+> Script executing under PID: 6241
+[10:15:33.445] > Found existing installation at /root/.vscode-server...
+> Starting VS Code CLI...
+> printenv:
+[10:15:33.461] >     LANGUAGE=en_US:
+>     USER=root
+>     SSH_CLIENT=146.196.47.135 36220 22
+>     XDG_SESSION_TYPE=tty
+>     SHLVL=1
+>     MOTD_SHOWN=pam
+>     HOME=/root
+>     LOGNAME=root
+>     _=/usr/bin/sh
+>     XDG_SESSION_CLASS=user
+>     XDG_SESSION_ID=7
+>     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+>     XDG_RUNTIME_DIR=/run/user/0
+>     LANG=en_US.UTF-8
+>     SHELL=/bin/bash
+>     PWD=/root
+>     SSH_CONNECTION=146.196.47.135 36220 109.199.121.208 22
+[10:15:33.463] > Removing old logfile at /root/.vscode-server/.cli.38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40.log
+[10:15:33.470] > Spawned remote CLI: 6260
+[10:15:33.473] > Waiting for server log...
+[10:15:33.511] > Waiting for server log...
+[10:15:33.552] > Waiting for server log...
+[10:15:33.597] > Waiting for server log...
+[10:15:33.643] > Waiting for server log...
+[10:15:33.691] > Waiting for server log...
+[10:15:33.736] > Waiting for server log...
+[10:15:33.801] > Waiting for server log...
+[10:15:33.859] > Waiting for server log...
+[10:15:33.895] > Waiting for server log...
+[10:15:33.931] > Waiting for server log...
+[10:15:33.965] > Waiting for server log...
+[10:15:34.003] > Waiting for server log...
+[10:15:34.043] > Waiting for server log...
+[10:15:34.083] > Waiting for server log...
+[10:15:34.119] > a7024a33c773: start
+[10:15:34.121] > listeningOn====
+> osReleaseId==ubuntu==
+[10:15:34.122] > arch==x86_64==
+> vscodeArch==x64==
+> bitness==64==
+> tmpDir==/run/user/0==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> serverStartTime==656==
+> execServerToken==aa111111-aa11-111a-a111-aaaaa1111aa1==
+> platformDownloadPath==cli-alpine-x64==
+> a7024a33c773: end
+[10:15:34.122] Received install output: listeningOn====
+osReleaseId==ubuntu==arch==x86_64==
+vscodeArch==x64==
+bitness==64==
+tmpDir==/run/user/0==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+serverStartTime==656==
+execServerToken==aa111111-aa11-111a-a111-aaaaa1111aa1==
+platformDownloadPath==cli-alpine-x64==
+
+[10:15:34.123] Failed to parse remote port from server output
+[10:15:34.123] Terminating local server
+[10:15:34.124] Resolver error: Error: 
+	at v.Create (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:501404)
+	at t.handleInstallOutput (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:498726)
+	at e (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:553052)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async /home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:575341
+	at async t.withShowDetailsEvent (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:579017)
+	at async /home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:549757
+	at async T (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:547808)
+	at async t.resolveWithLocalServer (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:549297)
+	at async k (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:572473)
+	at async t.resolve (/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:576428)
+	at async /home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:844803
+[10:15:34.126] ------
+
+
+
+
+[10:15:34.130] Local server exit: 15

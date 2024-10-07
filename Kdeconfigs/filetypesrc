@@ -1,9 +1,15 @@
 [EmbedSettings]
+embed-application/json=false
 embed-application/vnd.ms-publisher=false
+embed-application/x-docbook+xml=false
 embed-application/x-matroska=false
 embed-application/x-shellscript=false
+embed-application/x-yaml=false
 embed-application/xml=false
 embed-text/html=false
+embed-text/markdown=false
+embed-text/plain=false
+embed-text/x-cmake=false
 embed-video/3gp=false
 embed-video/3gpp=false
 embed-video/3gpp2=false

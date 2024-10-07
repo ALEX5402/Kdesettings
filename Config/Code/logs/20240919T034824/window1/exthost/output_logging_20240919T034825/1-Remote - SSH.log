@@ -1,0 +1,231 @@
+[03:48:25.144] Log Level: 2
+[03:48:25.147] VS Code version: 1.93.1
+[03:48:25.147] Remote-SSH version: remote-ssh@0.114.3
+[03:48:25.147] linux x64
+[03:48:25.150] SSH Resolver called for "ssh-remote+oracle", attempt 1
+[03:48:25.150] "remote.SSH.useLocalServer": true
+[03:48:25.150] "remote.SSH.useExecServer": true
+[03:48:25.150] "remote.SSH.path": undefined
+[03:48:25.150] "remote.SSH.configFile": undefined
+[03:48:25.150] "remote.SSH.useFlock": true
+[03:48:25.150] "remote.SSH.lockfilesInTmp": false
+[03:48:25.150] "remote.SSH.localServerDownload": auto
+[03:48:25.150] "remote.SSH.remoteServerListenOnSocket": false
+[03:48:25.150] "remote.SSH.showLoginTerminal": false
+[03:48:25.151] "remote.SSH.defaultExtensions": []
+[03:48:25.151] "remote.SSH.loglevel": 2
+[03:48:25.151] "remote.SSH.enableDynamicForwarding": true
+[03:48:25.151] "remote.SSH.enableRemoteCommand": false
+[03:48:25.151] "remote.SSH.serverPickPortsFromRange": {}
+[03:48:25.151] "remote.SSH.serverInstallPath": {}
+[03:48:25.151] "remote.SSH.permitPtyAllocation": false
+[03:48:25.151] "remote.SSH.preferredLocalPortRange: undefined
+[03:48:25.151] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[03:48:25.156] SSH Resolver called for host: oracle
+[03:48:25.156] Setting up SSH remote "oracle"
+[03:48:25.158] Acquiring local install lock: /tmp/vscode-remote-ssh-f4e20ef7-install.lock
+[03:48:25.160] Looking for existing server data file at /home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-f4e20ef7-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json
+[03:48:25.160] No existing data file
+[03:48:25.160] Using commit id "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40" and quality "stable" for server
+[03:48:25.161] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "2e54679985c3",
+  "startMarker": "2e54679985c3: running",
+  "commitId": "38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40",
+  "quality": "stable",
+  "token": "111111a1-11aa-1aaa-1111-111a11a11a11",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "2e54679985c3:trigger_server_download",
+  "getDownloadServerEndTrigger": "2e54679985c3:trigger_server_download_end",
+  "getProgressDownloading": "2e54679985c3%%1%%",
+  "getProgressInstalling": "2e54679985c3%%2%%"
+}
+[03:48:25.162] Install and start server if needed
+[03:48:25.164] PATH: /home/alex/.local/bin:/usr/condabin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-ndk:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/alex/.local/share/bin
+[03:48:25.164] Checking ssh with "ssh -V"
+[03:48:25.170] > OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+
+[03:48:25.173] askpass server listening on /run/user/1000/vscode-ssh-askpass-b05c44475e53ae8a7ce7ed6fab3304f3e98ad66f.sock
+[03:48:25.173] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-3347559e0503ddffe3af27b75ecb30e4d99ef0a8.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","36153","-o","ConnectTimeout=15","oracle"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-f4e20ef7-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json"}
+[03:48:25.173] Local server env: {"SHELL":"/usr/bin/fish","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/alex/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-b05c44475e53ae8a7ce7ed6fab3304f3e98ad66f.sock"}
+[03:48:25.176] Spawned 8896
+[03:48:25.266] > local-server-1> Running ssh connection command: ssh -v -T -D 36153 -o ConnectTimeout=15 oracle
+[03:48:25.269] > local-server-1> Spawned ssh, pid=8904
+[03:48:25.272] stderr> OpenSSH_9.8p1, OpenSSL 3.3.2 3 Sep 2024
+[03:48:25.451] stderr> debug1: Server host key: ssh-ed25519 SHA256:Wp4vqeN44Nhcwud1buLafn3ChdilgZpLihXlN1E+qIE
+[03:48:25.714] stderr> Authenticated to 140.238.241.42 ([140.238.241.42]:22) using "publickey".
+[03:48:26.169] > Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-1059-oracle aarch64)
+> 
+>  * Documentation:  https://help.ubuntu.com
+>  * Management:     https://landscape.canonical.com
+>  * Support:        https://ubuntu.com/pro
+> 
+>  System information as of Wed Sep 18 22:18:25 UTC 2024
+> 
+>   System load:  0.0               Processes:               177
+>   Usage of /:   7.3% of 44.96GB   Users logged in:         1
+>   Memory usage: 2%                IPv4 address for enp0s6: 10.0.0.93
+>   Swap usage:   0%
+> 
+> 
+> Expanded Security Maintenance for Applications is not enabled.
+> 
+> 0 updates can be applied immediately.
+> 
+> 7 additional security updates can be applied with ESM Apps.
+> Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+> 
+> New release '22.04.5 LTS' available.
+> Run 'do-release-upgrade' to upgrade to it.
+> 
+> 
+> *** System restart required ***
+[03:48:26.209] > ready: 2e54679985c3
+[03:48:26.250] > Linux 5.15.0-1059-oracle #65~20.04.1-Ubuntu SMP Fri Apr 19 19:01:19 UTC 2024
+[03:48:26.251] Platform: linux
+[03:48:26.291] > /bin/bash
+[03:48:26.291] Parent Shell: bash
+[03:48:26.291] Parent Shell pid: 8896
+[03:48:26.334] > 40105
+[03:48:26.334] Waiting for pid of spawned 'sh' subshell: '40105'...
+[03:48:26.382] > 2e54679985c3: running
+> Script executing under PID: 40105
+[03:48:26.388] > Found existing installation at /home/ubuntu/.vscode-server...
+> Starting VS Code CLI...
+> printenv:
+[03:48:26.389] >     USER=ubuntu
+>     SSH_CLIENT=146.196.47.135 37330 22
+>     XDG_SESSION_TYPE=tty
+>     SHLVL=1
+>     MOTD_SHOWN=pam
+>     HOME=/home/ubuntu
+>     DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+>     LOGNAME=ubuntu
+>     _=/usr/bin/sh
+>     XDG_SESSION_CLASS=user
+>     XDG_SESSION_ID=15
+>     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+>     XDG_RUNTIME_DIR=/run/user/1001
+>     LANG=C.UTF-8
+>     SHELL=/bin/bash
+>     PWD=/home/ubuntu
+>     SSH_CONNECTION=146.196.47.135 37330 10.0.0.93 22
+>     XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+[03:48:26.390] > Removing old logfile at /home/ubuntu/.vscode-server/.cli.38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40.log
+[03:48:26.391] > Spawned remote CLI: 40123
+[03:48:26.393] > Waiting for server log...
+[03:48:26.429] > 2e54679985c3: start
+> listeningOn==127.0.0.1:45271==
+> osReleaseId==ubuntu==
+> arch==aarch64==
+> vscodeArch==arm64==
+> bitness==64==
+> tmpDir==/run/user/1001==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> serverStartTime==38==
+> execServerToken==111111a1-11aa-1aaa-1111-111a11a11a11==
+> platformDownloadPath==cli-alpine-arm64==
+> 2e54679985c3: end
+[03:48:26.429] Received install output: 
+listeningOn==127.0.0.1:45271==
+osReleaseId==ubuntu==
+arch==aarch64==
+vscodeArch==arm64==
+bitness==64==
+tmpDir==/run/user/1001==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+serverStartTime==38==
+execServerToken==111111a1-11aa-1aaa-1111-111a11a11a11==
+platformDownloadPath==cli-alpine-arm64==
+
+[03:48:26.429] Remote server is listening on port 45271
+[03:48:26.429] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":45271},"osReleaseId":"ubuntu","arch":"aarch64","tmpDir":"/run/user/1001","platform":"linux","execServerToken":"111111a1-11aa-1aaa-1111-111a11a11a11"},"serverStartTime":38,"installUnpackCode":""}
+[03:48:26.429] ** Note: Support for architecture "aarch64" is in preview **
+[03:48:26.430] Persisting server connection details to /home/alex/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-f4e20ef7-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40-0.114.3-es/data.json
+[03:48:26.433] Starting forwarding server. local port 36693 -> socksPort 36153 -> remotePort 45271
+[03:48:26.433] Forwarding server listening on port 36693
+[03:48:26.433] Waiting for ssh tunnel to be ready
+[03:48:26.434] [Forwarding server port 36693] Got connection 0
+[03:48:26.434] Tunneled port 45271 to local port 36693
+[03:48:26.434] Resolved "ssh-remote+oracle" to "port 36693"
+[03:48:26.439] Initizing new exec server for ssh-remote+oracle
+[03:48:26.439] Resolving exec server at port 36693
+[03:48:26.462] [Forwarding server port 36693] Got connection 1
+[03:48:26.590] Exec server for ssh-remote+oracle created and cached
+[03:48:26.593] ------
+
+
+
+
+[03:48:26.646] [server] Checking /home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/log.txt and /home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/pid.txt for a running server...
+[03:48:26.646] [server] Installing and setting up Visual Studio Code Server...
+[03:48:26.647] [server] Server setup complete
+[03:48:26.647] [server] Starting server...
+[03:48:26.687] [server] Starting server with command... Command { std: "/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/bin/code-server" "--connection-token=remotessh" "--accept-server-license-terms" "--start-server" "--enable-remote-auto-shutdown" "--socket-path=/tmp/code-a68dbf0c-6eee-4339-99c0-bff8c0ec7129", kill_on_drop: false }
+[03:48:26.687] [server] *
+[03:48:26.687] [server] * Visual Studio Code Server
+[03:48:26.687] [server] *
+[03:48:26.687] [server] * By using the software, you agree to
+[03:48:26.687] [server] * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[03:48:26.687] [server] * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[03:48:26.689] [server] Server bound to /tmp/code-a68dbf0c-6eee-4339-99c0-bff8c0ec7129
+[03:48:26.733] [server] Extension host agent listening on /tmp/code-a68dbf0c-6eee-4339-99c0-bff8c0ec7129
+[03:48:26.733] [server] parsed location: "/tmp/code-a68dbf0c-6eee-4339-99c0-bff8c0ec7129"
+[03:48:26.733] [server] 
+[03:48:26.733] [server] Server started
+[03:48:26.838] [server] [22:18:26] 
+[03:48:26.838] [server] 
+[03:48:26.838] [server] 
+[03:48:26.838] [server] 
+[03:48:26.895] [server] [22:18:26] Extension host agent started.
+[03:48:27.127] [server] [22:18:27] [<unknown>][64f78a66][ExtensionHostConnection] New connection established.
+[03:48:27.127] [server] [22:18:27] [<unknown>][bbcbd88e][ManagementConnection] New connection established.
+[03:48:27.149] [server] [22:18:27] [<unknown>][64f78a66][ExtensionHostConnection] <40178> Launched Extension Host Process.

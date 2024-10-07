@@ -1,0 +1,43 @@
+
+ "hyprland/workspaces": {
+	"active-only": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"show-special": false,
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+	"persistent-workspaces": {
+		"1": [],
+		"2": [],
+		"3": [],
+		"4": [],
+		"5": [],
+	},
+	"format-icons": {
+		"active": "",
+		"default": "",
+	},
+},
+ "hyprland/workspaces#pacman": {
+	"active-only": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+	"show-special": false,
+	"persistent-workspaces": {
+		"1": [],
+		"2": [],
+		"3": [],
+		"4": [],
+		"5": [],
+	},
+	"format": "{icon}",
+	"format-icons": {
+            "active": "<span font='12'>󰮯</span>",
+            "empty": "<span font='8'></span>",
+            "default": "󰊠",
+	},
+},

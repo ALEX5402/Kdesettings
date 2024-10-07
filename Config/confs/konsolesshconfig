@@ -1,0 +1,42 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][api]
+hostname=185.199.52.243
+identifier=api
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/vps/alex
+useSshConfig=true
+username=root
+
+[SSH Config][api2]
+hostname=serverhost
+identifier=api2
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/hostinger
+useSshConfig=true
+username=root
+
+[SSH Config][github]
+hostname=github.com
+identifier=github
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/github
+useSshConfig=true
+username=git
+
+[SSH Config][gitlab]
+hostname=gitlab.com
+identifier=gitlab
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=~/.ssh/gitlab
+useSshConfig=true
+username=git

@@ -1,0 +1,20 @@
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"rotate": ${r_deg},
+		"icon-size": ${i_task},
+		"icon-theme": "${i_theme}",
+        "spacing": 0,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": [
+		"Alacritty",
+		"wofi",
+		"rofi",
+		"kitty"
+		],
+		"app_ids-mapping": {
+			"firefoxdeveloperedition": "firefox-developer-edition"
+		}
+	},
+

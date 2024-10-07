@@ -48,6 +48,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][a43ad847-422f-56b6-99b4-42b13602bcc9]
 tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.05,"y":0.05}]},{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.05,"y":0.55}]}],"width":0.25},{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"horizontal","tiles":[{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.3,"y":0.05}],"width":0.25},{"layoutDirection":"floating","tiles":[{"height":0.45,"width":0.19999999999999996,"x":0.55,"y":0.05}],"width":0.25}]},{"height":0.5,"layoutDirection":"horizontal","tiles":[{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.2,"x":0.3,"y":0.55}],"width":0.25},{"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.19999999999999996,"x":0.55,"y":0.55}],"width":0.25}]}],"width":0.5},{"layoutDirection":"vertical","tiles":[{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.19999999999999996,"x":0.8,"y":0.05}]},{"height":0.5,"layoutDirection":"floating","tiles":[{"height":0.25,"width":0.19999999999999996,"x":0.8,"y":0.55}]}],"width":0.25}]}
 
+[Tiling][f4f9f7d0-4966-5949-943a-88f9eb83efb5]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Wayland]
+InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
+
 [Windows]
 AutoRaiseInterval=100
 DelayFocusInterval=100
@@ -62,5 +68,3 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=XAI
 ButtonsOnRight=FM
-library=org.kde.breeze
-theme=Breeze

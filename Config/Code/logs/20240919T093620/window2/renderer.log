@@ -1,0 +1,76 @@
+2024-09-19 09:37:17.333 [info] Invoking resolveAuthority(ssh-remote)...
+2024-09-19 09:37:17.343 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2024-09-19 09:37:17.355 [info] Started local extension host with pid 81761.
+2024-09-19 09:37:17.682 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][339ms] invoking...
+2024-09-19 09:37:18.682 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1340ms] waiting...
+2024-09-19 09:37:19.682 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][2340ms] waiting...
+2024-09-19 09:37:20.682 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][3340ms] waiting...
+2024-09-19 09:37:21.682 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][4340ms] waiting...
+2024-09-19 09:37:22.664 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][5322ms] returned Managed(1)
+2024-09-19 09:37:22.665 [info] resolveAuthority(ssh-remote) returned 'Managed(1)' after 5331 ms
+2024-09-19 09:37:22.665 [info] Creating a socket (renderer-Management-6f3d6bb6-5174-4bc9-8397-f0b7833924c0)...
+2024-09-19 09:37:22.666 [info] Creating a socket (renderer-ExtensionHost-3f3e8b30-98c4-44eb-91a6-da12ebd3993d)...
+2024-09-19 09:37:30.250 [info] Creating a socket (renderer-ExtensionHost-3f3e8b30-98c4-44eb-91a6-da12ebd3993d) was successful after 7584 ms.
+2024-09-19 09:37:30.251 [info] Creating a socket (renderer-Management-6f3d6bb6-5174-4bc9-8397-f0b7833924c0) was successful after 7585 ms.
+2024-09-19 09:37:32.746 [info] [perf] Render performance baseline is 19ms
+2024-09-19 09:37:57.577 [info] Started local extension host with pid 82588.
+2024-09-19 09:37:57.850 [info] Invoking resolveAuthority(ssh-remote)...
+2024-09-19 09:37:57.850 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1ms] obtaining proxy...
+2024-09-19 09:37:57.850 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1ms] invoking...
+2024-09-19 09:37:58.719 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][870ms] returned Managed(1)
+2024-09-19 09:37:58.719 [info] resolveAuthority(ssh-remote) returned 'Managed(1)' after 870 ms
+2024-09-19 09:37:58.720 [info] Creating a socket (renderer-Management-6619b911-51bc-4858-803e-3f8604211c1e)...
+2024-09-19 09:37:58.720 [info] Creating a socket (renderer-ExtensionHost-23dbfe01-e537-40fb-9262-5a5340af6100)...
+2024-09-19 09:37:59.232 [info] Creating a socket (renderer-ExtensionHost-23dbfe01-e537-40fb-9262-5a5340af6100) was successful after 511 ms.
+2024-09-19 09:37:59.236 [info] Creating a socket (renderer-Management-6619b911-51bc-4858-803e-3f8604211c1e) was successful after 515 ms.
+2024-09-19 09:38:01.950 [info] [perf] Render performance baseline is 21ms
+2024-09-19 09:54:31.132 [info] [remote-connection][ExtensionHost][23dbf…][reconnect] received socket close event (hadError: false).
+2024-09-19 09:54:31.132 [info] [remote-connection][ExtensionHost][23dbf…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+2024-09-19 09:54:31.132 [info] [remote-connection][ExtensionHost][23dbf…][reconnect] resolving connection...
+2024-09-19 09:54:31.132 [info] [remote-connection][ExtensionHost][23dbf…][reconnect] connecting to Managed(1)...
+2024-09-19 09:54:31.133 [info] Creating a socket (renderer-ExtensionHost-23dbfe01-e537-40fb-9262-5a5340af6100)...
+2024-09-19 09:54:31.133 [info] [remote-connection][Management   ][6619b…][reconnect] received socket close event (hadError: false).
+2024-09-19 09:54:31.133 [info] [remote-connection][Management   ][6619b…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+2024-09-19 09:54:31.134 [info] [remote-connection][Management   ][6619b…][reconnect] resolving connection...
+2024-09-19 09:54:31.134 [info] Invoking resolveAuthority(ssh-remote)...
+2024-09-19 09:54:31.134 [info] [LocalProcess0][resolveAuthority(ssh-remote,2)][0ms] obtaining proxy...
+2024-09-19 09:54:31.134 [info] [LocalProcess0][resolveAuthority(ssh-remote,2)][0ms] invoking...
+2024-09-19 09:54:31.595 [error] [LocalProcess0][resolveAuthority(ssh-remote,2)][461ms] returned an error {"code":"NotAvailable","message":"","detail":false}
+2024-09-19 09:54:31.596 [error] resolveAuthority(ssh-remote) returned an error after 461 ms An unknown error occurred. Please consult the log for more details.
+2024-09-19 09:54:31.596 [error] [remote-connection][Management   ][6619b…][reconnect] A RemoteAuthorityResolverError occurred while trying to reconnect. Will give up now! Error:
+2024-09-19 09:54:31.596 [error] CodeExpectedError
+    at _.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27376)
+    at async _.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26632)
+    at async _.ob (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:26345)
+2024-09-19 09:54:35.608 [info] Extension host (Remote) is unresponsive.
+2024-09-19 09:54:37.655 [info] Creating a socket (renderer-ExtensionHost-23dbfe01-e537-40fb-9262-5a5340af6100) returned an error after 6523 ms.
+2024-09-19 09:54:37.655 [error] Canceled: Canceled
+    at Object.f [as $0] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:11:1082)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:11143
+    at Array.forEach (<anonymous>)
+    at E.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:11081)
+    at r.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:24048)
+    at ne.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3263:7974)
+    at ee.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3263:7240)
+    at async _.rb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27574)
+    at async X.getConnection.Le.join.id (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:20169)
+    at async Promise.all (index 0)
+    at async Object.te [as settled] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:146:25354)
+    at async i.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1790:5235)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1790:3588
+2024-09-19 09:54:37.655 [error] [remote-connection][ExtensionHost][23dbf…][reconnect][Managed(1)] socketFactory.connect() failed or timed out. Error:
+2024-09-19 09:54:37.655 [error] Canceled: Canceled
+    at Object.f [as $0] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:11:1082)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:11143
+    at Array.forEach (<anonymous>)
+    at E.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:11081)
+    at r.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1767:24048)
+    at ne.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3263:7974)
+    at ee.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3263:7240)
+    at async _.rb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:27574)
+    at async X.getConnection.Le.join.id (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3262:20169)
+    at async Promise.all (index 0)
+    at async Object.te [as settled] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:146:25354)
+    at async i.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1790:5235)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1790:3588
+2024-09-19 09:54:37.655 [info] [remote-connection][ExtensionHost][23dbf…][reconnect] A promise cancelation error occurred while trying to reconnect, will try again...

@@ -1,0 +1,44 @@
+[Added Associations]
+application/java-archive=java-java17-openjdk.desktop;org.gnome.FileRoller.desktop;peazip.desktop;
+application/json=org.kde.kate.desktop;
+application/vnd.microsoft.portable-executable=wine.desktop;
+application/x-compressed-tar=arqiver.desktop;wine-Programs-7-Zip-7-Zip File Manager.desktop;org.gnome.FileRoller.desktop;xarchiver.desktop;~/.local/share/applications/ark-2.desktop;org.kde.ark.desktop;
+application/x-fishscript=org.kde.kate.desktop;
+application/x-pem-file=org.kde.kate.desktop;
+application/x-shellscript=org.kde.kate.desktop;
+application/x-x509-ca-cert=org.kde.kate.desktop;
+application/x-zerosize=kate-3.desktop;
+application/xhtml+xml=org.kde.kate.desktop;
+application/xml=org.kde.kate.desktop;
+application/zip=arqiver.desktop;org.kde.ark.desktop;
+image/gif=vlc.desktop;
+image/jpeg=swappy.desktop;
+image/png=swappy.desktop;
+image/svg+xml=swappy.desktop;
+image/x-xcursor=swappy.desktop;wine-Programs-7-Zip-7-Zip File Manager.desktop;
+inode/directory=org.kde.dolphin.desktop;code.desktop;
+text/plain=org.kde.kate.desktop;code-oss.desktop;~/.local/share/applications/kate-3.desktop;
+text/x-csrc=org.kde.kate.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;
+
+[Default Applications]
+application/x-compressed-tar=org.kde.ark.desktop
+application/x-zerosize=kate-3.desktop
+application/xhtml+xml=org.kde.kate.desktop
+application/xml=org.kde.kate.desktop
+application/zip=arqiver.desktop
+image/gif=vlc.desktop
+image/jpeg=swappy.desktop
+image/png=swappy.desktop
+image/svg+xml=swappy.desktop
+image/x-xcursor=wine-Programs-7-Zip-7-Zip File Manager.desktop
+inode/directory=org.kde.dolphin.desktop;
+text/plain=~/.local/share/applications/kate-3.desktop;
+x-scheme-handler/discord-503588598684319744=discord-503588598684319744.desktop
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;

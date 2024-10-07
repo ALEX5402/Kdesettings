@@ -24,6 +24,10 @@ remove=true
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
+[Containments][1][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
 popupHeight=510
@@ -31,8 +35,8 @@ popupWidth=647
 
 [Containments][25]
 ItemGeometries-0x0=Applet-49:1744,16,176,80,0;Applet-121:1600,96,304,320,0;Applet-61:1728,480,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1712,800,192,208,0;
-ItemGeometries-1920x1080=Applet-49:1728,16,176,80,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
-ItemGeometriesHorizontal=Applet-49:1728,16,176,80,0;Applet-61:1728,448,160,224,0;Applet-104:16,720,176,272,0;Applet-51:1792,704,112,64,0;Applet-53:1696,784,192,208,0;
+ItemGeometries-1920x1080=Applet-49:1728,16,176,80,0;Applet-61:1728,512,160,160,0;Applet-51:1744,704,144,64,0;Applet-53:1696,784,192,208,0;
+ItemGeometriesHorizontal=Applet-49:1728,16,176,80,0;Applet-61:1728,512,160,160,0;Applet-51:1744,704,144,64,0;Applet-53:1696,784,192,208,0;
 activityId=8a754234-cc6a-4e12-9b93-2654c2c93eec
 formfactor=0
 immutability=1
@@ -46,30 +50,6 @@ cpu/all/usage=163,8,13
 
 [Containments][25][Applets][101][Configuration][SensorColors]
 cpu/all/usage=163,8,13
-
-[Containments][25][Applets][104]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.diskusage
-
-[Containments][25][Applets][104][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-UserBackgroundHints=ShadowBackground
-
-[Containments][25][Applets][104][Configuration][Appearance]
-chartFace=org.kde.ksysguard.horizontalbars
-title=Disk Usage
-
-[Containments][25][Applets][104][Configuration][SensorColors]
-disk/.*/usedPercent=163,8,13
-disk/118411c8-c6ba-45bb-8d93-9f43066d5c2c/usedPercent=91,163,8
-disk/all/usedPercent=80,8,163
-disk/b5b8679b-868f-43e2-b30d-cf8a33bafeca/usedPercent=163,8,13
-disk/c8ef880b-3db6-4f9a-94cf-45221c366b03/usedPercent=8,163,158
-
-[Containments][25][Applets][104][Configuration][Sensors]
-highPrioritySensorIds=["disk/.*/usedPercent"]
-lowPrioritySensorIds=["disk/all/total"]
-totalSensors=["disk/all/usedPercent"]
 
 [Containments][25][Applets][49]
 immutability=1
@@ -96,8 +76,16 @@ PreloadWeight=100
 popupHeight=324
 popupWidth=324
 
+[Containments][25][Applets][51][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][25][Applets][51][Configuration][General]
-history=#161111,#e87f3b,#313338,#ea812c,#e168ff,#e67c43,#123d58,#f5f5f5,#123d58
+compactPreviewCount=2
+history=#3d2d19,#8b8b80,#9f8a79,#acefee,#23177d,#161111,#e87f3b,#313338,#ea812c
+
+[Containments][25][Applets][51][Shortcuts]
+global=Meta+`
 
 [Containments][25][Applets][53]
 immutability=1
@@ -162,19 +150,18 @@ lowPrioritySensorIds=[]
 totalSensors=["cpu/all/averageTemperature"]
 
 [Containments][25][ConfigDialog]
-DialogHeight=837
-DialogWidth=1011
+DialogHeight=716
+DialogWidth=938
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=499
 iconSize=1
-positions={"1920x1080":["1"\\,"20"\\,"desktop:/info.txt"\\,"0"\\,"0"]}
+positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/wallpapers/Decay-Green/moments_before_desk.png
-PreviewImage=/home/alex/Kdesettings/wallpapers/Decay-Green/moments_before_desk.png
+Image=/home/alex/Kdesettings/hyde/themes/Catppuccin Mocha/wallpapers/wifu.jpeg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -335,14 +322,17 @@ DialogWidth=720
 [Containments][73][Applets][105][Configuration][General]
 favoritesPortedToKAstats=true
 
+[Containments][73][Applets][105][Shortcuts]
+global=Meta+A
+
 [Containments][73][Applets][108]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][73][Applets][108][Configuration]
 PreloadWeight=100
-popupHeight=0
-popupWidth=0
+popupHeight=450
+popupWidth=560
 
 [Containments][73][Applets][108][Configuration][Appearance]
 autoFontAndSize=false
@@ -355,20 +345,6 @@ showSeconds=Always
 [Containments][73][Applets][108][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][73][Applets][112]
-immutability=1
-plugin=org.kde.netspeedWidget
-
-[Containments][73][Applets][112][Configuration][ConfigDialog]
-DialogHeight=572
-DialogWidth=756
-
-[Containments][73][Applets][112][Configuration][General]
-customColors=true
-fontSize=75
-kilobyteColor=128,40,128
-speedLayout=columns
 
 [Containments][73][Applets][117]
 immutability=1
@@ -387,9 +363,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=org.kde.konsole.desktop,android-studio.desktop,firefox.desktop,steam.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop,vesktop.desktop,org.kde.dolphin.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop
-groupingLauncherUrlBlacklist=applications:steam.desktop,applications:android-studio.desktop,applications:vesktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:firefox.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
-launchers=applications:org.kde.haruna.desktop,preferred://browser
+groupingAppIdBlacklist=vesktop.desktop,steam.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,firefox.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop
+groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:steam.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop,applications:android-studio.desktop
+launchers=preferred://browser
 
 [Containments][73][Applets][30]
 immutability=1
@@ -420,14 +396,14 @@ immutability=1
 plugin=org.kde.plasma.cameraindicator
 
 [Containments][73][Applets][94][Configuration]
-popupHeight=0
-popupWidth=0
+popupHeight=216
+popupWidth=216
 
 [Containments][73][Applets][99][Configuration][SensorColors]
 cpu/all/usage=163,8,13
 
 [Containments][73][General]
-AppletOrder=108;112;92;30;29;117;75;120;105;94
+AppletOrder=108;92;30;29;117;75;120;105;94
 
 [Containments][73][Shortcuts]
 global=Meta+Space
@@ -514,7 +490,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=0
+PreloadWeight=12
 
 [Containments][76][Applets][89]
 immutability=1
@@ -528,7 +504,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][76][Applets][91]
 immutability=1
@@ -544,6 +520,12 @@ DialogWidth=720
 [Containments][76][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.clipboard
+
+[Containments][8][Applets][23][Configuration]
+PreloadWeight=34
+
+[Containments][8][Applets][24][Configuration]
+PreloadWeight=34
 
 [Containments25Appletsts][59][Configuration][General]
 alphaSort=true
@@ -585,4 +567,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/info.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/info.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec

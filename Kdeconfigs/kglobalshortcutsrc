@@ -3,6 +3,7 @@ _k_friendly_name=Activity Manager
 switch-to-activity-8a754234-cc6a-4e12-9b93-2654c2c93eec=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
@@ -31,8 +32,9 @@ mute=Volume Mute,Volume Mute,Mute
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
-Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Prompt
 Log Out Without Confirmation=none,,Log Out Without Confirmation
+LogOut=none,,Log Out
 Reboot=none,,Reboot
 Reboot Without Confirmation=none,,Reboot Without Confirmation
 Shut Down=none,,Shut Down
@@ -107,7 +109,7 @@ Switch to Screen Above=none,,Switch to Screen Above
 Switch to Screen Below=none,,Switch to Screen Below
 Switch to Screen to the Left=none,,Switch to Screen to the Left
 Switch to Screen to the Right=none,,Switch to Screen to the Right
-Toggle Night Color=none,none,Toggle Night Light
+Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 ToggleCurrentThumbnail=Meta+Ctrl+T,Meta+Ctrl+T,Toggle Thumbnail for Current Window
 Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
@@ -129,9 +131,9 @@ Window Maximize=Meta+W,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=none,,Maximize Window Horizontally
 Window Maximize Vertical=none,,Maximize Window Vertically
 Window Minimize=none,Meta+PgDown,Minimize Window
-Window Move=Meta,,Move Window
+Window Move=none,,Move Window
 Window Move Center=none,,Move Window to the Center
-Window No Border=Meta+`,,Toggle Window Titlebar and Frame
+Window No Border=,,Toggle Window Titlebar and Frame
 Window On All Desktops=none,,Keep Window on All Desktops
 Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Window One Desktop Down
 Window One Desktop Up=Meta+Ctrl+Shift+Up,Meta+Ctrl+Shift+Up,Window One Desktop Up
@@ -225,6 +227,7 @@ powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
 _k_friendly_name=plasmashell
+activate application launcher=Alt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
@@ -235,9 +238,10 @@ activate task manager entry 6=none,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
-activate widget 105=none,none,Activate Application Dashboard Widget
+activate widget 105=Meta+A,none,Activate Application Dashboard Widget
 activate widget 3=none,none,Activate Application Launcher Widget
 activate widget 30=none,none,Activate Margins Separator Widget
+activate widget 51=Meta+`,none,Activate Color Picker Widget
 activate widget 73=Meta+Space,none,Activate Panel Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
@@ -255,6 +259,9 @@ stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=Meta+F1,,Toggle do not disturb
+
+[services][RofiBeats.sh.desktop]
+_launch=Meta+Shift+P
 
 [services][android-studio.desktop]
 _launch=Meta+Z
@@ -276,7 +283,7 @@ _launch=Meta+C
 NewTab=Ctrl+Alt+N
 
 [services][org.kde.krunner.desktop]
-_launch=Search\tMeta+A
+_launch=Search
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display
@@ -291,3 +298,7 @@ _launch=Meta+P
 
 [services][pavucontrol.desktop]
 _launch=Meta+P
+
+[services][zen-alpha.desktop]
+new-private-window=Meta+Alt+F
+new-window=Meta+F

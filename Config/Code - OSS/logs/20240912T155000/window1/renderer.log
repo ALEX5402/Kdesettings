@@ -1,0 +1,5 @@
+2024-09-12 15:50:01.574 [info] Started local extension host with pid 228610.
+2024-09-12 15:50:01.808 [error] Extension 'GitHub.codespaces CANNOT USE these API proposals 'contribEditSessions, contribMenuBarHome, contribRemoteHelp, contribViewsRemote, resolvers, terminalDataWriteEvent, treeViewReveal, tunnels, notebookKernelSource'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-09-12 15:50:01.834 [error] [GitHub.codespaces]: menuBar/home is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribMenuBarHome"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.codespaces
+2024-09-12 15:50:01.848 [warning] [GitHub.codespaces]: View container 'remote' requires 'enabledApiProposals: ["contribViewsRemote"]' to be added to 'Remote'.
+2024-09-12 15:50:04.253 [info] [perf] Render performance baseline is 21ms

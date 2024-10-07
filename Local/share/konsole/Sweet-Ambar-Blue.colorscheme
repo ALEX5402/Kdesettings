@@ -20,19 +20,19 @@ Color=127,140,141
 Color=237,37,78
 
 [Color1Faint]
-Color=237,37,78
+Color=237,0,4
 
 [Color1Intense]
-Color=237,37,78
+Color=237,7,10
 
 [Color2]
-Color=113,247,159
+Color=4,247,0
 
 [Color2Faint]
-Color=113,247,159
+Color=86,247,68
 
 [Color2Intense]
-Color=113,247,159
+Color=99,247,36
 
 [Color3]
 Color=250,221,0
@@ -90,7 +90,7 @@ Color=255,255,255
 
 [General]
 Anchor=0.5,0.5
-Blur=true
+Blur=false
 ColorRandomization=false
 Description=Sweet-Ambar-Blue
 FillStyle=Tile

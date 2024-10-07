@@ -1,0 +1,10 @@
+
+      "custom/weather": {
+          "tooltip": true,
+          "format": "{}",
+          "interval": 100,
+          "exec": "weather.sh",
+          "return-type": "json"
+        },
+
+

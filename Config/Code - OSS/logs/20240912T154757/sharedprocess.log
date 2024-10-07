@@ -1,0 +1,11 @@
+2024-09-12 15:49:37.527 [info] Installing extension: github.codespaces {"installGivenVersion":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json","path":"/home/alex/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"productVersion":{"version":"1.93.0","date":"2024-09-07T13:18:47.128Z"}}
+2024-09-12 15:49:37.705 [info] Extracted extension to file:///home/alex/.vscode-oss/extensions/github.codespaces-1.17.3: github.codespaces
+2024-09-12 15:49:37.712 [info] Renamed to /home/alex/.vscode-oss/extensions/github.codespaces-1.17.3
+2024-09-12 15:49:37.727 [info] Extension installed successfully: github.codespaces vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-09-12 15:49:37.744 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

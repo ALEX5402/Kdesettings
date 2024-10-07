@@ -1,0 +1,37 @@
+2024-09-19 09:36:25.003 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 93.70ms
+ptyhostservice<->ptyhost: 2.01ms []
+2024-09-19 09:36:25.003 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 93.60ms
+ptyhostservice<->ptyhost: 1.83ms []
+2024-09-19 09:36:25.003 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 93.40ms
+ptyhostservice<->ptyhost: 1.75ms []
+2024-09-19 09:36:25.004 [info] Latency measurements for ssh-remote+oracle backend
+window<->ptyhostservice<->ptyhost: 93.30ms
+ptyhostservice<->ptyhost: 1.68ms []
+2024-09-19 09:37:34.296 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 191.20ms
+ptyhostservice<->ptyhost: 2.56ms []
+2024-09-19 09:37:34.297 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 191.00ms
+ptyhostservice<->ptyhost: 1.72ms []
+2024-09-19 09:37:34.297 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 190.90ms
+ptyhostservice<->ptyhost: 1.45ms []
+2024-09-19 09:37:34.300 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 194.60ms
+ptyhostservice<->ptyhost: 2.53ms []
+2024-09-19 09:38:03.702 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 767.30ms
+ptyhostservice<->ptyhost: 170.19ms []
+2024-09-19 09:38:03.702 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 431.80ms
+ptyhostservice<->ptyhost: 62.32ms []
+2024-09-19 09:38:03.702 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 402.60ms
+ptyhostservice<->ptyhost: 14.01ms []
+2024-09-19 09:38:03.702 [info] Latency measurements for ssh-remote+newvps backend
+window<->ptyhostservice<->ptyhost: 402.50ms
+ptyhostservice<->ptyhost: 43.91ms []
+2024-09-19 09:54:37.619 [warning] Exception occurred during terminal shutdown [{"name":"Canceled"}]
