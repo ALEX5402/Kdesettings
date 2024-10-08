@@ -1,3 +1,6 @@
+[Document 0]
+URL=file:///home/alex/.config/rofi/config-compact.rasi
+
 [Kate Plugins]
 cmaketoolsplugin=false
 compilerexplorer=false
@@ -34,23 +37,23 @@ textfilterplugin=true
 
 [MainWindow0]
 Active ViewSpace=0
-Kate-MDI-H-Splitter=200,982,0
+Kate-MDI-H-Splitter=0,960,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
 Kate-MDI-Sidebar-0-LastSize=200
 Kate-MDI-Sidebar-0-SectSizes=0
-Kate-MDI-Sidebar-0-Splitter=674
+Kate-MDI-Sidebar-0-Splitter=658
 Kate-MDI-Sidebar-1-Bar-0-TvList=
 Kate-MDI-Sidebar-1-LastSize=200
 Kate-MDI-Sidebar-1-SectSizes=0
-Kate-MDI-Sidebar-1-Splitter=674
+Kate-MDI-Sidebar-1-Splitter=658
 Kate-MDI-Sidebar-2-Bar-0-TvList=
 Kate-MDI-Sidebar-2-LastSize=200
 Kate-MDI-Sidebar-2-SectSizes=0
-Kate-MDI-Sidebar-2-Splitter=982
+Kate-MDI-Sidebar-2-Splitter=1126
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
 Kate-MDI-Sidebar-3-LastSize=200
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=1228
+Kate-MDI-Sidebar-3-Splitter=717
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-diagnostics-Position=3
@@ -67,7 +70,7 @@ Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=t
 Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
 Kate-MDI-ToolView-kateproject-Position=0
 Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
-Kate-MDI-ToolView-kateproject-Visible=true
+Kate-MDI-ToolView-kateproject-Visible=false
 Kate-MDI-ToolView-kateprojectgit-Position=0
 Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
 Kate-MDI-ToolView-kateprojectgit-Visible=false
@@ -80,7 +83,7 @@ Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
 Kate-MDI-ToolView-output-Position=3
 Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
 Kate-MDI-ToolView-output-Visible=false
-Kate-MDI-V-Splitter=0,674,0
+Kate-MDI-V-Splitter=0,658,0
 ToolBarsMovable=Disabled
 
 [MainWindow0 Settings]
@@ -90,14 +93,20 @@ WindowState=8
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=982
+Sizes=960
 
 [MainWindow0-ViewSpace 0]
-Count=0
-Documents=
+Active View=file:///home/alex/.config/rofi/config-compact.rasi
+Count=1
+Documents=file:///home/alex/.config/rofi/config-compact.rasi
+View 0=file:///home/alex/.config/rofi/config-compact.rasi
+
+[MainWindow0-ViewSpace 0 file:///home/alex/.config/rofi/config-compact.rasi]
+CursorColumn=10
+CursorLine=17
 
 [Open Documents]
-Count=0
+Count=1
 
 [Open MainWindows]
 Count=1
@@ -130,23 +139,23 @@ SizeLimit=128
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/pipewire/pipewire-pulse.conf.d/audiorelay.conf
-File10[$e]=$HOME/Kdesettings
-File2[$e]=$HOME/.config/fcitx5/conf/notifications.conf
-File3[$e]=/usr/share/applications
-File4[$e]=/usr/share/applications/com.ayugram.desktop.desktop
-File5[$e]=/usr/share/sddm/themes/Candy/kde_settings.conf
-File6[$e]=/etc/sddm.conf.d/kde_settings.conf
-File7[$e]=/etc/default/grub
-File8[$e]=$HOME/Kdesettings/init.sh
-File9[$e]=$HOME/Kdesettings/Local/share/bin/testrunner.sh
-Name1[$e]=audiorelay.conf
-Name10[$e]=Kdesettings
-Name2[$e]=notifications.conf
-Name3[$e]=applications
-Name4[$e]=com.ayugram.desktop.desktop
-Name5[$e]=kde_settings.conf
-Name6[$e]=kde_settings.conf
-Name7[$e]=grub
-Name8[$e]=init.sh
-Name9[$e]=testrunner.sh
+File1[$e]=/usr/share/applications
+File10[$e]=$HOME/.config/rofi/config-compact.rasi
+File2[$e]=/usr/share/applications/com.ayugram.desktop.desktop
+File3[$e]=/usr/share/sddm/themes/Candy/kde_settings.conf
+File4[$e]=/etc/sddm.conf.d/kde_settings.conf
+File5[$e]=/etc/default/grub
+File6[$e]=$HOME/Kdesettings/init.sh
+File7[$e]=$HOME/Kdesettings/Local/share/bin/testrunner.sh
+File8[$e]=$HOME/Kdesettings
+File9[$e]=$HOME/.config/rofi/config-rofi-Beats-menu.rasi
+Name1[$e]=applications
+Name10[$e]=config-compact.rasi
+Name2[$e]=com.ayugram.desktop.desktop
+Name3[$e]=kde_settings.conf
+Name4[$e]=kde_settings.conf
+Name5[$e]=grub
+Name6[$e]=init.sh
+Name7[$e]=testrunner.sh
+Name8[$e]=Kdesettings
+Name9[$e]=config-rofi-Beats-menu.rasi

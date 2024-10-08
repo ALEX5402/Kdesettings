@@ -16,7 +16,7 @@ window {
 
 /* ---- Inputbar ---- */
 inputbar {
-  background-image: url("~/.cache/hyde/wall.blur", width);
+  background-image: url("~/.config/rofi/assets/hahahhaha.png", width);
 }
 
 /* ---- Imagebox ---- */

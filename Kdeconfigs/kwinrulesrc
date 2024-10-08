@@ -61,7 +61,7 @@ opacityactiverule=2
 opacityinactive=94
 opacityinactiverule=2
 types=65983
-wmclass=jetbrains-studio
+wmclass=jetbrains-studio jetbrains-studio
 wmclasscomplete=true
 wmclassmatch=1
 
