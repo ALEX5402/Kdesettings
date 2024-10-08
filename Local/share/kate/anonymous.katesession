@@ -1,5 +1,5 @@
 [Document 0]
-URL=file:///home/alex/.config/rofi/config-compact.rasi
+URL=file:///usr/share/applications/com.ayugram.desktop.desktop
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -49,11 +49,11 @@ Kate-MDI-Sidebar-1-Splitter=658
 Kate-MDI-Sidebar-2-Bar-0-TvList=
 Kate-MDI-Sidebar-2-LastSize=200
 Kate-MDI-Sidebar-2-SectSizes=0
-Kate-MDI-Sidebar-2-Splitter=1126
+Kate-MDI-Sidebar-2-Splitter=960
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
 Kate-MDI-Sidebar-3-LastSize=200
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=717
+Kate-MDI-Sidebar-3-Splitter=699
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-diagnostics-Position=3
@@ -96,14 +96,14 @@ Orientation=1
 Sizes=960
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/alex/.config/rofi/config-compact.rasi
+Active View=file:///usr/share/applications/com.ayugram.desktop.desktop
 Count=1
-Documents=file:///home/alex/.config/rofi/config-compact.rasi
-View 0=file:///home/alex/.config/rofi/config-compact.rasi
+Documents=file:///usr/share/applications/com.ayugram.desktop.desktop
+View 0=file:///usr/share/applications/com.ayugram.desktop.desktop
 
-[MainWindow0-ViewSpace 0 file:///home/alex/.config/rofi/config-compact.rasi]
-CursorColumn=10
-CursorLine=17
+[MainWindow0-ViewSpace 0 file:///usr/share/applications/com.ayugram.desktop.desktop]
+CursorColumn=23
+CursorLine=4
 
 [Open Documents]
 Count=1
@@ -140,22 +140,22 @@ UseRegExp=false
 
 [Recent Files]
 File1[$e]=/usr/share/applications
-File10[$e]=$HOME/.config/rofi/config-compact.rasi
-File2[$e]=/usr/share/applications/com.ayugram.desktop.desktop
-File3[$e]=/usr/share/sddm/themes/Candy/kde_settings.conf
-File4[$e]=/etc/sddm.conf.d/kde_settings.conf
-File5[$e]=/etc/default/grub
-File6[$e]=$HOME/Kdesettings/init.sh
-File7[$e]=$HOME/Kdesettings/Local/share/bin/testrunner.sh
-File8[$e]=$HOME/Kdesettings
-File9[$e]=$HOME/.config/rofi/config-rofi-Beats-menu.rasi
+File10[$e]=/usr/share/applications/com.ayugram.desktop.desktop
+File2[$e]=/usr/share/sddm/themes/Candy/kde_settings.conf
+File3[$e]=/etc/sddm.conf.d/kde_settings.conf
+File4[$e]=/etc/default/grub
+File5[$e]=$HOME/Kdesettings/init.sh
+File6[$e]=$HOME/Kdesettings/Local/share/bin/testrunner.sh
+File7[$e]=$HOME/Kdesettings
+File8[$e]=$HOME/.config/rofi/config-rofi-Beats-menu.rasi
+File9[$e]=$HOME/.config/rofi/config-compact.rasi
 Name1[$e]=applications
-Name10[$e]=config-compact.rasi
-Name2[$e]=com.ayugram.desktop.desktop
+Name10[$e]=com.ayugram.desktop.desktop
+Name2[$e]=kde_settings.conf
 Name3[$e]=kde_settings.conf
-Name4[$e]=kde_settings.conf
-Name5[$e]=grub
-Name6[$e]=init.sh
-Name7[$e]=testrunner.sh
-Name8[$e]=Kdesettings
-Name9[$e]=config-rofi-Beats-menu.rasi
+Name4[$e]=grub
+Name5[$e]=init.sh
+Name6[$e]=testrunner.sh
+Name7[$e]=Kdesettings
+Name8[$e]=config-rofi-Beats-menu.rasi
+Name9[$e]=config-compact.rasi
