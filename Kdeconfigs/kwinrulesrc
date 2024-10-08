@@ -54,6 +54,17 @@ opacityinactiverule=2
 wmclass=vesktop
 wmclassmatch=1
 
+[537853c5-49dd-486f-a45b-0651c47759f2]
+Description=android studio
+opacityactive=94
+opacityactiverule=2
+opacityinactive=94
+opacityinactiverule=2
+types=65983
+wmclass=jetbrains-studio
+wmclasscomplete=true
+wmclassmatch=1
+
 [5cc7d6c0-8a4b-4297-9d03-16d1a6445386]
 Description=Application settings for jetbrains-studio
 clientmachine=localhost
@@ -97,8 +108,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=2
-rules=1,2
+count=3
+rules=1,2,537853c5-49dd-486f-a45b-0651c47759f2
 
 [aacb2a63-1c6f-4dfb-bc9a-63d236a8be4b]
 Description=Application settings for jetbrains-studio

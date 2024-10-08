@@ -150,8 +150,8 @@ lowPrioritySensorIds=[]
 totalSensors=["cpu/all/averageTemperature"]
 
 [Containments][25][ConfigDialog]
-DialogHeight=716
-DialogWidth=938
+DialogHeight=540
+DialogWidth=720
 
 [Containments][25][General]
 ToolBoxButtonState=topcenter
@@ -161,7 +161,8 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/alex/Kdesettings/hyde/themes/Catppuccin Mocha/wallpapers/wifu.jpeg
+Image=/home/alex/Kdesettings/wallpapers/240725_20h16m22s_screenshot.png
+PreviewImage=/home/alex/Kdesettings/wallpapers/240725_20h16m22s_screenshot.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][25][Wallpaper][org.kde.slideshow][General]
@@ -363,8 +364,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=vesktop.desktop,steam.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,firefox.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop,android-studio.desktop,kitty.desktop,io.github.tdesktop_x64.TDesktop.desktop
-groupingLauncherUrlBlacklist=applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:steam.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop,applications:android-studio.desktop
+groupingAppIdBlacklist=android-studio.desktop,vesktop.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,io.github.tdesktop_x64.TDesktop.desktop,steam.desktop,firefox.desktop,kitty.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.konsole.desktop,applications:firefox.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:vesktop.desktop,applications:android-studio.desktop,applications:steam.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://browser
 
 [Containments][73][Applets][30]
@@ -431,7 +432,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][76][Applets][78][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][76][Applets][79]
 immutability=1
@@ -441,9 +442,15 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.printmanager
 
+[Containments][76][Applets][80][Configuration]
+PreloadWeight=55
+
 [Containments][76][Applets][81]
 immutability=1
 plugin=org.kde.kscreen
+
+[Containments][76][Applets][81][Configuration]
+PreloadWeight=55
 
 [Containments][76][Applets][82]
 immutability=1
@@ -458,7 +465,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][76][Applets][84][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][76][Applets][85]
 immutability=1
@@ -490,14 +497,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=12
+PreloadWeight=9
 
 [Containments][76][Applets][89]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][76][Applets][89][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][76][Applets][90]
 immutability=1
@@ -567,4 +574,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/info.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/info.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec

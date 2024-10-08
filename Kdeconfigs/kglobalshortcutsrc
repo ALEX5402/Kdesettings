@@ -51,7 +51,7 @@ Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
-Grid View=Meta+G,Meta+G,Toggle Grid View
+Grid View=Meta+\\,\tMeta+G,Meta+G,Toggle Grid View
 Increase Opacity=Meta++,,Increase Opacity of Active Window by 5%
 Kill Window=Alt+F4\tCtrl+Alt+Esc,Meta+Ctrl+Esc,Kill Window
 Move Tablet to Next Output=none,none,Move the tablet to the next output
@@ -133,7 +133,7 @@ Window Maximize Vertical=none,,Maximize Window Vertically
 Window Minimize=none,Meta+PgDown,Minimize Window
 Window Move=none,,Move Window
 Window Move Center=none,,Move Window to the Center
-Window No Border=,,Toggle Window Titlebar and Frame
+Window No Border=none,,Toggle Window Titlebar and Frame
 Window On All Desktops=none,,Keep Window on All Desktops
 Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Window One Desktop Down
 Window One Desktop Up=Meta+Ctrl+Shift+Up,Meta+Ctrl+Shift+Up,Window One Desktop Up
@@ -298,6 +298,9 @@ _launch=Meta+P
 
 [services][pavucontrol.desktop]
 _launch=Meta+P
+
+[services][studio.desktop]
+_launch=Meta+Z
 
 [services][zen-alpha.desktop]
 new-private-window=Meta+Alt+F

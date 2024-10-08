@@ -176,6 +176,10 @@ Sort reversed=true
 Speedbar Width=150
 View Style=DetailTree
 
+[KScreen]
+ScreenScaleFactors=HDMI-A-1=1;
+XwaylandClientsScale=false
+
 [PreviewSettings]
 MaximumRemoteSize=0
 
