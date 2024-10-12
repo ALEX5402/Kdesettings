@@ -39,6 +39,9 @@ contrastEnabled=false
 [Tiling]
 padding=4
 
+[Tiling][1bac6d51-0125-5ab0-bbe7-b280a33799b0]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][1f82cf41-2fa9-5b02-b0c9-494778b36db1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 

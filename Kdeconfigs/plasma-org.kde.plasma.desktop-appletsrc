@@ -364,8 +364,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][73][Applets][29][Configuration][General]
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,vesktop.desktop,steam.desktop,firefox.desktop,android-studio.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:vesktop.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.konsole.desktop,applications:steam.desktop,applications:android-studio.desktop,applications:firefox.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,firefox.desktop,vesktop.desktop,jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,kitty.desktop,steam.desktop,android-studio.desktop,org.kde.konsole.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:steam.desktop,applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:kitty.desktop,applications:jetbrains-studio-b1c35c5b-b206-4027-8155-2474cf84ff3d.desktop,applications:android-studio.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:vesktop.desktop
 launchers=preferred://browser
 
 [Containments][73][Applets][30]
@@ -497,21 +497,21 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=6
+PreloadWeight=0
 
 [Containments][76][Applets][89]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][76][Applets][89][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][76][Applets][90]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=0
+PreloadWeight=17
 
 [Containments][76][Applets][91]
 immutability=1
@@ -574,4 +574,4 @@ title=Total CPU Use
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/info.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec
+screenMapping=desktop:/animation.gif.mp4,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/250 netflix cookies by @bedrock16,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/tas.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/file:⁄⁄⁄home⁄alex⁄Desktop⁄tasks2.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec,desktop:/info.txt,0,8a754234-cc6a-4e12-9b93-2654c2c93eec

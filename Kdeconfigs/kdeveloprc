@@ -128,6 +128,7 @@ Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Text Font=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font Features=
 Word Wrap Marker=false
 
 [KTextEditor View]
@@ -323,7 +324,7 @@ Name6[$e]=jni.kdev4
 Active Session ID={1ada54ac-e2c7-4488-917b-3d0bfdb97459}
 
 [UiSettings]
-ColorScheme=Breeze Dark
+ColorScheme=Catppuccin Mocha Red
 ShowTextEditorStatusBar=false
 
 [UiSettings/Docks/ToolbarEnabled]

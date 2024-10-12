@@ -134,7 +134,6 @@ kdeconnect
 kdegraphics-thumbnailers
 kdenetwork-filesharing
 kdenlive
-kdeplasma-addons
 kdevelop
 kgamma
 kimageformats
@@ -238,14 +237,6 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgfile
-plasma-browser-integration
-plasma-desktop
-plasma-disks
-plasma-firewall
-plasma-nm
-plasma-pa
-plasma-systemmonitor
-plasma-workspace
 plocate
 podman
 polkit-gnome
@@ -392,7 +383,6 @@ wlay-git
 wlr-randr
 wpa_supplicant
 xdg-desktop-portal-gtk
-xdg-desktop-portal-kde
 xdg-desktop-portal-lxqt
 xdg-user-dirs
 xdg-utils

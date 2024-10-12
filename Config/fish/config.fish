@@ -198,14 +198,15 @@ alias fish 'source ~/.config/fish/config.fish'
 
 # git stuff
 
-alias pull 'git pull'
-alias push 'git push'
+alias pull 'git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias diff 'git diff'
+alias push='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias commit 'git commit'
 alias clone 'git clone'
 alias git-push-behave 'git config --global push.default'
 alias git-setefitor 'git config --global core.editor'
 alias git-colour 'git config --global color.ui'
-alias gadd 'git add'
+alias git-addd 'git remote add origin'
 
 alias warpc 'warp-cli connect'
 alias flex 'fastfetch'

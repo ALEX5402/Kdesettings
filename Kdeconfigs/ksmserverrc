@@ -2,4 +2,9 @@
 count=0
 
 [Session: saved at previous logout]
+clientId1[$d]
 count=0
+program1[$d]
+restartCommand1[$d]
+restartStyleHint1[$d]
+userId1[$d]

@@ -9,7 +9,7 @@
     "modules": [
         {
             "type": "custom",
-            "format": "\u001b[36m    ░A░L░E░X░"
+            "format": "\u001b[36m  󰱫  ░A░L░E░X░"
         },
         {
             "type": "custom",
@@ -27,12 +27,12 @@
         },
         {
             "type": "packages",
-            "key": "   Packages",
+            "key": "   Packages",
             "keyColor": "green"
         },
         {
             "type": "display",
-            "key": "   Display",
+            "key": "  󰨇 Display",
             "keyColor": "green"
         },
         {
@@ -43,7 +43,7 @@
         },
         {
             "type": "wm",
-            "key": "   WM",
+            "key": "   WM",
             "keyColor": "yellow"
         },
         {
@@ -73,19 +73,19 @@
       
         {
             "type": "gpu",
-           "format": "NVIDIA GeForce RTX 4060 Max-Q", // i wish i have this gpu 🥹🥹
-           // "format": "{2}", // enable this like this is real gpu info
+          // "format": "NVIDIA GeForce RTX 4060 Max-Q", // i wish i have this gpu 🥹🥹
+             "format": "{2}", // enable this like this is real gpu info
             "key": "   GPU",
             "keyColor": "magenta"
         },
         {
             "type": "memory",
-            "key": "  ﬙ Memory",
+            "key": "   Memory",
             "keyColor": "magenta"
         },
           {
             "type": "swap",
-            "key": "  ﬙ Swap",
+            "key": "  󰾷 Swap",
             "keyColor": "magenta"
         },
 
