@@ -10,12 +10,10 @@ image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/asset
 ![Screenshot_20240430_080509](https://github.com/ALEX5402/Kdesettings/assets/76860596/e7017410-fc18-4a68-b25f-7132873ecb0b)
 ![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
  
-## Changelog Wed Apr 16 09:03:49 PM IST 2025
+## Changelog Wed Apr 16 09:05:05 PM IST 2025
 ```
- Kdeconfigs/katerc         |    4 +-
- README.md                 |   90 +--
- current-packages-dump.txt |  260 ++++----
- packages-with-info.txt    | 1620 +++++++++++++++++++++------------------------
- 4 files changed, 905 insertions(+), 1069 deletions(-)
+ README.md | 9 +--------
+ init.sh   | 2 +-
+ 2 files changed, 2 insertions(+), 9 deletions(-)
 ```
  
