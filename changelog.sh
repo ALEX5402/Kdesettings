@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "# My Hyprland Dotfiles"
+echo "# My Kde plasma Dotfiles"
 echo "  Don't Touch My dot files 🙂"
 echo " "
 cat info.txt
