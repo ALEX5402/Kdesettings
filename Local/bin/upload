@@ -1,0 +1,139 @@
+#!/usr/bin/env sh
+
+# Function to upload a file
+upload_file() {
+    local filename="$1"
+    local filetype="$2"
+    local filesize=$(stat -c%s "$filename")
+
+    if [[ "$filesize" -gt 500000000 ]]; then
+        echo "Skipping file $filename: File size exceeds 500 MB." >> "$log_file"
+        return
+    fi
+
+    local filelink=$(curl -sf -F "file=@$filename" 0x0.st)
+    if [[ -z "$filelink" ]]; then
+        echo "Failed to upload file $filename. Skipping." >> "$log_file"
+        return
+    fi
+
+    if [[ $filelink == *"http"* ]]; then
+        filelink="${filelink/http:/https:}"
+    fi
+
+    echo "{filename:\"${filename##*/}\", filetype:\"$filetype\", filelink:\"$filelink\"}"
+}
+
+# Function to remove all .json and .txt files
+remove_files() {
+    find . -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' \) -delete
+    echo "ALL JSON and TXT files removed from current directory."
+}
+
+# Function to upload a single file and echo the link in green
+upload_singlefile() {
+    local filename="$1"
+    local filetype="$2"
+    local filesize=$(stat -c%s "$filename")
+
+    if [[ "$filesize" -gt 500000000 ]]; then
+        echo "Skipping file $filename: File size exceeds 500 MB." >> "$log_file"
+        return
+    fi
+
+    local filelink=$(curl -sf -F "file=@$filename" 0x0.st)
+    if [[ -z "$filelink" ]]; then
+        echo "Failed to upload file $filename. Skipping." >> "$log_file"
+        return
+    fi
+
+    if [[ $filelink == *"http"* ]]; then
+        filelink="${filelink/http:/https:}"
+    fi
+
+    echo -e "\e[32m$filelink\e[0m"
+    echo "{filename:\"${filename##*/}\", filetype:\"$filetype\", filelink:\"$filelink\"}"
+}
+
+# Function to process files of specified types
+process_files() {
+    local filetypes=("$@")
+    local output_file="${timestamp}-links.json"
+    local log_file="upload-logs${timestamp}.txt"
+    touch "$output_file" "$log_file"
+    echo "[" >> "$output_file"
+
+    for filetype in "${filetypes[@]}"; do
+        files=$(find . -maxdepth 1 -type f -name "*.$filetype")
+        if [[ -z "$files" ]]; then
+            echo "No files found with $filetype extension. Skipping."
+            echo "No files found with $filetype extension. Skipping." >> "$log_file"
+            continue
+        fi
+
+        for file in $files; do
+            upload_file "$file" "$filetype" >> "$output_file"
+        done
+    done
+
+    echo "]" >> "$output_file"
+}
+
+# Function to display usage information
+show_usage() {
+    script_name=$(basename "$0")
+    echo "Usage:"
+    echo "  $script_name -f <filetype1> [<filetype2> ...]    Process specific file types"
+    echo "  $script_name -j                                 Upload all files from the current directory with JSON data"
+    echo "  $script_name -d                                 Delete all .json and .txt files from the current directory"
+    echo "  $script_name <filepath>                         Upload a specific file"
+    echo "  $script_name -u                                 Update the script"
+    echo "  $script_name -h                                 Show this usage information"
+}
+
+
+# Function to update the script
+updatescript() {
+    curl -LSs "https://raw.githubusercontent.com/ALEX5402/Q-shere/main/setup.sh" | bash -
+}
+
+# Main script execution
+if [[ $# -eq 0 ]]; then
+    echo "No arguments provided."
+    show_usage
+    exit 1
+fi
+
+timestamp=$(date +"%Y%m%d%H%M%S")
+
+case "$1" in
+    -f)
+        if [[ "$#" -eq 1 ]]; then
+            echo "Usage: $0 -f <filetype1> [<filetype2> ...]"
+            exit 1
+        fi
+        filetypes=("${@:2}")
+        process_files "${filetypes[@]}"
+        ;;
+    -j)
+        process_files "all"
+        ;;
+    -d)
+        remove_files
+        ;;
+    -u)
+        updatescript
+        ;;
+    -h)
+        show_usage
+        ;;
+    *)
+        if [[ -f $1 ]]; then
+            upload_singlefile "$1" "${1##*.}"
+        else
+            echo "Invalid option or file not found."
+            show_usage
+            exit 1
+        fi
+        ;;
+esac

@@ -1,0 +1,37 @@
+name: auto-snapshot
+
+on:
+  push:
+    branches:
+      - "*" # This triggers the workflow on any branch push
+
+permissions:
+  contents: write
+
+env:
+ TZ: Asia/Kolkata
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Tag
+        id: create_tag
+        run: |
+          echo "TAG_NAME=$(date +'%I|%M|%S-%p<>%d/%m/%Y')" >> $GITHUB_ENV
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git tag $(date +'%Y-%m-%d_%H-%M-%S')
+          git push origin $(date +'%Y-%m-%d_%H-%M-%S')
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          release_name: ${{ env.TAG_NAME }}
+          body: Workflow Hash ```${{ github.sha }}```
+

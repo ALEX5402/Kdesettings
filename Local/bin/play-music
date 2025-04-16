@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# Usage function
+usage() {
+    echo "Usage: $0 [-s] <directory>"
+    echo "  -s            Shuffle the playlist."
+    echo "  <directory>   Directory containing the music files."
+    exit 1
+}
+
+# Check for shuffle option and directory argument
+shuffle=false
+while getopts ":s" opt; do
+    case $opt in
+        s)
+            shuffle=true
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+shift $((OPTIND -1))
+
+# Check if directory is provided
+if [ -z "$1" ]; then
+    usage
+fi
+
+# Set directory variable
+dir="$1"
+
+# Check if the directory exists
+if [ ! -d "$dir" ]; then
+    echo "Error: Directory '$dir' does not exist."
+    exit 1
+fi
+
+# Kill any existing mpv processes
+pkill -x mpv
+
+# Array to store the files
+local_music=()
+
+# Recursively find all mp3, mp4, and ogg files in the specified directory and its subdirectories
+while IFS= read -r -d $'\0' file; do
+    local_music+=("$file")
+done < <(find "$dir" -type f \( -iname "*.mp3" -o -iname "*.mp4" -o -iname "*.ogg" \) -print0 | sort -z)
+
+# Check if any files were found
+if [ ${#local_music[@]} -eq 0 ]; then
+    echo "No mp3, mp4, or ogg files found in the directory '$dir'."
+    exit 1
+fi
+
+# Play the playlist with mpv, adding --shuffle if -s option is passed
+if $shuffle; then
+    mpv --loop-playlist --vid=no --shuffle "${local_music[@]}"
+else
+    mpv --loop-playlist --vid=no "${local_music[@]}"
+fi

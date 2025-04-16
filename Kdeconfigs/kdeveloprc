@@ -1,0 +1,365 @@
+[Android]
+abi=arm64-v8a armeabi-v7a x86 x86_64
+cmakeToolchain[$e]=file:///opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang
+ndk[$e]=file:///opt/android-ndk
+sdk[$e]=file:$HOME/Android/Sdk
+
+[CMakeBuilder]
+cmakeExe=file:///home/alex/Android/Sdk/cmake/3.22.1/bin/cmake
+
+[ClangTidy]
+ExecutablePath[$e]=file:///opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-tidy
+
+[Clazy]
+verboseOutput=true
+
+[Compilers]
+number=0
+
+[Cppcheck]
+executablePath[$e]=file:///usr/bin/cppcheck
+
+[Disassemble/Registers View]
+splitterState=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\xff\xff\xff\xff\xff\xff\xff\xff\x01\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[Environment Settings]
+Default Environment Group=default
+Group List=default
+
+[Environment Settings][default]
+ANDROID_NDK=/opt/android-ndk
+
+[External Scripts]
+firstUse=false
+
+[External Scripts][Google Selection]
+command=xdg-open "https://www.google.com/search?q=%s"
+errorMode=0
+filterMode=0
+inputMode=0
+name=Google Selection
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=false
+
+[External Scripts][Paste to Hastebin]
+command=a=$(cat); curl -X POST -s -d "$a" https://hastebin.com/documents | awk -F '"' '{print "https://hastebin.com/"$4}' | xargs xdg-open ;
+errorMode=0
+filterMode=0
+inputMode=2
+name=Paste to Hastebin
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=false
+
+[External Scripts][Quick Compile]
+command=g++ -o %b %f && ./%b
+errorMode=0
+filterMode=0
+inputMode=0
+name=Quick Compile
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=true
+
+[External Scripts][Sort Selection]
+command=sort
+errorMode=0
+filterMode=0
+inputMode=2
+name=Sort Selection
+outputMode=3
+saveMode=0
+shortcuts=
+showOutput=false
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=true
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=true
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=1
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-6
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=false
+Color Theme=Catppuccin Mocha
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Text Font=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=true
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=<>(){}[]'"
+Default Mark Type=1
+Dynamic Word Wrap=false
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Enable Accessibility=true
+Enable Tab completion=false
+Enter To Insert Completion=true
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Max Clipboard History Entries=20
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Shoe Line Ending Type in Statusbar=false
+Show Documentation With Completion=true
+Show File Encoding=true
+Show Folding Icons On Hover Only=true
+Show Line Count=false
+Show Scrollbars=0
+Show Statusbar Dictionary=true
+Show Statusbar Highlighting Mode=true
+Show Statusbar Input Mode=true
+Show Statusbar Line Column=true
+Show Statusbar Tab Settings=true
+Show Word Count=true
+Smart Copy Cut=true
+Statusbar Line Column Compact Mode=true
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Replace History=PUBGM
+Search History=BGMI
+
+[KatePart Settings]
+documents=/opt/android-ndk/build/core/build-local.mk,/home/alex/CPP_NDK/workspace/Socket/Clint/test/Android.mk,/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/jni.h,/home/alex/CPP_NDK/workspace/Socket/Server/jni/Support.h,/home/alex/CPP_NDK/workspace/Socket/Server/jni/Socket.h,/home/alex/CPP_NDK/workspace/Socket/Server/jni/Struct.h,/home/alex/CPP_NDK/workspace/Socket/Server/jni/Main.cpp,/home/alex/CPP_NDK/workspace/Socket/Server/jni/Android.mk,/home/alex/CPP_NDK/workspace/Socket/Server/jni/includes.h,/home/alex/Current-Projects/Telegram/moneyPrinter/haha/jni/Android.mk,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Tools.h,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Spoof.h,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/soinfo.h,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/main.cpp,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Application.mk,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/adroid_app.c,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Colors.h,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/SDK.hpp,/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Includes.h
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Clint/jni/main.cpp]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Clint/jni/main.cpp
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Clint/jni/obfuscate.h]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Clint/jni/obfuscate.h
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Clint/test/Android.mk]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Clint/test/Android.mk
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Server/jni/Android.mk]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Server/jni/Android.mk
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Server/jni/Main.cpp]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Server/jni/Main.cpp
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Server/jni/Socket.h]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Server/jni/Socket.h
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Server/jni/Struct.h]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Server/jni/Struct.h
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Server/jni/Support.h]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Server/jni/Support.h
+
+[KatePart Settings][/home/alex/CPP_NDK/workspace/Socket/Server/jni/includes.h]
+URL=file:///home/alex/CPP_NDK/workspace/Socket/Server/jni/includes.h
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Application.mk]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Application.mk
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Colors.h]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Colors.h
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Includes.h]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Includes.h
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/SDK.hpp]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/SDK.hpp
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Spoof.h]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Spoof.h
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Tools.h]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Tools.h
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/adroid_app.c]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/adroid_app.c
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/main.cpp]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/main.cpp
+
+[KatePart Settings][/home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/soinfo.h]
+URL=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/soinfo.h
+
+[KatePart Settings][/home/alex/Current-Projects/Telegram/moneyPrinter/haha/jni/Android.mk]
+URL=file:///home/alex/Current-Projects/Telegram/moneyPrinter/haha/jni/Android.mk
+
+[KatePart Settings][/opt/android-ndk/build/core/build-local.mk]
+URL=file:///opt/android-ndk/build/core/build-local.mk
+
+[KatePart Settings][/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/jni.h]
+URL=file:///opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/jni.h
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[MainWindow_code]
+(1) Tool Views Order=org.kdevelop.ProjectsView,org.kdevelop.ScratchpadView,org.kdevelop.DocumentsView,org.kdevelop.ClassBrowserView,org.kdevelop.FileManagerView
+(2) Tool Views Order=org.kdevelop.ExternalScriptView
+(8) Tool Views Order=org.kdevelop.ProblemReporterView,org.kdevelop.KonsoleView,org.kdevelop.ContextBrowser
+ToolBarsMovable=Disabled
+debugToolBarVisibility=true
+
+[MainWindow_debug]
+(1) Tool Views Order=org.kdevelop.FileManagerView,org.kdevelop.debugger.VariablesView
+(2) Tool Views Order=
+(8) Tool Views Order=org.kdevelop.KonsoleView,org.kdevelop.OutputView.0,org.kdevelop.debugger.DisassemblerView,org.kdevelop.debugger.ConsoleView,org.kdevelop.debugger.BreakpointsView,org.kdevelop.debugger.StackView
+debugToolBarVisibility=true
+
+[Open File]
+Last Open File Directory=file:///home/alex/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/
+
+[Providers]
+LastProviderIndex=1
+
+[Recent Files]
+File1[$e]=$HOME/Current-Projects/Telegram/moneyPrinter/haha/jni/Android.mk
+File10[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Application.mk
+File2[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Includes.h
+File3[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/SDK.hpp
+File4[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/adroid_app.c
+File5[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Tools.h
+File6[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Spoof.h
+File7[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/soinfo.h
+File8[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/Colors.h
+File9[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/main.cpp
+Name1[$e]=Android.mk
+Name10[$e]=Application.mk
+Name2[$e]=Includes.h
+Name3[$e]=SDK.hpp
+Name4[$e]=adroid_app.c
+Name5[$e]=Tools.h
+Name6[$e]=Spoof.h
+Name7[$e]=soinfo.h
+Name8[$e]=Colors.h
+Name9[$e]=main.cpp
+
+[RecentProjects]
+File1[$e]=$HOME/CPP_NDK/workspace/Socket/Clint/Clint/Clint.kdev4
+File2[$e]=$HOME/CPP_NDK/workspace/Socket/Clint/test/test.kdev4
+File3[$e]=$HOME/CPP_NDK/workspace/Socket/Clint/Clint.kdev4
+File4[$e]=$HOME/CPP_NDK/workspace/Socket/Server/Server.kdev4
+File5[$e]=$HOME/Current-Projects/Telegram/moneyPrinter/haha/jni/jni.kdev4
+File6[$e]=$HOME/Cpp-NDK/workspace/PUbg/Imgui_BGMI-64-2.5.0/app/src/main/jni/jni.kdev4
+Name1[$e]=Clint.kdev4
+Name2[$e]=test.kdev4
+Name3[$e]=Clint.kdev4
+Name4[$e]=Server.kdev4
+Name5[$e]=jni.kdev4
+Name6[$e]=jni.kdev4
+
+[Sessions]
+Active Session ID={1ada54ac-e2c7-4488-917b-3d0bfdb97459}
+
+[UiSettings]
+ColorScheme=Breeze Dark
+ShowTextEditorStatusBar=false
+
+[UiSettings/Docks/ToolbarEnabled]
+Build_code=true
+Code Browser_code=true
+External Scripts_code=true
+File System_code=true
+Problems_code=true
+Projects_code=true
+Run_code=true
+Scratchpad_code=true
+Test_code=true
+
+[User Interface]
+Main Windows Count=1
+
+[User Interface][Main Window 0][Area code]
+desired views=org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.2:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.ScratchpadView:1,org.kdevelop.SnippetView:2
+id=code
+view on bottom=org.kdevelop.OutputView.0
+view on left=org.kdevelop.ProjectsView
+view on right=
+view on top=
+
+[User Interface][Main Window 0][Area debug]
+desired views=org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.2:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
+id=debug
+view on bottom=
+view on left=
+view on right=
+view on top=
+
+[User Interface][Main Window 0][Area review]
+desired views=org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.2:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
+id=review
+view on bottom=
+view on left=
+view on right=
+view on top=

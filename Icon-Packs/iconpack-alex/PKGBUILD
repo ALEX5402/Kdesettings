@@ -1,0 +1,18 @@
+pkgname=beautysolar-icon-theme
+pkgver=1.0
+pkgrel=1
+pkgdesc='BeautySolar Icon pack'
+arch=('any')
+license=('GPL-3.0-or-later')
+options=('!strip' '!debug' '!emptydirs')
+conflicts=('beautysolar-icon-theme''beautysolar-icon')
+source=("BeautySolar.tar.gz")
+
+sha256sums=('SKIP')
+
+package() {
+	cd $srcdir
+    install -d "$pkgdir/usr/share/icons/"
+    cp -a BeautySolar $pkgdir/usr/share/icons
+    chmod -R ugo+rX "$pkgdir/usr/share/icons/"
+}

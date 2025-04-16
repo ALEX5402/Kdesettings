@@ -1,0 +1,24 @@
+pkgname=gtk-theme-alex
+pkgver=1.0
+pkgrel=1
+pkgdesc='My gtk Themes for kdeplasma by alex'
+arch=('any')
+license=('GPL-3.0-or-later')
+options=('!strip' '!debug' '!emptydirs')
+source=("Catppuccin-Mocha.tar.gz"
+        "Gruvbox-Retro.tar.gz"
+        "Rose-Pine.tar.gz"
+        "Tokyo-Night.tar.gz"
+        "Sweet-Dark.tar.gz")
+sha256sums=('SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP')
+
+package() {
+	cd $srcdir
+    install -d "$pkgdir/usr/share/themes"
+    cp -a Catppuccin-Mocha Gruvbox-Retro Rose-Pine Tokyo-Night Sweet-Dark $pkgdir/usr/share/themes
+    chmod -R ugo+rX "$pkgdir/usr/share/themes"
+}

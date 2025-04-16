@@ -1,0 +1,94 @@
+<!DOCTYPE gui>
+<gui name="konsole" translationDomain="kxmlgui6" version="20">
+ <MenuBar alreadyVisited="1">
+  <Menu alreadyVisited="1" name="file" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;File</text>
+   <Action name="new-window"/>
+   <Action name="new-tab"/>
+   <Action name="clone-tab"/>
+   <Separator/>
+   <DefineGroup name="session-operations"/>
+   <Separator/>
+   <DefineGroup name="session-tab-operations"/>
+   <Action name="close-window"/>
+  </Menu>
+  <Menu alreadyVisited="1" name="edit" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;Edit</text>
+   <DefineGroup name="session-edit-operations"/>
+  </Menu>
+  <Menu alreadyVisited="1" name="view" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;View</text>
+   <Menu name="view-split" noMerge="1">
+    <text translationDomain="konsole">Split View</text>
+    <Action name="split-view-left-right"/>
+    <Action name="split-view-top-bottom"/>
+    <Action name="split-view-left-right-next-tab"/>
+    <Action name="split-view-top-bottom-next-tab"/>
+    <Action name="close-active-view"/>
+    <Action name="close-other-views"/>
+    <Action name="expand-active-view"/>
+    <Action name="shrink-active-view"/>
+    <Action name="toggle-maximize-current-view"/>
+    <Action name="equal-size-view"/>
+   </Menu>
+   <Separator/>
+   <Action name="detach-tab"/>
+   <Action name="detach-view"/>
+   <Action name="save-layout"/>
+   <Action name="load-layout"/>
+   <Separator/>
+   <DefineGroup name="session-view-operations"/>
+   <Separator weakSeparator="1"/>
+   <Action name="fullscreen"/>
+  </Menu>
+  <Action name="bookmark"/>
+  <Menu name="plugins" noMerge="1">
+   <text translationDomain="konsole">Plugins</text>
+   <ActionList name="plugin-submenu"/>
+  </Menu>
+  <Menu alreadyVisited="1" name="settings" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;Settings</text>
+   <DefineGroup name="session-settings"/>
+   <Action name="manage-profiles"/>
+   <Action name="show-menubar"/>
+   <Action name="window-colorscheme-menu"/>
+   <Separator/>
+   <Action name="view-full-screen"/>
+   <Separator/>
+   <Action name="configure-shortcuts"/>
+   <Action name="configure-notifications"/>
+   <Action name="configure-settings"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_show_menubar"/>
+   <Merge name="StandardToolBarMenuHandler"/>
+   <Merge name="KMDIViewActions"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure_notifications"/>
+   <Action name="options_configure"/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Menu alreadyVisited="1" name="help" noMerge="1">
+   <text translationDomain="kxmlgui6">&amp;Help</text>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Action name="open_kcommand_bar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_donate"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar alreadyVisited="1" name="mainToolBar" noMerge="1">
+  <text translationDomain="kxmlgui6">Main Toolbar</text>
+  <index>0</index>
+ </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action name="split-view" priority="0"/>
+ </ActionProperties>
+</gui>

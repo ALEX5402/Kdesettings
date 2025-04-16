@@ -1,0 +1,32 @@
+import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]
+live_config_reload = true
+
+
+[cursor]
+unfocused_hollow = false
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[env]
+TERM = "alacritty"
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+[window]
+decorations = "full"
+dynamic_title = true
+startup_mode = "Windowed"
+opacity = 0.9
+blur = true
+
+
+[window.dimensions]
+columns = 110
+lines = 35
+
+
+
+[window.padding]
+x = 5
+y = 5
