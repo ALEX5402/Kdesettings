@@ -2,17 +2,13 @@
   Don't Touch My dot files 🙂
  
 ## have a look
-![sssss](https://github.com/ALEX5402/Kdesettings/assets/76860596/b80d5c47-3875-4c11-a451-b70e212b507a)
-image![Screenshot_20240428_012937](https://github.com/ALEX5402/Kdesettings/assets/76860596/dc3b01ac-b289-4165-a134-acf529370561)
-![Screenshot_20240430_080652](https://github.com/ALEX5402/Kdesettings/assets/76860596/7f518edf-ff0b-41fd-853c-b78ea457078f)
-![Screenshot_20240430_080509](https://github.com/ALEX5402/Kdesettings/assets/76860596/e7017410-fc18-4a68-b25f-7132873ecb0b)
-![Screenshot_20240430_080430](https://github.com/ALEX5402/Kdesettings/assets/76860596/3f8e5ecb-7374-4b09-82d1-942c918de48f)
+![Screenshot_20250416_210612](https://github.com/user-attachments/assets/650244d5-776e-4b31-96fb-10811a3cfa27)
+![Screenshot_20250416_210640](https://github.com/user-attachments/assets/07fac3d3-7ce1-4f10-ad4c-1ffa33ed7e84)
  
-## Changelog Wed Apr 16 09:05:38 PM IST 2025
+## Changelog Wed Apr 16 09:08:06 PM IST 2025
 ```
- README.md    | 11 ++---------
- changelog.sh |  2 +-
- info.txt     |  2 --
- 3 files changed, 3 insertions(+), 12 deletions(-)
+ README.md | 15 +++------------
+ info.txt  |  7 ++-----
+ 2 files changed, 5 insertions(+), 17 deletions(-)
 ```
  
