@@ -668,6 +668,8 @@ local/iputils 20240905-1.1
     Network monitoring tools, including ping
 local/iso-codes 4.18.0-1
     Lists of the country, language, and currency names
+local/it87-dkms-git 287.4bff981-1
+    Linux Driver for ITE LPC chips
 local/iw 6.9-1.1
     nl80211 based CLI configuration utility for wireless devices
 local/iwd 3.6-1.1

@@ -135,6 +135,7 @@ hwinfo
 hyperv
 ibus
 inxi
+it87-dkms-git
 iw
 iwd
 jack2

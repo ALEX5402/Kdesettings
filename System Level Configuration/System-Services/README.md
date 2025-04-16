@@ -81,9 +81,6 @@ To ensure smooth operation of the system with a minimal setup, we recommend keep
 - systemd-timesyncd.service
 - udisks2.service
 - dbus-broker.service
-- systemd-logind.service
-- systemd-journald.service
-- systemd-udevd.service
 - upower.service (on laptops)
 - polkit.service
 

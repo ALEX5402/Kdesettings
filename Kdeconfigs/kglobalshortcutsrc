@@ -273,6 +273,9 @@ _launch=Meta+T
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display
 
+[services][org.kde.kwrite.desktop]
+_launch=Meta+C
+
 [services][org.kde.spectacle.desktop]
 RecordRegion=none
 RecordScreen=none
