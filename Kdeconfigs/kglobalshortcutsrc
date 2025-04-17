@@ -26,8 +26,8 @@ decrease_volume_small=Shift+Volume Down\tMeta+F9,Shift+Volume Down,Decrease Volu
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
 increase_volume_small=Shift+Volume Up\tMeta+F10,Shift+Volume Up,Increase Volume by 1%
-mic_mute=Microphone Mute\tMeta+F12\tMeta+Alt\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
-mute=Volume Mute,Volume Mute,Mute
+mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+Alt,Microphone Mute\tMeta+Volume Mute,Mute Microphone
+mute=Meta+F12\tVolume Mute,Volume Mute,Mute
 
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
