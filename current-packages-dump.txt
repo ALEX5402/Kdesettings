@@ -409,6 +409,7 @@ wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
+xcb-imdkit
 xdg-desktop-portal-kde
 xdg-user-dirs
 xf86-input-elographics

@@ -2880,6 +2880,8 @@ local/xapian-core 1:1.4.27-1.1
     Open source search engine library
 local/xapp 2.8.8-1.1
     Common library for X-Apps project
+local/xcb-imdkit 1.0.9-1.1
+    Input method development support for xcb
 local/xcb-proto 1.17.0-3
     XML-XCB protocol descriptions
 local/xcb-util 0.4.1-2.1

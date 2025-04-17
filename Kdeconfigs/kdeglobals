@@ -97,7 +97,7 @@ ForegroundPositive=113,247,159
 ForegroundVisited=179,13,191
 
 [DirSelect Dialog]
-DirSelectDialog Size=820,584
+DirSelectDialog Size=820,568
 History Items[$e]=file:$HOME/Telegram,file:///media/500HDD
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 

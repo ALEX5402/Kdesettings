@@ -2,6 +2,17 @@
 
 This README provides step-by-step instructions for downloading, compiling, and installing the IT8686E sensor driver for monitoring hardware sensors on your system.
 
+
+## 9. Arch Linux Users
+
+If you are using Arch Linux, you can simplify the installation process by using the AUR package. You can install the IT87 DKMS driver from the AUR with the following command:
+
+```bash
+yay -S it87-dkms-git
+```
+
+This will automatically handle the downloading, compiling, and installation of the IT8686E driver for you.
+
 ## Table of Contents
 
 1. [Download the Source Code](#download-the-source-code)
@@ -191,16 +202,6 @@ Vcore:       732.00 mV (min =  +0.00 V, max =  +3.06 V)
 +5.0V:         4.98 V  (min =  +0.00 V, max =  +7.65 V)
 ...
 ```
-
-## 9. Arch Linux Users
-
-If you are using Arch Linux, you can simplify the installation process by using the AUR package. You can install the IT87 DKMS driver from the AUR with the following command:
-
-```bash
-yay -S it87-dkms-git
-```
-
-This will automatically handle the downloading, compiling, and installation of the IT8686E driver for you.
 
 ## 10. Conclusion
 
