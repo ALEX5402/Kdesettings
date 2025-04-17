@@ -117,7 +117,7 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=820
+1920x1080 screen: Height=774
 1920x1080 screen: Width=1138
 
 [UiSettings]
