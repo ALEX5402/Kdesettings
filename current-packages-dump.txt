@@ -162,6 +162,10 @@ kscreen
 kscreenlocker
 ksshaskpass
 ksystemstats
+kwallet
+kwallet-pam
+kwallet5
+kwalletmanager
 kwayland
 kwin
 kwrited

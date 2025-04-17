@@ -930,6 +930,14 @@ local/kunitconversion 6.12.0-2.1 (kf6)
     Support for unit conversion
 local/kuserfeedback 6.12.0-1.1
     Framework for collecting user feedback for applications via telemetry and surveys
+local/kwallet 6.12.0-1.1 (kf6)
+    Secure and unified container for user passwords
+local/kwallet-pam 6.3.4-1.1 (plasma)
+    KWallet PAM integration
+local/kwallet5 5.116.0-1.1 (kf5)
+    Secure and unified container for user passwords
+local/kwalletmanager 24.12.3-1.1 (kde-applications kde-utilities)
+    Wallet management tool
 local/kwayland 6.3.4-1.1 (plasma)
     Qt-style Client and Server library wrapper for the Wayland libraries
 local/kwidgetsaddons 6.12.0-2.1 (kf6)
@@ -2166,6 +2174,8 @@ local/python-xapp 2.4.2-2
     Python Xapp Library
 local/python-yaml 6.0.2-2.1
     Python bindings for YAML, using fast libYAML library
+local/qca-qt5 2.3.10-1
+    Qt Cryptographic Architecture
 local/qca-qt6 2.3.10-1
     Qt Cryptographic Architecture
 local/qcoro 0.12.0-1

@@ -242,6 +242,7 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 101=Meta+A,none,Activate Application Dashboard Widget
+activate widget 102=Meta+`,none,Activate Color Picker Widget
 activate widget 96=none,none,Activate Digital Clock Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
