@@ -2324,6 +2324,8 @@ local/qemu-vmsr-helper 9.2.3-1
     QEMU persistent reservation utility
 local/qpdf 12.1.0-1.1
     QPDF: A Content-Preserving PDF Transformation System
+local/qpwgraph 0.8.3-1.1 (pro-audio)
+    PipeWire Graph Qt GUI Interface
 local/qqc2-breeze-style 6.3.4-1.1 (plasma)
     Applications useful for Plasma development
 local/qqc2-desktop-style 6.12.0-1.1 (kf6)

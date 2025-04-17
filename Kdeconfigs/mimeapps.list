@@ -94,3 +94,4 @@ x-scheme-handler/discord=vesktop.desktop
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop
+x-scheme-handler/discord-831593107883032657=discord-831593107883032657.desktop

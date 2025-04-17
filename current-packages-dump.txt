@@ -292,6 +292,7 @@ pv
 python-pyparted
 qemu-base
 qemu-full
+qpwgraph
 qqc2-breeze-style
 qt5-graphicaleffects
 qt5-imageformats
