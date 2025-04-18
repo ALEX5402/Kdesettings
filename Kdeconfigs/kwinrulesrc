@@ -38,9 +38,21 @@ wmclass=partitionmanager org.kde.partitionmanager
 wmclasscomplete=true
 wmclassmatch=2
 
+[89f3f132-ceaa-455e-b673-f7f86c3a3d6f]
+Description=Window settings for brave-browser
+opacityactive=95
+opacityactiverule=2
+opacityinactive=95
+opacityinactiverule=2
+title=New Tab - Brave
+types=1
+wmclass=brave brave-browser
+wmclasscomplete=true
+wmclassmatch=2
+
 [General]
-count=8
-rules=1cf5bc1e-2e56-4962-b214-2340737e11f7,c5fb3a2a-b5a3-4633-8c4d-2b9af47c22db,eabb87ff-40ce-4e05-8acd-5203a082b539,39c7477b-4574-454d-b3be-008827eb8bfe,55579b47-5aae-4e08-8f8e-7f342c8ee400,f98a67ab-9c22-4473-92be-1367aca462c4,619c0059-cb8f-43bb-bd7d-cb0004669faa,abef738e-ef74-43e9-9d32-5b337cf5e811
+count=9
+rules=89f3f132-ceaa-455e-b673-f7f86c3a3d6f,1cf5bc1e-2e56-4962-b214-2340737e11f7,c5fb3a2a-b5a3-4633-8c4d-2b9af47c22db,eabb87ff-40ce-4e05-8acd-5203a082b539,39c7477b-4574-454d-b3be-008827eb8bfe,55579b47-5aae-4e08-8f8e-7f342c8ee400,f98a67ab-9c22-4473-92be-1367aca462c4,619c0059-cb8f-43bb-bd7d-cb0004669faa,abef738e-ef74-43e9-9d32-5b337cf5e811
 
 [abef738e-ef74-43e9-9d32-5b337cf5e811]
 Description=android-studo

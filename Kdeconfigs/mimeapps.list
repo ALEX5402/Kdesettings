@@ -42,8 +42,8 @@ video/x-ogm+ogg=mpv.desktop;
 video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/chrome=zen.desktop;
-x-scheme-handler/http=firefox.desktop;zen.desktop;
-x-scheme-handler/https=firefox.desktop;zen.desktop;
+x-scheme-handler/http=zen.desktop;brave-browser.desktop;firefox.desktop;
+x-scheme-handler/https=zen.desktop;brave-browser.desktop;firefox.desktop;
 x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop;
 
 [Default Applications]
@@ -91,7 +91,7 @@ video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/chrome=zen.desktop
 x-scheme-handler/discord=vesktop.desktop
-x-scheme-handler/http=firefox.desktop;
-x-scheme-handler/https=firefox.desktop;
-x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop
 x-scheme-handler/discord-831593107883032657=discord-831593107883032657.desktop
+x-scheme-handler/http=zen.desktop;
+x-scheme-handler/https=zen.desktop;
+x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop

@@ -54,7 +54,6 @@ cava
 chaotic-keyring
 chaotic-mirrorlist
 clonezilla
-cloudflare-warp-bin
 cmake
 cpio
 cpupower
@@ -91,7 +90,6 @@ fd
 ffmpegthumbnailer
 ffmpegthumbs
 filezilla
-firefox
 firewalld
 fish
 fisher
@@ -104,10 +102,10 @@ github-cli
 gnome-keyring
 gocryptfs
 gpart
-gparted
 gpm
 gptfdisk
 grub
+grub-customizer
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
 gsfonts
@@ -149,6 +147,7 @@ kde-system-meta
 kdeconnect
 kdecoration
 kdenetwork-filesharing
+kdenlive
 kdeplasma-addons
 kgamma
 kglobalacceld
@@ -173,6 +172,8 @@ laptop-detect
 layer-shell-qt
 ldns
 less
+lib32-amdvlk
+lib32-vulkan-radeon
 libdvdcss
 libfido2
 libgsf
@@ -402,6 +403,8 @@ vimix-cursors
 visual-studio-code-bin
 vortex-thermal
 vpnc
+vscodium
+vulkan-radeon
 wacomtablet
 wd719x-firmware
 wget
@@ -460,6 +463,8 @@ yay-git
 youtube-dl
 youtube-music-bin
 yt-dlp
+zed
+zen-browser-bin
 zram-generator
 zsh
 zsh-completions

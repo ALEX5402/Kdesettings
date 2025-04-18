@@ -7,11 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "vim_mode": false,
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Rosé Pine"
+    "dark": "Ayu Mirage"
   }
 }

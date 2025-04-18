@@ -8,6 +8,18 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Ke
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[brave-browser]
+_k_friendly_name=brave-browser
+addSite=Alt+Shift+A,Alt+Shift+A,Toggle current site
+switchEngine=none,none,Theme generation mode
+toggle=Alt+Shift+D,Alt+Shift+D,Toggle extension
+
+[brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
+_k_friendly_name=WhatsApp Web
+addSite=,Alt+Shift+A,Toggle current site
+switchEngine=none,none,Theme generation mode
+toggle=,Alt+Shift+D,Toggle extension
+
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
@@ -60,7 +72,7 @@ MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
-Overview=Ctrl+Tab\tMeta+\\,,Meta+W,Toggle Overview
+Overview=Meta+Tab\tMeta+\\,,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Peek at Desktop
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
@@ -125,7 +137,7 @@ Window Custom Quick Tile Bottom=none,,Custom Quick Tile Window to the Bottom
 Window Custom Quick Tile Left=none,,Custom Quick Tile Window to the Left
 Window Custom Quick Tile Right=none,,Custom Quick Tile Window to the Right
 Window Custom Quick Tile Top=none,,Custom Quick Tile Window to the Top
-Window Fullscreen=none,,Make Window Fullscreen
+Window Fullscreen=Meta+F11,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
@@ -212,6 +224,12 @@ playpausemedia=Media Play\tPause,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
 
+[org.chromium.Chromium]
+_k_friendly_name=org.chromium.Chromium
+addSite=,Alt+Shift+A,Toggle current site
+switchEngine=none,none,Theme generation mode
+toggle=,Alt+Shift+D,Toggle extension
+
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -264,10 +282,6 @@ toggle do not disturb=Meta+F8,,Toggle do not disturb
 [services][android-studio-alex.desktop]
 _launch=Meta+Z
 
-[services][firefox.desktop]
-_launch=Meta+F
-new-private-window=Meta+Shift+N
-
 [services][kitty.desktop]
 _launch=Meta+T
 
@@ -286,6 +300,10 @@ _launch=none
 
 [services][youtube-music.desktop]
 _launch=Meta+X
+
+[services][zen.desktop]
+_launch=Meta+F
+new-private-window=Meta+Shift+N
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
