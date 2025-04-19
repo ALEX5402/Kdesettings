@@ -388,6 +388,8 @@ local/fastfetch 2.41.0-1.1
     A feature-rich and performance oriented neofetch like system information tool
 local/fatresize 1.1.0-2.1
     A utility to resize FAT filesystems using libparted
+local/fcitx5 5.1.12-1.1 (fcitx5-im)
+    Next generation of fcitx
 local/fd 10.2.0-1.1
     Simple, fast and user-friendly alternative to find
 local/ffmpeg 2:7.1-9.1
@@ -1902,12 +1904,18 @@ local/ninja 1.12.1-2.1
     Small build system with a focus on speed
 local/nm-connection-editor 1.36.0-1
     NetworkManager GUI connection editor and widgets
+local/node-gyp 11.2.0-1
+    Node.js native addon build tool
 local/nodejs 23.11.0-2
     Evented I/O for V8 javascript
+local/nodejs-nopt 7.2.1-1
+    Node/npm Option Parsing library
 local/noto-fonts 1:2025.04.01-1
     Google Noto TTF fonts
 local/noto-fonts-emoji 1:2.047-1
     Google Noto emoji fonts
+local/npm 11.3.0-1
+    JavaScript package manager
 local/npth 1.8-1.1
     The new GNU portable threads library
 local/nspr 4.36-1.1
@@ -2602,6 +2610,8 @@ local/seabios 1.16.3-1
     Open-source legacy BIOS implementation
 local/sed 4.9-3.2
     GNU stream editor
+local/semver 7.7.1-1
+    The semantic version parser used by npm
 local/serd 0.32.4-1.1
     Lightweight C library for RDF syntax supporting reading/ writing Turtle and NTriples
 local/sg3_utils 1.48-1.1
@@ -3034,6 +3044,8 @@ local/xf86-input-wacom 1.2.3-1.1
     X.Org Wacom tablet driver
 local/xf86-video-amdgpu 23.0.0-2.1 (xorg-drivers)
     X.org amdgpu video driver
+local/xf86-video-vesa 2.6.0-2.1 (xorg-drivers xorg)
+    X.org vesa video driver
 local/xfsprogs 6.14.0-1
     XFS filesystem utilities
 local/xkeyboard-config 2.44-1

@@ -86,6 +86,7 @@ f2fs-tools
 fancontrol-gui-git
 fastfetch
 fatresize
+fcitx5
 fd
 ffmpegthumbnailer
 ffmpegthumbs
@@ -232,6 +233,7 @@ networkmanager-vpnc
 nfs-utils
 nilfs-utils
 noto-fonts
+npm
 nss-mdns
 ntfs-3g
 ntp
@@ -418,6 +420,7 @@ xdg-user-dirs
 xf86-input-elographics
 xf86-input-libinput
 xf86-video-amdgpu
+xf86-video-vesa
 xfsprogs
 xl2tpd
 xorg-bdftopcf

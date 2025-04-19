@@ -15,10 +15,10 @@ switchEngine=none,none,Theme generation mode
 toggle=Alt+Shift+D,Alt+Shift+D,Toggle extension
 
 [brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
-_k_friendly_name=WhatsApp Web
-addSite=,Alt+Shift+A,Toggle current site
+_k_friendly_name=brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default
+addSite=none,Alt+Shift+A,Toggle current site
 switchEngine=none,none,Theme generation mode
-toggle=,Alt+Shift+D,Toggle extension
+toggle=none,Alt+Shift+D,Toggle extension
 
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -226,9 +226,9 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org.chromium.Chromium]
 _k_friendly_name=org.chromium.Chromium
-addSite=,Alt+Shift+A,Toggle current site
+addSite=none,Alt+Shift+A,Toggle current site
 switchEngine=none,none,Theme generation mode
-toggle=,Alt+Shift+D,Toggle extension
+toggle=none,Alt+Shift+D,Toggle extension
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
