@@ -1,6 +1,7 @@
 [ActivityManager]
-_k_friendly_name=Activity Manager
-switch-to-activity-0d0ab03b-7709-4e08-b9ce-4f29286321c5=none,none,Switch to activity "Default"
+_k_friendly_name=System Settings
+switch-to-activity-0d0ab03b-7709-4e08-b9ce-4f29286321c5=,none,Switch to activity "Default"
+switch-to-activity-49f82595-9da7-4759-8a09-cae4c5fc12fe=,none,Switch to activity "focus"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -268,7 +269,7 @@ clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
-manage activities=none,Meta+Q,Show Activity Switcher
+manage activities=Meta+Menu,Meta+Q,Show Activity Switcher
 next activity=none,none,Walk through activities
 previous activity=Ctrl+~,none,Walk through activities (Reverse)
 repeat_action=none,,Manually Invoke Action on Current Clipboard

@@ -109,6 +109,14 @@ ColorSchemeHash=a054744e5da530142f039caa182148b170643d2e
 LastUsedCustomAccentColor=240,0,0
 TerminalApplication=kitty
 TerminalService=kitty.desktop
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=JetBrains Mono,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
 Theme=BeautySolar
@@ -145,6 +153,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
+activeFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
