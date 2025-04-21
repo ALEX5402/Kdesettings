@@ -1,13 +1,19 @@
 [ActivityManager]
-_k_friendly_name=System Settings
-switch-to-activity-0d0ab03b-7709-4e08-b9ce-4f29286321c5=,none,Switch to activity "Default"
-switch-to-activity-49f82595-9da7-4759-8a09-cae4c5fc12fe=,none,Switch to activity "focus"
+_k_friendly_name=Activity Manager
+switch-to-activity-0d0ab03b-7709-4e08-b9ce-4f29286321c5=none,none,Switch to activity "Default"
+switch-to-activity-49f82595-9da7-4759-8a09-cae4c5fc12fe=none,none,Switch to activity "focus"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
+
+[brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default]
+_k_friendly_name=Instagram
+addSite=none,Alt+Shift+A,Toggle current site
+switchEngine=none,none,Theme generation mode
+toggle=none,Alt+Shift+D,Toggle extension
 
 [brave-browser]
 _k_friendly_name=brave-browser
@@ -262,7 +268,8 @@ activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 101=Meta+A,none,Activate Application Dashboard Widget
 activate widget 102=Meta+`,none,Activate Color Picker Widget
-activate widget 105=,none,Activate Total CPU Use Widget
+activate widget 105=none,none,Activate Total CPU Use Widget
+activate widget 54=Meta+Space,none,Activate Panel Widget
 activate widget 96=none,none,Activate Digital Clock Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
@@ -286,6 +293,9 @@ _launch=Meta+Z
 
 [services][kitty.desktop]
 _launch=Meta+T
+
+[services][org.kde.krunner.desktop]
+_launch=Search\tAlt+F2
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display

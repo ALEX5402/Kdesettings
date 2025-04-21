@@ -20,3 +20,10 @@
 
 2025/04/16 (20:55:48) | ===> btop++ v.1.4.0
 2025/04/16 (20:55:48) | WARNING: Failed to join _runner thread on exit!
+
+2025/04/20 (18:17:50) | ===> btop++ v.1.4.0
+2025/04/20 (18:17:50) | WARNING: Failed to join _runner thread on exit!
+
+2025/04/20 (18:19:26) | ===> btop++ v.1.4.0
+2025/04/20 (18:19:26) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/04/20 (18:19:26) | ERROR: Couldn't determine terminal size of "/dev/tty"!

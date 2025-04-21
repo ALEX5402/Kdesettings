@@ -13,7 +13,7 @@ end
 
 #youtubedl fix
 function ytd
-    youtube-dl $argv[1] 
+    yt-dlp $argv[1]
 end
 
 # Set settings for https://github.com/franciscolourenco/done
