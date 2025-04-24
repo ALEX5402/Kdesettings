@@ -60,7 +60,7 @@ local/amdvlk 2025.Q1.3-1.1
     AMD's standalone Vulkan driver
 local/ananicy-cpp 1.1.1-7.1
     Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
-local/android-studio-alex 2024.3.1.14-1
+local/android-studio-alex 2024.3.1.15-1
     The official Android IDE (Stable branch)
 local/android-tools 35.0.2-14.1
     Android platform tools
@@ -302,7 +302,7 @@ local/diffutils 3.12-1.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
-local/discord 1:0.0.91-1
+local/discord 1:0.0.92-1
     All-in-one voice and text chat for gamers
 local/discount 3.0.0.d-1.1
     A Markdown implementation written in C
@@ -2594,6 +2594,8 @@ local/rubberband 4.0.0-1.1
     Time-stretching and pitch-shifting audio library and utility
 local/run-parts 5.17-1.1
     run scripts or programs in a directory
+local/rust 1:1.86.0-1.1
+    Systems programming language focused on safety, speed and concurrency
 local/samba 2:4.22.1-1.1
     SMB Fileserver and AD Domain server
 local/sbc 2.0-2.1
@@ -3176,7 +3178,7 @@ local/zbar 0.23.93-4.1
     Application and library for reading bar codes from various sources
 local/zed 0.182.11-1.1
     A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
-local/zen-browser-bin 1.11.3b-1
+local/zen-browser-bin 1.11.4b-1
     Performance oriented Firefox-based web browser
 local/zeromq 4.3.5-2.1
     Fast messaging system built on sockets. C and C++ bindings. aka 0MQ, ZMQ.

@@ -10,7 +10,7 @@ Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Lay
 _k_friendly_name=Keyboard Layout Switcher
 
 [brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default]
-_k_friendly_name=Instagram
+_k_friendly_name=brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default
 addSite=none,Alt+Shift+A,Toggle current site
 switchEngine=none,none,Theme generation mode
 toggle=none,Alt+Shift+D,Toggle extension

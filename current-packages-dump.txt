@@ -320,6 +320,7 @@ ripgrep
 rp-pppoe
 rsync
 rtl8821cu-morrownr-dkms-git
+rust
 scrcpy
 screen
 sddm
