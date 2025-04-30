@@ -22,7 +22,6 @@ arc-gtk-theme
 archlinux-java-run
 arcolinux-fonts-git
 arconet-variety-config
-arconet-xfce
 ark
 ast-firmware
 audiocd-kio
@@ -133,6 +132,7 @@ gvfs-nfs
 gvfs-smb
 gwenview
 hardcode-fixer-git
+haruna
 hdparm
 htop
 hwinfo
