@@ -5,8 +5,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=Applet-96:1680,16,208,80,0;Applet-84:1680,272,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1616,848,320,224,0;
-ItemGeometriesHorizontal=Applet-96:1680,16,208,80,0;Applet-84:1680,272,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1616,848,320,224,0;
+ItemGeometries-1920x1080=Applet-96:1680,16,208,80,0;Applet-84:1680,272,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1600,848,320,224,0;
+ItemGeometriesHorizontal=Applet-96:1680,16,208,80,0;Applet-84:1680,272,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1600,848,320,224,0;
 activityId=0d0ab03b-7709-4e08-b9ce-4f29286321c5
 formfactor=0
 immutability=1
@@ -133,7 +133,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][96][Configuration]
-PreloadWeight=70
+PreloadWeight=95
 popupHeight=450
 popupWidth=560
 
@@ -161,8 +161,8 @@ positions={"1920x1080":["1","20"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/alex/dotfiles-main/wallpapers/wallpaperflare.com_wallpaper (1).jpg
-PreviewImage=/home/alex/dotfiles-main/wallpapers/wallpaperflare.com_wallpaper (1).jpg
+Image=/home/alex/dotfiles-main/wallpapers/cat_lofi_cafe.jpg
+PreviewImage=/home/alex/dotfiles-main/wallpapers/cat_lofi_cafe.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -175,8 +175,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][116][ConfigDialog]
-DialogHeight=636
-DialogWidth=852
+DialogHeight=723
+DialogWidth=971
 
 [Containments][116][General]
 positions={"1920x1080":[]}
@@ -262,7 +262,7 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][54][Applets][105][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=172
 popupWidth=156
 
@@ -331,8 +331,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,zen.desktop,kitty.desktop,code.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:zen.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,code.desktop,org.kde.dolphin.desktop,zen.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:code.desktop,applications:zen.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -352,7 +352,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][54][Applets][73][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 popupHeight=450
 popupWidth=560
 
@@ -410,7 +410,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][60][Applets][65][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][60][Applets][66]
 immutability=1
@@ -475,7 +475,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][60][Applets][77][Configuration]
-PreloadWeight=87
+PreloadWeight=92
 
 [Containments][60][Applets][78]
 immutability=1
