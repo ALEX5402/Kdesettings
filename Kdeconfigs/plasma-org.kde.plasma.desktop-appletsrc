@@ -61,6 +61,7 @@ disk/3058e016141c4ca4/usedPercent=174,7,11
 disk/427d7266-59a1-4abc-8a3d-a6b7608ceb62/usedPercent=129,255,90
 disk/a28e92598e9225b7/usedPercent=95,174,7
 disk/all/usedPercent=170,85,255
+disk/c1f26834-beac-4ddc-b900-ab7981363804/usedPercent=174,7,11
 disk/ec3c210e-af4d-444b-a69a-64e9765d36fe/usedPercent=255,0,0
 
 [Containments][1][Applets][84][Configuration][Sensors]
@@ -133,7 +134,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][96][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=450
 popupWidth=560
 
@@ -331,8 +332,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,code.desktop,org.kde.dolphin.desktop,zen.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:code.desktop,applications:zen.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,code.desktop,zen.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:code.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:zen.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -352,7 +353,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][54][Applets][73][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 popupHeight=450
 popupWidth=560
 

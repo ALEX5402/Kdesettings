@@ -97,8 +97,8 @@ ForegroundPositive=113,247,159
 ForegroundVisited=179,13,191
 
 [DirSelect Dialog]
-DirSelectDialog Size=1065,734
-History Items[$e]=file:$HOME/Music,file:///media/games-and-others,file:///media/windows,file:$HOME/Telegram,file:///media/500HDD
+DirSelectDialog Size=839,584
+History Items[$e]=file:///media/games-and-others,file:$HOME/Music,file:///media/windows,file:$HOME/Telegram,file:///media/500HDD
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8f\x00\x00\x02\xa4\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]

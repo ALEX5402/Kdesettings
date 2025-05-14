@@ -75,6 +75,7 @@ dnsmasq
 docker
 dolphin-plugins
 dosfstools
+dovi-tool
 downgrade
 drkonqi
 duf
