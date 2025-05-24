@@ -98,7 +98,7 @@ ForegroundVisited=179,13,191
 
 [DirSelect Dialog]
 DirSelectDialog Size=839,584
-History Items[$e]=file:///media/games-and-others,file:$HOME/Music,file:///media/windows,file:$HOME/Telegram,file:///media/500HDD
+History Items[$e]=file:$HOME/Telegram,file:///media/games-and-others/games,file:///media/games-and-others,file:$HOME/Music,file:///media/windows,file:$HOME/Telegram,file:///media/500HDD
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8f\x00\x00\x02\xa4\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
@@ -139,10 +139,10 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=true
+Sort reversed=false
 Speedbar Width=140
 View Style=DetailTree
 

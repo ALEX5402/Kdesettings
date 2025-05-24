@@ -38,6 +38,9 @@ global=Meta+`
 immutability=1
 plugin=org.kde.plasma.trash
 
+[Containments][1][Applets][80][Configuration]
+PreloadWeight=60
+
 [Containments][1][Applets][84]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.diskusage
@@ -153,8 +156,8 @@ DialogWidth=720
 showSecondHand=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=802
+DialogWidth=1021
 
 [Containments][1][General]
 iconSize=1
@@ -162,8 +165,8 @@ positions={"1920x1080":["1","20"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/alex/dotfiles-main/wallpapers/cat_lofi_cafe.jpg
-PreviewImage=/home/alex/dotfiles-main/wallpapers/cat_lofi_cafe.jpg
+Image=/home/alex/dotfiles-main/wallpapers/1345016.png
+PreviewImage=/home/alex/dotfiles-main/wallpapers/1345016.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -332,8 +335,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,code.desktop,zen.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:code.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:zen.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,zen.desktop,org.kde.dolphin.desktop,kitty.desktop,code.desktop,com.ayugram.desktop.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:zen.desktop,applications:code.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:com.ayugram.desktop.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -353,7 +356,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][54][Applets][73][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=450
 popupWidth=560
 
@@ -406,12 +409,15 @@ PreloadWeight=100
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][60][Applets][64][Configuration]
+PreloadWeight=55
+
 [Containments][60][Applets][65]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][60][Applets][65][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][60][Applets][66]
 immutability=1
@@ -462,7 +468,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][60][Applets][75][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][60][Applets][76]
 immutability=1
@@ -476,7 +482,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][60][Applets][77][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][60][Applets][78]
 immutability=1

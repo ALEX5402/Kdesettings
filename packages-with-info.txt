@@ -60,6 +60,8 @@ local/amdvlk 2025.Q2.1-1.1
     AMD's standalone Vulkan driver
 local/ananicy-cpp 1.1.1-7.1
     Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
+local/android-ndk-26 r26.d-1
+    Android C/C++ developer kit
 local/android-studio-alex 2024.3.2.14-1
     The official Android IDE (Stable branch)
 local/android-tools 35.0.2-15.1
@@ -72,10 +74,14 @@ local/appimagelauncher 2.2.0-8
     Helper for running and integrating AppImages
 local/appstream 1.0.5-2.1
     Provides a standard for creating app stores across distributions
+local/appstream-glib 0.8.3-2.2
+    Objects and methods for reading and writing AppStream metadata
 local/appstream-qt 1.0.5-2.1
     Qt6 interface for AppStream
 local/arc-gtk-theme 20221218-2
     A flat theme with transparent elements for GTK 2,3,4 and Gnome-Shell
+local/archlinux-appstream-data 20250317-1
+    Arch Linux application database for AppStream-based software centers
 local/archlinux-java-run 11-1
     Java Application Launcher for Arch Linux
 local/archlinux-keyring 20250430.1-2
@@ -112,6 +118,8 @@ local/avahi 1:0.8+r194+g3f79789-3.1
     Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
 local/awesome-terminal-fonts 1.1.0-5
     fonts/icons for powerlines
+local/ayugram-desktop 5.12.3-7
+    Desktop Telegram client with good customization and Ghost mode.
 local/baloo 6.14.0-1.1 (kf6)
     A framework for searching and managing metadata
 local/baloo-widgets 25.04.1-1.1
@@ -160,6 +168,8 @@ local/bolt 0.9.8-1.1
     Thunderbolt 3 device manager
 local/boost-libs 1.88.0-2.1
     Free peer-reviewed portable C++ source libraries (runtime libraries)
+local/bottles 2:51.21-3
+    Easily manage wine and proton prefix
 local/brave-bin 1:1.78.97-1
     Web browser that blocks ads and trackers by default (binary release)
 local/breeze 6.3.5-1.1 (plasma)
@@ -192,6 +202,8 @@ local/ca-certificates-mozilla 3.111-1.1
     Mozilla's set of trusted CA certificates
 local/ca-certificates-utils 20240618-1
     Common CA certificates (utilities)
+local/cabextract 1.11-2.1
+    A program to extract Microsoft cabinet (.CAB) files
 local/cachyos-keyring 20240331-1 (cachyos)
     CachyOS keyring
 local/cachyos-mirrorlist 22-1 (cachyos)
@@ -234,6 +246,8 @@ local/clinfo 3.0.23.01.25-1.1
     Simple OpenCL application that enumerates all available platform and device properties
 local/clonezilla 5.6.13-1
     ncurses partition and disk imaging/cloning program
+local/cloudflare-warp-bin 2025.4.929-1
+    Cloudflare Warp Client
 local/clucene 2.3.3.4-16.1
     C++ port of the high-performance text search engine Lucene
 local/cmake 4.0.2-1.1
@@ -302,7 +316,7 @@ local/diffutils 3.12-2.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
-local/discord 1:0.0.94-1
+local/discord 1:0.0.95-1
     All-in-one voice and text chat for gamers
 local/discount 3.0.0.d-1.1
     A Markdown implementation written in C
@@ -468,6 +482,8 @@ local/fuse3 3.17.1-1.1
     Interface for userspace programs to export a filesystem to the Linux kernel
 local/fzf 0.62.0-1.1
     Command-line fuzzy finder
+local/gamemode 1.8.2-1.1
+    A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
 local/gawk 5.3.2-1.1
     GNU version of awk
 local/gc 8.2.8-2.1
@@ -608,6 +624,8 @@ local/gtkmm3 3.24.10-1.1
     C++ bindings for GTK+ 3
 local/gtksourceview3 1:3.24.11+r30+gd880929f-1.1
     Text widget with syntax highlighting for GNOME
+local/gtksourceview5 5.16.0-2.1
+    A text widget adding syntax highlighting and more to GNOME
 local/guile 3.0.10-1.1
     Portable, embeddable Scheme implementation written in C
 local/gupnp 1:1.6.8-2.2
@@ -670,6 +688,8 @@ local/iana-etc 20250502-1
     /etc/protocols and /etc/services provided by IANA
 local/ibus 1.5.32-1.1
     Intelligent input bus for Linux/Unix
+local/icoextract 0.1.5-2
+    Icon extractor for Windows PE files (.exe/.dll) with optional thumbnailer functionality
 local/icu 76.1-1.1
     International Components for Unicode library
 local/ijs 0.35-6.1
@@ -1112,6 +1132,8 @@ local/libaccounts-glib 1.27-3.1
     Glib-based client library for accessing the online accounts database
 local/libaccounts-qt 1.17-1.1
     Qt-based client library for accessing the online accounts database
+local/libadwaita 1:1.7.2-1.1
+    Building blocks for modern adaptive GNOME applications
 local/libaio 0.3.113-3.1
     The Linux-native asynchronous I/O facility (aio) library
 local/libao 1.2.2-6.1
@@ -1166,6 +1188,10 @@ local/libbsd 0.12.2-2.1
     Provides useful functions commonly found on BSD systems like strlcpy()
 local/libbytesize 2.11-1.1
     A tiny library providing a C "class" for working with arbitrary big sizes in bytes
+local/libc++ 19.1.7-1.1
+    LLVM C++ standard library
+local/libc++abi 19.1.7-1.1
+    Low level support for the LLVM C++ standard library
 local/libcaca 0.99.beta20-5.1
     Color ASCII art library
 local/libcacard 2.8.1-1.1
@@ -1490,6 +1516,10 @@ local/libplist 2.6.0-2.1
     Library to handle Apple Property List files
 local/libpng 1.6.48-1.1
     A collection of routines used to create PNG format graphics files
+local/libportal 0.9.1-2.1
+    GIO-style async APIs for most Flatpak portals
+local/libportal-gtk4 0.9.1-2.1
+    GIO-style async APIs for most Flatpak portals - GTK 4 backend
 local/libppd 2.1.1-1.1
     OpenPrinting - the legacy support library for PPD files
 local/libproxy 0.5.9-1.1
@@ -1546,6 +1576,8 @@ local/libsndfile 1.2.2-3.1
     A C library for reading and writing files containing sampled audio data
 local/libsodium 1.0.20-1.1
     A modern, portable, easy to use crypto library
+local/libsoup 2.74.3-3.1
+    HTTP client/server library for GNOME
 local/libsoup3 3.6.5-1
     HTTP client/server library for GNOME
 local/libsoxr 0.1.3-4.1
@@ -1660,6 +1692,8 @@ local/libxcomposite 0.4.6-2.1
     X11 Composite extension library
 local/libxcrypt 4.4.38-1.1
     Modern library for one-way hashing of passwords
+local/libxcrypt-compat 4.4.38-1.1
+    Modern library for one-way hashing of passwords - legacy API functions
 local/libxcursor 1.2.3-1.1
     X cursor management library
 local/libxcvt 0.1.3-1.1
@@ -2060,6 +2094,8 @@ local/pahole 1:1.30-1.1
     Pahole and other DWARF utils
 local/pam 1.7.0-2.1
     PAM (Pluggable Authentication Modules) library
+local/pamac 11.7.3-1
+    Pamac package manager - library, gui, cli
 local/pambase 20230918-2
     Base PAM configuration for services
 local/pamixer 1.6-3.1
@@ -2082,6 +2118,8 @@ local/paru 2.0.4-1.1
     Feature packed AUR helper
 local/patch 2.8-1.1
     A utility to apply patch files to original sources
+local/patool 3.1.0-2
+    portable command line archive file manager
 local/pbzip2 1.1.13-4.1
     Parallel implementation of the bzip2 block-sorting file compressor
 local/pciutils 3.13.0-2.1
@@ -2276,14 +2314,20 @@ local/python-capng 0.8.5-3.1
     A library for Linux that makes using posix capabilities easy (Python bindings)
 local/python-certifi 2025.04.26-1
     Python package for providing Mozilla's CA Bundle (using system CA store)
+local/python-chardet 5.2.0-6
+    Python3 module for character encoding auto-detection
 local/python-charset-normalizer 3.4.2-1
     Encoding and language detection alternative to chardet
+local/python-click 8.1.8-1
+    Simple wrapper around optparse for powerful command line utilities
 local/python-configobj 5.0.9-5
     Simple config file reader and writer
 local/python-dbus 1.4.0-1
     Python bindings for D-Bus
 local/python-docopt 0.6.2-14
     Pythonic argument parser, that will make you smile
+local/python-fvs 0.3.4-4
+    File Versioning System with hash comparison, deduplication and data storage to create unlinked states that can be deleted
 local/python-gobject 3.52.3-3
     Python bindings for GLib/GObject/GIO/GTK
 local/python-httplib2 0.22.0-8
@@ -2302,10 +2346,18 @@ local/python-keyutils 0.6-11.1
     A set of python bindings for keyutils
 local/python-lxml 5.4.0-1.1
     Python3 binding for the libxml2 and libxslt libraries
+local/python-markdown 3.7-2
+    Python implementation of John Gruber's Markdown
 local/python-more-itertools 10.6.0-1
     More routines for operating on iterables, beyond itertools
+local/python-orjson 3.10.18-1.1
+    Fast, correct Python JSON library supporting dataclasses and datetimes
 local/python-packaging 25.0-1
     Core utilities for Python packages
+local/python-pathvalidate 3.2.3-1
+    Sanitize/validate strings in filenames/file-paths/etc
+local/python-pefile 2024.8.26-1
+    Python PE parsing module
 local/python-pillow 11.2.1-1
     Python Imaging Library (PIL) fork
 local/python-platformdirs 4.3.6-2
@@ -2334,6 +2386,8 @@ local/python-setuptools 1:80.3.1-1 (python-build-backend)
     Easily download, build, install, upgrade, and uninstall Python packages
 local/python-soupsieve 2.6-2
     A CSS4 selector implementation for Beautiful Soup
+local/python-steamgriddb 1.0.5-4
+    Python API wrapper for SteamGridDB.com
 local/python-tqdm 4.67.1-2
     Fast, Extensible Progress Meter
 local/python-typing_extensions 4.13.2-1
@@ -3076,6 +3130,10 @@ local/util-linux-libs 2.41-4.1
     util-linux runtime libraries
 local/v4l-utils 1.28.1-2.1
     Userspace tools and conversion library for Video 4 Linux
+local/v4l2loopback-dc-dkms 1:2.1.3-2.5
+    v4l2-loopback kernel module - DroidCam version
+local/v4l2loopback-dkms 0.14.0-1
+    v4l2-loopback device – module sources
 local/vapoursynth R70-2.1
     A video processing framework with the future in mind
 local/variety 0.8.13-1
@@ -3100,6 +3158,8 @@ local/virtiofsd 1.13.1-1.1
     Vhost-user virtio-fs device backend written in Rust
 local/visual-studio-code-bin 1.100.1-1
     Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
+local/vkbasalt-cli 3.1.1-4
+    Command-line utility for vkBasalt
 local/vlc 3.0.21-19.1
     Multi-platform MPEG, VCD/DVD, and DivX player
 local/vmaf 3.0.0-1.1
@@ -3132,6 +3192,8 @@ local/wayland-utils 1.2.0-2.1
     Wayland tools to display information about current compositor
 local/wd719x-firmware 1-7
     Driver for Western Digital WD7193, WD7197 and WD7296 SCSI cards
+local/webkit2gtk 2.48.1-2
+    Web content engine for GTK
 local/webkit2gtk-4.1 2.48.1-2
     Web content engine for GTK
 local/webrtc-audio-processing-1 1.3-4.1

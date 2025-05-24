@@ -7,6 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "agent": {
+    "model_parameters": [],
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
   "icon_theme": "Material Icon Theme",
   "vim_mode": false,
   "ui_font_size": 16,

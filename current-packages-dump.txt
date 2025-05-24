@@ -14,6 +14,7 @@ alsa-plugins
 alsa-utils
 amd-ucode
 ananicy-cpp
+android-ndk-26
 android-studio-alex
 android-tools
 appimagelauncher
@@ -27,6 +28,7 @@ ast-firmware
 audiocd-kio
 avahi
 awesome-terminal-fonts
+ayugram-desktop
 base
 base-devel
 bash-completion
@@ -40,6 +42,7 @@ bluedevil
 bluez
 bluez-libs
 bluez-utils
+bottles
 brave-bin
 breeze
 breeze-gtk
@@ -56,6 +59,7 @@ chafa
 chaotic-keyring
 chaotic-mirrorlist
 clonezilla
+cloudflare-warp-bin
 cmake
 cpio
 cpupower
@@ -272,6 +276,7 @@ otf-overpass-nerd
 oxygen
 oxygen-sounds
 packagekit-qt6
+pamac
 pamixer
 parallel
 partclone
@@ -468,6 +473,8 @@ upd72020x-fw
 usb_modeswitch
 usbmuxd
 usbutils
+v4l2loopback-dc-dkms
+v4l2loopback-dkms
 variety
 vesktop
 vim

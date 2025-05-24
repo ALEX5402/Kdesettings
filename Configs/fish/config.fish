@@ -44,6 +44,13 @@ if test -d ~/.local/bin
     end
 end
 
+# Add /opt/android-ndk/ to PATH
+if test -d /opt/android-ndk
+    if not contains -- /opt/android-ndk $PATH
+        set -p PATH /opt/android-ndk
+    end
+end
+
 # Add ~/.cargo/bin to PATH
 if test -d ~/.cargo/bin
     if not contains -- ~/.cargo/bin $PATH
