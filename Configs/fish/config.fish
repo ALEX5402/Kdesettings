@@ -66,7 +66,7 @@ if test -d ~/Applications/depot_tools
 end
 
 
-function git-set
+function gitset
     set current_dir (pwd)
 
     if string match -q "$HOME/workspace/github-0xaddress/gitconfig-0xaddress*" $current_dir
