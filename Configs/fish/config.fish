@@ -70,11 +70,15 @@ function git-set
     set current_dir (pwd)
 
     if string match -q "$HOME/workspace/github-0xaddress/gitconfig-0xaddress*" $current_dir
+        eval (ssh-agent -c)
+        ssh-add ~/.ssh/github2
         git config user.name "0xaddress"
         git config user.email "bd38243@gmail.com"
         git config user.signingKey 38E33F18B009C9A7
         git config --local commit.gpgsign true
     else
+        eval (ssh-agent -c)
+        ssh-add ~/.ssh/github
         git config user.name "alex5402"
         git config user.email "alex5402private@gmail.com"
         git config user.signingKey D64F014312B9F022
