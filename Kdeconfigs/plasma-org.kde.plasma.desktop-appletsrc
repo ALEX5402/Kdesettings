@@ -335,8 +335,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,zen.desktop,org.kde.dolphin.desktop,kitty.desktop,code.desktop,com.ayugram.desktop.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:zen.desktop,applications:code.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:com.ayugram.desktop.desktop
+groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,com.ayugram.desktop.desktop,code.desktop,zen.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:code.desktop,applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -417,7 +417,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][60][Applets][65][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][60][Applets][66]
 immutability=1
@@ -442,7 +442,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][60][Applets][69][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][60][Applets][70]
@@ -468,7 +467,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][60][Applets][75][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][60][Applets][76]
 immutability=1

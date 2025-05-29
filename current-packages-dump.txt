@@ -69,6 +69,7 @@ cups
 cups-filters
 cups-pdf
 ddrescue
+debtap
 dialog
 diffutils
 discord
@@ -224,6 +225,7 @@ mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mobile-broadband-provider-info
 modemmanager
+mongosh
 most
 mpd-mpris
 mpv
