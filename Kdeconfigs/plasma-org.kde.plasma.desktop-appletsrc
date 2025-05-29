@@ -335,8 +335,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,com.ayugram.desktop.desktop,code.desktop,zen.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:code.desktop,applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
+groupingAppIdBlacklist=zen.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:code.desktop,applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]

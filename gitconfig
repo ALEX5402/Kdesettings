@@ -1,0 +1,26 @@
+[core]
+    editor = nvim
+    autocrlf = input
+
+[alias]
+    st = status
+    ct = checkout
+    cm = commit
+    br = branch
+    lg = log --oneline --graph --decorate --all
+
+[gpg]
+    program = gpg
+
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+
+[init]
+    defaultBranch = main
+[includeIf "gitdir:/home/alex5402/workspace/github-0xaddress/"]
+	path = /home/alex5402/workspace/github-0xaddress/gitconfig-0xaddress

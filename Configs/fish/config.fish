@@ -20,13 +20,6 @@ end
 set -U __done_min_cmd_duration 10000
 set -U __done_notification_urgency_level low
 
-
-## Environment setup
-# Apply .profile: use this to put fish compatible .profile stuff in
-if test -f ~/.fish_profile
-  source ~/.fish_profile
-end
-
 set -gx EDITOR (which nvim)
 set -gx VISUAL $EDITOR
 set -gx SUDO_EDITOR $EDITOR
@@ -66,10 +59,10 @@ if test -d ~/Applications/depot_tools
 end
 
 
-function gitset
+function gitset --description "Set github username and ssh key based on workspace"
     set current_dir (pwd)
 
-    if string match -q "$HOME/workspace/github-0xaddress/gitconfig-0xaddress*" $current_dir
+    if string match -q "$HOME/workspace/github-0xaddress/*" $current_dir
         eval (ssh-agent -c)
         ssh-add ~/.ssh/github2
         git config user.name "0xaddress"
@@ -84,6 +77,264 @@ function gitset
         git config user.signingKey D64F014312B9F022
         git config --local commit.gpgsign true
     end
+end
+
+function upload-go
+    if test (count $argv) -eq 0
+        echo '❌ ERROR: No File Specified!'
+        return 1
+    end
+
+    set FILE $argv[1]
+
+    set SERVER (curl -s https://api.gofile.io/servers | jq -r '.data.servers[0].name')
+    if test -z "$SERVER"
+        echo "❌ Failed to get upload server from GoFile."
+        return 1
+    end
+
+    set LINK (curl -# -F "file=@$FILE" "https://$SERVER.gofile.io/uploadFile" | jq -r '.data.downloadPage' 2>/dev/null)
+
+    if test -z "$LINK"
+        echo "❌ Upload failed or invalid response from server."
+        return 1
+    end
+
+    echo "✅ Uploaded successfully:"
+    echo "$LINK"
+    echo
+end
+
+
+function upload --description "Upload files to 0x0.st with options"
+
+    set timestamp (date "+%Y%m%d%H%M%S")
+    set log_file "upload-logs$timestamp.txt"
+
+    function upload_file
+        set filename $argv[1]
+        set filetype $argv[2]
+        set filesize (stat -c%s $filename 2>/dev/null)
+
+        if test "$filesize" -gt 500000000
+            echo "Skipping $filename: >500 MB" >> $log_file
+            return
+        end
+
+        set filelink (curl -sf -F "file=@$filename" 0x0.st)
+        if test -z "$filelink"
+            echo "Failed to upload $filename." >> $log_file
+            return
+        end
+
+        set filelink (string replace "http:" "https:" $filelink)
+        echo "{filename:\""(basename $filename)"\", filetype:\"$filetype\", filelink:\"$filelink\"}"
+    end
+
+    function upload_singlefile
+        set filename $argv[1]
+        set filetype $argv[2]
+        set filesize (stat -c%s $filename 2>/dev/null)
+
+        if test "$filesize" -gt 500000000
+            echo "Skipping $filename: >500 MB" >> $log_file
+            return
+        end
+
+        set filelink (curl -sf -F "file=@$filename" 0x0.st)
+        if test -z "$filelink"
+            echo "Failed to upload $filename." >> $log_file
+            return
+        end
+
+        set filelink (string replace "http:" "https:" $filelink)
+        echo -e "\e[32m$filelink\e[0m"
+        echo "{filename:\""(basename $filename)"\", filetype:\"$filetype\", filelink:\"$filelink\"}"
+    end
+
+    function remove_files
+        find . -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' \) -delete
+        echo "🧹 All .json and .txt files removed from current directory."
+    end
+
+    function updatescript
+        curl -LSs "https://raw.githubusercontent.com/ALEX5402/Q-shere/main/setup.sh" | bash -
+    end
+
+    function show_usage
+        echo "Usage:"
+        echo "  upload -f <type1> [<type2> ...]   Upload specific file types"
+        echo "  upload -j                         Upload all files in directory"
+        echo "  upload -d                         Delete all .json and .txt files"
+        echo "  upload <file>                    Upload a specific file"
+        echo "  upload -u                         Update script"
+        echo "  upload -h                         Show help"
+    end
+
+    if test (count $argv) -eq 0
+        echo "❌ No arguments provided."
+        show_usage
+        return 1
+    end
+
+    switch $argv[1]
+        case '-f'
+            if test (count $argv) -eq 1
+                echo "Usage: upload -f <type1> [<type2> ...]"
+                return 1
+            end
+
+            set output_file "$timestamp-links.json"
+            touch $output_file $log_file
+            echo "[" >> $output_file
+
+            for type in $argv[2..-1]
+                set files (find . -maxdepth 1 -type f -name "*.$type")
+                if test (count $files) -eq 0
+                    echo "No files found with .$type"
+                    echo "No files found with .$type" >> $log_file
+                    continue
+                end
+
+                for file in $files
+                    upload_file $file $type >> $output_file
+                end
+            end
+
+            echo "]" >> $output_file
+            echo "✅ Upload complete. Output saved to $output_file"
+            return 0
+
+        case '-j'
+            set output_file "$timestamp-links.json"
+            touch $output_file $log_file
+            echo "[" >> $output_file
+
+            for file in *
+                if test -f $file
+                    set ext (string split -r . -- $file)[-1]
+                    upload_file $file $ext >> $output_file
+                end
+            end
+
+            echo "]" >> $output_file
+            echo "✅ Upload complete. Output saved to $output_file"
+            return 0
+
+        case '-d'
+            remove_files
+            return 0
+
+        case '-u'
+            updatescript
+            return 0
+
+        case '-h'
+            show_usage
+            return 0
+
+        case '*'
+            if test -f $argv[1]
+                set ext (string split -r . -- $argv[1])[-1]
+                upload_singlefile $argv[1] $ext
+            else
+                echo "Invalid option or file not found: $argv[1]"
+                show_usage
+                return 1
+            end
+    end
+end
+
+
+function waydroid_size --description "Set Waydroid screen resolution: height and width"
+    if test (count $argv) -ne 2
+        echo "❌ Usage: set-waydroid-res <height> <width>"
+        return 1
+    end
+
+    set height $argv[1]
+    set width $argv[2]
+
+    waydroid prop set persist.waydroid.height $height
+    waydroid prop set persist.waydroid.width $width
+
+    echo "✅ Set height: $height  width: $width"
+end
+
+function waydroid_padding --description "Set Waydroid height and width padding"
+    if test (count $argv) -ne 2
+        echo "❌ Usage: waydroid_padding <height_padding> <width_padding>"
+        return 1
+    end
+
+    set height_padding $argv[1]
+    set width_padding $argv[2]
+
+    waydroid prop set persist.waydroid.height_padding $height_padding
+    waydroid prop set persist.waydroid.width_padding $width_padding
+
+    echo "✅ Set height padding = $height_padding and width padding = $width_padding"
+end
+
+
+function play-music --description "Play audio/video files from a directory, optionally shuffled"
+    if test (count $argv) -eq 0
+        echo "Usage: play-music [-s] <directory>"
+        echo "  -s            Shuffle the playlist."
+        echo "  <directory>   Directory containing the music files."
+        return 1
+    end
+
+    set shuffle false
+    set dir ""
+    while set -q argv[1]
+        switch $argv[1]
+            case -s
+                set shuffle true
+                set argv $argv[2..-1]
+            case '*'
+                set dir $argv[1]
+                set argv $argv[2..-1]
+        end
+    end
+
+    if test -z "$dir"
+        echo "❌ Error: No directory provided."
+        return 1
+    end
+
+    if not test -d "$dir"
+        echo "❌ Error: Directory '$dir' does not exist."
+        return 1
+    end
+
+    pkill -x mpv > /dev/null 2>&1
+    set -l files (find "$dir" -type f \( -iname '*.mp3' -o -iname '*.mp4' -o -iname '*.ogg' \) | sort)
+
+    if test (count $files) -eq 0
+        echo "No mp3, mp4, or ogg files found in '$dir'."
+        return 1
+    end
+
+    if test "$shuffle" = true
+        mpv --loop-playlist --vid=no --shuffle $files
+    else
+        mpv --loop-playlist --vid=no $files
+    end
+end
+
+
+## port forward setup 😜
+function port-forward
+    if test (count $argv) -eq 0
+        echo "❌ Please choose a port to forward."
+        echo "👉 Example: port-forward 3000"
+        return 1
+    end
+
+    set port $argv[1]
+    echo "🌐 Forwarding localhost:$port to https://serveo.net (remote port 80)..."
+    ssh -R 80:localhost:$port serveo.net
 end
 
 
@@ -158,8 +409,6 @@ function alexclone
         echo "Please provide your repository name"
         return 1
     end
-
-    set repo_url "alex5402/$argv[1]"
     gh repo clone $repo_url
 end
 
@@ -194,27 +443,21 @@ end
 alias icat="kitten icat"
 
 ## fix scrollback buffer clear for kitty
-alias clear "printf '\033[2J\033[3J\033[1;1H'"
+alias clearf "printf '\033[2J\033[3J\033[1;1H'"
 
-
-# Common use
-# alias code 'code --ozone-platform=wayland'
-# alias code-oss 'code --ozone-platform=wayland'
-alias vesktop 'vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
-alias discord 'discord --enable-features=UseOzonePlatform --ozone-platform=wayland'
-alias youtube-music 'youtube-music --enable-features=UseOzonePlatform --ozone-platform=wayland'
-alias github 'github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
-alias github-desktop 'github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
-alias spotify 'LD_PRELOAD=/lib/spotify-adblock.so spotify --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias vesktop-wayland 'vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias discord-wayland 'discord --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias youtube-music-wayland 'youtube-music --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias github-desktop-wayland 'github-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias spotify-wayland 'LD_PRELOAD=/lib/spotify-adblock.so spotify --enable-features=UseOzonePlatform --ozone-platform=wayland'
 
 alias install 'paru -S'
 alias remove 'paru -R'
 alias update 'sudo pacman -Syu'
-alias studio 'QT_QPA_PLATFORM=xcb android-studio'
 alias vim 'nvim'
 abbr vi nvim
-alias vimpager 'nvim - -c "lua require(\'util\').colorize()"'
 
+alias vimpager='nvim - -c "lua require(\"util\").colorize()"'
 
 ## distrobox containers 
 
@@ -252,10 +495,10 @@ alias gitpkg 'pacman -Q | grep -i "\-git" | wc -l' # List amount of -git package
 alias grep 'ugrep --color=auto'
 alias egrep 'ugrep -E --color=auto'
 alias fgrep 'ugrep -F --color=auto'
-alias grub-update 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
-#alias grub-update 'sudo grub-mkconfig -o /etc/default/grub'
+alias grub-update-boot 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias grub-update-etc 'sudo grub-mkconfig -o /etc/default/grub'
 
-alias hw 'hwinfo --short'                          # Hardware Info
+alias hw 'hwinfo --short'
 alias ip 'ip -color'
 alias psmem 'ps auxf | sort -nr -k 4'
 alias psmem10 'ps auxf | sort -nr -k 4 | head -10'
@@ -292,7 +535,6 @@ function __hyprkeys_debug
         echo "$argv" >> $file
     end
 end
-
 
 function __hyprkeys_perform_completion
     __hyprkeys_debug "Starting __hyprkeys_perform_completion"
@@ -396,9 +638,7 @@ function __hyprkeys_requires_order_preservation
 end
 
 
-# This function does two things:
-# - Obtain the completions and store them in the global __hyprkeys_comp_results
-# - Return false if file completion should be performed
+
 function __hyprkeys_prepare_completions
     __hyprkeys_debug ""
     __hyprkeys_debug "========= starting completion logic =========="
@@ -451,11 +691,6 @@ function __hyprkeys_prepare_completions
 
     __hyprkeys_debug "nospace: $nospace, nofiles: $nofiles"
 
-    # If we want to prevent a space, or if file completion is NOT disabled,
-    # we need to count the number of valid completions.
-    # To do so, we will filter on prefix as the completions we have received
-    # may not already be filtered so as to allow fish to match on different
-    # criteria than the prefix.
     if test $nospace -ne 0; or test $nofiles -eq 0
         set -l prefix (commandline -t | string escape --style=regex)
         __hyprkeys_debug "prefix: $prefix"
@@ -479,8 +714,6 @@ function __hyprkeys_prepare_completions
             # of the following characters: @=/:.,
             set -l lastChar (string sub -s -1 -- $split)
             if not string match -r -q "[@=/:.,]" -- "$lastChar"
-                # In other cases, to support the "nospace" directive we trick the shell
-                # by outputting an extra, longer completion.
                 __hyprkeys_debug "Adding second completion to perform nospace directive"
                 set --global __hyprkeys_comp_results $split[1] $split[1].
                 __hyprkeys_debug "Completions are now: $__hyprkeys_comp_results"
@@ -488,8 +721,6 @@ function __hyprkeys_prepare_completions
         end
 
         if test $numComps -eq 0; and test $nofiles -eq 0
-            # To be consistent with bash and zsh, we only trigger file
-            # completion when there are no other completions
             __hyprkeys_debug "Requesting file completion"
             return 1
         end
@@ -498,40 +729,19 @@ function __hyprkeys_prepare_completions
     return 0
 end
 
-# Since Fish completions are only loaded once the user triggers them, we trigger them ourselves
-# so we can properly delete any completions provided by another script.
-# Only do this if the program can be found, or else fish may print some errors; besides,
-# the existing completions will only be loaded if the program can be found.
+
 if type -q "hyprkeys"
-    # The space after the program name is essential to trigger completion for the program
-    # and not completion of the program name itself.
-    # Also, we use '> /dev/null 2>&1' since '&>' is not supported in older versions of fish.
-    complete --do-complete "hyprkeys " > /dev/null 2>&1
+   complete --do-complete "hyprkeys " > /dev/null 2>&1
 end
 
 # Remove any pre-existing completions for the program since we will be handling all of them.
 complete -c hyprkeys -e
-
-# this will get called after the two calls below and clear the $__hyprkeys_perform_completion_once_result global
 complete -c hyprkeys -n '__hyprkeys_clear_perform_completion_once_result'
-# The call to __hyprkeys_prepare_completions will setup __hyprkeys_comp_results
-# which provides the program's completion choices.
-# If this doesn't require order preservation, we don't use the -k flag
 complete -c hyprkeys -n 'not __hyprkeys_requires_order_preservation && __hyprkeys_prepare_completions' -f -a '$__hyprkeys_comp_results'
-# otherwise we use the -k flag
 complete -k -c hyprkeys -n '__hyprkeys_requires_order_preservation && __hyprkeys_prepare_completions' -f -a '$__hyprkeys_comp_results'
- 
-# ### key-bindings.fish ###
-# #     ____      ____
-# #    / __/___  / __/
-# #   / /_/_  / / /_
-# #  / __/ / /_/ __/
-# # /_/   /___/_/ key-bindings.fish
-# # from https://github.com/PatrickF1/fzf.fish?tab=readme-ov-file
+
 set fzf_preview_dir_cmd eza --all --color=always
-# width=20 so delta decorations don't wrap around small fzf preview pane
 set fzf_diff_highlighter delta --paging=never --width=20
-# Or, if using DFS
 set fzf_diff_highlighter diff-so-fancy
 set fzf_fd_opts --hidden --max-depth 5
 
