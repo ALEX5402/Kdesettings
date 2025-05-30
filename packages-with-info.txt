@@ -62,7 +62,7 @@ local/ananicy-cpp 1.1.1-7.1
     Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
 local/android-ndk-26 r26.d-1
     Android C/C++ developer kit
-local/android-studio-alex 2024.3.2.14-1
+local/android-studio-alex 2024.3.2.15-1
     The official Android IDE (Stable branch)
 local/android-tools 35.0.2-15.1
     Android platform tools

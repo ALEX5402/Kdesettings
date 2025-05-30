@@ -156,8 +156,8 @@ DialogWidth=720
 showSecondHand=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=802
-DialogWidth=1021
+DialogHeight=590
+DialogWidth=783
 
 [Containments][1][General]
 iconSize=1
@@ -166,7 +166,6 @@ sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/home/alex/dotfiles-main/wallpapers/1345016.png
-PreviewImage=/home/alex/dotfiles-main/wallpapers/1345016.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -335,8 +334,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=zen.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:code.desktop,applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop,kitty.desktop,com.ayugram.desktop.desktop,zen.desktop
+groupingLauncherUrlBlacklist=applications:io.github.tdesktop_x64.TDesktop.desktop,applications:zen.desktop,applications:org.kde.dolphin.desktop,applications:code.desktop,applications:com.ayugram.desktop.desktop,applications:kitty.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -442,6 +441,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][60][Applets][69][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][60][Applets][70]

@@ -22,8 +22,8 @@ Word Wrap Marker=false
 Replace History=,fastboot,PUBGM,'$current_wallpaper'
 
 [MainWindow]
-1920x1080 screen: Height=705
-1920x1080 screen: Width=846
+1920x1080 screen: Height=642
+1920x1080 screen: Width=563
 
 [UiSettings]
 ColorScheme=KvAdaptaDark
