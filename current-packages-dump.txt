@@ -472,6 +472,7 @@ unace
 unrar
 unzip
 upd72020x-fw
+upscayl-desktop-git
 usb_modeswitch
 usbmuxd
 usbutils

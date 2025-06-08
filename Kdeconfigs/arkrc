@@ -9,7 +9,7 @@ ShowWelcomeScreenOnStartup=true
 [MainWindow]
 MenuBar=Disabled
 StatusBar=Disabled
-splitterSizes=666,124
+splitterSizes=819,153
 
 [Viewer]
 StatusBar=Disabled
