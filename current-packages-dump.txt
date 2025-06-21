@@ -1,4 +1,4 @@
-64gram-desktop
+64gram-desktop-bin
 7zip
 accountsservice
 adobe-source-code-pro-fonts
@@ -321,6 +321,7 @@ ppp
 pptpclient
 print-manager
 pulseaudio-alsa
+putty
 pv
 python-pyparted
 qemu-base
@@ -333,7 +334,6 @@ qt5ct
 qt6-webview
 qt6ct
 qtmpris
-quickemu-git
 rate-mirrors-bin
 refind
 reflector
@@ -352,7 +352,6 @@ smartmontools
 sof-firmware
 spectacle
 speech-dispatcher
-spicetify-cli
 squashfs-tools
 stacer-bin
 starship
@@ -482,7 +481,6 @@ variety
 vesktop
 vim
 vimix-cursors
-visual-studio-code-bin
 vortex-thermal
 vpnc
 vscodium
@@ -543,7 +541,6 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yad
-yay-git
 youtube-dl-gui-bin
 youtube-music-bin
 yt-dlp

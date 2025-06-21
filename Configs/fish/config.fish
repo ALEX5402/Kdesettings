@@ -403,14 +403,19 @@ function cleanup
     end
 end
 
-#clone my repo with my token
-function alexclone
+
+# host http using python
+function open-http
     if test (count $argv) -eq 0
-        echo "Please provide your repository name"
+        echo "Usage: host-http <port>"
         return 1
     end
-    gh repo clone $repo_url
+
+    set port $argv[1]
+    echo "Starting HTTP server on port $port..."
+    python3 -m http.server $port
 end
+
 
 #to play youtube with ytfzf
 # alias play 'ytfzf -t' # play
@@ -418,6 +423,7 @@ end
 # alias play-m 'ytfzf -m --audio-only'
 # alias yt-search 'ytfzf -cO'
 # alias haru-play 'ytfzf -u haruna -t'
+
 
 
 #playgif
