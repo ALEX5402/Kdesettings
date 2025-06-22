@@ -156,8 +156,8 @@ DialogWidth=720
 showSecondHand=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=811
-DialogWidth=1175
+DialogHeight=540
+DialogWidth=720
 
 [Containments][1][General]
 iconSize=1
@@ -166,7 +166,7 @@ sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=/home/alex/dotfiles-main/wallpapers/dark-cat-rosewater.png
+Image=/home/alex/dotfiles-main/wallpapers/967707-blonde-hat-long-hair-angel-wings-nature.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -241,7 +241,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][54][Applets][103][Configuration]
 PreloadWeight=100
-popupHeight=509
+popupHeight=508
 popupWidth=685
 
 [Containments][54][Applets][103][Configuration][ConfigDialog]
@@ -308,19 +308,6 @@ highPrioritySensorIds=[]
 lowPrioritySensorIds=["network/all/download","network/all/upload"]
 totalSensors=["cpu/all/usage"]
 
-[Containments][54][Applets][112]
-immutability=1
-plugin=KdeControlStation
-
-[Containments][54][Applets][112][Configuration]
-PreloadWeight=100
-popupHeight=418
-popupWidth=420
-
-[Containments][54][Applets][112][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][54][Applets][56]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -335,8 +322,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=zen.desktop,com.ayugram.desktop.desktop,io.github.tdesktop_x64.TDesktop.desktop,code.desktop,org.kde.dolphin.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code.desktop
+groupingAppIdBlacklist=com.ayugram.desktop.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop,zen.desktop,org.kde.dolphin.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:kitty.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -357,6 +344,16 @@ wallpaperplugin=org.kde.image
 [Containments][54][Applets][59][Applets][117]
 immutability=1
 plugin=org.kde.plasma.weather
+
+[Containments][54][Applets][59][Applets][117][Configuration]
+PreloadWeight=65
+
+[Containments][54][Applets][59][Applets][117][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][54][Applets][59][Applets][117][Configuration][WeatherStation]
+source=bbcukmet|weather|Kolkata, India, IN|1275004
 
 [Containments][54][Applets][59][Applets][61]
 immutability=1
@@ -438,14 +435,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][54][Applets][59][Applets][75][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][54][Applets][59][Applets][76]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][54][Applets][59][Applets][76][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][54][Applets][59][Applets][77]
 immutability=1
@@ -459,7 +456,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][54][Applets][59][Applets][78][Configuration]
-PreloadWeight=0
+PreloadWeight=12
 
 [Containments][54][Applets][59][ConfigDialog]
 DialogHeight=540
@@ -492,7 +489,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][54][General]
-AppletOrder=103;56;57;58;59;112;104;105;73;101
+AppletOrder=103;56;57;58;59;104;105;73;101
 
 [Containments][54][Shortcuts]
 global=Meta+Space
