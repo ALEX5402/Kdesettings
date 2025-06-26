@@ -82,6 +82,7 @@ dolphin-plugins
 dosfstools
 dovi-tool
 downgrade
+dpkg
 drkonqi
 duf
 e2fsprogs
@@ -339,6 +340,7 @@ refind
 reflector
 ripgrep
 rp-pppoe
+rpm-tools
 rsync
 rtl8821cu-morrownr-dkms-git
 rust
@@ -488,6 +490,7 @@ vulkan-radeon
 wacomtablet
 wd719x-firmware
 wget
+wine
 wireless-regdb
 wireless_tools
 wpa_supplicant

@@ -62,7 +62,7 @@ local/ananicy-cpp 1.1.1-7.1
     Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
 local/android-ndk-26 r26.d-1
     Android C/C++ developer kit
-local/android-studio-alex 2024.3.2.15-1
+local/android-studio-alex 2025.1.1.13-1
     The official Android IDE (Stable branch)
 local/android-tools 35.0.2-17.1
     Android platform tools
@@ -318,7 +318,7 @@ local/diffutils 3.12-2.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
-local/discord 1:0.0.98-1
+local/discord 1:0.0.99-1
     All-in-one voice and text chat for gamers
 local/discount 3.0.0.d-1.3
     A Markdown implementation written in C
@@ -356,6 +356,8 @@ local/dovi-tool 2.2.0-1.1
     CLI tool combining multiple utilities for working with Dolby Vision
 local/downgrade 11.5.2-1
     Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
+local/dpkg 1.22.20-1.2
+    The Debian Package Manager tools
 local/drbl 2.30.5-3
     Diskless Remote Boot in Linux: manage the deployment of the GNU/Linux operating system across many clients
 local/drkonqi 6.4.0-1.1 (plasma)
@@ -2706,6 +2708,10 @@ local/rp-pppoe 4.0-5.1
     Roaring Penguin's Point-to-Point Protocol over Ethernet client
 local/rpcbind 1.2.7-2.1
     portmap replacement which supports RPC over various protocols
+local/rpm-sequoia 1.8.0-1.1
+    An OpenPGP backend for rpm using Sequoia PGP
+local/rpm-tools 4.20.1-1.1
+    RPM Package Manager - RPM.org fork, used in major RPM distros
 local/rsync 3.4.1-2.1
     A fast and versatile file copying tool for remote and local files
 local/rtkit 0.13-3
@@ -3228,6 +3234,8 @@ local/which 2.23-1.1
     A utility to show the full path of commands
 local/wildmidi 0.4.6-1.1
     Simple software MIDI player which has a core softsynth library
+local/wine 10.9-2
+    A compatibility layer for running Windows programs
 local/wireless-regdb 2025.02.20-1
     Central Regulatory Domain Database
 local/wireless_tools 30.pre9-4.1
