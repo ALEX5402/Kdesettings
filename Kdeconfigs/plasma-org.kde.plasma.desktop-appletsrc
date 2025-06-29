@@ -44,7 +44,7 @@ DialogWidth=720
 
 [Containments][1][Applets][118][Configuration][General]
 color=translucent-light
-cursorPosition=113
+cursorPosition=52
 fontSize=10
 noteId=cbbb6ec9-e344-41c3-a4e6-e7ee14da29
 
@@ -336,8 +336,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,kitty.desktop,code.desktop,com.ayugram.desktop.desktop,io.github.tdesktop_x64.TDesktop.desktop,zen.desktop
-groupingLauncherUrlBlacklist=applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:code.desktop
+groupingAppIdBlacklist=com.ayugram.desktop.desktop,io.github.tdesktop_x64.TDesktop.desktop,code.desktop,kitty.desktop,zen.desktop,org.kde.dolphin.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
