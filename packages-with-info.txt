@@ -318,7 +318,7 @@ local/diffutils 3.12-2.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
-local/discord 1:0.0.99-1
+local/discord 1:0.0.100-1
     All-in-one voice and text chat for gamers
 local/discount 3.0.0.d-1.3
     A Markdown implementation written in C
@@ -736,6 +736,10 @@ local/iwd 3.9-1.1
     Internet Wireless Daemon
 local/jack2 1.9.22-1.1
     The JACK low-latency audio server
+local/jadx 1.5.1-1
+    Command line and GUI tools to produce Java source code from Android Dex and APK files
+local/jadx-gui-desktop 1.0.1-1
+    A .desktop file for JADX-GUI, with an icon
 local/jansson 2.14.1-1.1
     C library for encoding, decoding and manipulating JSON data
 local/jasper 4.2.5-1.1

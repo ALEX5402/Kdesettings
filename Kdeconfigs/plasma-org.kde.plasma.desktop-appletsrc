@@ -180,7 +180,7 @@ sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=/home/alex/dotfiles-main/wallpapers/967707-blonde-hat-long-hair-angel-wings-nature.png
+Image=/home/alex/.local/share/wallpapers/Sweet-Wallpapers/Sweet-space.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -264,6 +264,8 @@ DialogWidth=720
 
 [Containments][54][Applets][103][Configuration][General]
 favoritesPortedToKAstats=true
+icon=nixos
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][54][Applets][104]
 immutability=1
@@ -336,8 +338,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=com.ayugram.desktop.desktop,io.github.tdesktop_x64.TDesktop.desktop,code.desktop,kitty.desktop,zen.desktop,org.kde.dolphin.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:org.kde.dolphin.desktop
+groupingAppIdBlacklist=com.ayugram.desktop.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,zen.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:kitty.desktop,applications:code.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]

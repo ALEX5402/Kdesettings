@@ -151,6 +151,7 @@ it87-dkms-git
 iw
 iwd
 jack2
+jadx-gui-desktop
 jdk21-openjdk
 jfsutils
 kactivitymanagerd
