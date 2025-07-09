@@ -5,8 +5,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=Applet-118:0,0,416,496,0;Applet-96:1680,16,208,80,0;Applet-84:1680,272,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1600,848,320,224,0;
-ItemGeometriesHorizontal=Applet-118:0,0,416,496,0;Applet-96:1680,16,208,80,0;Applet-84:1680,272,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1600,848,320,224,0;
+ItemGeometries-1920x1080=Applet-118:0,0,416,496,0;Applet-96:1680,16,208,80,0;Applet-84:1696,256,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1600,848,320,224,0;
+ItemGeometriesHorizontal=Applet-118:0,0,416,496,0;Applet-96:1680,16,208,80,0;Applet-84:1696,256,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,912,80,80,0;Applet-102:0,1008,112,64,0;Applet-94:1600,848,320,224,0;
 activityId=0d0ab03b-7709-4e08-b9ce-4f29286321c5
 formfactor=0
 immutability=1
@@ -29,7 +29,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][102][Configuration][General]
-history=#010409,#3a2026,#1d4aa0,#683711,#b7b8b9
+history=#c5e9e5,#1a204e,#31312d,#dedbe2,#c0b4d0,#3a1e44,#0f0c0e,#2b663d,#010409
 
 [Containments][1][Applets][102][Shortcuts]
 global=Meta+`
@@ -44,7 +44,7 @@ DialogWidth=720
 
 [Containments][1][Applets][118][Configuration][General]
 color=translucent-light
-cursorPosition=52
+cursorPosition=174
 fontSize=10
 noteId=cbbb6ec9-e344-41c3-a4e6-e7ee14da29
 
@@ -170,8 +170,8 @@ DialogWidth=720
 showSecondHand=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=858
+DialogWidth=1348
 
 [Containments][1][General]
 iconSize=1
@@ -180,7 +180,7 @@ sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=/home/alex/.local/share/wallpapers/Sweet-Wallpapers/Sweet-space.png
+Image=/home/alex/dotfiles-main/wallpapers/Anime Original 3840 x 2160.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -338,8 +338,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=com.ayugram.desktop.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,zen.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:kitty.desktop,applications:code.desktop
+groupingAppIdBlacklist=code.desktop,kitty.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,zen.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]

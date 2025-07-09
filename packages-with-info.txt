@@ -318,7 +318,7 @@ local/diffutils 3.12-2.1
     Utility programs used for creating patch files
 local/ding-libs 0.6.2-2.1
     "DING is not GNU" helper libraries for SSSD and FreeIPA
-local/discord 1:0.0.100-1
+local/discord 1:0.0.101-1
     All-in-one voice and text chat for gamers
 local/discount 3.0.0.d-1.3
     A Markdown implementation written in C
