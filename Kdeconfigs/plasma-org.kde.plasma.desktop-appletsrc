@@ -44,7 +44,7 @@ DialogWidth=720
 
 [Containments][1][Applets][118][Configuration][General]
 color=translucent-light
-cursorPosition=174
+cursorPosition=138
 fontSize=10
 noteId=cbbb6ec9-e344-41c3-a4e6-e7ee14da29
 
@@ -76,6 +76,7 @@ DialogWidth=720
 [Containments][1][Applets][84][Configuration][SensorColors]
 disk/3058e016141c4ca4/usedPercent=174,7,11
 disk/427d7266-59a1-4abc-8a3d-a6b7608ceb62/usedPercent=129,255,90
+disk/56335566789f632a/usedPercent=174,7,11
 disk/a28e92598e9225b7/usedPercent=95,174,7
 disk/all/usedPercent=170,85,255
 disk/c1f26834-beac-4ddc-b900-ab7981363804/usedPercent=174,7,11
@@ -170,8 +171,8 @@ DialogWidth=720
 showSecondHand=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=858
-DialogWidth=1348
+DialogHeight=540
+DialogWidth=720
 
 [Containments][1][General]
 iconSize=1
@@ -179,8 +180,7 @@ positions={"1920x1080":["1","20"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-FillMode=0
-Image=/home/alex/dotfiles-main/wallpapers/Anime Original 3840 x 2160.jpg
+Image=/home/alex/dotfiles-main/wallpapers/cat_lofi_cafe.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -338,8 +338,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=code.desktop,kitty.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,io.github.tdesktop_x64.TDesktop.desktop,zen.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop
+groupingAppIdBlacklist=kitty.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop,org.kde.dolphin.desktop,com.ayugram.desktop.desktop,zen.desktop
+groupingLauncherUrlBlacklist=applications:com.ayugram.desktop.desktop,applications:kitty.desktop,applications:zen.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop,applications:code.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -368,8 +368,8 @@ PreloadWeight=100
 showPressureInTooltip=true
 
 [Containments][54][Applets][59][Applets][117][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=597
+DialogWidth=736
 
 [Containments][54][Applets][59][Applets][117][Configuration][Units]
 pressureUnit=5022
@@ -434,6 +434,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][54][Applets][59][Applets][69][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][54][Applets][59][Applets][70]

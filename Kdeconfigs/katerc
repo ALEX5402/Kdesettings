@@ -117,8 +117,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=604
-1920x1080 screen: Width=970
+1920x1080 screen: Height=825
+1920x1080 screen: Width=847
 
 [UiSettings]
 ColorScheme=KvAdaptaDark

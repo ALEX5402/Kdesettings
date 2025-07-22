@@ -10,19 +10,29 @@ Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Lay
 _k_friendly_name=Keyboard Layout Switcher
 
 [brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default]
-_k_friendly_name=brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default
+ECE3608A622F83DFEE021DC0AB9E73F7-enter-picker-mode=none,none,Create a custom filter
+ECE3608A622F83DFEE021DC0AB9E73F7-enter-zapper-mode=none,none,Remove an element
+F776250CBD9081D07C94B4EA01486489-addSite=none,none,Toggle current site
+F776250CBD9081D07C94B4EA01486489-switchEngine=none,none,Theme generation mode
+F776250CBD9081D07C94B4EA01486489-toggle=none,none,Toggle extension
+_k_friendly_name=Instagram
 addSite=none,Alt+Shift+A,Toggle current site
 switchEngine=none,none,Theme generation mode
 toggle=none,Alt+Shift+D,Toggle extension
 
 [brave-browser]
-_k_friendly_name=brave-browser
+_k_friendly_name=Brave
 addSite=Alt+Shift+A,Alt+Shift+A,Toggle current site
 switchEngine=none,none,Theme generation mode
 toggle=Alt+Shift+D,Alt+Shift+D,Toggle extension
 
 [brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
-_k_friendly_name=brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default
+ECE3608A622F83DFEE021DC0AB9E73F7-enter-picker-mode=none,none,Create a custom filter
+ECE3608A622F83DFEE021DC0AB9E73F7-enter-zapper-mode=none,none,Remove an element
+F776250CBD9081D07C94B4EA01486489-addSite=none,none,Toggle current site
+F776250CBD9081D07C94B4EA01486489-switchEngine=none,none,Theme generation mode
+F776250CBD9081D07C94B4EA01486489-toggle=none,none,Toggle extension
+_k_friendly_name=WhatsApp Web
 addSite=none,Alt+Shift+A,Toggle current site
 switchEngine=none,none,Theme generation mode
 toggle=none,Alt+Shift+D,Toggle extension

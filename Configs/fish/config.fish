@@ -106,6 +106,49 @@ function upload-go
 end
 
 
+function upload-buzz
+    if test (count $argv) -eq 0
+        echo "❌ ERROR: No file specified!"
+        return 1
+    end
+
+    set file $argv[1]
+
+    if not test -f $file
+        echo "❌ ERROR: File does not exist — $file"
+        return 1
+    end
+
+    set account_id "TF7AZG18AKAKDMUSGO7C"
+    set file_name (basename "$file")
+
+    # Metadata for note
+    set size (stat -c %s "$file")
+    set mtime (date -d (stat -c %y "$file") "+%Y-%m-%d %H:%M:%S")
+    set note "$file_name • $(math $size / 1024) KB • Modified: $mtime"
+    set note_base64 (string trim (echo -n "$note" | base64 | tr -d '\n=' | string replace '+' '%2B' | string replace '/' '%2F'))
+
+    # Upload
+    set response (curl -s -X PUT -T "$file" \
+        "https://w.buzzheavier.com/$file_name?note=$note_base64" \
+        -H "Authorization: Bearer $account_id")
+
+    # Parse
+    set file_id (echo $response | jq -r '.data.id // empty')
+
+    if test -n "$file_id"
+        echo "✅ Uploaded successfully:"
+        echo "https://buzzheavier.com/$file_id"
+    else
+        echo "❌ Upload failed or file ID not found."
+        echo "---- RAW RESPONSE ----"
+        echo $response | jq .
+        return 1
+    end
+end
+
+
+
 function upload --description "Upload files to 0x0.st with options"
 
     set timestamp (date "+%Y%m%d%H%M%S")
@@ -333,8 +376,8 @@ function port-forward
     end
 
     set port $argv[1]
-    echo "🌐 Forwarding localhost:$port to https://serveo.net (remote port 80)..."
-    ssh -R 80:localhost:$port serveo.net
+    echo "🌐 Forwarding localhost:$port to https://srv.us (remote port 80)..."
+    ssh -R 80:localhost:$port srv.us
 end
 
 
@@ -501,9 +544,7 @@ alias gitpkg 'pacman -Q | grep -i "\-git" | wc -l' # List amount of -git package
 alias grep 'ugrep --color=auto'
 alias egrep 'ugrep -E --color=auto'
 alias fgrep 'ugrep -F --color=auto'
-alias grub-update-boot 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
-alias grub-update-etc 'sudo grub-mkconfig -o /etc/default/grub'
-
+alias grub-update 'sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias hw 'hwinfo --short'
 alias ip 'ip -color'
 alias psmem 'ps auxf | sort -nr -k 4'

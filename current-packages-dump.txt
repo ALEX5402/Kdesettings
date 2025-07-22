@@ -484,6 +484,7 @@ variety
 vesktop
 vim
 vimix-cursors
+visual-studio-code-bin
 vortex-thermal
 vpnc
 vscodium
@@ -550,6 +551,7 @@ youtube-music-bin
 yt-dlp
 zed
 zen-browser-bin
+zip
 zram-generator
 zsh
 zsh-completions
