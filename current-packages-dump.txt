@@ -47,6 +47,7 @@ brave-bin
 breeze
 breeze-gtk
 breeze-plymouth
+bridge-utils
 broadcom-wl-dkms
 btop
 btrfs-progs
@@ -84,6 +85,7 @@ dovi-tool
 downgrade
 dpkg
 drkonqi
+droidcam-obs-plugin
 duf
 e2fsprogs
 edk2-shell
@@ -146,6 +148,7 @@ htop
 hwinfo
 hyperv
 ibus
+intellij-idea-community-edition
 inxi
 it87-dkms-git
 iw
@@ -246,6 +249,7 @@ networkmanager-qt5
 networkmanager-vpnc
 nfs-utils
 nilfs-utils
+noisetorch
 noto-fonts
 npm
 nss-mdns
@@ -484,6 +488,7 @@ variety
 vesktop
 vim
 vimix-cursors
+virt-manager
 visual-studio-code-bin
 vortex-thermal
 vpnc

@@ -180,6 +180,8 @@ local/breeze-icons 6.16.0-1.1 (kf6)
     Breeze icon theme
 local/breeze-plymouth 6.4.3-1.1 (plasma)
     Plymouth theme for the Breeze visual style for the Plasma Desktop
+local/bridge-utils 1.7.1-2.1
+    Utilities for configuring the Linux ethernet bridge
 local/brltty 6.7-5.1
     Braille display driver for Linux/Unix
 local/broadcom-wl-dkms 6.30.223.271-44.1
@@ -320,7 +322,7 @@ local/discord 1:0.0.102-1
     All-in-one voice and text chat for gamers
 local/discount 3.0.0.d-1.3
     A Markdown implementation written in C
-local/djvulibre 3.5.28-6.1
+local/djvulibre 3.5.29-1.1
     Library and utilities to create, manipulate and view DjVu (déjà vu) documents
 local/dkms 3.2.1-2
     Dynamic Kernel Modules System
@@ -360,6 +362,8 @@ local/drbl 2.30.5-3
     Diskless Remote Boot in Linux: manage the deployment of the GNU/Linux operating system across many clients
 local/drkonqi 6.4.3-1.1 (plasma)
     The KDE crash handler
+local/droidcam-obs-plugin 2.3.4-1
+    plugin for droidcam obs
 local/dtc 1.7.2-4.1
     Device Tree Compiler
 local/duf 0.8.1-3.1
@@ -514,7 +518,7 @@ local/gdbm 1.25-1.1
     GNU database library
 local/gdk-pixbuf2 2.42.12-2.1
     An image loading library
-local/gettext 0.25.1-1.1
+local/gettext 0.26-1.1
     GNU internationalization library
 local/gfxstream 0.1.2-2.1
     Graphics Streaming Kit (colloquially known as Gfxstream) is a code generator that makes it easier to serialize and forward graphics API calls from one place to another
@@ -630,6 +634,8 @@ local/gtk-theme-alex 1.0-1
     My gtk Themes for kdeplasma by alex
 local/gtk-update-icon-cache 1:4.18.6-1.1
     GTK icon cache updater
+local/gtk-vnc 1.5.0-1.2
+    VNC viewer widget for GTK
 local/gtk3 1:3.24.49-2.1
     GObject-based multi-platform GUI toolkit
 local/gtk4 1:4.18.6-1.1
@@ -638,6 +644,8 @@ local/gtkmm3 3.24.10-1.1
     C++ bindings for GTK+ 3
 local/gtksourceview3 1:3.24.11+r30+gd880929f-1.1
     Text widget with syntax highlighting for GNOME
+local/gtksourceview4 4.8.4-2.1
+    A text widget adding syntax highlighting and more to GNOME
 local/gtksourceview5 5.16.0-2.1
     A text widget adding syntax highlighting and more to GNOME
 local/guile 3.0.10-1.1
@@ -716,6 +724,8 @@ local/imlib2 1.12.5-1.1
     Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
 local/iniparser 4.2.6-2.1
     A free stand-alone ini file parsing library written in portable ANSI C
+local/intellij-idea-community-edition 4:2025.1.3-1.1
+    IDE for Java, Groovy and other programming languages with advanced refactoring features
 local/inxi 3.3.38.1-1
     Full featured CLI system information tool
 local/iproute2 6.15.0-1.1
@@ -1042,7 +1052,7 @@ local/ldns 1.8.4-1.1
     Fast DNS library supporting recent RFCs
 local/leancrypto 1.5.1-1.1
     Lean cryptographic library usable for bare-metal environments
-local/less 1:668-1.1
+local/less 1:679-1.1
     A terminal based program for viewing text files
 local/lib32-amdvlk 2025.Q2.1-1
     AMD's standalone Vulkan driver
@@ -1206,6 +1216,8 @@ local/libbs2b 3.1.0-9.2
     Bauer stereophonic-to-binaural DSP effect library
 local/libbsd 0.12.2-2.1
     Provides useful functions commonly found on BSD systems like strlcpy()
+local/libburn 1.5.6-1.1
+    Library for reading, mastering and writing optical discs
 local/libbytesize 2.11-1.1
     A tiny library providing a C "class" for working with arbitrary big sizes in bytes
 local/libc++ 20.1.6-1.1
@@ -1374,6 +1386,10 @@ local/libiscsi 1.20.0-2.2
     Clientside library to implement the iSCSI protocol
 local/libisl 0.27-1.1
     Library for manipulating sets and relations of integer points bounded by linear constraints
+local/libisoburn 1.5.6-1.1
+    frontend for libraries libburn and libisofs
+local/libisofs 1.5.6-1.1
+    Library to pack up hard disk files and directories into a ISO 9660 disk image
 local/libixion 0.20.0-2.1
     A general purpose formula parser & interpreter
 local/libjpeg-turbo 3.1.1-1.1
@@ -1456,6 +1472,8 @@ local/libmwaw 0.3.22-3.1
     Import library for some old mac text documents.
 local/libmysofa 1.3.3-1.1
     C library to read HRTFs if they are stored in the AES69-2015 SOFA format
+local/libnbd 1.22.1-2.1
+    NBD client library in userspace
 local/libndp 1.9-1.2
     Library for Neighbor Discovery Protocol
 local/libnet 2:1.3-1.2
@@ -1498,12 +1516,14 @@ local/libodfgen 0.1.8-4
     Library for generating documents in Open Document Format
 local/libogg 1.3.6-1.1
     Ogg bitstream and framing library
-local/libopenmpt 0.8.1-1.1
+local/libopenmpt 0.8.2-1.1
     A library to render tracker music to a PCM audio stream
 local/libopenraw 0.3.7-2.1
     Library for decoding RAW files
 local/liborcus 0.20.1-1.1
     File import filter library for spreadsheet documents.
+local/libosinfo 1.12.0-2.1
+    GObject based library API for managing information about operating systems, hypervisors and the (virtual) hardware devices they can support
 local/libp11-kit 0.25.5-1.1
     Loads and enumerates PKCS#11 modules (library)
 local/libpackagekit-glib 1.3.1-1.1
@@ -1660,6 +1680,12 @@ local/libverto 0.3.2-5.1
     Main event loop abstraction library
 local/libvips 8.16.1-2.1
     A fast image processing library with low memory needs
+local/libvirt 1:11.5.0-1.1
+    API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+local/libvirt-glib 5.0.0-3.2
+    GLib bindings for libvirt
+local/libvirt-python 1:11.5.0-1.1
+    libvirt python binding
 local/libvisio 0.1.8-3.1
     Library providing ability to interpret and import visio diagrams
 local/libvlc 3.0.21-26.1
@@ -1778,9 +1804,9 @@ local/linux-api-headers 1:6.15-2
     Kernel headers sanitized for use in userspace
 local/linux-atm 2.5.2-9.1
     Drivers and tools to support ATM networking under Linux.
-local/linux-cachyos 6.15.7-2
+local/linux-cachyos 6.15.7-3
     The Linux BORE + LTO + AutoFDO + Propeller Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
-local/linux-cachyos-headers 6.15.7-2
+local/linux-cachyos-headers 6.15.7-3
     Headers and scripts for building modules for the Linux BORE + LTO + AutoFDO + Propeller Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel
 local/linux-firmware 1:20250708-2
     Firmware files for Linux - Default set
@@ -1874,7 +1900,7 @@ local/make 4.4.1-2.1
     GNU make utility to maintain groups of programs
 local/man-db 2.13.1-1.1
     A utility for reading man pages
-local/man-pages 6.14-1
+local/man-pages 6.15-1
     Linux man pages
 local/mariadb-libs 11.8.2-1.1
     MariaDB libraries
@@ -1996,11 +2022,13 @@ local/nodejs 24.4.1-1
     Evented I/O for V8 javascript ("Current" release)
 local/nodejs-nopt 7.2.1-1
     Node/npm Option Parsing library
+local/noisetorch 0.12.2-5
+    Real-time microphone noise suppression on Linux.
 local/noto-fonts 1:2025.07.01-1
     Google Noto TTF fonts
 local/noto-fonts-emoji 1:2.048-1
     Google Noto Color Emoji font
-local/npm 11.4.2-1
+local/npm 11.4.2-2
     JavaScript package manager
 local/npth 1.8-1.1
     The new GNU portable threads library
@@ -2076,7 +2104,9 @@ local/orc 0.4.41-1.1
     Optimized Inner Loop Runtime Compiler
 local/os-prober 1.83-1.1
     Utility to detect other OSes on a set of drives
-local/ostree 2025.3-1
+local/osinfo-db 20250606-1
+    Osinfo database of information about operating systems for virtualization provisioning tools
+local/ostree 2025.4-1.1
     Operating system and container binary deployment and upgrades
 local/otf-aurulent-nerd 3.4.0-1 (nerd-fonts)
     Patched font Aurulent Sans Mono from nerd fonts library
@@ -2206,6 +2236,8 @@ local/perl-xml-parser 2.47-3.1
     Expat-based XML parser module for perl
 local/perl-xml-writer 0.900-5
     Module for writing XML documents
+local/phodav 3.0-4.1
+    WebDav server implementation using libsoup (RFC 4918)
 local/phonon-qt6 4.12.0-5
     The multimedia framework by KDE
 local/phonon-qt6-vlc 0.12.0-5
@@ -2406,7 +2438,7 @@ local/python-pyxdg 0.28-4
     Python library to access freedesktop.org standards
 local/python-requests 2.32.4-1
     Python HTTP for Humans
-local/python-sentry_sdk 2.33.0-1
+local/python-sentry_sdk 2.33.1-1
     The official Python SDK for Sentry.io
 local/python-setproctitle 1.3.6-1.1
     Allows a python process to change its process title
@@ -2640,7 +2672,7 @@ local/qt6-charts 6.9.1-1.2 (qt6)
     Provides a set of easy to use chart components
 local/qt6-connectivity 6.9.1-1.2 (qt6)
     Provides access to Bluetooth hardware
-local/qt6-declarative 6.9.1-1.1 (qt6)
+local/qt6-declarative 6.9.1-2.1 (qt6)
     Classes for QML and JavaScript languages
 local/qt6-imageformats 6.9.1-1.2 (qt6)
     Plugins for additional image formats: TIFF, MNG, TGA, WBMP
@@ -2676,7 +2708,7 @@ local/qt6-wayland 6.9.1-1.2 (qt6)
     Provides APIs for Wayland
 local/qt6-webchannel 6.9.1-1.2 (qt6)
     Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
-local/qt6-webengine 6.9.1-1.1 (qt6)
+local/qt6-webengine 6.9.1-2 (qt6)
     Provides support for web applications using the Chromium browser project
 local/qt6-websockets 6.9.1-1.2 (qt6)
     Provides WebSocket communication compliant with RFC 6455
@@ -2834,6 +2866,8 @@ local/speexdsp 1.2.1-2.1
     DSP library derived from Speex
 local/spice 0.16.0-1.1
     SPICE server
+local/spice-gtk 0.42-4
+    GTK+ client library for SPICE
 local/spice-protocol 0.14.5-1
     Headers for SPICE protocol
 local/spirv-tools 1:1.4.321.0-1.1 (vulkan-devel)
@@ -3044,7 +3078,7 @@ local/ttf-jetbrains-mono 2.304-2
     Typeface for developers, by JetBrains
 local/ttf-jetbrains-mono-nerd 3.4.0-1 (nerd-fonts)
     Patched font JetBrains Mono from nerd fonts library
-local/ttf-joypixels 8.0.0-2
+local/ttf-joypixels 9.0.0-1
     Emoji as a Service (formerly EmojiOne)
 local/ttf-lato 2.015-5
     A sanserif typeface family bearing the Polish name of "Summer"
@@ -3154,7 +3188,7 @@ local/upd72020x-fw 1:1.0.0-3
     Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
 local/upower 1.90.9-1.1
     Abstraction for enumerating power devices, listening to device events and querying history and statistics
-local/upscayl-desktop-git 2.15.1.r38.g24bd3d3-1
+local/upscayl-desktop-git 2.15.1.r39.g7a5897b-1
     AI image upscaler frontend
 local/upscayl-ncnn 20240601.103425-2
     Fork of the NCNN implementation of Real-ESRGAN
@@ -3198,9 +3232,13 @@ local/vimix-cursors 2020_02_24-6
     An X Cursor theme inspired by Material design and based on capitaine-cursors
 local/virglrenderer 1.1.1-1.1
     A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering
+local/virt-install 5.0.0-1
+    Command line tool for creating new KVM , Xen, or Linux container guests using the libvirt hypervisor
+local/virt-manager 5.0.0-1
+    Desktop user interface for managing virtual machines
 local/virtiofsd 1.13.2-1.1
     Vhost-user virtio-fs device backend written in Rust
-local/visual-studio-code-bin 1.102.1-1
+local/visual-studio-code-bin 1.102.2-1
     Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 local/vkbasalt-cli 3.1.1-4
     Command-line utility for vkBasalt
