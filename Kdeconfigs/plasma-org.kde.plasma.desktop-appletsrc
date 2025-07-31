@@ -328,6 +328,13 @@ totalSensors=["cpu/all/usage"]
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][54][Applets][56][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][54][Applets][56][Configuration][General]
+showWindowIcons=true
+
 [Containments][54][Applets][57]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -338,8 +345,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,zen.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,code.desktop,kitty.desktop
-groupingLauncherUrlBlacklist=applications:zen.desktop,applications:com.ayugram.desktop.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code.desktop
+groupingAppIdBlacklist=kitty.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,org.kde.kwrite.desktop,zen.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop
+groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:code.desktop,applications:org.kde.kwrite.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -365,7 +372,7 @@ immutability=1
 plugin=org.kde.plasma.addons.katesessions
 
 [Containments][54][Applets][59][Applets][119][Configuration]
-PreloadWeight=60
+PreloadWeight=90
 
 [Containments][54][Applets][59][Applets][120]
 immutability=1
@@ -394,7 +401,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][54][Applets][59][Applets][64][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][54][Applets][59][Applets][65]
 immutability=1
@@ -465,7 +472,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][54][Applets][59][Applets][77][Configuration]
-PreloadWeight=100
+PreloadWeight=84
 
 [Containments][54][Applets][59][Applets][78]
 immutability=1

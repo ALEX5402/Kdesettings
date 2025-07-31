@@ -150,6 +150,7 @@ hyperv
 ibus
 intellij-idea-community-edition
 inxi
+iptables-nft
 it87-dkms-git
 iw
 iwd
@@ -262,7 +263,6 @@ obs-studio
 obs-vaapi
 ocean-sound-theme
 ocs-url
-oh-my-zsh-git
 okular
 open-iscsi
 openconnect
@@ -408,7 +408,6 @@ ttf-fira-code
 ttf-fira-mono
 ttf-fira-sans
 ttf-firacode-nerd
-ttf-font-awesome
 ttf-go-nerd
 ttf-gohu-nerd
 ttf-hack
@@ -500,6 +499,7 @@ wget
 wine
 wireless-regdb
 wireless_tools
+woff2-font-awesome
 wpa_supplicant
 wvdial
 xcb-imdkit
