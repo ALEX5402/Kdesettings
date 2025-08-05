@@ -53,7 +53,7 @@ immutability=1
 plugin=org.kde.plasma.trash
 
 [Containments][1][Applets][80][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][1][Applets][84]
 immutability=1
@@ -171,8 +171,8 @@ DialogWidth=720
 showSecondHand=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=821
+DialogWidth=1074
 
 [Containments][1][General]
 iconSize=1
@@ -180,7 +180,7 @@ positions={"1920x1080":["1","20"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/alex/dotfiles-main/wallpapers/astronaut_jellyfish.jpg
+Image=/home/alex/dotfiles-main/wallpapers/rain.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
@@ -332,9 +332,6 @@ plugin=org.kde.plasma.pager
 DialogHeight=540
 DialogWidth=720
 
-[Containments][54][Applets][56][Configuration][General]
-showWindowIcons=true
-
 [Containments][54][Applets][57]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -345,8 +342,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=kitty.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,org.kde.kwrite.desktop,zen.desktop,code.desktop,io.github.tdesktop_x64.TDesktop.desktop
-groupingLauncherUrlBlacklist=applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:code.desktop,applications:org.kde.kwrite.desktop
+groupingAppIdBlacklist=org.kde.dolphin.desktop,com.ayugram.desktop.desktop,zen.desktop,kitty.desktop,org.kde.kwrite.desktop,io.github.tdesktop_x64.TDesktop.desktop,code.desktop
+groupingLauncherUrlBlacklist=applications:org.kde.kwrite.desktop,applications:com.ayugram.desktop.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:zen.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -372,11 +369,14 @@ immutability=1
 plugin=org.kde.plasma.addons.katesessions
 
 [Containments][54][Applets][59][Applets][119][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 
 [Containments][54][Applets][59][Applets][120]
 immutability=1
 plugin=org.kde.plasma.trash
+
+[Containments][54][Applets][59][Applets][120][Configuration]
+PreloadWeight=55
 
 [Containments][54][Applets][59][Applets][61]
 immutability=1
@@ -458,7 +458,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][54][Applets][59][Applets][75][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][54][Applets][59][Applets][76]
 immutability=1
@@ -479,7 +479,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][54][Applets][59][Applets][78][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][54][Applets][59][ConfigDialog]
 DialogHeight=540
