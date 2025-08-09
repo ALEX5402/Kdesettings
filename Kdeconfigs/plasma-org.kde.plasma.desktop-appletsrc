@@ -29,7 +29,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][102][Configuration][General]
-history=#c5e9e5,#1a204e,#31312d,#dedbe2,#c0b4d0,#3a1e44,#0f0c0e,#2b663d,#010409
+history=#111112,#3d2e27,#c5e9e5,#1a204e,#31312d,#dedbe2,#c0b4d0,#3a1e44,#0f0c0e
 
 [Containments][1][Applets][102][Shortcuts]
 global=Meta+`
@@ -342,8 +342,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=org.kde.dolphin.desktop,com.ayugram.desktop.desktop,zen.desktop,kitty.desktop,org.kde.kwrite.desktop,io.github.tdesktop_x64.TDesktop.desktop,code.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.kwrite.desktop,applications:com.ayugram.desktop.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:org.kde.dolphin.desktop,applications:zen.desktop
+groupingAppIdBlacklist=android-studio-alex.desktop,zen.desktop,io.github.tdesktop_x64.TDesktop.desktop,code.desktop,kitty.desktop,com.ayugram.desktop.desktop,org.kde.dolphin.desktop,org.kde.kwrite.desktop
+groupingLauncherUrlBlacklist=applications:android-studio-alex.desktop,applications:kitty.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.kwrite.desktop,applications:zen.desktop,applications:code.desktop,applications:com.ayugram.desktop.desktop,applications:org.kde.dolphin.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -369,7 +369,7 @@ immutability=1
 plugin=org.kde.plasma.addons.katesessions
 
 [Containments][54][Applets][59][Applets][119][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][54][Applets][59][Applets][120]
 immutability=1
@@ -401,7 +401,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][54][Applets][59][Applets][64][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][54][Applets][59][Applets][65]
 immutability=1
@@ -458,7 +458,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][54][Applets][59][Applets][75][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][54][Applets][59][Applets][76]
 immutability=1
@@ -479,7 +479,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][54][Applets][59][Applets][78][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][54][Applets][59][ConfigDialog]
 DialogHeight=540

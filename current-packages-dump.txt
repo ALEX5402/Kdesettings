@@ -69,6 +69,7 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
+cursor-bin
 ddrescue
 debtap
 dialog
