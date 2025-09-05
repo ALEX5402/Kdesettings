@@ -15,6 +15,7 @@ alsa-utils
 amd-ucode
 ananicy-cpp
 android-ndk-26
+android-sdk-build-tools-zipalign-provides
 android-studio-alex
 android-tools
 appimagelauncher
@@ -72,6 +73,7 @@ cups-pdf
 cursor-bin
 ddrescue
 debtap
+deno
 dialog
 diffutils
 discord
@@ -80,6 +82,7 @@ dmidecode
 dmraid
 dnsmasq
 docker
+docker-compose
 dolphin-plugins
 dosfstools
 dovi-tool
@@ -116,7 +119,9 @@ ghostscript
 git
 github-cli
 gnome-keyring
+go
 gocryptfs
+goland
 gpart
 gpm
 gptfdisk
@@ -232,6 +237,8 @@ mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mobile-broadband-provider-info
 modemmanager
+mongo-c-driver
+mongodb-compass
 mongosh
 most
 mpd-mpris
@@ -557,6 +564,7 @@ youtube-music-bin
 yt-dlp
 zed
 zen-browser-bin
+zenity
 zip
 zram-generator
 zsh

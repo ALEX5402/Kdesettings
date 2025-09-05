@@ -18,12 +18,9 @@ Text Font=CaskaydiaCove Nerd Font Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Text Font Features=
 Word Wrap Marker=false
 
-[KTextEditor::Search]
-Replace History=,fastboot,PUBGM,'$current_wallpaper'
-
 [MainWindow]
-1920x1080 screen: Height=664
-1920x1080 screen: Width=728
+1920x1080 screen: Height=754
+1920x1080 screen: Width=1007
 
 [UiSettings]
 ColorScheme=KvAdaptaDark

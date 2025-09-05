@@ -62,22 +62,24 @@ end
 function gitset --description "Set github username and ssh key based on workspace"
     set current_dir (pwd)
 
-    if string match -q "$HOME/workspace/github-0xaddress/*" $current_dir
-        eval (ssh-agent -c)
-        ssh-add ~/.ssh/github2
-        git config user.name "0xaddress"
-        git config user.email "bd38243@gmail.com"
-        git config user.signingKey 38E33F18B009C9A7
-        git config --local commit.gpgsign true
+    if string match -q "$HOME/workspace/github-honeypie112/*" $current_dir
+        eval (ssh-agent -c) > /dev/null 2>&1
+        ssh-add ~/.ssh/github2 > /dev/null 2>&1
+        git config user.name "honeypie112" > /dev/null 2>&1
+        git config user.email "alexbhaiya@duck.com" > /dev/null 2>&1
+        git config user.signingKey 38E33F18B009C9A7 > /dev/null 2>&1
+        git config --local commit.gpgsign true > /dev/null 2>&1
     else
-        eval (ssh-agent -c)
-        ssh-add ~/.ssh/github
-        git config user.name "alex5402"
-        git config user.email "alex5402private@gmail.com"
-        git config user.signingKey D64F014312B9F022
-        git config --local commit.gpgsign true
+        eval (ssh-agent -c) > /dev/null 2>&1
+        ssh-add ~/.ssh/github > /dev/null 2>&1
+        git config user.name "alex5402" > /dev/null 2>&1
+        git config user.email "alex5402private@gmail.com" > /dev/null 2>&1
+        git config user.signingKey D64F014312B9F022 > /dev/null 2>&1
+        git config --local commit.gpgsign true > /dev/null 2>&1
     end
 end
+
+gitset
 
 function upload-go
     if test (count $argv) -eq 0
@@ -473,11 +475,11 @@ end
 alias gif-play 'chafa'
 
 # Replace ls with eza
-alias ls 'eza -a --tree --level=1 --color=always --group-directories-first --icons' # preferred listing
+alias ll 'eza --tree --level=1 --color=always --group-directories-first --icons' # preferred listing
 alias lsr 'eza --color=always --git --group-directories-first --icons' # normal listing
 alias lss 'eza --tree --level=2 --color=always --group-directories-first --icons' # preferred listing
 alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
-alias ll 'eza -a -l --color=always --group-directories-first --icons'  # long format
+alias ls 'eza -l --color=always --group-directories-first --icons'  # long format
 alias lt 'eza -aT --color=always --group-directories-first --icons' # tree listing
 alias tree 'eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l. 'eza -ald --color=always --group-directories-first --icons .*' # show only dotfiles
