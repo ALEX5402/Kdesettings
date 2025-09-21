@@ -37,6 +37,13 @@ if test -d ~/.local/bin
     end
 end
 
+# Add ~/.cargo/bin to PATH
+if test -d ~/.cargo/bin
+    if not contains -- ~/.cargo/bin $PATH
+        set -p PATH ~/.cargo/bin
+    end
+end
+
 # Add /opt/android-ndk/ to PATH
 if test -d /opt/android-ndk
     if not contains -- /opt/android-ndk $PATH
@@ -518,7 +525,7 @@ alias print-fingerprint-jar 'keytool -printcert -jarfile'
 alias wayshere 'sudo mount --bind ~/Androidshere ~/.local/share/waydroid/data/media/0/Documents'
 alias waystart 'waydroid show-full-ui'
 alias fish 'source ~/.config/fish/config.fish'
-
+alias ipinfo 'curl ipinfo.io'
 # git stuff
 
 alias pull 'git pull origin $(git rev-parse --abbrev-ref HEAD)'

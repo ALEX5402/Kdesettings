@@ -5,8 +5,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=Applet-118:16,16,688,816,0;Applet-96:1680,16,208,80,0;Applet-84:1696,256,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,864,80,80,0;Applet-102:16,976,112,64,0;Applet-94:1600,816,320,224,0;
-ItemGeometriesHorizontal=Applet-118:16,16,688,816,0;Applet-96:1680,16,208,80,0;Applet-84:1696,256,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,864,80,80,0;Applet-102:16,976,112,64,0;Applet-94:1600,816,320,224,0;
+ItemGeometries-1920x1080=Applet-118:16,16,688,816,0;Applet-96:1680,16,208,80,0;Applet-84:1696,256,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,864,80,80,0;Applet-102:16,976,112,64,0;Applet-94:1600,784,320,256,0;
+ItemGeometriesHorizontal=Applet-118:16,16,688,816,0;Applet-96:1680,16,208,80,0;Applet-84:1696,256,208,304,0;Applet-93:1680,576,240,208,0;Applet-80:16,864,80,80,0;Applet-102:16,976,112,64,0;Applet-94:1600,784,320,256,0;
 activityId=0d0ab03b-7709-4e08-b9ce-4f29286321c5
 formfactor=0
 immutability=1
@@ -44,7 +44,7 @@ DialogWidth=720
 
 [Containments][1][Applets][118][Configuration][General]
 color=translucent-light
-cursorPosition=82
+cursorPosition=316
 fontSize=15
 noteId=cbbb6ec9-e344-41c3-a4e6-e7ee14da29
 
@@ -81,6 +81,7 @@ disk/a28e92598e9225b7/usedPercent=95,174,7
 disk/all/usedPercent=170,85,255
 disk/c1f26834-beac-4ddc-b900-ab7981363804/usedPercent=174,7,11
 disk/ec3c210e-af4d-444b-a69a-64e9765d36fe/usedPercent=255,0,0
+disk/f41f4f37-4b5c-4c9c-86fa-a6317794d9d5/usedPercent=174,7,11
 
 [Containments][1][Applets][84][Configuration][Sensors]
 highPrioritySensorIds=["disk/.*/usedPercent"]
@@ -128,9 +129,12 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][94][Configuration][SensorColors]
+cpu/all/averageTemperature=174,7,86
 cpu/all/maximumTemperature=7,86,174
 cpu/all/usage=85,255,0
+gpu/all/usage=174,7,143
 gpu/gpu1/usage=174,85,7
+lmsensors/it8686-isa-0a40/temp3=76,7,174
 memory/physical/used=174,70,7
 memory/physical/usedPercent=79,7,174
 
@@ -143,8 +147,8 @@ memory/physical/usedPercent=Memory
 memory/swap/usedPercent=swap
 
 [Containments][1][Applets][94][Configuration][Sensors]
-highPrioritySensorIds=["memory/physical/usedPercent"]
-lowPrioritySensorIds=["memory/swap/usedPercent","cpu/all/minimumTemperature"]
+highPrioritySensorIds=["gpu/gpu1/usage","cpu/all/usage","lmsensors/it8686-isa-0a40/temp3"]
+lowPrioritySensorIds=["memory/swap/usedPercent","cpu/all/minimumTemperature","gpu/gpu0/temperature","gpu/gpu1/temp2"]
 totalSensors=["cpu/all/usage"]
 
 [Containments][1][Applets][96]
@@ -176,14 +180,16 @@ DialogWidth=1074
 
 [Containments][1][General]
 iconSize=1
-positions={"1920x1080":["1","20"]}
+positions={"0x0":["1","20"],"1920x1080":["1","20"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/alex/dotfiles-main/wallpapers/rain.jpg
+Image=/home/alex/dotfiles-main/wallpapers/240725_20h20m15s_screenshot.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][116]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=49f82595-9da7-4759-8a09-cae4c5fc12fe
 formfactor=0
 immutability=1
@@ -197,7 +203,7 @@ DialogHeight=723
 DialogWidth=971
 
 [Containments][116][General]
-positions={"1920x1080":[]}
+positions={"0x0":[],"1920x1080":[]}
 
 [Containments][116][Wallpaper][org.kde.image][General]
 Image=/home/alex/dotfiles-main/wallpapers/rain.jpg
@@ -273,8 +279,8 @@ plugin=org.kde.plasma.notifications
 
 [Containments][54][Applets][104][Configuration]
 PreloadWeight=100
-popupHeight=432
-popupWidth=324
+popupHeight=364
+popupWidth=417
 
 [Containments][54][Applets][105]
 immutability=1
@@ -342,8 +348,8 @@ DialogWidth=720
 
 [Containments][54][Applets][57][Configuration][General]
 fill=false
-groupingAppIdBlacklist=io.github.tdesktop_x64.TDesktop.desktop,org.kde.kwrite.desktop,kitty.desktop,android-studio-alex.desktop,code.desktop,zen.desktop,org.kde.dolphin.desktop,com.ayugram.desktop.desktop
-groupingLauncherUrlBlacklist=applications:org.kde.dolphin.desktop,applications:com.ayugram.desktop.desktop,applications:zen.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:kitty.desktop,applications:android-studio-alex.desktop,applications:org.kde.kwrite.desktop,applications:code.desktop
+groupingAppIdBlacklist=code.desktop,com.ayugram.desktop.desktop,org.kde.kwrite.desktop,io.github.tdesktop_x64.TDesktop.desktop,android-studio-alex.desktop,org.kde.dolphin.desktop,zen.desktop,kitty.desktop
+groupingLauncherUrlBlacklist=applications:android-studio-alex.desktop,applications:org.kde.dolphin.desktop,applications:zen.desktop,applications:kitty.desktop,applications:com.ayugram.desktop.desktop,applications:code.desktop,applications:io.github.tdesktop_x64.TDesktop.desktop,applications:org.kde.kwrite.desktop
 launchers=preferred://filemanager
 
 [Containments][54][Applets][58]
@@ -433,7 +439,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][54][Applets][59][Applets][69][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][54][Applets][59][Applets][70]
@@ -483,7 +488,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][54][Applets][59][Applets][78][Configuration]
-PreloadWeight=14
+PreloadWeight=0
 
 [Containments][54][Applets][59][ConfigDialog]
 DialogHeight=540

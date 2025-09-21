@@ -18,6 +18,7 @@ android-ndk-26
 android-sdk-build-tools-zipalign-provides
 android-studio-alex
 android-tools
+anydesk-bin
 appimagelauncher
 appstream
 arc-gtk-theme
@@ -61,7 +62,6 @@ chafa
 chaotic-keyring
 chaotic-mirrorlist
 clonezilla
-cloudflare-warp-bin
 cmake
 cpio
 cpupower
@@ -113,6 +113,7 @@ firewalld
 fish
 fisher
 flatpak-kcm
+fnm
 freetype2
 fsarchiver
 ghostscript
@@ -329,6 +330,7 @@ polkit
 polkit-kde-agent
 poppler-glib
 poppler-qt5
+potrace
 power-profiles-daemon
 powerdevil
 ppp
@@ -356,7 +358,8 @@ rp-pppoe
 rpm-tools
 rsync
 rtl8821cu-morrownr-dkms-git
-rust
+rustdesk-bin
+rustup
 scrcpy
 screen
 sddm
@@ -563,7 +566,6 @@ youtube-dl-gui-bin
 youtube-music-bin
 yt-dlp
 zed
-zen-browser-bin
 zenity
 zip
 zram-generator
