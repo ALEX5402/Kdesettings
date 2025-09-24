@@ -19,18 +19,8 @@ wmclasscomplete=true
 wmclassmatch=2
 
 [General]
-count=5
-rules=1cf5bc1e-2e56-4962-b214-2340737e11f7,c5fb3a2a-b5a3-4633-8c4d-2b9af47c22db,eabb87ff-40ce-4e05-8acd-5203a082b539,f98a67ab-9c22-4473-92be-1367aca462c4,619c0059-cb8f-43bb-bd7d-cb0004669faa
-
-[c5fb3a2a-b5a3-4633-8c4d-2b9af47c22db]
-Description=transparent-d
-opacityactive=95
-opacityactiverule=2
-opacityinactive=95
-opacityinactiverule=2
-wmclass=Discord discord
-wmclasscomplete=true
-wmclassmatch=2
+count=4
+rules=1cf5bc1e-2e56-4962-b214-2340737e11f7,eabb87ff-40ce-4e05-8acd-5203a082b539,f98a67ab-9c22-4473-92be-1367aca462c4,619c0059-cb8f-43bb-bd7d-cb0004669faa
 
 [eabb87ff-40ce-4e05-8acd-5203a082b539]
 Description=dolphin

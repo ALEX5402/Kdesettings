@@ -1,5 +1,46 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ANDROID_HOME:/home/alex/Android/Sdk
+SETUVAR --export ANDROID_NDK:/home/alex/Android/Sdk/ndk/28\x2e0\x2e12674087
+SETUVAR --export ANDROID_NDK_HOME:/opt/android\x2dndk
+SETUVAR --export ANDROID_NDK_ROOT:/opt/android\x2dndk
+SETUVAR --export DEBUGINFOD_URLS:https\x3a//debuginfod\x2earchlinux\x2eorg
+SETUVAR --export EDITOR:/usr/bin/nvim
+SETUVAR --export FZF_CTRL_T_OPTS:\x2d\x2dpreview\x20\x27\x27
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dhidden\x20\x2d\x2dstrip\x2dcwd\x2dprefix\x20\x2d\x2dexclude\x20\x2egradle
+SETUVAR --export GLFW_IM_MODULE:ibus
+SETUVAR --export GTK_RC_FILES:/etc/gtk
+SETUVAR --export JOURNAL_STREAM:9\x3a11902
+SETUVAR --export KDE_APPLICATIONS_AS_SCOPE:1
+SETUVAR --export KDE_SESSION_UID:1000
+SETUVAR --export KDE_SESSION_VERSION:6
+SETUVAR --export KGLOBALACCELD_PLATFORM:org\x2ekde\x2ekwin
+SETUVAR --export KITTY_INSTALLATION_DIR:/usr/lib/kitty
+SETUVAR --export KITTY_PID:130682
+SETUVAR --export KITTY_WINDOW_ID:1
+SETUVAR --export LC_MONETARY:en_IN
+SETUVAR --export LC_NAME:en_IN
+SETUVAR --export LC_PAPER:en_IN
+SETUVAR --export LC_TIME:en_IN
+SETUVAR --export LOGNAME:alex
+SETUVAR --export MAIL:/var/spool/mail/alex
+SETUVAR --export --path PATH:/home/alex/\x2ecargo/bin\x1e/home/alex/\x2elocal/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/opt/android\x2dndk\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/usr/lib/rustup/bin
+SETUVAR --export QT_TERMINAL:kitty
+SETUVAR --export SHELL:/usr/bin/fish
+SETUVAR --export SSH_AGENT_PID:130738
+SETUVAR --export SYSTEMD_EXEC_PID:1297
+SETUVAR --export TERM:xterm
+SETUVAR --export TERMINAL:kitty
+SETUVAR --export TERMINFO:/usr/lib/kitty/terminfo
+SETUVAR --export USER:alex
+SETUVAR --export VISUAL:/usr/bin/nvim
+SETUVAR --export XDG_MENU_PREFIX:plasma\x2d
+SETUVAR --export XDG_RUNTIME_DIR:/run/user/1000
+SETUVAR --export --path XDG_SEAT_PATH:/org/freedesktop/DisplayManager/Seat0
+SETUVAR --export XDG_SESSION_ID:1
+SETUVAR --export XDG_VTNR:1
+SETUVAR --export XKB_DEFAULT_LAYOUT:us
+SETUVAR --export XMODIFIERS:\x40im\x3dfcitx5
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:3800

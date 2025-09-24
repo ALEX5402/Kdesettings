@@ -108,8 +108,8 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [MainWindow]
-1920x1080 screen: Height=696
-1920x1080 screen: Width=888
+1920x1080 screen: Height=808
+1920x1080 screen: Width=1041
 
 [UiSettings]
 ColorScheme=KvAdaptaDark

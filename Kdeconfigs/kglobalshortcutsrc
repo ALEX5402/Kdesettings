@@ -249,6 +249,11 @@ F776250CBD9081D07C94B4EA01486489-toggle=none,none,Toggle extension
 _k_friendly_name=open brave
 
 [org.chromium.Chromium]
+ECE3608A622F83DFEE021DC0AB9E73F7-enter-picker-mode=none,none,Create a custom filter
+ECE3608A622F83DFEE021DC0AB9E73F7-enter-zapper-mode=none,none,Remove an element
+F776250CBD9081D07C94B4EA01486489-addSite=none,none,Toggle current site
+F776250CBD9081D07C94B4EA01486489-switchEngine=none,none,Theme generation mode
+F776250CBD9081D07C94B4EA01486489-toggle=none,none,Toggle extension
 _k_friendly_name=org.chromium.Chromium
 addSite=none,Alt+Shift+A,Toggle current site
 switchEngine=none,none,Theme generation mode
